@@ -2,7 +2,7 @@
 
 - Read HANDOFF.md for architecture and constraints.
 - TASK_STATE.md in this directory is the sole current task-state entry for this tool; learning_curve_tool/TASK_STATE.md belongs to the separate learning-curve application.
-- Never modify, delete or back up participant processed_csv source files. No Git repository or commits.
+- Never modify, delete or back up participant processed_csv source files. Git/PR/Wiki are authorized by current root instructions; never reset sources or merge without researcher approval.
 - Retained data are manually reviewed: ignore historical review flags in eligibility and plotting. The historical batch keeps its spline/Bonferroni diagnostic; the new robust pipeline uses Student-t likelihood and independent channel validity, as documented in the latest TASK_STATE section.
 - Output flags must be adjacent to their measurement columns and contain only integer 0 or 1, never blanks. Zero means not flagged, including untested rows; explain this in reports.
 - Preserve original CSV cell text, row count and UTF-8 BOM. Write derived files only to outlier_results.

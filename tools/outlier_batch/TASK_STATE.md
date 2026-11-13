@@ -192,3 +192,28 @@ Read this section before older no-Git entries. `wiki/` is its own ignored Git cl
 
 ### 2026-11-14 recovery milestone
 The 2026-11-13 final documentation push was prevented by automatic approval-review quota exhaustion; it did not execute. Recovery inspected both unstaged documentation edits and the clean index/Wiki worktree. Remote repository remains private and PR4 open/unmerged. Issue1 now reflects private visibility and completed data upload. This recovery commits the prepared verification record plus the new dated journal; no data or scientific program changed. Remaining external actions are researcher PR review/merge and Wiki web enablement under Issue3.
+
+## 2026-11-14 — Functional separation and comprehensive Wiki (current, in progress)
+
+### Original Goal / Requirements
+Review old Issues/PRs; physically separate data, processing methods and plots; explain each method comprehensively in HILD Wiki. User explicitly confirmed PUBLIC repository continuation, superseding earlier private restrictions.
+### Constraints
+All CSV/video retained; no measurement/label/model change, video upload, destructive Git reset or unapproved merge.
+### Current Plan / Architecture / Important Decisions
+Branch codex/modularize-research-workflows, scope #5. Data under data/participants, methods under processing and analysis, plots separated by family, shared paths/loader under common, outputs under results. Compatibility root entries preserve launchers. Existing handoffs remain authoritative at original locations. Scientific Issue #2 is retained.
+### Completed Work / Files Changed
+Physical data/results relocation complete. docs/maintenance/relocation_verification.json maps protected paths. Closed initial completed scope #1 and obsolete private-Wiki question #3 with reasons. New scope #5 records authorization. Source module refactor and detailed Wiki drafts are IN PROGRESS.
+### Tests / Verification Performed
+Before/after data relocation: 2,523 original CSV SHA256 values unchanged; 210 video size/mtime records unchanged. No video bytes rewritten. Main worktree clean before new branch. Wiki fast-forward synchronization succeeded. API private=false, has_wiki=true.
+### Known Issues
+Code paths require adaptation following data relocation; WORKSPACE NOT YET VERIFIED RUNNABLE. Do not claim complete. Existing statistical eligibility differences remain deliberately unchanged. Wiki website rendering not inspected.
+### Remaining Work / Recommended Next Step
+Apply code migration script, run relevant tests and real read-only plotting smoke checks, finish Wiki, commit/push and open replacement PR before closing PR #4. Do not merge.
+### Important Context for Next Session
+Read actual Git diff and this latest section. Migration script must NOT be rerun after data moved. Original protection manifest is retained; use relocation mapping. All data present, current code integration pending.
+
+### 2026-11-14 verification milestone (supersedes in-progress warning above)
+Implementation: physical data/results relocation and package refactor applied. Shared loader in common/publication_data.py; common/paths.py separates data/config/output roots. Participant app, robust comparison, publication figures and supplementary figure methods now live in separate packages; supplementary statistics, paired effects, decomposition and contrasts have distinct modules. Old Python/BAT/desktop entry points remain compatibility bridges. Historical runtime and handoff locations are retained.
+Verification: 59 tests pass using `python -m unittest discover -s tests -t . -p "test_*.py"`. Actual all-30 publication, supplementary and robust comparison runs complete; participant01 completes with actual251 rows. Independent supplementary verification checks240stage summaries/120paired endpoints,300DPI/vectorPDF/BOM and211input hashes. Supplementary batch rerun after function-level split completes. Original2523CSV SHA256 and210video size/mtime still match relocation map. No source data rewritten. Figure6 output visually inspected; desktop double-click/GUI not manually exercised.
+Important finding: preserved publication outputs have62historical input-hash mismatches against current source. They are retained, not overwritten. Executing the original42b606a publication loader against current relocated data gives EXACTLY the same four dataframes and211hashes as the new loader. Thus historical-output differences do not originate in the path refactor. Evidence: docs/maintenance/refactor_validation.json.
+Wiki:11method/figure drafts prepared with formula/filter/input/output/limitations and method distinctions. Drafts describe branch, not mergedmain; understanding/scientific acceptance pending. New code commits, remote PR replacement and Wiki publication remain to be finalized below.

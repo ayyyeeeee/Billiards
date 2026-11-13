@@ -1,10 +1,6 @@
 @echo off
 setlocal
 cd /d "%~dp0"
-python plot_publication_figures.py
-if errorlevel 1 (
-  echo Generation failed. See the error above.
-) else (
-  echo Figures saved in publication_figures.
-)
+python -m plots.publication.dynamics %*
+if errorlevel 1 (echo Analysis failed.) else (echo Figures saved in results/publication_figures.)
 pause

@@ -1,0 +1,19 @@
+Figure 3. Change in observed mean absolute error (MAE).
+Each point is one participant's post-test minus baseline MAE; negative values indicate lower absolute error.
+Colors identify the independent training groups (both, strength, angle). Half densities use Gaussian KDE with
+Scott bandwidth; boxes show median and interquartile range, whiskers show the observed minimum and maximum.
+All participant points are shown with deterministic jitter (seed 20261108). Density is a visual summary,
+not additional observations. Unmeasured combinations are shown explicitly and are never filled with zeros.
+One-way ANOVA uses independent participant changes. Omnibus p values receive Holm correction across the
+4 estimable measured panels. All three pairwise comparisons use Tukey HSD within each panel;
+these Tukey families are not corrected across panels. Stars: * p<.05, ** p<.01, *** p<.001; n.s. otherwise;
+n/a indicates an unavailable comparison. Levene (median-centered) diagnostics and exact statistics are in
+figure3_statistics.csv. ANOVA/Tukey assume independent groups, approximately normal residuals and equal
+variances; a non-significant Levene test does not establish those assumptions. Groups with insufficient
+observations or no within-group variation are shown without manufactured test results.
+Tukey mean_difference is group2 minus group1; its reported confidence limits are simultaneous 95% intervals
+within that panel's family. Group descriptions use participant deltas, not pooled shot-level values.
+Official method documentation:
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.f_oneway.html
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.levene.html
+https://www.statsmodels.org/stable/generated/statsmodels.stats.multicomp.pairwise_tukeyhsd.html
