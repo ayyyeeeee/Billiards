@@ -1,0 +1,2044 @@
+{
+  "task": "01_07_v3_capped_20261020",
+  "participant": "05",
+  "training_group": "strength",
+  "scoring_version": 3,
+  "inventory_created": "2026-10-20T23:12:41.504454",
+  "final_csv_verification_sha256": "7b140c03588e5f753969ab2c799f0b26bf7b13d1bbeea76b605bec2b4bd4ea3c",
+  "limits": {
+    "baseline": 10,
+    "training": 140,
+    "test": 30
+  },
+  "selection": "First valid trials in source chronological order, not best scores.",
+  "summary": [
+    {
+      "participant": "05",
+      "video": "05_01_baseline_both_010shots.mkv",
+      "stage": "baseline",
+      "mode": "both",
+      "source_valid": 12,
+      "limit": 10,
+      "kept": 10,
+      "excluded": 2,
+      "shortfall": 0
+    },
+    {
+      "participant": "05",
+      "video": "05_02_baseline_strength_010shots.mkv",
+      "stage": "baseline",
+      "mode": "strength",
+      "source_valid": 13,
+      "limit": 10,
+      "kept": 10,
+      "excluded": 3,
+      "shortfall": 0
+    },
+    {
+      "participant": "05",
+      "video": "05_03_baseline_angle_010shots.mkv",
+      "stage": "baseline",
+      "mode": "angle",
+      "source_valid": 15,
+      "limit": 10,
+      "kept": 10,
+      "excluded": 5,
+      "shortfall": 0
+    },
+    {
+      "participant": "05",
+      "video": "05_04_training_strength_140shots.mkv",
+      "stage": "training",
+      "mode": "strength",
+      "source_valid": 144,
+      "limit": 140,
+      "kept": 140,
+      "excluded": 4,
+      "shortfall": 0
+    },
+    {
+      "participant": "05",
+      "video": "05_05_test_both_030shots.mkv",
+      "stage": "test",
+      "mode": "both",
+      "source_valid": 39,
+      "limit": 30,
+      "kept": 30,
+      "excluded": 9,
+      "shortfall": 0
+    },
+    {
+      "participant": "05",
+      "video": "05_06_test_strength_030shots.mkv",
+      "stage": "test",
+      "mode": "strength",
+      "source_valid": 31,
+      "limit": 30,
+      "kept": 30,
+      "excluded": 1,
+      "shortfall": 0
+    },
+    {
+      "participant": "05",
+      "video": "05_07_test_angle_030shots.mkv",
+      "stage": "test",
+      "mode": "angle",
+      "source_valid": 35,
+      "limit": 30,
+      "kept": 30,
+      "excluded": 5,
+      "shortfall": 0
+    }
+  ],
+  "incomplete_kept": 33,
+  "unresolved_requested_components": 33,
+  "invalid_requested_components": 0,
+  "unconfirmed_stop_estimates_withheld": 29,
+  "strength_review_policy": "strict_natural_stop_v1",
+  "source_videos": 7,
+  "source_manifest": [
+    {
+      "participant": "05",
+      "path": "D:\\experiment\\05\\05_01_baseline_both_010shots.mkv",
+      "name": "05_01_baseline_both_010shots.mkv",
+      "stem": "05_01_baseline_both_010shots",
+      "bytes": 57387312,
+      "sha256": "e4e179d221bcc2359f4655a54d4f5028bb0aaf0be5d7fd9ea546d4560233313f",
+      "frames": 6851,
+      "fps": 60.0,
+      "size": [
+        1280,
+        720
+      ],
+      "session_sha256": "3583ee16c8da6f3dbc019f1b130091c5c506e49c1b2ba8a989b5974822459d94",
+      "safe_cache": null,
+      "median_provenance": {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\preflight\\05_01_baseline_regular_010shots_median.npz",
+        "sha256": "7f5d8438e68d51f2dd239136cd7f8284b65fdfa5053e286df7c5baf8714209a4",
+        "source_sha256": "e4e179d221bcc2359f4655a54d4f5028bb0aaf0be5d7fd9ea546d4560233313f",
+        "source_manifest": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\inventory.json",
+        "reference_frame": null,
+        "verification": "Historical source-bound median SHA equality",
+        "purpose": "Source-matched median only; historical observations are not implicitly reused."
+      },
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\preflight\\05_01_baseline_both_010shots_median.npz",
+      "median_sha256": "7f5d8438e68d51f2dd239136cd7f8284b65fdfa5053e286df7c5baf8714209a4",
+      "override_path": null,
+      "override_sha256": null,
+      "preflight_status": "READY_FOR_GEOMETRY_REVIEW",
+      "calibration": {
+        "corners": [
+          [
+            451.15217768098165,
+            -0.7912265656433869
+          ],
+          [
+            817.532790002553,
+            25.8483537638506
+          ],
+          [
+            799.9979466058455,
+            705.7274083956631
+          ],
+          [
+            457.0242058986033,
+            720.6630350381538
+          ]
+        ],
+        "origin_raw": [
+          633.1488117008549,
+          545.710825517113
+        ],
+        "y_marker_raw": [
+          754.0821035662434,
+          542.1332455077882
+        ],
+        "strip_raw": [
+          641.8451965344992,
+          18.205679530503783
+        ],
+        "plane_H": [
+          [
+            0.002569836632095622,
+            -2.091629923260522e-05,
+            -1.1594039423859075
+          ],
+          [
+            -0.00018823477480144462,
+            0.0025888385327005768,
+            0.08697088638819485
+          ],
+          [
+            -0.0001544566323841628,
+            -9.11788781926642e-05,
+            1.0696113029067342
+          ]
+        ],
+        "axes_H": [
+          [
+            -5.435870237207487e-05,
+            -0.001837492607363547,
+            1.0371567554584333
+          ],
+          [
+            0.0017842864487261757,
+            2.9415526520708725e-05,
+            -1.145771216005553
+          ],
+          [
+            -0.0001544566323841628,
+            -9.11788781926642e-05,
+            1.0696113029067342
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.0140865814724789,
+            -0.3408097734020992
+          ],
+          [
+            1.0045053587317432,
+            0.333377365092877
+          ],
+          [
+            -0.3437670129529873,
+            0.34298968619763487
+          ],
+          [
+            -0.3341857902122516,
+            -0.33119745229734143
+          ]
+        ],
+        "origin_plane": [
+          0.49483854849574466,
+          1.4972426110866806
+        ],
+        "strip_plane": [
+          0.5054143715594062,
+          0.013712502008252372
+        ],
+        "y_marker_plane": [
+          0.8488639165793838,
+          1.4922109928784963
+        ],
+        "scale": 1.4835678051830752,
+        "distance_cap_observed": 0.3388839978576363,
+        "opposite_rail_distance_observed": 0.3388839978576363,
+        "strength_cap_observed": 1.0090133562092733,
+        "strength_maximum": 1.0090133562092733,
+        "upper_rail_reference_plane": [
+          0.5055121255544966,
+          0.0
+        ],
+        "angle_cap_observed": 13.486097454031924,
+        "axis_nonorthogonality_degrees": 1.2227112615578335,
+        "aspect_ratio": 2.0,
+        "source": "automatic_fixed_template_needs_preview_review",
+        "landmarks_raw": {
+          "TL": [
+            451.15217768098165,
+            -0.7912265656433869
+          ],
+          "TR": [
+            817.532790002553,
+            25.8483537638506
+          ],
+          "BR": [
+            799.9979466058455,
+            705.7274083956631
+          ],
+          "BL": [
+            457.0242058986033,
+            720.6630350381538
+          ],
+          "O": [
+            633.1488117008549,
+            545.710825517113
+          ],
+          "Y": [
+            754.0821035662434,
+            542.1332455077882
+          ],
+          "B": [
+            641.8451965344992,
+            18.205679530503783
+          ]
+        },
+        "calibration_quality": {
+          "observed_points": {
+            "O": [
+              633.1488111117211,
+              545.7108255117264
+            ],
+            "Y": [
+              754.082103428581,
+              542.1332455049078
+            ],
+            "B": [
+              641.8451971601617,
+              18.205679536451225
+            ]
+          },
+          "reconstructed_names": [
+            "TL",
+            "TR",
+            "BR",
+            "BL"
+          ],
+          "reprojection_residual_px": {
+            "O": 5.891584582471234e-07,
+            "Y": 1.3769249893358263e-07,
+            "B": 6.25690704431089e-07
+          },
+          "rail_fit_residual_px": [
+            8.697445653009854e-07,
+            -9.036939685379132e-07,
+            9.203093989103893e-07,
+            -1.2910191743124598e-06
+          ],
+          "accuracy_check": "three_marks_and_two_observed_side_lines",
+          "template_version": "seven_landmarks_multiview_v2",
+          "marker_detection": {
+            "O": {
+              "contrast": 49.93843460083008,
+              "size_px": [
+                5,
+                4
+              ],
+              "candidate_count": 6,
+              "expected_raw": [
+                628.1459610065943,
+                536.2024491848318
+              ],
+              "runner_up_score_ratio": 0.07796928845330689
+            },
+            "Y": {
+              "contrast": 36.99000549316406,
+              "size_px": [
+                3,
+                3
+              ],
+              "candidate_count": 1,
+              "expected_raw": [
+                751.6814069020697,
+                534.5260076154514
+              ],
+              "runner_up_score_ratio": 0.0
+            },
+            "B": {
+              "contrast": 17.281463623046875,
+              "size_px": [
+                4,
+                7
+              ],
+              "candidate_count": 1,
+              "expected_raw": [
+                636.51277213029,
+                17.04333431435551
+              ],
+              "runner_up_score_ratio": 0.0
+            }
+          },
+          "visible_short_rails": {
+            "top": {
+              "line_y_from_x": [
+                0.07041238360746341,
+                -32.17452777169232
+              ],
+              "inliers": 89,
+              "coverage": 0.9782608695652174,
+              "median_gradient": 18.5,
+              "residual_px": 0.24785220599923719
+            },
+            "bottom": {
+              "line_y_from_x": [
+                -0.04575878573805512,
+                742.3256482121386
+              ],
+              "inliers": 23,
+              "coverage": 0.8260869565217391,
+              "median_gradient": 19.875,
+              "residual_px": 0.5191200184291347
+            }
+          },
+          "side_rail_source": "Robust visible cloth-boundary fits with configured cushion margin",
+          "reference_points_inside_image": {
+            "TL": false,
+            "TR": true,
+            "BR": true,
+            "BL": false,
+            "O": true,
+            "Y": true,
+            "B": true
+          }
+        },
+        "table_width_cm": 84.0,
+        "table_length_cm": 168.0,
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates."
+      }
+    },
+    {
+      "participant": "05",
+      "path": "D:\\experiment\\05\\05_02_baseline_strength_010shots.mkv",
+      "name": "05_02_baseline_strength_010shots.mkv",
+      "stem": "05_02_baseline_strength_010shots",
+      "bytes": 60365185,
+      "sha256": "315b098da09db88dce2465d19e8d28ca78d37d82307d1921b082155249fb94f7",
+      "frames": 7181,
+      "fps": 60.0,
+      "size": [
+        1280,
+        720
+      ],
+      "session_sha256": "3583ee16c8da6f3dbc019f1b130091c5c506e49c1b2ba8a989b5974822459d94",
+      "safe_cache": null,
+      "median_provenance": {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\preflight\\05_02_baseline_strength_010shots_median.npz",
+        "sha256": "8e5f91d22d1fc8e595da94419b1e18bc23bc01bfe9565e64b7fb9d3c755f60a7",
+        "source_sha256": "315b098da09db88dce2465d19e8d28ca78d37d82307d1921b082155249fb94f7",
+        "source_manifest": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\inventory.json",
+        "reference_frame": null,
+        "verification": "Historical source-bound median SHA equality",
+        "purpose": "Source-matched median only; historical observations are not implicitly reused."
+      },
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\preflight\\05_02_baseline_strength_010shots_median.npz",
+      "median_sha256": "8e5f91d22d1fc8e595da94419b1e18bc23bc01bfe9565e64b7fb9d3c755f60a7",
+      "override_path": null,
+      "override_sha256": null,
+      "preflight_status": "READY_FOR_GEOMETRY_REVIEW",
+      "calibration": {
+        "corners": [
+          [
+            451.42868660408294,
+            -0.5912784471001398
+          ],
+          [
+            818.1586559100465,
+            26.110967329667012
+          ],
+          [
+            799.230201425898,
+            705.3017833586873
+          ],
+          [
+            457.26188592153585,
+            720.126938944361
+          ]
+        ],
+        "origin_raw": [
+          633.0349051830349,
+          545.9111630035368
+        ],
+        "y_marker_raw": [
+          753.7333392410588,
+          542.3527474474765
+        ],
+        "strip_raw": [
+          642.3045153670246,
+          18.453947018950466
+        ],
+        "plane_H": [
+          [
+            0.0025671930322364992,
+            -2.0777813411754176e-05,
+            -1.1589168642749244
+          ],
+          [
+            -0.0001879126218812138,
+            0.002580801279069195,
+            0.0863551202647281
+          ],
+          [
+            -0.00015408691045435156,
+            -9.661750723301011e-05,
+            1.0695021237596496
+          ]
+        ],
+        "axes_H": [
+          [
+            -5.417561834599188e-05,
+            -0.0018375909714507578,
+            1.0374564817723695
+          ],
+          [
+            0.0017823797111733652,
+            3.132380147949643e-05,
+            -1.14540858435816
+          ],
+          [
+            -0.00015408691045435156,
+            -9.661750723301011e-05,
+            1.0695021237596496
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.0140865814724789,
+            -0.34080977340209917
+          ],
+          [
+            1.0045053587317432,
+            0.3333773650928774
+          ],
+          [
+            -0.34376701295298795,
+            0.3429896861976355
+          ],
+          [
+            -0.33418579021225225,
+            -0.33119745229734115
+          ]
+        ],
+        "origin_plane": [
+          0.4948385484957441,
+          1.4972426110866799
+        ],
+        "strip_plane": [
+          0.5054143715594058,
+          0.01371250200825239
+        ],
+        "y_marker_plane": [
+          0.8488639165793831,
+          1.4922109928784957
+        ],
+        "scale": 1.4835678051830745,
+        "distance_cap_observed": 0.3388839978576369,
+        "opposite_rail_distance_observed": 0.3388839978576369,
+        "strength_cap_observed": 1.0090133562092733,
+        "strength_maximum": 1.0090133562092733,
+        "upper_rail_reference_plane": [
+          0.5055121255544963,
+          0.0
+        ],
+        "angle_cap_observed": 13.486097454031977,
+        "axis_nonorthogonality_degrees": 1.2227112615578477,
+        "aspect_ratio": 2.0,
+        "source": "automatic_fixed_template_needs_preview_review",
+        "landmarks_raw": {
+          "TL": [
+            451.42868660408294,
+            -0.5912784471001398
+          ],
+          "TR": [
+            818.1586559100465,
+            26.110967329667012
+          ],
+          "BR": [
+            799.230201425898,
+            705.3017833586873
+          ],
+          "BL": [
+            457.26188592153585,
+            720.126938944361
+          ],
+          "O": [
+            633.0349051830349,
+            545.9111630035368
+          ],
+          "Y": [
+            753.7333392410588,
+            542.3527474474765
+          ],
+          "B": [
+            642.3045153670246,
+            18.453947018950466
+          ]
+        },
+        "calibration_quality": {
+          "observed_points": {
+            "O": [
+              633.1629493402112,
+              545.9127248485236
+            ],
+            "Y": [
+              754.2031855091109,
+              542.3635229597513
+            ],
+            "B": [
+              641.9663134066835,
+              18.449898207602306
+            ]
+          },
+          "reconstructed_names": [
+            "TL",
+            "TR",
+            "BR",
+            "BL"
+          ],
+          "reprojection_residual_px": {
+            "O": 0.12805368228502065,
+            "Y": 0.4699698152724402,
+            "B": 0.33822619480439997
+          },
+          "rail_fit_residual_px": [
+            -0.4945704033380277,
+            0.36486582207232177,
+            -0.2642251621468377,
+            1.7362693024058802
+          ],
+          "accuracy_check": "three_marks_and_two_observed_side_lines",
+          "template_version": "seven_landmarks_multiview_v2",
+          "marker_detection": {
+            "O": {
+              "contrast": 56.409263610839844,
+              "size_px": [
+                4,
+                5
+              ],
+              "candidate_count": 2,
+              "expected_raw": [
+                627.3633139008082,
+                537.1516393176196
+              ],
+              "runner_up_score_ratio": 0.005992751509043961
+            },
+            "Y": {
+              "contrast": 35.253990173339844,
+              "size_px": [
+                4,
+                4
+              ],
+              "candidate_count": 1,
+              "expected_raw": [
+                750.2664038437249,
+                535.4818047458393
+              ],
+              "runner_up_score_ratio": 0.0
+            },
+            "B": {
+              "contrast": 19.939407348632812,
+              "size_px": [
+                3,
+                7
+              ],
+              "candidate_count": 1,
+              "expected_raw": [
+                637.3584566491245,
+                17.081452674412603
+              ],
+              "runner_up_score_ratio": 0.0
+            }
+          },
+          "visible_short_rails": {
+            "top": {
+              "line_y_from_x": [
+                0.06955568128851959,
+                -31.216279626686102
+              ],
+              "inliers": 90,
+              "coverage": 0.9891304347826086,
+              "median_gradient": 20.09375,
+              "residual_px": 0.25708905234172263
+            }
+          },
+          "side_rail_source": "Robust visible cloth-boundary fits with configured cushion margin",
+          "reference_points_inside_image": {
+            "TL": false,
+            "TR": true,
+            "BR": true,
+            "BL": false,
+            "O": true,
+            "Y": true,
+            "B": true
+          }
+        },
+        "table_width_cm": 84.0,
+        "table_length_cm": 168.0,
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates."
+      }
+    },
+    {
+      "participant": "05",
+      "path": "D:\\experiment\\05\\05_03_baseline_angle_010shots.mkv",
+      "name": "05_03_baseline_angle_010shots.mkv",
+      "stem": "05_03_baseline_angle_010shots",
+      "bytes": 63467946,
+      "sha256": "073f1a648f9054ba29439829c1d7353e1f4076846fec38fd1494482891ab61bf",
+      "frames": 7493,
+      "fps": 60.0,
+      "size": [
+        1280,
+        720
+      ],
+      "session_sha256": "3583ee16c8da6f3dbc019f1b130091c5c506e49c1b2ba8a989b5974822459d94",
+      "safe_cache": null,
+      "median_provenance": {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\preflight\\05_03_baseline_angle_010shots_median.npz",
+        "sha256": "7da634698fd22e866c9bdb5f9a62391dc623caead106d7de0fa03d33057cc061",
+        "source_sha256": "073f1a648f9054ba29439829c1d7353e1f4076846fec38fd1494482891ab61bf",
+        "source_manifest": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\inventory.json",
+        "reference_frame": null,
+        "verification": "Historical source-bound median SHA equality",
+        "purpose": "Source-matched median only; historical observations are not implicitly reused."
+      },
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\preflight\\05_03_baseline_angle_010shots_median.npz",
+      "median_sha256": "7da634698fd22e866c9bdb5f9a62391dc623caead106d7de0fa03d33057cc061",
+      "override_path": null,
+      "override_sha256": null,
+      "preflight_status": "READY_FOR_GEOMETRY_REVIEW",
+      "calibration": {
+        "corners": [
+          [
+            452.60875992819825,
+            0.13452327363852765
+          ],
+          [
+            817.4005583822149,
+            25.654547279928767
+          ],
+          [
+            799.9889234663907,
+            706.9991189881341
+          ],
+          [
+            457.0788610642955,
+            721.4931603987192
+          ]
+        ],
+        "origin_raw": [
+          633.1395694037061,
+          546.0778025121203
+        ],
+        "y_marker_raw": [
+          754.0241461215574,
+          542.5427728687669
+        ],
+        "strip_raw": [
+          642.2502660689274,
+          18.517770285741168
+        ],
+        "plane_H": [
+          [
+            0.002586876644482546,
+            -1.6030306746628475e-05,
+            -1.1708408736971228
+          ],
+          [
+            -0.00018188344628115163,
+            0.0025999030981147127,
+            0.08197229359687776
+          ],
+          [
+            -0.00014952103896861618,
+            -8.59584450589471e-05,
+            1.0676860954421874
+          ]
+        ],
+        "axes_H": [
+          [
+            -5.379850785565123e-05,
+            -0.0018397044738817769,
+            1.0386837404673666
+          ],
+          [
+            0.0017941230329482668,
+            3.098360325799763e-05,
+            -1.1528497425191717
+          ],
+          [
+            -0.00014952103896861618,
+            -8.59584450589471e-05,
+            1.0676860954421874
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.0140865814724789,
+            -0.3408097734020992
+          ],
+          [
+            1.0045053587317432,
+            0.333377365092877
+          ],
+          [
+            -0.3437670129529873,
+            0.3429896861976353
+          ],
+          [
+            -0.3341857902122516,
+            -0.33119745229734093
+          ]
+        ],
+        "origin_plane": [
+          0.49483854849574416,
+          1.4972426110866806
+        ],
+        "strip_plane": [
+          0.5054143715594062,
+          0.0137125020082524
+        ],
+        "y_marker_plane": [
+          0.848863916579384,
+          1.4922109928784963
+        ],
+        "scale": 1.4835678051830752,
+        "distance_cap_observed": 0.3388839978576363,
+        "opposite_rail_distance_observed": 0.3388839978576363,
+        "strength_cap_observed": 1.0090133562092733,
+        "strength_maximum": 1.0090133562092733,
+        "upper_rail_reference_plane": [
+          0.5055121255544966,
+          0.0
+        ],
+        "angle_cap_observed": 13.486097454032032,
+        "axis_nonorthogonality_degrees": 1.2227112615578477,
+        "aspect_ratio": 2.0,
+        "source": "automatic_fixed_template_needs_preview_review",
+        "landmarks_raw": {
+          "TL": [
+            452.60875992819825,
+            0.13452327363852765
+          ],
+          "TR": [
+            817.4005583822149,
+            25.654547279928767
+          ],
+          "BR": [
+            799.9889234663907,
+            706.9991189881341
+          ],
+          "BL": [
+            457.0788610642955,
+            721.4931603987192
+          ],
+          "O": [
+            633.1395694037061,
+            546.0778025121203
+          ],
+          "Y": [
+            754.0241461215574,
+            542.5427728687669
+          ],
+          "B": [
+            642.2502660689274,
+            18.517770285741168
+          ]
+        },
+        "calibration_quality": {
+          "observed_points": {
+            "O": [
+              633.2220734398124,
+              546.0787225245956
+            ],
+            "Y": [
+              754.3228671939654,
+              542.5492152504619
+            ],
+            "B": [
+              642.0314464594535,
+              18.515310415829656
+            ]
+          },
+          "reconstructed_names": [
+            "TL",
+            "TR",
+            "BR",
+            "BL"
+          ],
+          "reprojection_residual_px": {
+            "O": 0.08250916553202667,
+            "Y": 0.298790534292042,
+            "B": 0.21883343540306865
+          },
+          "rail_fit_residual_px": [
+            -0.32514337853235276,
+            0.23822624560477365,
+            -0.17270675141876607,
+            0.9736825298852917
+          ],
+          "accuracy_check": "three_marks_and_two_observed_side_lines",
+          "template_version": "seven_landmarks_multiview_v2",
+          "marker_detection": {
+            "O": {
+              "contrast": 58.342376708984375,
+              "size_px": [
+                4,
+                5
+              ],
+              "candidate_count": 1,
+              "expected_raw": [
+                627.9598206919849,
+                535.9193210393954
+              ],
+              "runner_up_score_ratio": 0.0
+            },
+            "Y": {
+              "contrast": 36.76299285888672,
+              "size_px": [
+                4,
+                4
+              ],
+              "candidate_count": 1,
+              "expected_raw": [
+                751.1411350281131,
+                534.2409155268921
+              ],
+              "runner_up_score_ratio": 0.0
+            },
+            "B": {
+              "contrast": 19.17652130126953,
+              "size_px": [
+                3,
+                7
+              ],
+              "candidate_count": 1,
+              "expected_raw": [
+                637.391874477238,
+                17.032048282738955
+              ],
+              "runner_up_score_ratio": 0.0
+            }
+          },
+          "visible_short_rails": {
+            "top": {
+              "line_y_from_x": [
+                0.07058141413853976,
+                -31.702014201753492
+              ],
+              "inliers": 91,
+              "coverage": 0.9927272727272727,
+              "median_gradient": 19.6875,
+              "residual_px": 0.2653737996245553
+            }
+          },
+          "side_rail_source": "Robust visible cloth-boundary fits with configured cushion margin",
+          "reference_points_inside_image": {
+            "TL": true,
+            "TR": true,
+            "BR": true,
+            "BL": false,
+            "O": true,
+            "Y": true,
+            "B": true
+          }
+        },
+        "table_width_cm": 84.0,
+        "table_length_cm": 168.0,
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates."
+      }
+    },
+    {
+      "participant": "05",
+      "path": "D:\\experiment\\05\\05_04_training_strength_140shots.mkv",
+      "name": "05_04_training_strength_140shots.mkv",
+      "stem": "05_04_training_strength_140shots",
+      "bytes": 662629923,
+      "sha256": "6a71d51fbe325f57102ce3d2bfcbc236df7fb8dbcd9de9b0bd4e63ccd0b05827",
+      "frames": 78758,
+      "fps": 60.0,
+      "size": [
+        1280,
+        720
+      ],
+      "session_sha256": "3583ee16c8da6f3dbc019f1b130091c5c506e49c1b2ba8a989b5974822459d94",
+      "safe_cache": null,
+      "median_provenance": {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\preflight\\05_04_training_strength_140shots_median.npz",
+        "sha256": "749cf987db5360f6abbd95d0bb6c3dd1a50035660160708e4e1888fdcc8584fb",
+        "source_sha256": "6a71d51fbe325f57102ce3d2bfcbc236df7fb8dbcd9de9b0bd4e63ccd0b05827",
+        "source_manifest": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\inventory.json",
+        "reference_frame": null,
+        "verification": "Historical source-bound median SHA equality",
+        "purpose": "Source-matched median only; historical observations are not implicitly reused."
+      },
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\preflight\\05_04_training_strength_140shots_median.npz",
+      "median_sha256": "749cf987db5360f6abbd95d0bb6c3dd1a50035660160708e4e1888fdcc8584fb",
+      "override_path": null,
+      "override_sha256": null,
+      "preflight_status": "READY_FOR_GEOMETRY_REVIEW",
+      "calibration": {
+        "corners": [
+          [
+            448.660383668059,
+            -16.375069267611885
+          ],
+          [
+            817.4176712682281,
+            26.171526655467567
+          ],
+          [
+            799.5496934046535,
+            707.6408833750235
+          ],
+          [
+            451.9953722029328,
+            727.501522055767
+          ]
+        ],
+        "origin_raw": [
+          633.2250635459283,
+          546.4134198047544
+        ],
+        "y_marker_raw": [
+          754.3341693907527,
+          542.8167281497688
+        ],
+        "strip_raw": [
+          643.2044683549559,
+          11.256768661108046
+        ],
+        "plane_H": [
+          [
+            0.0022588680211788515,
+            -1.0127081615813046e-05,
+            -1.0136304247005503
+          ],
+          [
+            -0.0002651067749173741,
+            0.002297717434779063,
+            0.15656818949933746
+          ],
+          [
+            -0.0002024702838627931,
+            -7.466283500751116e-05,
+            1.0
+          ]
+        ],
+        "axes_H": [
+          [
+            -4.824704558125273e-05,
+            -0.0016245920169165966,
+            0.9182501182549931
+          ],
+          [
+            0.0015906294732765398,
+            2.9661474600147152e-05,
+            -1.0234338770662814
+          ],
+          [
+            -0.0002024702838627931,
+            -7.466283500751116e-05,
+            1.0
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.0140865814724787,
+            -0.3408097734020992
+          ],
+          [
+            1.004505358731743,
+            0.3333773650928768
+          ],
+          [
+            -0.3437670129529873,
+            0.3429896861976352
+          ],
+          [
+            -0.3341857902122516,
+            -0.3311974522973409
+          ]
+        ],
+        "origin_plane": [
+          0.49483854849574427,
+          1.4972426110866806
+        ],
+        "strip_plane": [
+          0.5054143715594064,
+          0.01371250200825233
+        ],
+        "y_marker_plane": [
+          0.8488639165793839,
+          1.4922109928784963
+        ],
+        "scale": 1.4835678051830754,
+        "distance_cap_observed": 0.33888399785763623,
+        "opposite_rail_distance_observed": 0.33888399785763623,
+        "strength_cap_observed": 1.0090133562092733,
+        "strength_maximum": 1.0090133562092733,
+        "upper_rail_reference_plane": [
+          0.5055121255544969,
+          0.0
+        ],
+        "angle_cap_observed": 13.486097454032032,
+        "axis_nonorthogonality_degrees": 1.222711261557862,
+        "aspect_ratio": 2.0,
+        "source": "automatic_fixed_template_needs_preview_review",
+        "landmarks_raw": {
+          "TL": [
+            448.660383668059,
+            -16.375069267611885
+          ],
+          "TR": [
+            817.4176712682281,
+            26.171526655467567
+          ],
+          "BR": [
+            799.5496934046535,
+            707.6408833750235
+          ],
+          "BL": [
+            451.9953722029328,
+            727.501522055767
+          ],
+          "O": [
+            633.2250635459283,
+            546.4134198047544
+          ],
+          "Y": [
+            754.3341693907527,
+            542.8167281497688
+          ],
+          "B": [
+            643.2044683549559,
+            11.256768661108046
+          ]
+        },
+        "calibration_quality": {
+          "observed_points": {
+            "TR": [
+              817.417671268228,
+              26.171526655467485
+            ],
+            "BR": [
+              799.5496934046533,
+              707.6408833750231
+            ],
+            "O": [
+              633.2250635459282,
+              546.4134198047542
+            ],
+            "Y": [
+              754.3341693907527,
+              542.8167281497688
+            ]
+          },
+          "reconstructed_names": [
+            "TL",
+            "BL",
+            "B"
+          ],
+          "reprojection_residual_px": {
+            "TR": 1.4000577049868946e-13,
+            "BR": 3.595093471822542e-13,
+            "O": 2.5421149729252077e-13,
+            "Y": 0.0
+          },
+          "dlt_condition": 54.332704784564996,
+          "accuracy_check": "visible_rail_intersections_and_partial_marks",
+          "template_version": "seven_landmarks_multiview_v2",
+          "ignored_inconsistent_marker_candidates": {},
+          "marker_detection": {
+            "O": {
+              "contrast": 55.00603485107422,
+              "size_px": [
+                4,
+                4
+              ],
+              "candidate_count": 1,
+              "expected_raw": [
+                628.1510178105384,
+                535.9561894840703
+              ],
+              "runner_up_score_ratio": 0.0
+            },
+            "Y": {
+              "contrast": 39.37333679199219,
+              "size_px": [
+                4,
+                3
+              ],
+              "candidate_count": 1,
+              "expected_raw": [
+                751.4604199297548,
+                534.2780395353417
+              ],
+              "runner_up_score_ratio": 0.0
+            }
+          },
+          "visible_short_rails": {
+            "top": {
+              "line_y_from_x": [
+                0.06990924101313359,
+                -30.97352233361747
+              ],
+              "inliers": 90,
+              "coverage": 0.9927272727272727,
+              "median_gradient": 18.0,
+              "residual_px": 0.25992575245782845
+            },
+            "bottom": {
+              "line_y_from_x": [
+                -0.03648898721320254,
+                736.8156419139855
+              ],
+              "inliers": 34,
+              "coverage": 0.7963636363636364,
+              "median_gradient": 21.75,
+              "residual_px": 0.7958634219643272
+            }
+          },
+          "side_rail_source": "Robust visible cloth-boundary fits with configured cushion margin",
+          "reference_points_inside_image": {
+            "TL": false,
+            "TR": true,
+            "BR": true,
+            "BL": false,
+            "O": true,
+            "Y": true,
+            "B": true
+          }
+        },
+        "table_width_cm": 84.0,
+        "table_length_cm": 168.0,
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates."
+      }
+    },
+    {
+      "participant": "05",
+      "path": "D:\\experiment\\05\\05_05_test_both_030shots.mkv",
+      "name": "05_05_test_both_030shots.mkv",
+      "stem": "05_05_test_both_030shots",
+      "bytes": 176980462,
+      "sha256": "ab597f2b53111f9190f8229b6fb09fd65854b8948bfb1dbfd2bf1a89d3989e42",
+      "frames": 21303,
+      "fps": 60.0,
+      "size": [
+        1280,
+        720
+      ],
+      "session_sha256": "3583ee16c8da6f3dbc019f1b130091c5c506e49c1b2ba8a989b5974822459d94",
+      "safe_cache": null,
+      "median_provenance": {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\preflight\\05_05_test_regular_030shots_median.npz",
+        "sha256": "8dc9c9054fda40e3fadf4eb28641c5a54de801587910bc8dae88d60dd2dd6492",
+        "source_sha256": "ab597f2b53111f9190f8229b6fb09fd65854b8948bfb1dbfd2bf1a89d3989e42",
+        "source_manifest": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\inventory.json",
+        "reference_frame": null,
+        "verification": "Historical source-bound median SHA equality",
+        "purpose": "Source-matched median only; historical observations are not implicitly reused."
+      },
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\preflight\\05_05_test_both_030shots_median.npz",
+      "median_sha256": "8dc9c9054fda40e3fadf4eb28641c5a54de801587910bc8dae88d60dd2dd6492",
+      "override_path": null,
+      "override_sha256": null,
+      "preflight_status": "READY_FOR_GEOMETRY_REVIEW",
+      "calibration": {
+        "corners": [
+          [
+            452.9545942431209,
+            1.0858385166512736
+          ],
+          [
+            818.1999125234951,
+            26.24901638261088
+          ],
+          [
+            799.4623129004411,
+            707.3112151197006
+          ],
+          [
+            457.27901482587885,
+            721.4278752294189
+          ]
+        ],
+        "origin_raw": [
+          633.0528271779391,
+          546.801549264198
+        ],
+        "y_marker_raw": [
+          753.8276879609181,
+          543.3257840541611
+        ],
+        "strip_raw": [
+          642.7390834622789,
+          19.290540141579065
+        ],
+        "plane_H": [
+          [
+            0.0025860818180567778,
+            -1.5524993506883593e-05,
+            -1.1713607829414996
+          ],
+          [
+            -0.00017873527275507196,
+            0.0025943552095488154,
+            0.07814191213530418
+          ],
+          [
+            -0.00014662440644685237,
+            -9.07080754884197e-05,
+            1.0665126928504092
+          ]
+        ],
+        "axes_H": [
+          [
+            -5.297575396808494e-05,
+            -0.00184078581944867,
+            1.0400809887594782
+          ],
+          [
+            0.00179261510114872,
+            3.2916335372383e-05,
+            -1.1528187610017833
+          ],
+          [
+            -0.00014662440644685237,
+            -9.07080754884197e-05,
+            1.0665126928504092
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.014086581472478,
+            -0.3408097734020994
+          ],
+          [
+            1.004505358731744,
+            0.33337736509287696
+          ],
+          [
+            -0.34376701295298684,
+            0.3429896861976355
+          ],
+          [
+            -0.3341857902122529,
+            -0.33119745229734093
+          ]
+        ],
+        "origin_plane": [
+          0.49483854849574405,
+          1.49724261108668
+        ],
+        "strip_plane": [
+          0.5054143715594063,
+          0.013712502008252393
+        ],
+        "y_marker_plane": [
+          0.8488639165793843,
+          1.4922109928784968
+        ],
+        "scale": 1.4835678051830747,
+        "distance_cap_observed": 0.33888399785763673,
+        "opposite_rail_distance_observed": 0.33888399785763673,
+        "strength_cap_observed": 1.0090133562092736,
+        "strength_maximum": 1.0090133562092736,
+        "upper_rail_reference_plane": [
+          0.5055121255544968,
+          0.0
+        ],
+        "angle_cap_observed": 13.486097454032032,
+        "axis_nonorthogonality_degrees": 1.2227112615577198,
+        "aspect_ratio": 2.0,
+        "source": "automatic_fixed_template_needs_preview_review",
+        "landmarks_raw": {
+          "TL": [
+            452.9545942431209,
+            1.0858385166512736
+          ],
+          "TR": [
+            818.1999125234951,
+            26.24901638261088
+          ],
+          "BR": [
+            799.4623129004411,
+            707.3112151197006
+          ],
+          "BL": [
+            457.27901482587885,
+            721.4278752294189
+          ],
+          "O": [
+            633.0528271779391,
+            546.801549264198
+          ],
+          "Y": [
+            753.8276879609181,
+            543.3257840541611
+          ],
+          "B": [
+            642.7390834622789,
+            19.290540141579065
+          ]
+        },
+        "calibration_quality": {
+          "observed_points": {
+            "O": [
+              633.1723560724496,
+              546.8031637355539
+            ],
+            "Y": [
+              754.419531759007,
+              543.3390529977299
+            ],
+            "B": [
+              642.3605963973542,
+              19.28561661199255
+            ]
+          },
+          "reconstructed_names": [
+            "TL",
+            "TR",
+            "BR",
+            "BL"
+          ],
+          "reprojection_residual_px": {
+            "O": 0.11953979730892955,
+            "Y": 0.591992522080936,
+            "B": 0.3785190873111835
+          },
+          "rail_fit_residual_px": [
+            -0.5575089187650866,
+            0.39072548966720183,
+            -0.2655890341729205,
+            2.3154828977057105
+          ],
+          "accuracy_check": "three_marks_and_two_observed_side_lines",
+          "template_version": "seven_landmarks_multiview_v2",
+          "marker_detection": {
+            "O": {
+              "contrast": 43.69462585449219,
+              "size_px": [
+                5,
+                5
+              ],
+              "candidate_count": 3,
+              "expected_raw": [
+                627.4655325886127,
+                536.7534786200277
+              ],
+              "runner_up_score_ratio": 0.06610873839052353
+            },
+            "Y": {
+              "contrast": 31.51214599609375,
+              "size_px": [
+                4,
+                4
+              ],
+              "candidate_count": 1,
+              "expected_raw": [
+                750.1651636772906,
+                535.0808682963798
+              ],
+              "runner_up_score_ratio": 0.0
+            },
+            "B": {
+              "contrast": 17.83588409423828,
+              "size_px": [
+                3,
+                7
+              ],
+              "candidate_count": 1,
+              "expected_raw": [
+                638.147204425263,
+                17.065409883002058
+              ],
+              "runner_up_score_ratio": 0.0
+            }
+          },
+          "visible_short_rails": {
+            "top": {
+              "line_y_from_x": [
+                0.0706573542117155,
+                -30.90868542143692
+              ],
+              "inliers": 91,
+              "coverage": 0.9927272727272727,
+              "median_gradient": 19.25,
+              "residual_px": 0.25371414711054996
+            }
+          },
+          "side_rail_source": "Robust visible cloth-boundary fits with configured cushion margin",
+          "reference_points_inside_image": {
+            "TL": true,
+            "TR": true,
+            "BR": true,
+            "BL": false,
+            "O": true,
+            "Y": true,
+            "B": true
+          }
+        },
+        "table_width_cm": 84.0,
+        "table_length_cm": 168.0,
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates."
+      }
+    },
+    {
+      "participant": "05",
+      "path": "D:\\experiment\\05\\05_06_test_strength_030shots.mkv",
+      "name": "05_06_test_strength_030shots.mkv",
+      "stem": "05_06_test_strength_030shots",
+      "bytes": 145411121,
+      "sha256": "504d54673f20f5699e861ebf7e49f2608f4892d31fb103d3bec8a953521b7d02",
+      "frames": 17397,
+      "fps": 60.0,
+      "size": [
+        1280,
+        720
+      ],
+      "session_sha256": "3583ee16c8da6f3dbc019f1b130091c5c506e49c1b2ba8a989b5974822459d94",
+      "safe_cache": null,
+      "median_provenance": {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\preflight\\05_06_test_strength_030shots_median.npz",
+        "sha256": "e2209c81177f36ea245a1a647fab70a04cb0b78dd9e93d7e47e1f7361306e12c",
+        "source_sha256": "504d54673f20f5699e861ebf7e49f2608f4892d31fb103d3bec8a953521b7d02",
+        "source_manifest": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\inventory.json",
+        "reference_frame": 1200,
+        "verification": "Actual source frame byte-array equality",
+        "purpose": "Source-matched median only; historical observations are not implicitly reused."
+      },
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\preflight\\05_06_test_strength_030shots_median.npz",
+      "median_sha256": "e2209c81177f36ea245a1a647fab70a04cb0b78dd9e93d7e47e1f7361306e12c",
+      "override_path": null,
+      "override_sha256": null,
+      "preflight_status": "READY_FOR_GEOMETRY_REVIEW",
+      "calibration": {
+        "corners": [
+          [
+            453.47059955517994,
+            0.8643790549734794
+          ],
+          [
+            817.146990667808,
+            26.513059017058037
+          ],
+          [
+            799.9360486454906,
+            708.4963872887741
+          ],
+          [
+            456.8111981366994,
+            723.3698794594574
+          ]
+        ],
+        "origin_raw": [
+          633.1575362801966,
+          547.0863811160353
+        ],
+        "y_marker_raw": [
+          753.978563822926,
+          543.4736304076395
+        ],
+        "strip_raw": [
+          642.5839826317044,
+          19.306534805212586
+        ],
+        "plane_H": [
+          [
+            0.0025929655633990154,
+            -1.1988915071470362e-05,
+            -1.175823285693407
+          ],
+          [
+            -0.00018372565945881617,
+            0.002605073044131022,
+            0.08106241437243732
+          ],
+          [
+            -0.00015184643784263725,
+            -8.125864390083749e-05,
+            1.0689281334786425
+          ]
+        ],
+        "axes_H": [
+          [
+            -5.4973100373658024e-05,
+            -0.001838462437754017,
+            1.040604394682879
+          ],
+          [
+            0.0017990117684601105,
+            3.213136696988096e-05,
+            -1.1566364923331467
+          ],
+          [
+            -0.00015184643784263725,
+            -8.125864390083749e-05,
+            1.0689281334786425
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.014086581472479,
+            -0.3408097734020992
+          ],
+          [
+            1.004505358731743,
+            0.333377365092877
+          ],
+          [
+            -0.3437670129529875,
+            0.3429896861976351
+          ],
+          [
+            -0.33418579021225137,
+            -0.3311974522973411
+          ]
+        ],
+        "origin_plane": [
+          0.4948385484957443,
+          1.4972426110866806
+        ],
+        "strip_plane": [
+          0.5054143715594062,
+          0.013712502008252365
+        ],
+        "y_marker_plane": [
+          0.8488639165793836,
+          1.4922109928784961
+        ],
+        "scale": 1.4835678051830752,
+        "distance_cap_observed": 0.3388839978576363,
+        "opposite_rail_distance_observed": 0.3388839978576363,
+        "strength_cap_observed": 1.0090133562092733,
+        "strength_maximum": 1.0090133562092733,
+        "upper_rail_reference_plane": [
+          0.5055121255544966,
+          0.0
+        ],
+        "angle_cap_observed": 13.486097454032032,
+        "axis_nonorthogonality_degrees": 1.2227112615578903,
+        "aspect_ratio": 2.0,
+        "source": "automatic_fixed_template_needs_preview_review",
+        "landmarks_raw": {
+          "TL": [
+            453.47059955517994,
+            0.8643790549734794
+          ],
+          "TR": [
+            817.146990667808,
+            26.513059017058037
+          ],
+          "BR": [
+            799.9360486454906,
+            708.4963872887741
+          ],
+          "BL": [
+            456.8111981366994,
+            723.3698794594574
+          ],
+          "O": [
+            633.1575362801966,
+            547.0863811160353
+          ],
+          "Y": [
+            753.978563822926,
+            543.4736304076395
+          ],
+          "B": [
+            642.5839826317044,
+            19.306534805212586
+          ]
+        },
+        "calibration_quality": {
+          "observed_points": {
+            "O": [
+              633.2619109218675,
+              547.0876286049989
+            ],
+            "Y": [
+              754.3082443930999,
+              543.4807413436639
+            ],
+            "B": [
+              642.3282611099282,
+              19.303486815893066
+            ]
+          },
+          "reconstructed_names": [
+            "TL",
+            "TR",
+            "BR",
+            "BL"
+          ],
+          "reprojection_residual_px": {
+            "O": 0.10438209641814207,
+            "Y": 0.3297572497479272,
+            "B": 0.25573968588864904
+          },
+          "rail_fit_residual_px": [
+            -0.3766906548555066,
+            0.28111135437556983,
+            -0.2112102197914621,
+            1.1223916703206533
+          ],
+          "accuracy_check": "three_marks_and_two_observed_side_lines",
+          "template_version": "seven_landmarks_multiview_v2",
+          "marker_detection": {
+            "O": {
+              "contrast": 51.95159912109375,
+              "size_px": [
+                4,
+                4
+              ],
+              "candidate_count": 1,
+              "expected_raw": [
+                627.8804181709571,
+                535.5014615506617
+              ],
+              "runner_up_score_ratio": 0.0
+            },
+            "Y": {
+              "contrast": 33.31683349609375,
+              "size_px": [
+                4,
+                4
+              ],
+              "candidate_count": 1,
+              "expected_raw": [
+                751.0075809611842,
+                533.82016324298
+              ],
+              "runner_up_score_ratio": 0.0
+            },
+            "B": {
+              "contrast": 17.08966064453125,
+              "size_px": [
+                3,
+                8
+              ],
+              "candidate_count": 1,
+              "expected_raw": [
+                637.7311621367363,
+                17.015461476351998
+              ],
+              "runner_up_score_ratio": 0.0
+            }
+          },
+          "visible_short_rails": {
+            "top": {
+              "line_y_from_x": [
+                0.06870358795962671,
+                -28.73839586208547
+              ],
+              "inliers": 90,
+              "coverage": 0.9963503649635036,
+              "median_gradient": 19.53125,
+              "residual_px": 0.5802675344269623
+            }
+          },
+          "side_rail_source": "Robust visible cloth-boundary fits with configured cushion margin",
+          "reference_points_inside_image": {
+            "TL": true,
+            "TR": true,
+            "BR": true,
+            "BL": false,
+            "O": true,
+            "Y": true,
+            "B": true
+          }
+        },
+        "table_width_cm": 84.0,
+        "table_length_cm": 168.0,
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates."
+      }
+    },
+    {
+      "participant": "05",
+      "path": "D:\\experiment\\05\\05_07_test_angle_030shots.mkv",
+      "name": "05_07_test_angle_030shots.mkv",
+      "stem": "05_07_test_angle_030shots",
+      "bytes": 137313691,
+      "sha256": "2e705e9fe78ab7bffd730f60be103686f5e9a47e5191eab507b85d23fd8c6fd1",
+      "frames": 16389,
+      "fps": 60.0,
+      "size": [
+        1280,
+        720
+      ],
+      "session_sha256": "3583ee16c8da6f3dbc019f1b130091c5c506e49c1b2ba8a989b5974822459d94",
+      "safe_cache": null,
+      "median_provenance": {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\preflight\\05_07_test_angle_030shots_median.npz",
+        "sha256": "370a8d6023010541c117f816827aaa7cf8650b8e53bc891f894bf149b4cb8ed1",
+        "source_sha256": "2e705e9fe78ab7bffd730f60be103686f5e9a47e5191eab507b85d23fd8c6fd1",
+        "source_manifest": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\inventory.json",
+        "reference_frame": 3600,
+        "verification": "Actual source frame byte-array equality",
+        "purpose": "Source-matched median only; historical observations are not implicitly reused."
+      },
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\preflight\\05_07_test_angle_030shots_median.npz",
+      "median_sha256": "370a8d6023010541c117f816827aaa7cf8650b8e53bc891f894bf149b4cb8ed1",
+      "override_path": null,
+      "override_sha256": null,
+      "preflight_status": "READY_FOR_GEOMETRY_REVIEW",
+      "calibration": {
+        "corners": [
+          [
+            453.12823726627556,
+            1.2595609338429692
+          ],
+          [
+            818.040553132361,
+            26.455910709581083
+          ],
+          [
+            799.3353398764015,
+            707.2490509710377
+          ],
+          [
+            457.41615603057113,
+            721.6269531269271
+          ]
+        ],
+        "origin_raw": [
+          633.094114873533,
+          546.8805628543233
+        ],
+        "y_marker_raw": [
+          753.7525075837883,
+          543.3386226449139
+        ],
+        "strip_raw": [
+          642.7809069455695,
+          19.48272971290155
+        ],
+        "plane_H": [
+          [
+            0.0025872618527739756,
+            -1.5400431456067415e-05,
+            -1.172342004911923
+          ],
+          [
+            -0.00017914856964169123,
+            0.0025945631019535704,
+            0.077909265246903
+          ],
+          [
+            -0.00014793348328135864,
+            -9.055161767097542e-05,
+            1.0671468937920567
+          ]
+        ],
+        "axes_H": [
+          [
+            -5.4035959008779995e-05,
+            -0.001840768498924994,
+            1.0408903604166149
+          ],
+          [
+            0.0017938548251861732,
+            3.294799031595273e-05,
+            -1.1536975482517635
+          ],
+          [
+            -0.00014793348328135864,
+            -9.055161767097542e-05,
+            1.0671468937920567
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.0140865814724789,
+            -0.34080977340209956
+          ],
+          [
+            1.0045053587317432,
+            0.3333773650928767
+          ],
+          [
+            -0.3437670129529873,
+            0.3429896861976353
+          ],
+          [
+            -0.3341857902122516,
+            -0.33119745229734093
+          ]
+        ],
+        "origin_plane": [
+          0.4948385484957442,
+          1.4972426110866806
+        ],
+        "strip_plane": [
+          0.5054143715594066,
+          0.013712502008252392
+        ],
+        "y_marker_plane": [
+          0.8488639165793844,
+          1.4922109928784963
+        ],
+        "scale": 1.4835678051830752,
+        "distance_cap_observed": 0.3388839978576363,
+        "opposite_rail_distance_observed": 0.3388839978576363,
+        "strength_cap_observed": 1.0090133562092733,
+        "strength_maximum": 1.0090133562092733,
+        "upper_rail_reference_plane": [
+          0.5055121255544971,
+          0.0
+        ],
+        "angle_cap_observed": 13.486097454032032,
+        "axis_nonorthogonality_degrees": 1.2227112615578761,
+        "aspect_ratio": 2.0,
+        "source": "automatic_fixed_template_needs_preview_review",
+        "landmarks_raw": {
+          "TL": [
+            453.12823726627556,
+            1.2595609338429692
+          ],
+          "TR": [
+            818.040553132361,
+            26.455910709581083
+          ],
+          "BR": [
+            799.3353398764015,
+            707.2490509710377
+          ],
+          "BL": [
+            457.41615603057113,
+            721.6269531269271
+          ],
+          "O": [
+            633.094114873533,
+            546.8805628543233
+          ],
+          "Y": [
+            753.7525075837883,
+            543.3386226449139
+          ],
+          "B": [
+            642.7809069455695,
+            19.48272971290155
+          ]
+        },
+        "calibration_quality": {
+          "observed_points": {
+            "O": [
+              633.2735904135137,
+              546.8831838902861
+            ],
+            "Y": [
+              754.4306994449587,
+              543.3541465890755
+            ],
+            "B": [
+              642.2979543181513,
+              19.476191085832276
+            ]
+          },
+          "reconstructed_names": [
+            "TL",
+            "TR",
+            "BR",
+            "BL"
+          ],
+          "reprojection_residual_px": {
+            "O": 0.17949467758357182,
+            "Y": 0.6783695109599714,
+            "B": 0.48299688816200065
+          },
+          "rail_fit_residual_px": [
+            -0.6935625388223141,
+            0.5055638642290774,
+            -0.36671391760701605,
+            3.5189349108835954
+          ],
+          "accuracy_check": "three_marks_and_two_observed_side_lines",
+          "template_version": "seven_landmarks_multiview_v2",
+          "marker_detection": {
+            "O": {
+              "contrast": 55.68401336669922,
+              "size_px": [
+                4,
+                4
+              ],
+              "candidate_count": 1,
+              "expected_raw": [
+                627.0072279203437,
+                537.1376947867541
+              ],
+              "runner_up_score_ratio": 0.0
+            },
+            "Y": {
+              "contrast": 33.874046325683594,
+              "size_px": [
+                4,
+                4
+              ],
+              "candidate_count": 1,
+              "expected_raw": [
+                749.3124142650215,
+                535.4677628968687
+              ],
+              "runner_up_score_ratio": 0.0
+            },
+            "B": {
+              "contrast": 18.68065643310547,
+              "size_px": [
+                4,
+                7
+              ],
+              "candidate_count": 1,
+              "expected_raw": [
+                638.2794373686213,
+                17.080889513185483
+              ],
+              "runner_up_score_ratio": 0.0
+            }
+          },
+          "visible_short_rails": {
+            "top": {
+              "line_y_from_x": [
+                0.07196850677787624,
+                -30.840005799569127
+              ],
+              "inliers": 79,
+              "coverage": 0.9927272727272727,
+              "median_gradient": 18.5625,
+              "residual_px": 0.7159018855061916
+            }
+          },
+          "side_rail_source": "Robust visible cloth-boundary fits with configured cushion margin",
+          "reference_points_inside_image": {
+            "TL": true,
+            "TR": true,
+            "BR": true,
+            "BL": false,
+            "O": true,
+            "Y": true,
+            "B": true
+          }
+        },
+        "table_width_cm": 84.0,
+        "table_length_cm": 168.0,
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates."
+      }
+    }
+  ],
+  "core_sha256": {
+    "audit_hand_stops.py": "64e4227ba2606f3e1513b7172a659a6be7145efe17c76ad6888bcfd44fbc018a",
+    "calibration.py": "ed56069eec6b00d672922c86b015e0f9f4786aed732b19b6bb5d9595f46b1dc1",
+    "config.json": "580fbaebdec501cf5d79b3ebab10a0b7ee029de25059df85e9c173a46dd0e366",
+    "enrich_review.py": "3816261558ae552b1d25f10377ac0d6be77cc90a88125386de09ff968a858e94",
+    "geometry.py": "ce9d4c2931483476717395216dc34d844e981ae9bc2ef1ea1b135831a65afa1d",
+    "learn_table_template.py": "36b86208b7b0c463e5b7601253c355e9314bf4e220b074adabb0151758ead579",
+    "manual_calibration.py": "02841b10def5b6bf6582262afd77a74b801f2916c154926fcf448c5db07de0e9",
+    "modes.py": "c542d93842f6f6c6d9dff3159c10a08d6ce1ef241c35277b25d2ee7b459d8263",
+    "motion.py": "31e807f4c265ca1fddafd857c738372cbe787fd6268fd9ed2e619054c10617f9",
+    "motion_model.json": "a2e78e092adaa9d0748e4b62aff813d2f73827b89744b9f8130242b6a55d238b",
+    "obstructions.py": "aff8e36cac60cba099f93dd55256ef767ab140f8c20c47643ed1c5a46a747fbc",
+    "pipeline.py": "33c7c49c8117c1e568f7282a01d61e193cd9ff6a86fe5094d373cf0ef974e3ed",
+    "reference_constants.json": "09e03a65c0c62ac68fe84a49744295b1af18d3a33331093d1b1cb6e6d31849ad",
+    "review.py": "7880c5ec23d518da5034591bbc9aa88478fe128f3726d3d038ad07814c9cd9e4",
+    "rules.py": "6d553b1a3028544a078b837e7c5ddf27662d88f24a61cecd105982acb9b2d4ec",
+    "rules_v2.py": "4a4ac9099551a62cae7e171a9b93e76c42bb20f99541ecdafef6acf02367a0e2",
+    "rules_v3.py": "298f32fa19f8bc96f876f6e9623bf07fd5923b278c57ed43cbfb80b9699670a9",
+    "table_template.json": "801f3314f0a5dce7906002e8e69d1f5e4dcb3c1de0faf946c3d8d73ecef7aa8f",
+    "test_count_assessment.py": "046d8357fad7fe4d1c1546422471b36df5e228fc752aab9f7c089b2d472c83b6",
+    "test_geometry.py": "7e4dafa86235f29e67e50ab0eca765bd0d4bb2d6a3c4e8eefc81c4b13508d8a6",
+    "test_modes.py": "7a7c5e70cae6dcc22998e5372a2f0770e4500ba494c766cf4dd4e1376de5ec77",
+    "test_motion.py": "a5b07bde7701bb6b278915d845783e7a26ca5f4a70b7b2af5b8655ac7f828039",
+    "test_obstructions.py": "e24b9e765fe844d63cc00c200183792ca5739ec8f5aaff2d9a9dd0c70ce9dd8f",
+    "test_output_paths.py": "3f55cba6845782b6d1ef2705a6df159f5aae07892216bf3759f6ed582f770e84",
+    "test_rules.py": "4ba9041d46f0a268b1277c342a83f6ec85a1e2f0999fe183abffa0e80453c73c",
+    "test_scoring_v2.py": "e7e1259781a649d775b7a7fc4735989bceeef47f00c1938da80e1314f998a4b6",
+    "test_scoring_v3.py": "90fee5a6c8882d3638c8b2cf931e55f017049357dde3422e850343295738642a",
+    "test_validation_v2.py": "836301b43965536c494460b3597ba2b22b1b4ef38e880ae5cd0f53351da3e30e",
+    "test_validation_v3.py": "00dff54db79a347a9cf76dba12ae4e947e4ce2e4226488372972ed064fa2f7b5",
+    "validate_outputs.py": "310646df62ce5f4240d4b36b5a58c9444d14514bf547217aef219710b3478b11",
+    "verified_counts.json": "0447edcc0343871805b7e5b51b69458c4a9a2892452c95325e30f61a728f9d03",
+    "vision.py": "aa5165ef18d09c84bdb47870deeb284ebb57491aa2111b7ef9eca4da67d61817",
+    "__init__.py": "4e85c890d96efa98270b342c445de5b9d56f03c79c7a69d2cd3eab6bb8860ea7"
+  },
+  "reviewed_raw_evidence": {},
+  "tracking_support_copied": false,
+  "geometry_revisions": {},
+  "geometry_revision_registry_sha256": "2319e9d5d7eff6fe2a786e3b8f60904274e038292f5d8657528e700ab8bb88da",
+  "full_analysis": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\analysis\\05",
+  "units": {
+    "strength": "origin_to_strip",
+    "angle": "degree"
+  },
+  "missing": "Unresolved numeric components remain blank; source review flags are retained.",
+  "unchanged": "Source videos, sessions, logs, MOLT4_results1 and 08/09 are never modified."
+}

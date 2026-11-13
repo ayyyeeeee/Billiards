@@ -1,0 +1,37 @@
+{
+  "status": "LOCAL_0_80_SECOND_VISUAL_REVIEW_COMPLETE_NO_EXTRA_ORIGIN_DEPARTURE_FOUND",
+  "source": "D:/experiment/01/01_07_test_angle_030shots.mkv",
+  "source_sha256": "ee2215a0a646c2e83eca503d5a888efaa77c1e0ec0fe549248f435a7b0bf4ee6",
+  "scope_seconds": [0, 80],
+  "method": "Decoded the actual source through frame 4800. Visually inspected one-second whole-table contact sheets, six-fps sheets for 9–12 and 29–34 seconds, and actual approach/contact/return source frames for the eight listed early banks. No detector, calibration, observation or score changes.",
+  "listed_departures_with_visible_target_approach_and_return": [
+    {"listed_start_s": 3.25, "contact_witness_s": 4.416, "witness_frames": [253, 265, 277]},
+    {"listed_start_s": 15.433, "contact_witness_s": 16.733, "witness_frames": [992, 1004, 1016]},
+    {"listed_start_s": 23.733, "contact_witness_s": 24.883, "witness_frames": [1481, 1493, 1505]},
+    {"listed_start_s": 36.683, "contact_witness_s": 37.916, "witness_frames": [2263, 2275, 2287]},
+    {"listed_start_s": 46.65, "contact_witness_s": 47.716, "witness_frames": [2851, 2863, 2875]},
+    {"listed_start_s": 55.533, "contact_witness_s": 57.05, "witness_frames": [3411, 3423, 3435]},
+    {"listed_start_s": 63.733, "contact_witness_s": 65.433, "witness_frames": [3914, 3926, 3938]},
+    {"listed_start_s": 72.016, "contact_witness_s": 73.083, "witness_frames": [4373, 4385, 4397]}
+  ],
+  "suspected_intervals": [
+    {
+      "seconds": [9, 12],
+      "observation_zh": "9.000–10.833球在右下方延续首杆碰上库后的缓慢回程，没有先回O静置再出发。约10.833–11.167右手接近并拿球，11.167–12.000手沿右下方往O搬回；13秒概览已重新摆在O。此段不是额外自由击球。",
+      "classification": "RETURN_OF_SHOT_1_THEN_MANUAL_REPLACEMENT",
+      "evidence": ["independent_manual_window_9_12_0.jpg", "independent_manual_window_9_12_1.jpg", "independent_manual_overview_0.jpg"]
+    },
+    {
+      "seconds": [29, 34],
+      "observation_zh": "29.000–31.333球从右下方继续回程，沿近下库方向缓慢移动；这是23.733秒那杆的后续，不是从O新出发。约31.333–31.666右手拿起，31.666–32.833持续搬球回O；32.833–34.000球已摆回O等待，下一次真正出发是36.683秒附近。",
+      "classification": "RETURN_OF_SHOT_3_THEN_MANUAL_REPLACEMENT",
+      "evidence": ["independent_manual_window_29_34_0.jpg", "independent_manual_window_29_34_1.jpg", "independent_manual_window_29_34_2.jpg", "independent_manual_overview_1.jpg"]
+    }
+  ],
+  "conclusion_zh": "本次0–80秒局部独立视觉检查支持现表前八次O出发及其实际目标库反弹，未发现疑似9–12或29–34秒应补为新杆的依据。后续手拿回O及同一杆回程不能重复计数。",
+  "limitations_zh": "只核0–80秒，未据此认证全片一定只有21杆；概览为抽帧检查而非逐帧人工全标注。列出的start_s来自当前主表用于定位，实际碰库前后帧已直接查看。全片缺口需与另一审查者的完整raw/源帧扫描合并判断，不按文件名30补造。",
+  "evidence_manifest": "independent_manual_probe_manifest.json",
+  "endpoint_manifest": "independent_manual_endpoint_manifest.json",
+  "bank_witness": "independent_manual_bank_witness.jpg",
+  "writes": "Only this review directory's independent_manual_* files; no source video, main analysis, scoring core or D: files modified."
+}

@@ -1,0 +1,1005 @@
+{
+  "status": "SOURCE_REVIEWED_MINIMAL_CANDIDATE_READY_FOR_PARENT_APPROVAL",
+  "source_video": "D:\\experiment\\23\\23_04_training_angle_140shots.mkv",
+  "source_sha256": "c666e98f3d89877368e9e671fee078df344c8da1938d3b7b9af56d30240c114f",
+  "original_pack": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\analysis\\23\\cache\\23_04_training_angle_140shots_evidence.npz",
+  "original_pack_sha256": "1803af9d1b375b785bd355aebc9b0bae98a1ca828020ed5e6e9c478210a0739b",
+  "reviewed_pack": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2304\\23_04_training_angle_140shots_reviewed_evidence.npz",
+  "reviewed_pack_sha256": "62c80e786580edfc93749ec9712c1e3153c6841f526422d066d623de47fc6129",
+  "inputs_sha256": {
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\inventory.json": "1a8a26e6acedda8f97f61e9ae4aba79932ed12a371d09bd19a1af1203ade599d",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\analysis\\23\\cache\\23_04_training_angle_140shots_evidence.npz": "1803af9d1b375b785bd355aebc9b0bae98a1ca828020ed5e6e9c478210a0739b",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\analysis\\23\\audit\\23_04_training_angle_140shots_report.json": "7cf7755069df9d66a994649446bf5b9bd502f38e7e6347754d061ac1815d5c54",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\analysis\\23\\calibration\\23_04_training_angle_140shots.json": "596e6cecd6679375cf06f39099a38484ae88105a20d6591a89688cc999606278",
+    "D:\\experiment\\23\\23_04_training_angle_140shots.mkv": "c666e98f3d89877368e9e671fee078df344c8da1938d3b7b9af56d30240c114f",
+    "D:\\experiment\\23\\23_04_training_angle_140shots.20261026_162457_119327.partial.live_count.json": "feab501f073f9186c8813d0fa555400c842652b6eceb2d91ad4fe6b9f105a53e"
+  },
+  "core_sha256": {
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\audit_hand_stops.py": "64e4227ba2606f3e1513b7172a659a6be7145efe17c76ad6888bcfd44fbc018a",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\calibration.py": "ed56069eec6b00d672922c86b015e0f9f4786aed732b19b6bb5d9595f46b1dc1",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\config.json": "580fbaebdec501cf5d79b3ebab10a0b7ee029de25059df85e9c173a46dd0e366",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\enrich_review.py": "3816261558ae552b1d25f10377ac0d6be77cc90a88125386de09ff968a858e94",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\geometry.py": "ce9d4c2931483476717395216dc34d844e981ae9bc2ef1ea1b135831a65afa1d",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\learn_table_template.py": "36b86208b7b0c463e5b7601253c355e9314bf4e220b074adabb0151758ead579",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\manual_calibration.py": "02841b10def5b6bf6582262afd77a74b801f2916c154926fcf448c5db07de0e9",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\modes.py": "c542d93842f6f6c6d9dff3159c10a08d6ce1ef241c35277b25d2ee7b459d8263",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\motion.py": "31e807f4c265ca1fddafd857c738372cbe787fd6268fd9ed2e619054c10617f9",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\motion_model.json": "a2e78e092adaa9d0748e4b62aff813d2f73827b89744b9f8130242b6a55d238b",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\obstructions.py": "aff8e36cac60cba099f93dd55256ef767ab140f8c20c47643ed1c5a46a747fbc",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\pipeline.py": "33c7c49c8117c1e568f7282a01d61e193cd9ff6a86fe5094d373cf0ef974e3ed",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\reference_constants.json": "09e03a65c0c62ac68fe84a49744295b1af18d3a33331093d1b1cb6e6d31849ad",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\review.py": "7880c5ec23d518da5034591bbc9aa88478fe128f3726d3d038ad07814c9cd9e4",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\rules.py": "6d553b1a3028544a078b837e7c5ddf27662d88f24a61cecd105982acb9b2d4ec",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\rules_v2.py": "4a4ac9099551a62cae7e171a9b93e76c42bb20f99541ecdafef6acf02367a0e2",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\rules_v3.py": "298f32fa19f8bc96f876f6e9623bf07fd5923b278c57ed43cbfb80b9699670a9",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\table_template.json": "801f3314f0a5dce7906002e8e69d1f5e4dcb3c1de0faf946c3d8d73ecef7aa8f",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_count_assessment.py": "046d8357fad7fe4d1c1546422471b36df5e228fc752aab9f7c089b2d472c83b6",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_geometry.py": "7e4dafa86235f29e67e50ab0eca765bd0d4bb2d6a3c4e8eefc81c4b13508d8a6",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_modes.py": "7a7c5e70cae6dcc22998e5372a2f0770e4500ba494c766cf4dd4e1376de5ec77",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_motion.py": "a5b07bde7701bb6b278915d845783e7a26ca5f4a70b7b2af5b8655ac7f828039",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_obstructions.py": "e24b9e765fe844d63cc00c200183792ca5739ec8f5aaff2d9a9dd0c70ce9dd8f",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_output_paths.py": "3f55cba6845782b6d1ef2705a6df159f5aae07892216bf3759f6ed582f770e84",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_rules.py": "4ba9041d46f0a268b1277c342a83f6ec85a1e2f0999fe183abffa0e80453c73c",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_scoring_v2.py": "e7e1259781a649d775b7a7fc4735989bceeef47f00c1938da80e1314f998a4b6",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_scoring_v3.py": "90fee5a6c8882d3638c8b2cf931e55f017049357dde3422e850343295738642a",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_validation_v2.py": "836301b43965536c494460b3597ba2b22b1b4ef38e880ae5cd0f53351da3e30e",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_validation_v3.py": "00dff54db79a347a9cf76dba12ae4e947e4ce2e4226488372972ed064fa2f7b5",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\validate_outputs.py": "310646df62ce5f4240d4b36b5a58c9444d14514bf547217aef219710b3478b11",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\verified_counts.json": "0447edcc0343871805b7e5b51b69458c4a9a2892452c95325e30f61a728f9d03",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\vision.py": "aa5165ef18d09c84bdb47870deeb284ebb57491aa2111b7ef9eca4da67d61817",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\__init__.py": "4e85c890d96efa98270b342c445de5b9d56f03c79c7a69d2cd3eab6bb8860ea7"
+  },
+  "changed_frames": [
+    8762,
+    11236
+  ],
+  "restored_frames": [
+    8762,
+    11236
+  ],
+  "excluded_frames": [],
+  "changes": [
+    {
+      "frame": 8762,
+      "method": "actual_source_hsv_fragment_below_global_area_gate",
+      "original_row": [
+        null,
+        null,
+        0.0,
+        0.0,
+        146033.00000000003,
+        0.0,
+        0.0
+      ],
+      "reviewed_row": [
+        638.5,
+        25.5,
+        15.0,
+        2.0,
+        146033.00000000003,
+        0.012042147516307075,
+        0.0
+      ],
+      "new_observation": true,
+      "selection": "Largest actual original-HSV red fragment in the manually inspected upper free-ball ROI. Other smaller source fragments are retained in evidence; no averaged or predicted point.",
+      "source_evidence": {
+        "frame": 8762,
+        "source_pts_ms": 146033.00000000003,
+        "original_row": [
+          null,
+          null,
+          0.0,
+          0.0,
+          146033.00000000003,
+          0.0,
+          0.0
+        ],
+        "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2304\\source_f8762.png",
+        "source_png_sha256": "48c4da1fa679041bda9e19865fbb8d45505108f9247e2ad44c294805575ea30b",
+        "source_bgr_sha256": "d2d39b5a989e31d72383be151cefb43e108bf7cc3e74596dfb6b2c2e9c4e0f9d",
+        "roi": [
+          580,
+          0,
+          680,
+          160
+        ],
+        "actual_hsv_contours": [
+          {
+            "point": [
+              632.5833333333333,
+              29.583333333333332
+            ],
+            "area": 4.0,
+            "box": [
+              632,
+              28,
+              3,
+              6
+            ],
+            "contour": [
+              [
+                632,
+                28
+              ],
+              [
+                632,
+                33
+              ],
+              [
+                632,
+                32
+              ],
+              [
+                633,
+                31
+              ],
+              [
+                633,
+                29
+              ],
+              [
+                634,
+                28
+              ]
+            ],
+            "hand_fraction": 0.007470119521912351
+          },
+          {
+            "point": [
+              638.5,
+              25.5
+            ],
+            "area": 15.0,
+            "box": [
+              636,
+              24,
+              6,
+              4
+            ],
+            "contour": [
+              [
+                636,
+                24
+              ],
+              [
+                636,
+                27
+              ],
+              [
+                641,
+                27
+              ],
+              [
+                641,
+                24
+              ]
+            ],
+            "hand_fraction": 0.012042147516307075
+          }
+        ]
+      },
+      "selected_original_contour": {
+        "point": [
+          638.5,
+          25.5
+        ],
+        "area": 15.0,
+        "box": [
+          636,
+          24,
+          6,
+          4
+        ],
+        "contour": [
+          [
+            636,
+            24
+          ],
+          [
+            636,
+            27
+          ],
+          [
+            641,
+            27
+          ],
+          [
+            641,
+            24
+          ]
+        ],
+        "hand_fraction": 0.012042147516307075
+      }
+    },
+    {
+      "frame": 11236,
+      "method": "actual_source_hsv_fragment_below_global_area_gate",
+      "original_row": [
+        null,
+        null,
+        0.0,
+        0.0,
+        187266.0,
+        0.0,
+        0.0
+      ],
+      "reviewed_row": [
+        616.485380116959,
+        26.222222222222218,
+        28.5,
+        1.0,
+        187266.0,
+        0.009533366783743101,
+        0.0
+      ],
+      "new_observation": true,
+      "selection": "Largest actual original-HSV red fragment in the manually inspected upper free-ball ROI. Other smaller source fragments are retained in evidence; no averaged or predicted point.",
+      "source_evidence": {
+        "frame": 11236,
+        "source_pts_ms": 187266.0,
+        "original_row": [
+          null,
+          null,
+          0.0,
+          0.0,
+          187266.0,
+          0.0,
+          0.0
+        ],
+        "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2304\\source_f11236.png",
+        "source_png_sha256": "5deefd161dce969a75d2cb6282e9232dbada630597d131f32acb041753f6e726",
+        "source_bgr_sha256": "c8b4af5212a73136d129d1a30dea38f0a051044234273661ff5ede23177d49dc",
+        "roi": [
+          580,
+          0,
+          680,
+          160
+        ],
+        "actual_hsv_contours": [
+          {
+            "point": [
+              616.485380116959,
+              26.222222222222218
+            ],
+            "area": 28.5,
+            "box": [
+              608,
+              24,
+              14,
+              8
+            ],
+            "contour": [
+              [
+                610,
+                24
+              ],
+              [
+                610,
+                27
+              ],
+              [
+                609,
+                28
+              ],
+              [
+                608,
+                28
+              ],
+              [
+                608,
+                29
+              ],
+              [
+                609,
+                29
+              ],
+              [
+                609,
+                28
+              ],
+              [
+                612,
+                25
+              ],
+              [
+                614,
+                25
+              ],
+              [
+                615,
+                26
+              ],
+              [
+                616,
+                26
+              ],
+              [
+                617,
+                27
+              ],
+              [
+                618,
+                27
+              ],
+              [
+                619,
+                28
+              ],
+              [
+                619,
+                29
+              ],
+              [
+                620,
+                30
+              ],
+              [
+                620,
+                31
+              ],
+              [
+                621,
+                31
+              ],
+              [
+                621,
+                26
+              ],
+              [
+                620,
+                26
+              ],
+              [
+                619,
+                25
+              ],
+              [
+                619,
+                24
+              ]
+            ],
+            "hand_fraction": 0.009533366783743101
+          }
+        ]
+      },
+      "selected_original_contour": {
+        "point": [
+          616.485380116959,
+          26.222222222222218
+        ],
+        "area": 28.5,
+        "box": [
+          608,
+          24,
+          14,
+          8
+        ],
+        "contour": [
+          [
+            610,
+            24
+          ],
+          [
+            610,
+            27
+          ],
+          [
+            609,
+            28
+          ],
+          [
+            608,
+            28
+          ],
+          [
+            608,
+            29
+          ],
+          [
+            609,
+            29
+          ],
+          [
+            609,
+            28
+          ],
+          [
+            612,
+            25
+          ],
+          [
+            614,
+            25
+          ],
+          [
+            615,
+            26
+          ],
+          [
+            616,
+            26
+          ],
+          [
+            617,
+            27
+          ],
+          [
+            618,
+            27
+          ],
+          [
+            619,
+            28
+          ],
+          [
+            619,
+            29
+          ],
+          [
+            620,
+            30
+          ],
+          [
+            620,
+            31
+          ],
+          [
+            621,
+            31
+          ],
+          [
+            621,
+            26
+          ],
+          [
+            620,
+            26
+          ],
+          [
+            619,
+            25
+          ],
+          [
+            619,
+            24
+          ]
+        ],
+        "hand_fraction": 0.009533366783743101
+      }
+    }
+  ],
+  "source_time_column_bitwise_unchanged": true,
+  "all_other_raw_rows_bitwise_unchanged": true,
+  "non_data_arrays_bitwise_unchanged": true,
+  "raw_schema": [
+    "u",
+    "v",
+    "ball_mask_area",
+    "candidate_count",
+    "source_pts_ms",
+    "hand_fraction",
+    "detector_reacquired_gap_frames"
+  ],
+  "metadata_policy": "Only restored rows have newly measured source metadata. All existing detector gap metadata remains original; scoring gaps follow finite/missing coordinates.",
+  "actual_visual_scope": "All20 original-source upper-rail crops opened at readable original panel resolution. In both cases the ball visibly contacts the upper cushion then returns freely; the red mask becomes too small for45px2 gate. There is no hand at these upper-rail measurements.",
+  "visually_reviewed_frames": [
+    8760,
+    8761,
+    8762,
+    8763,
+    8764,
+    8765,
+    8766,
+    8767,
+    8768,
+    8769,
+    11234,
+    11235,
+    11236,
+    11237,
+    11238,
+    11239,
+    11240,
+    11241,
+    11242,
+    11243
+  ],
+  "before": {
+    "attempts": 140,
+    "valid": 140,
+    "complete": 140
+  },
+  "after": {
+    "attempts": 140,
+    "valid": 140,
+    "complete": 140
+  },
+  "repaired_attempts": [
+    {
+      "attempt": 24,
+      "before": {
+        "attempt": 24,
+        "shot": 24,
+        "mode": "angle",
+        "scoring_version": 3,
+        "start_frame": 8722,
+        "end_frame": 9036,
+        "start_s": 145.366,
+        "end_s": 150.6,
+        "origin_rest_start_frame": 8454,
+        "next_origin_rest_start_frame": 8890,
+        "angle_search_end_frame": 8889,
+        "bank_frame": null,
+        "bank_s": "",
+        "target_bank_valid": 0,
+        "missing_frames": 110,
+        "interpolated_frames": 45,
+        "time_source": "decoder_timestamp_ms",
+        "angle_value": 9.47345359405971,
+        "angle_uncapped": 9.47345359405971,
+        "angle_maximum": 90.0,
+        "angle_status": "scored",
+        "angle_valid": 1,
+        "angle_stop_reason": "disappeared",
+        "angle_end_plane_x": 0.5342508973183949,
+        "angle_end_plane_y": 1.2709980182964533,
+        "angle_end_frame": 8883,
+        "angle_position_frame": 8823,
+        "angle_needs_review": 1,
+        "angle_assumed_stop": 0,
+        "angle_method": "observed_endpoint",
+        "angle_endpoint_kind": "disappeared",
+        "angle_raw_degrees": 9.47345359405971,
+        "angle_direction_status": "forward",
+        "angle_reverse": 0,
+        "angle_contact_kind": "",
+        "angle_evidence": "{}",
+        "angle_min_displacement_cm": 8.0,
+        "angle_max_displacement_cm": 125.84592404991064,
+        "angle_displacement_valid": 1,
+        "angle_displacement_end_frame": 8823,
+        "angle_displacement_frame": 8761,
+        "angle_displacement_sample_count": 57,
+        "strength_value": "",
+        "strength_uncapped": "",
+        "strength_maximum": "",
+        "strength_status": "not_requested",
+        "strength_valid": 0,
+        "strength_stop_reason": "",
+        "strength_end_plane_x": "",
+        "strength_end_plane_y": "",
+        "strength_end_frame": "",
+        "strength_position_frame": "",
+        "strength_needs_review": 0,
+        "strength_assumed_stop": 0,
+        "strength_method": "",
+        "collision_evidence": "[]",
+        "valid": 1,
+        "score_complete": 1,
+        "needs_review": 1,
+        "assumed_stop": 0,
+        "stop_reason": "disappeared",
+        "value": 9.47345359405971,
+        "uncapped_value": 9.47345359405971,
+        "maximum": 90.0,
+        "end_plane_x": 0.5342508973183949,
+        "end_plane_y": 1.2709980182964533,
+        "position_frame": 8823
+      },
+      "after": {
+        "attempt": 24,
+        "shot": 24,
+        "mode": "angle",
+        "scoring_version": 3,
+        "start_frame": 8722,
+        "end_frame": 9036,
+        "start_s": 145.366,
+        "end_s": 150.6,
+        "origin_rest_start_frame": 8454,
+        "next_origin_rest_start_frame": 8890,
+        "angle_search_end_frame": 8889,
+        "bank_frame": 8761,
+        "bank_s": 146.016,
+        "target_bank_valid": 1,
+        "missing_frames": 109,
+        "interpolated_frames": 44,
+        "time_source": "decoder_timestamp_ms",
+        "angle_value": 0.05794592536777529,
+        "angle_uncapped": 0.05794592536777529,
+        "angle_maximum": 90.0,
+        "angle_status": "scored",
+        "angle_valid": 1,
+        "angle_stop_reason": "first_cushion",
+        "angle_end_plane_x": 0.5040032897341328,
+        "angle_end_plane_y": -0.0008950793643322986,
+        "angle_end_frame": 8772,
+        "angle_position_frame": 8761,
+        "angle_needs_review": 0,
+        "angle_assumed_stop": 0,
+        "angle_method": "observed_endpoint",
+        "angle_endpoint_kind": "first_cushion",
+        "angle_raw_degrees": 0.05794592536777529,
+        "angle_direction_status": "forward",
+        "angle_reverse": 0,
+        "angle_contact_kind": "target",
+        "angle_evidence": "{\"frame\":8761,\"before_frame\":8750,\"after_frame\":8772,\"time_s\":146.016,\"kind\":\"target\",\"plane_point\":[0.5040032897341328,-0.0008950793643322986],\"approach_vector\":[-0.006856144150657939,-0.3563308819226096],\"return_vector\":[0.01512510155467095,0.3207124287109401]}",
+        "angle_min_displacement_cm": 8.0,
+        "angle_max_displacement_cm": 125.84592404991064,
+        "angle_displacement_valid": 1,
+        "angle_displacement_end_frame": 8761,
+        "angle_displacement_frame": 8761,
+        "angle_displacement_sample_count": 21,
+        "strength_value": "",
+        "strength_uncapped": "",
+        "strength_maximum": "",
+        "strength_status": "not_requested",
+        "strength_valid": 0,
+        "strength_stop_reason": "",
+        "strength_end_plane_x": "",
+        "strength_end_plane_y": "",
+        "strength_end_frame": "",
+        "strength_position_frame": "",
+        "strength_needs_review": 0,
+        "strength_assumed_stop": 0,
+        "strength_method": "",
+        "collision_evidence": "[{\"frame\":8761,\"before_frame\":8750,\"after_frame\":8772,\"time_s\":146.016,\"kind\":\"target\",\"plane_point\":[0.5040032897341328,-0.0008950793643322986],\"approach_vector\":[-0.006856144150657939,-0.3563308819226096],\"return_vector\":[0.01512510155467095,0.3207124287109401]}]",
+        "valid": 1,
+        "score_complete": 1,
+        "needs_review": 0,
+        "assumed_stop": 0,
+        "stop_reason": "first_cushion",
+        "value": 0.05794592536777529,
+        "uncapped_value": 0.05794592536777529,
+        "maximum": 90.0,
+        "end_plane_x": 0.5040032897341328,
+        "end_plane_y": -0.0008950793643322986,
+        "position_frame": 8761
+      },
+      "changed_fields": [
+        "angle_contact_kind",
+        "angle_displacement_end_frame",
+        "angle_displacement_sample_count",
+        "angle_end_frame",
+        "angle_end_plane_x",
+        "angle_end_plane_y",
+        "angle_endpoint_kind",
+        "angle_evidence",
+        "angle_needs_review",
+        "angle_position_frame",
+        "angle_raw_degrees",
+        "angle_stop_reason",
+        "angle_uncapped",
+        "angle_value",
+        "bank_frame",
+        "bank_s",
+        "collision_evidence",
+        "end_plane_x",
+        "end_plane_y",
+        "interpolated_frames",
+        "missing_frames",
+        "needs_review",
+        "position_frame",
+        "stop_reason",
+        "target_bank_valid",
+        "uncapped_value",
+        "value"
+      ]
+    },
+    {
+      "attempt": 30,
+      "before": {
+        "attempt": 30,
+        "shot": 30,
+        "mode": "angle",
+        "scoring_version": 3,
+        "start_frame": 11190,
+        "end_frame": 11635,
+        "start_s": 186.5,
+        "end_s": 193.916,
+        "origin_rest_start_frame": 11026,
+        "next_origin_rest_start_frame": 11359,
+        "angle_search_end_frame": 11358,
+        "bank_frame": null,
+        "bank_s": "",
+        "target_bank_valid": 0,
+        "missing_frames": 83,
+        "interpolated_frames": 37,
+        "time_source": "decoder_timestamp_ms",
+        "angle_value": 9.619874945136356,
+        "angle_uncapped": 9.619874945136356,
+        "angle_maximum": 90.0,
+        "angle_status": "scored",
+        "angle_valid": 1,
+        "angle_stop_reason": "disappeared",
+        "angle_end_plane_x": 0.4488878489284461,
+        "angle_end_plane_y": 1.213892696872954,
+        "angle_end_frame": 11358,
+        "angle_position_frame": 11307,
+        "angle_needs_review": 1,
+        "angle_assumed_stop": 0,
+        "angle_method": "observed_endpoint",
+        "angle_endpoint_kind": "disappeared",
+        "angle_raw_degrees": 9.619874945136356,
+        "angle_direction_status": "forward",
+        "angle_reverse": 0,
+        "angle_contact_kind": "",
+        "angle_evidence": "{}",
+        "angle_min_displacement_cm": 8.0,
+        "angle_max_displacement_cm": 125.60157067137636,
+        "angle_displacement_valid": 1,
+        "angle_displacement_end_frame": 11307,
+        "angle_displacement_frame": 11235,
+        "angle_displacement_sample_count": 82,
+        "strength_value": "",
+        "strength_uncapped": "",
+        "strength_maximum": "",
+        "strength_status": "not_requested",
+        "strength_valid": 0,
+        "strength_stop_reason": "",
+        "strength_end_plane_x": "",
+        "strength_end_plane_y": "",
+        "strength_end_frame": "",
+        "strength_position_frame": "",
+        "strength_needs_review": 0,
+        "strength_assumed_stop": 0,
+        "strength_method": "",
+        "collision_evidence": "[]",
+        "valid": 1,
+        "score_complete": 1,
+        "needs_review": 1,
+        "assumed_stop": 0,
+        "stop_reason": "disappeared",
+        "value": 9.619874945136356,
+        "uncapped_value": 9.619874945136356,
+        "maximum": 90.0,
+        "end_plane_x": 0.4488878489284461,
+        "end_plane_y": 1.213892696872954,
+        "position_frame": 11307
+      },
+      "after": {
+        "attempt": 30,
+        "shot": 30,
+        "mode": "angle",
+        "scoring_version": 3,
+        "start_frame": 11190,
+        "end_frame": 11635,
+        "start_s": 186.5,
+        "end_s": 193.916,
+        "origin_rest_start_frame": 11026,
+        "next_origin_rest_start_frame": 11359,
+        "angle_search_end_frame": 11358,
+        "bank_frame": 11235,
+        "bank_s": 187.25,
+        "target_bank_valid": 1,
+        "missing_frames": 82,
+        "interpolated_frames": 36,
+        "time_source": "decoder_timestamp_ms",
+        "angle_value": 2.196739163941076,
+        "angle_uncapped": 2.196739163941076,
+        "angle_maximum": 90.0,
+        "angle_status": "scored",
+        "angle_valid": 1,
+        "angle_stop_reason": "first_cushion",
+        "angle_end_plane_x": 0.4481767116576381,
+        "angle_end_plane_y": 0.002714112416702786,
+        "angle_end_frame": 11247,
+        "angle_position_frame": 11235,
+        "angle_needs_review": 0,
+        "angle_assumed_stop": 0,
+        "angle_method": "observed_endpoint",
+        "angle_endpoint_kind": "first_cushion",
+        "angle_raw_degrees": 2.196739163941076,
+        "angle_direction_status": "forward",
+        "angle_reverse": 0,
+        "angle_contact_kind": "target",
+        "angle_evidence": "{\"frame\":11235,\"before_frame\":11223,\"after_frame\":11247,\"time_s\":187.25,\"kind\":\"target\",\"plane_point\":[0.4481767116576381,0.002714112416702786],\"approach_vector\":[-0.013879993955489556,-0.32865460759848425],\"return_vector\":[0.005357486564817215,0.29932703838319374]}",
+        "angle_min_displacement_cm": 8.0,
+        "angle_max_displacement_cm": 125.60157067137636,
+        "angle_displacement_valid": 1,
+        "angle_displacement_end_frame": 11235,
+        "angle_displacement_frame": 11235,
+        "angle_displacement_sample_count": 31,
+        "strength_value": "",
+        "strength_uncapped": "",
+        "strength_maximum": "",
+        "strength_status": "not_requested",
+        "strength_valid": 0,
+        "strength_stop_reason": "",
+        "strength_end_plane_x": "",
+        "strength_end_plane_y": "",
+        "strength_end_frame": "",
+        "strength_position_frame": "",
+        "strength_needs_review": 0,
+        "strength_assumed_stop": 0,
+        "strength_method": "",
+        "collision_evidence": "[{\"frame\":11235,\"before_frame\":11223,\"after_frame\":11247,\"time_s\":187.25,\"kind\":\"target\",\"plane_point\":[0.4481767116576381,0.002714112416702786],\"approach_vector\":[-0.013879993955489556,-0.32865460759848425],\"return_vector\":[0.005357486564817215,0.29932703838319374]}]",
+        "valid": 1,
+        "score_complete": 1,
+        "needs_review": 0,
+        "assumed_stop": 0,
+        "stop_reason": "first_cushion",
+        "value": 2.196739163941076,
+        "uncapped_value": 2.196739163941076,
+        "maximum": 90.0,
+        "end_plane_x": 0.4481767116576381,
+        "end_plane_y": 0.002714112416702786,
+        "position_frame": 11235
+      },
+      "changed_fields": [
+        "angle_contact_kind",
+        "angle_displacement_end_frame",
+        "angle_displacement_sample_count",
+        "angle_end_frame",
+        "angle_end_plane_x",
+        "angle_end_plane_y",
+        "angle_endpoint_kind",
+        "angle_evidence",
+        "angle_needs_review",
+        "angle_position_frame",
+        "angle_raw_degrees",
+        "angle_stop_reason",
+        "angle_uncapped",
+        "angle_value",
+        "bank_frame",
+        "bank_s",
+        "collision_evidence",
+        "end_plane_x",
+        "end_plane_y",
+        "interpolated_frames",
+        "missing_frames",
+        "needs_review",
+        "position_frame",
+        "stop_reason",
+        "target_bank_valid",
+        "uncapped_value",
+        "value"
+      ]
+    }
+  ],
+  "unchanged_attempts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    28,
+    29,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140
+  ],
+  "all_other_attempt_fields_exactly_unchanged": true,
+  "source_evidence": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2304\\source_evidence.json",
+  "source_evidence_sha256": "05844681fb0d65e2c2b3f634732b57c7522e29d63e5229d5cc1ece9d17d6c457",
+  "before_after_records": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2304\\before_after_records.json",
+  "before_after_records_sha256": "2f9617a5fb028d534cd7bf075a4473ea72a000300c781c29c4311c46a17fe8dc",
+  "limitation": "Two local actual HSV fragment recoveries only. No interpolation, prediction, coordinate averaging, correct-point deletion, score/core change or native installation. This is not a full manual truth annotation."
+}

@@ -1,0 +1,42 @@
+{
+  "visible_points": {
+    "TR": [
+      815.0,
+      25.0
+    ],
+    "BR": [
+      798.0,
+      708.0
+    ],
+    "O": [
+      630.9132075471698,
+      545.1471698113207
+    ],
+    "Y": [
+      751.8414096916299,
+      541.3039647577092
+    ],
+    "B": [
+      641.0,
+      18.0
+    ]
+  },
+  "provenance": {
+    "method": "Independent source frame30 manual rail/strip review and local contrast-centroid measurement of O/Y; fixed seven-landmark template reconstruction.",
+    "source_video": "D:\\experiment\\19\\19_01_baseline_both_010shots.mkv",
+    "source_video_sha256": "49739c5fbbe48b24163952a678b19f3b78380ce18df9e4354759c8e1aa9c1039",
+    "source_frame": 30,
+    "source_raw_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1920_20261025\\preflight\\19_01_baseline_both_010shots_frame30_raw.png",
+    "source_raw_png_sha256": "50c485808fecbb66d5788c651da99a37ed91232d9118d1c8bf0540b96b1bb336",
+    "source_bgr_sha256": "a52b0d74700005cbb2b61395b2d4f4fda62fb3b036165c5226d98c1813e5370b",
+    "recording_audit": "D:\\experiment\\19\\19_01_baseline_both_010shots.20261025_144855_878404.partial.live_count.json",
+    "recording_audit_sha256": "5c31290202b75594b0a3872b8a38cd40e8a84f9d0b159b030b6df88ed3f476e3",
+    "manual_observations": {
+      "TR": "Approximate intersection of adjoining top/right rail lines around the corner pocket in this raw frame.",
+      "BR": "Approximate intersection of adjoining bottom/right rail lines around the corner pocket in this raw frame.",
+      "B": "Visible narrow dark strip attached to the upper cushion; manually located near its cloth-side centre, not the old out-of-image location."
+    },
+    "O_Y_measurement": "19x19 grayscale windows; nonnegative (local median - pixel - 8) contrast weights; no red-ball coordinates used.",
+    "limitation": "TR/BR are image rail-intersection estimates around pockets, and B is a few-pixel mark attached to a dark rail. O/Y centroids are repeatable measurements, not surveyed true positions. All inferred corners and template residuals retain image/template uncertainty."
+  }
+}

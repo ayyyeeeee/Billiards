@@ -1,0 +1,9 @@
+Primary mean and variance are constant-location/scale Student-t maximum likelihood estimates, fixed df=5.
+Variance = scale^2 * 5/3. Raw sample moments are retained in raw_* columns.
+Baseline/post-test: scored valid finite components. Training: finite labeled values excluding outlier=1; no status/review exclusion.
+Variance axes use symlog (linear below 0.01 strength squared / 0.1 deg squared); no points trimmed.
+Group crosshairs describe between-participant mean +/- SEM, not within-stage fit uncertainty.
+Primary overview split into separate 180 x 170 mm mean/variance figures; companion three-rule PDF/CSV/Markdown statistics tables.
+Paired tests in CSV are exploratory, unadjusted and do not propagate stage-estimation uncertainty.
+Post-test combines trained-task retention and untrained-task transfer depending on group.
+Censoring requires value at recorded cap plus uncapped estimate beyond cap; likelihood uses tail probability.

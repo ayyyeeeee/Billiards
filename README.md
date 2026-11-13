@@ -23,9 +23,9 @@
 
 Python环境安装 `python -m pip install -r requirements_publication.txt`。桌面学习曲线需要可用的Tk。机器上的 `.deps`、`.tcl` 是当前桌面程序的本地兼容依赖，保留本地但不上传第三方运行库。命令从仓库根目录执行。
 
-## 数据保护与公开范围
+## 数据保护与上传范围
 
-研究者于2026-11-13明确确认公开代码和全部实验CSV。视频不上传，也不删除，见 [视频清单](docs/maintenance/videos.json)。日志保留本地；排除日志不代表删除。仓库不是原始视频备份。
+研究者于2026-11-13将仓库改为私有；代码和全部实验CSV上传至私有仓库。视频不上传，也不删除，见 [视频清单](docs/maintenance/videos.json)。日志保留本地；排除日志不代表删除。仓库不是原始视频备份。请勿在未获明确授权时改回公开。
 
 清理前有2,523个CSV、210个视频。CSV逐文件SHA-256保护，视频路径/大小/修改时间保护，见 [保护清单](docs/maintenance/protected_files.json) 和 [清理报告](docs/maintenance/cleanup_report.json)。
 

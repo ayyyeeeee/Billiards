@@ -1,0 +1,41 @@
+========================================================================
+  Outlier Detection Report
+========================================================================
+
+Participant : 26
+CSV File    : 26_04_training_angle_140shots.csv
+Mode        : angle
+Total shots : 140
+Review policy: retained data are manually reviewed; historical review flags are ignored.
+Flags: 1 = statistical outlier; 0 = not flagged (including untested rows).
+Generated   : 2026-11-12 19:57:36
+
+────────────────────────────────────────────────────────────────────────
+
+  Channel: ANGLE
+  ────────────────────────────────────────
+  Eligible obs     : 140
+  Spline df        : 6
+  Outliers detected: 2
+  Not tested (ineligible): 0
+  Undefined tests (flag 0): 0
+
+  Outlier details:
+   Shot         Value     Predicted      Residual       t_ext         p_raw        p_Bonf
+  ─────────────────────────────────────────────────────────────────────────────────────
+     88     -6.960000     -0.250032     -6.709968     -4.5569    0.00001162    0.00162734
+    114    -11.060000     -0.363147    -10.696853     -8.3664    0.00000000    0.00000000
+
+  Assumption diagnostics:
+  shapiro_wilk: statistic=0.701233, p=0.000000
+  durbin_watson: 2.2328
+  ⚠ Shapiro-Wilk p = 0.0000 < 0.05 — residuals may not be normally distributed; t-test p-values may be unreliable.
+
+  Channel: STRENGTH
+  ────────────────────────────────────────
+  Fit skipped : Only 0 eligible observations (need ≥ 15).
+  Eligible obs: 0
+  Outliers    : N/A
+
+
+========================================================================

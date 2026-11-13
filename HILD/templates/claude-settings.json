@@ -1,0 +1,36 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR\"/HILD/scripts/session_context.sh 2>/dev/null || true",
+            "timeout": 40,
+            "statusMessage": "Gathering orientation data..."
+          }
+        ]
+      },
+      {
+        "matcher": "compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Context was just compacted. Before continuing, record any milestone that HILD/journal/ and HILD/plan.md do not yet show (journal skill), using the summary and git log.'"
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'When summarizing, keep every milestone not yet recorded in HILD/journal/ or HILD/plan.md: finished sub-steps, PR state changes, results, findings, decisions, and open questions for the reviewer.'"
+          }
+        ]
+      }
+    ]
+  }
+}

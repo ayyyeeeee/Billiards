@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "source_sha256": "46c476f735e32e4b98225e48440c38e06acd7c601e7d330286bb009b266568fc",
+  "raw_evidence_sha256": "a55e6605f3a229934262f0e4fd0bfb28afe5abf409387d347413607e3940c65f",
+  "calibration_sha256": "de1c07f64d1fbc7d6bf0d0a37271d7fc7e772dad2aced709e8b31f4d24f588f7",
+  "overrides": {
+    "rail_tolerance": 0.0355
+  },
+  "original_config_sha256": "c034d74ad5894acdb6d269c0555136d8731ccc3e144fb8dfa5f818b6e34c5974",
+  "stem": "29_04_training_angle_140shots",
+  "method": "Source-local scoring-only rail proximity override .035 -> .0355 after actual first left contact review.",
+  "source_contact_candidate": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2829_20261101\\angle_review\\29_04_training_angle_140shots__attempt11\\first_left_contact_candidate.json",
+  "source_contact_candidate_sha256": "5dd2329850b88106ac21b013ccc5f968a9e95dd27fd7fb9cf08a36c37c1ddc64",
+  "scoring_verification": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2829_20261101\\angle_review\\source_config_candidate_2904\\candidate_scoring_verification.json",
+  "scoring_verification_sha256": "7726794efcc26db29b5fb9ff4152a4181f5753865386d0b9fbca3721ed74bd13",
+  "actual_contact_frame": 6859,
+  "angle_before": 16.54,
+  "angle_after": 18.27,
+  "conclusion": "Actual earlier left-cushion turn was excluded by the prior proximity gate by less than one pixel. Candidate recovers first contact using existing observed local extremum and increases angle error; all other139 native rows and every strength/count/timing field remain unchanged.",
+  "limitations": "Only this source and exact data/config/calibration are approved as a candidate. It is not a general detector or scoring-core change and does not claim all-frame contact ground truth."
+}

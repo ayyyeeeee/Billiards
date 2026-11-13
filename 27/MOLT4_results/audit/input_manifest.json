@@ -1,0 +1,3673 @@
+{
+  "core_sha256": {
+    "__init__.py": "4e85c890d96efa98270b342c445de5b9d56f03c79c7a69d2cd3eab6bb8860ea7",
+    "audit_hand_stops.py": "64e4227ba2606f3e1513b7172a659a6be7145efe17c76ad6888bcfd44fbc018a",
+    "calibration.py": "ed56069eec6b00d672922c86b015e0f9f4786aed732b19b6bb5d9595f46b1dc1",
+    "config.json": "580fbaebdec501cf5d79b3ebab10a0b7ee029de25059df85e9c173a46dd0e366",
+    "enrich_review.py": "3816261558ae552b1d25f10377ac0d6be77cc90a88125386de09ff968a858e94",
+    "geometry.py": "ce9d4c2931483476717395216dc34d844e981ae9bc2ef1ea1b135831a65afa1d",
+    "learn_table_template.py": "36b86208b7b0c463e5b7601253c355e9314bf4e220b074adabb0151758ead579",
+    "manual_calibration.py": "02841b10def5b6bf6582262afd77a74b801f2916c154926fcf448c5db07de0e9",
+    "modes.py": "c542d93842f6f6c6d9dff3159c10a08d6ce1ef241c35277b25d2ee7b459d8263",
+    "motion.py": "31e807f4c265ca1fddafd857c738372cbe787fd6268fd9ed2e619054c10617f9",
+    "motion_model.json": "a2e78e092adaa9d0748e4b62aff813d2f73827b89744b9f8130242b6a55d238b",
+    "obstructions.py": "aff8e36cac60cba099f93dd55256ef767ab140f8c20c47643ed1c5a46a747fbc",
+    "pipeline.py": "33c7c49c8117c1e568f7282a01d61e193cd9ff6a86fe5094d373cf0ef974e3ed",
+    "reference_constants.json": "09e03a65c0c62ac68fe84a49744295b1af18d3a33331093d1b1cb6e6d31849ad",
+    "review.py": "7880c5ec23d518da5034591bbc9aa88478fe128f3726d3d038ad07814c9cd9e4",
+    "rules.py": "6d553b1a3028544a078b837e7c5ddf27662d88f24a61cecd105982acb9b2d4ec",
+    "rules_v2.py": "4a4ac9099551a62cae7e171a9b93e76c42bb20f99541ecdafef6acf02367a0e2",
+    "rules_v3.py": "298f32fa19f8bc96f876f6e9623bf07fd5923b278c57ed43cbfb80b9699670a9",
+    "table_template.json": "801f3314f0a5dce7906002e8e69d1f5e4dcb3c1de0faf946c3d8d73ecef7aa8f",
+    "test_count_assessment.py": "046d8357fad7fe4d1c1546422471b36df5e228fc752aab9f7c089b2d472c83b6",
+    "test_geometry.py": "7e4dafa86235f29e67e50ab0eca765bd0d4bb2d6a3c4e8eefc81c4b13508d8a6",
+    "test_modes.py": "7a7c5e70cae6dcc22998e5372a2f0770e4500ba494c766cf4dd4e1376de5ec77",
+    "test_motion.py": "a5b07bde7701bb6b278915d845783e7a26ca5f4a70b7b2af5b8655ac7f828039",
+    "test_obstructions.py": "e24b9e765fe844d63cc00c200183792ca5739ec8f5aaff2d9a9dd0c70ce9dd8f",
+    "test_output_paths.py": "3f55cba6845782b6d1ef2705a6df159f5aae07892216bf3759f6ed582f770e84",
+    "test_rules.py": "4ba9041d46f0a268b1277c342a83f6ec85a1e2f0999fe183abffa0e80453c73c",
+    "test_scoring_v2.py": "e7e1259781a649d775b7a7fc4735989bceeef47f00c1938da80e1314f998a4b6",
+    "test_scoring_v3.py": "90fee5a6c8882d3638c8b2cf931e55f017049357dde3422e850343295738642a",
+    "test_validation_v2.py": "836301b43965536c494460b3597ba2b22b1b4ef38e880ae5cd0f53351da3e30e",
+    "test_validation_v3.py": "00dff54db79a347a9cf76dba12ae4e947e4ce2e4226488372972ed064fa2f7b5",
+    "validate_outputs.py": "310646df62ce5f4240d4b36b5a58c9444d14514bf547217aef219710b3478b11",
+    "verified_counts.json": "0447edcc0343871805b7e5b51b69458c4a9a2892452c95325e30f61a728f9d03",
+    "vision.py": "aa5165ef18d09c84bdb47870deeb284ebb57491aa2111b7ef9eca4da67d61817"
+  },
+  "original_inventory_sha256": "1a8a26e6acedda8f97f61e9ae4aba79932ed12a371d09bd19a1af1203ade599d",
+  "protected_files": [
+    {
+      "path": "D:\\experiment\\27\\27_01_baseline_both_010shots.20261029_120442_446999.partial.live_count.json",
+      "sha256": "a72cd6dc7684bd85c138950a3cde6d147888f95f41853d8c03e57477d8e8cf49"
+    },
+    {
+      "path": "D:\\experiment\\27\\27_01_baseline_both_010shots.20261029_120442_446999.partial.log",
+      "sha256": "ecad1a64db28628e6e3f597da3cff807e848ab6f408b57ab17b4a5061036e10c"
+    },
+    {
+      "path": "D:\\experiment\\27\\27_02_baseline_strength_010shots.20261029_121002_080346.partial.live_count.json",
+      "sha256": "8ed6dbe96d7bb60b61ecf9ac9ebddbccd024a677b93fa8b905e2060497c114a0"
+    },
+    {
+      "path": "D:\\experiment\\27\\27_02_baseline_strength_010shots.20261029_121002_080346.partial.log",
+      "sha256": "5af75f0bd6f11e942088ee30cfca2263dc5561d564f96b562c6930e2e9c1d09d"
+    },
+    {
+      "path": "D:\\experiment\\27\\27_03_baseline_angle_010shots.20261029_121200_020441.partial.live_count.json",
+      "sha256": "748f01dedfed093252e17b292e92072d1021f8cd9f97916cf8b3d40fd17ff40f"
+    },
+    {
+      "path": "D:\\experiment\\27\\27_03_baseline_angle_010shots.20261029_121200_020441.partial.log",
+      "sha256": "c3d5347a3bd6760b64eef64a62e9218e4304b89356b3e2344846db5afd7afd63"
+    },
+    {
+      "path": "D:\\experiment\\27\\27_04_training_strength_140shots.20261029_121348_631873.partial.live_count.json",
+      "sha256": "666f797998251489561d897243a979b2796fc92434732368565aa9f38a6f26b3"
+    },
+    {
+      "path": "D:\\experiment\\27\\27_04_training_strength_140shots.20261029_121348_631873.partial.log",
+      "sha256": "5377536bc16a7a466c1f3fb46d85678d820b693a96a46142dc9942ed6e5708ef"
+    },
+    {
+      "path": "D:\\experiment\\27\\27_05_test_both_030shots.20261029_123829_380410.partial.live_count.json",
+      "sha256": "b6689dae0232dc7b593f9be4c84e4db67d62a0362ff7adb4cdf097ad555e3b89"
+    },
+    {
+      "path": "D:\\experiment\\27\\27_05_test_both_030shots.20261029_123829_380410.partial.log",
+      "sha256": "551757fcb1a9cfba8177cc270783dbd8cd70bc07e5094984aa3860472ff32798"
+    },
+    {
+      "path": "D:\\experiment\\27\\27_06_test_strength_030shots.20261029_125144_225635.partial.live_count.json",
+      "sha256": "0da09bcc10b48656adf41ea0bb3cff96a34c0c340badbec237aa3bab04e2a623"
+    },
+    {
+      "path": "D:\\experiment\\27\\27_06_test_strength_030shots.20261029_125144_225635.partial.log",
+      "sha256": "1518c9b2172da088db9e88aa3438bc916fb0a6215478a122fbfaa9827e9614ff"
+    },
+    {
+      "path": "D:\\experiment\\27\\27_07_test_angle_030shots.20261029_125648_976315.partial.live_count.json",
+      "sha256": "53f87213cde7c88639426f8faf8bd5e1845863efff78173fd81306d697430496"
+    },
+    {
+      "path": "D:\\experiment\\27\\27_07_test_angle_030shots.20261029_125648_976315.partial.log",
+      "sha256": "02024279646026b3094fbe43e26306dd9ab94f4faf52a88f5e55838671617063"
+    },
+    {
+      "path": "D:\\experiment\\27\\session.json",
+      "sha256": "5ff4653a6041de796bdfded002d7e72c7a1a1bbd8c143615351999281082d06b"
+    }
+  ],
+  "sources": [
+    {
+      "bytes": 100344950,
+      "calibration_from_recording": {
+        "angle_cap_observed": 13.486097454032032,
+        "aspect_ratio": 2.0,
+        "axes_H": [
+          [
+            -4.964388083225651e-05,
+            -0.001715984122019423,
+            0.9852991104648703
+          ],
+          [
+            0.0016796817124181715,
+            3.18665501774907e-05,
+            -1.0764811361275404
+          ],
+          [
+            -0.00015147942006150816,
+            -5.214354762521714e-05,
+            1.0
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.0140865814724789,
+            -0.34080977340209934
+          ],
+          [
+            1.0045053587317432,
+            0.3333773650928768
+          ],
+          [
+            -0.34376701295298706,
+            0.342989686197635
+          ],
+          [
+            -0.33418579021225137,
+            -0.33119745229734115
+          ]
+        ],
+        "axis_nonorthogonality_degrees": 1.2227112615578477,
+        "calibration_quality": {
+          "accuracy_check": "visible_rail_intersections_and_partial_marks",
+          "dlt_condition": 8.95511698692053,
+          "ignored_inconsistent_marker_candidates": {},
+          "marker_detection": {
+            "O": {
+              "candidate_count": 1,
+              "contrast": 37.49089050292969,
+              "expected_raw": [
+                625.1899263869491,
+                532.5890392981723
+              ],
+              "runner_up_score_ratio": 0.0,
+              "size_px": [
+                5,
+                5
+              ]
+            },
+            "Y": {
+              "candidate_count": 1,
+              "contrast": 28.188880920410156,
+              "expected_raw": [
+                750.0252409892889,
+                530.8877681255866
+              ],
+              "runner_up_score_ratio": 0.0,
+              "size_px": [
+                5,
+                4
+              ]
+            }
+          },
+          "observed_points": {
+            "O": [
+              630.3365808835883,
+              555.9531373964979
+            ],
+            "TL": [
+              451.7763700605754,
+              10.933416994692656
+            ],
+            "TR": [
+              813.7627850419597,
+              38.60235252814102
+            ],
+            "Y": [
+              752.2047388830492,
+              552.4274589037086
+            ]
+          },
+          "reconstructed_names": [
+            "BR",
+            "BL",
+            "B"
+          ],
+          "reference_points_inside_image": {
+            "B": true,
+            "BL": false,
+            "BR": true,
+            "O": true,
+            "TL": true,
+            "TR": true,
+            "Y": true
+          },
+          "reprojection_residual_px": {
+            "O": 2.5421149729252077e-13,
+            "TL": 1.546246950374953e-13,
+            "TR": 7.105427357601002e-15,
+            "Y": 2.5421149729252077e-13
+          },
+          "side_rail_source": "Robust visible cloth-boundary fits with configured cushion margin",
+          "template_version": "seven_landmarks_multiview_v2",
+          "visible_short_rails": {
+            "top": {
+              "coverage": 0.9963503649635036,
+              "inliers": 90,
+              "line_y_from_x": [
+                0.07643639205319704,
+                -23.598738747627714
+              ],
+              "median_gradient": 17.6875,
+              "residual_px": 0.2646206967079401
+            }
+          }
+        },
+        "corners": [
+          [
+            451.7763700605755,
+            10.933416994692761
+          ],
+          [
+            813.7627850419597,
+            38.602352528141026
+          ],
+          [
+            799.0516585474924,
+            719.6388766586571
+          ],
+          [
+            450.7810228008792,
+            735.133063226934
+          ]
+        ],
+        "distance_cap_observed": 0.3388839978576361,
+        "landmarks_raw": {
+          "B": [
+            640.3081199531308,
+            30.354610838574
+          ],
+          "BL": [
+            450.7810228008792,
+            735.133063226934
+          ],
+          "BR": [
+            799.0516585474924,
+            719.6388766586571
+          ],
+          "O": [
+            630.3365808835886,
+            555.953137396498
+          ],
+          "TL": [
+            451.7763700605755,
+            10.933416994692761
+          ],
+          "TR": [
+            813.7627850419597,
+            38.602352528141026
+          ],
+          "Y": [
+            752.2047388830495,
+            552.4274589037087
+          ]
+        },
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates.",
+        "obstructions": {
+          "contours": [
+            {
+              "area_tablewidth_squared": 0.00398,
+              "ball_radius_source": "sqrt(reference_ball_area_px/pi), locally transformed to table plane",
+              "ball_radius_tablewidth_estimate": 0.0171482353897223,
+              "id": "left_1",
+              "image_contour": [
+                [
+                  460.31014205847396,
+                  381.35422240252757
+                ],
+                [
+                  460.2896705183162,
+                  392.18853905613474
+                ],
+                [
+                  470.05094376578364,
+                  391.5926700009961
+                ],
+                [
+                  471.5551134639837,
+                  389.4501432584598
+                ],
+                [
+                  474.55256488726855,
+                  388.76952081535944
+                ],
+                [
+                  493.20461689516395,
+                  389.7374850999189
+                ],
+                [
+                  494.694662321385,
+                  389.03928802321263
+                ],
+                [
+                  495.4995796228268,
+                  373.2417425592959
+                ],
+                [
+                  470.100356884835,
+                  371.38932807981234
+                ],
+                [
+                  471.58614786877627,
+                  377.1894465045404
+                ],
+                [
+                  469.3307798411611,
+                  379.320676441405
+                ],
+                [
+                  466.32828903151193,
+                  379.2757472475756
+                ],
+                [
+                  464.82281015702137,
+                  380.6978751681862
+                ],
+                [
+                  461.0652610332263,
+                  379.9198035169483
+                ]
+              ],
+              "needs_preview_review": true,
+              "plane_bounds": [
+                0.024,
+                0.974,
+                0.118,
+                1.032
+              ],
+              "plane_contour": [
+                [
+                  0.024,
+                  1.002
+                ],
+                [
+                  0.024,
+                  1.032
+                ],
+                [
+                  0.05,
+                  1.03
+                ],
+                [
+                  0.054,
+                  1.024
+                ],
+                [
+                  0.062,
+                  1.022
+                ],
+                [
+                  0.112,
+                  1.024
+                ],
+                [
+                  0.116,
+                  1.022
+                ],
+                [
+                  0.118,
+                  0.978
+                ],
+                [
+                  0.05,
+                  0.974
+                ],
+                [
+                  0.054,
+                  0.99
+                ],
+                [
+                  0.048,
+                  0.996
+                ],
+                [
+                  0.04,
+                  0.996
+                ],
+                [
+                  0.036,
+                  1.0
+                ],
+                [
+                  0.026,
+                  0.998
+                ]
+              ],
+              "reach_tablewidth": 0.118,
+              "side": "left"
+            },
+            {
+              "area_tablewidth_squared": 0.00299,
+              "ball_radius_source": "sqrt(reference_ball_area_px/pi), locally transformed to table plane",
+              "ball_radius_tablewidth_estimate": 0.018377757555472204,
+              "id": "right_2",
+              "image_contour": [
+                [
+                  769.462315379103,
+                  376.2672541181756
+                ],
+                [
+                  769.1817328336845,
+                  390.6607281654868
+                ],
+                [
+                  780.6728071043113,
+                  390.1351284585804
+                ],
+                [
+                  785.3575516896739,
+                  391.5662784487594
+                ],
+                [
+                  790.7334206099545,
+                  391.63957707956894
+                ],
+                [
+                  796.7116531278323,
+                  394.44721162440663
+                ],
+                [
+                  796.2854851768337,
+                  382.84847297526375
+                ],
+                [
+                  791.588874264406,
+                  382.7770573388529
+                ],
+                [
+                  789.6159587716888,
+                  380.6970964813651
+                ],
+                [
+                  787.5990729973993,
+                  380.6656964608853
+                ],
+                [
+                  780.9346543677744,
+                  377.13895619806885
+                ],
+                [
+                  771.5061135003824,
+                  375.6145918325482
+                ]
+              ],
+              "needs_preview_review": true,
+              "plane_bounds": [
+                0.89,
+                0.972,
+                0.972,
+                1.026
+              ],
+              "plane_contour": [
+                [
+                  0.89,
+                  0.974
+                ],
+                [
+                  0.89,
+                  1.016
+                ],
+                [
+                  0.924,
+                  1.014
+                ],
+                [
+                  0.938,
+                  1.018
+                ],
+                [
+                  0.954,
+                  1.018
+                ],
+                [
+                  0.972,
+                  1.026
+                ],
+                [
+                  0.97,
+                  0.992
+                ],
+                [
+                  0.956,
+                  0.992
+                ],
+                [
+                  0.95,
+                  0.986
+                ],
+                [
+                  0.944,
+                  0.986
+                ],
+                [
+                  0.924,
+                  0.976
+                ],
+                [
+                  0.896,
+                  0.972
+                ]
+              ],
+              "reach_tablewidth": 0.10999999999999999,
+              "side": "right"
+            }
+          ],
+          "coordinate_unit": "table_width",
+          "detection_parameters": {
+            "cloth_value_median": 157.0,
+            "dark_value_threshold": 85.0,
+            "minimum_reach": 0.055,
+            "rail_exclusion_width": 0.025,
+            "search_width": 0.23,
+            "warp_width": 500
+          },
+          "limitation": "Visible dark footprint is a collision candidate; image alone cannot establish hardware height.",
+          "source": "temporal_reference_image",
+          "version": "reference_black_protrusions_v1"
+        },
+        "opposite_rail_distance_observed": 0.3388839978576361,
+        "origin_plane": [
+          0.4948385484957445,
+          1.4972426110866808
+        ],
+        "origin_raw": [
+          630.3365808835886,
+          555.953137396498
+        ],
+        "plane_H": [
+          [
+            0.0024161871870457103,
+            3.3208319115474046e-06,
+            -1.091612584790442
+          ],
+          [
+            -0.00018856634121324736,
+            0.002466970720988668,
+            0.05821739754265784
+          ],
+          [
+            -0.00015147942006150816,
+            -5.214354762521714e-05,
+            1.0
+          ]
+        ],
+        "scale": 1.4835678051830754,
+        "source": "automatic_fixed_template_needs_preview_review",
+        "strength_cap_observed": 1.0090133562092733,
+        "strength_maximum": 1.0090133562092733,
+        "strip_plane": [
+          0.5054143715594064,
+          0.01371250200825236
+        ],
+        "strip_raw": [
+          640.3081199531308,
+          30.354610838574
+        ],
+        "table_length_cm": 168.0,
+        "table_width_cm": 84.0,
+        "upper_rail_reference_plane": [
+          0.5055121255544969,
+          0.0
+        ],
+        "y_marker_plane": [
+          0.8488639165793839,
+          1.4922109928784966
+        ],
+        "y_marker_raw": [
+          752.2047388830495,
+          552.4274589037087
+        ]
+      },
+      "fps": 60.0,
+      "frames": 11907,
+      "live_audit": "D:\\experiment\\27\\27_01_baseline_both_010shots.20261029_120442_446999.partial.live_count.json",
+      "live_audit_sha256": "a72cd6dc7684bd85c138950a3cde6d147888f95f41853d8c03e57477d8e8cf49",
+      "live_count": 10,
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\preflight\\27_01_baseline_both_010shots_median.npz",
+      "median_sha256": "ae67647cfeea6dc7d5630e308eb6e100e4681474b90e94e376300694056c91b8",
+      "name": "27_01_baseline_both_010shots.mkv",
+      "participant": "27",
+      "path": "D:\\experiment\\27\\27_01_baseline_both_010shots.mkv",
+      "session_sha256": "5ff4653a6041de796bdfded002d7e72c7a1a1bbd8c143615351999281082d06b",
+      "sha256": "b28e9a1d3c8ae5f6cbece06e1d7ea4ccdce3459379aa6e4148346cf6f833e987",
+      "size": [
+        1280,
+        720
+      ],
+      "stem": "27_01_baseline_both_010shots",
+      "training_group": "strength"
+    },
+    {
+      "bytes": 57828110,
+      "calibration_from_recording": {
+        "angle_cap_observed": 13.486097454031977,
+        "aspect_ratio": 2.0,
+        "axes_H": [
+          [
+            -5.095019156401235e-05,
+            -0.0017102658562384576,
+            0.9772817091372761
+          ],
+          [
+            0.0016797930617729235,
+            3.553495023779661e-05,
+            -1.077234771057488
+          ],
+          [
+            -0.000153439382750935,
+            -5.2322684045774104e-05,
+            1.0
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.0140865814724793,
+            -0.3408097734020989
+          ],
+          [
+            1.0045053587317427,
+            0.33337736509287713
+          ],
+          [
+            -0.3437670129529873,
+            0.342989686197635
+          ],
+          [
+            -0.3341857902122507,
+            -0.3311974522973411
+          ]
+        ],
+        "axis_nonorthogonality_degrees": 1.2227112615579045,
+        "calibration_quality": {
+          "accuracy_check": "visible_rail_intersections_and_partial_marks",
+          "dlt_condition": 8.955827421539944,
+          "ignored_inconsistent_marker_candidates": {},
+          "marker_detection": {
+            "O": {
+              "candidate_count": 1,
+              "contrast": 36.44849395751953,
+              "expected_raw": [
+                624.062965511842,
+                533.3533574141796
+              ],
+              "runner_up_score_ratio": 0.0,
+              "size_px": [
+                4,
+                4
+              ]
+            },
+            "Y": {
+              "candidate_count": 1,
+              "contrast": 29.02930450439453,
+              "expected_raw": [
+                748.1688985301963,
+                531.65729571859
+              ],
+              "runner_up_score_ratio": 0.0,
+              "size_px": [
+                5,
+                4
+              ]
+            }
+          },
+          "observed_points": {
+            "O": [
+              629.5988972557373,
+              552.6646756501802
+            ],
+            "TL": [
+              452.41945066412086,
+              6.360770056648807
+            ],
+            "TR": [
+              813.8891285007571,
+              34.236336677100695
+            ],
+            "Y": [
+              751.2903836287772,
+              549.0393886693291
+            ]
+          },
+          "reconstructed_names": [
+            "BR",
+            "BL",
+            "B"
+          ],
+          "reference_points_inside_image": {
+            "B": true,
+            "BL": false,
+            "BR": true,
+            "O": true,
+            "TL": true,
+            "TR": true,
+            "Y": true
+          },
+          "reprojection_residual_px": {
+            "O": 1.1368683772161603e-13,
+            "TL": 1.3430303272033151e-13,
+            "TR": 1.1368683772161603e-13,
+            "Y": 2.5421149729252077e-13
+          },
+          "side_rail_source": "Robust visible cloth-boundary fits with configured cushion margin",
+          "template_version": "seven_landmarks_multiview_v2",
+          "visible_short_rails": {
+            "top": {
+              "coverage": 0.9963503649635036,
+              "inliers": 90,
+              "line_y_from_x": [
+                0.07711730286004809,
+                -28.528597739992787
+              ],
+              "median_gradient": 17.28125,
+              "residual_px": 0.29172480103270715
+            }
+          }
+        },
+        "corners": [
+          [
+            452.4194506641208,
+            6.360770056648929
+          ],
+          [
+            813.889128500757,
+            34.236336677100695
+          ],
+          [
+            797.6721008571848,
+            716.5225721499835
+          ],
+          [
+            449.79378437483115,
+            732.4469598458292
+          ]
+        ],
+        "distance_cap_observed": 0.3388839978576359,
+        "landmarks_raw": {
+          "B": [
+            640.7421386238244,
+            25.906106677593066
+          ],
+          "BL": [
+            449.79378437483115,
+            732.4469598458292
+          ],
+          "BR": [
+            797.6721008571848,
+            716.5225721499835
+          ],
+          "O": [
+            629.5988972557371,
+            552.6646756501802
+          ],
+          "TL": [
+            452.4194506641208,
+            6.360770056648929
+          ],
+          "TR": [
+            813.889128500757,
+            34.236336677100695
+          ],
+          "Y": [
+            751.290383628777,
+            549.039388669329
+          ]
+        },
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates.",
+        "obstructions": {
+          "contours": [
+            {
+              "area_tablewidth_squared": 0.00408,
+              "ball_radius_source": "sqrt(reference_ball_area_px/pi), locally transformed to table plane",
+              "ball_radius_tablewidth_estimate": 0.01710761106577603,
+              "id": "left_1",
+              "image_contour": [
+                [
+                  460.12091941520066,
+                  376.29509026838394
+                ],
+                [
+                  460.067086225357,
+                  389.33041702193776
+                ],
+                [
+                  465.323085212506,
+                  389.39508329793296
+                ],
+                [
+                  466.8296055954011,
+                  387.9677866884608
+                ],
+                [
+                  469.82754806873487,
+                  388.00540690704776
+                ],
+                [
+                  474.32944787063707,
+                  385.89546101499684
+                ],
+                [
+                  492.96721966893944,
+                  386.8561204450392
+                ],
+                [
+                  494.47094350856315,
+                  383.99605997491346
+                ],
+                [
+                  493.81924481710985,
+                  368.85363942936544
+                ],
+                [
+                  469.169019404195,
+                  368.4625651692952
+                ],
+                [
+                  470.6483371508987,
+                  372.82976155939895
+                ],
+                [
+                  469.1354140983363,
+                  375.7022295742153
+                ],
+                [
+                  464.62675475584217,
+                  377.08466460756307
+                ]
+              ],
+              "needs_preview_review": true,
+              "plane_bounds": [
+                0.024,
+                0.976,
+                0.116,
+                1.034
+              ],
+              "plane_contour": [
+                [
+                  0.024,
+                  0.998
+                ],
+                [
+                  0.024,
+                  1.034
+                ],
+                [
+                  0.038,
+                  1.034
+                ],
+                [
+                  0.042,
+                  1.03
+                ],
+                [
+                  0.05,
+                  1.03
+                ],
+                [
+                  0.062,
+                  1.024
+                ],
+                [
+                  0.112,
+                  1.026
+                ],
+                [
+                  0.116,
+                  1.018
+                ],
+                [
+                  0.114,
+                  0.976
+                ],
+                [
+                  0.048,
+                  0.976
+                ],
+                [
+                  0.052,
+                  0.988
+                ],
+                [
+                  0.048,
+                  0.996
+                ],
+                [
+                  0.036,
+                  1.0
+                ]
+              ],
+              "reach_tablewidth": 0.116,
+              "side": "left"
+            },
+            {
+              "area_tablewidth_squared": 0.00321,
+              "ball_radius_source": "sqrt(reference_ball_area_px/pi), locally transformed to table plane",
+              "ball_radius_tablewidth_estimate": 0.018423134416244984,
+              "id": "right_2",
+              "image_contour": [
+                [
+                  768.9137214358594,
+                  372.530506980891
+                ],
+                [
+                  768.5863413168235,
+                  387.6376776812652
+                ],
+                [
+                  788.7537823452286,
+                  388.58939553295266
+                ],
+                [
+                  796.0540616211853,
+                  391.41650551484014
+                ],
+                [
+                  796.3079475198888,
+                  380.4906687426998
+                ],
+                [
+                  790.297591852292,
+                  379.7184138170969
+                ],
+                [
+                  788.4262978414652,
+                  373.5275616082918
+                ],
+                [
+                  786.4125428679799,
+                  373.4956135135776
+                ],
+                [
+                  786.365965841164,
+                  375.55055996861
+                ],
+                [
+                  784.3355226601392,
+                  376.2044598007027
+                ],
+                [
+                  783.7407015832841,
+                  372.76755931963436
+                ]
+              ],
+              "needs_preview_review": true,
+              "plane_bounds": [
+                0.888,
+                0.974,
+                0.972,
+                1.028
+              ],
+              "plane_contour": [
+                [
+                  0.89,
+                  0.974
+                ],
+                [
+                  0.89,
+                  1.018
+                ],
+                [
+                  0.95,
+                  1.02
+                ],
+                [
+                  0.972,
+                  1.028
+                ],
+                [
+                  0.972,
+                  0.996
+                ],
+                [
+                  0.954,
+                  0.994
+                ],
+                [
+                  0.948,
+                  0.976
+                ],
+                [
+                  0.942,
+                  0.976
+                ],
+                [
+                  0.942,
+                  0.982
+                ],
+                [
+                  0.936,
+                  0.984
+                ],
+                [
+                  0.934,
+                  0.974
+                ]
+              ],
+              "reach_tablewidth": 0.11199999999999999,
+              "side": "right"
+            }
+          ],
+          "coordinate_unit": "table_width",
+          "detection_parameters": {
+            "cloth_value_median": 152.0,
+            "dark_value_threshold": 85.0,
+            "minimum_reach": 0.055,
+            "rail_exclusion_width": 0.025,
+            "search_width": 0.23,
+            "warp_width": 500
+          },
+          "limitation": "Visible dark footprint is a collision candidate; image alone cannot establish hardware height.",
+          "source": "temporal_reference_image",
+          "version": "reference_black_protrusions_v1"
+        },
+        "opposite_rail_distance_observed": 0.3388839978576359,
+        "origin_plane": [
+          0.4948385484957443,
+          1.497242611086681
+        ],
+        "origin_raw": [
+          629.5988972557371,
+          552.6646756501802
+        ],
+        "plane_H": [
+          [
+            0.002415368684278126,
+            8.734434313309886e-06,
+            -1.092815331020672
+          ],
+          [
+            -0.0001895652771680191,
+            0.002458141949181516,
+            0.0701273428560006
+          ],
+          [
+            -0.000153439382750935,
+            -5.2322684045774104e-05,
+            1.0
+          ]
+        ],
+        "scale": 1.4835678051830756,
+        "source": "automatic_fixed_template_needs_preview_review",
+        "strength_cap_observed": 1.0090133562092733,
+        "strength_maximum": 1.0090133562092733,
+        "strip_plane": [
+          0.5054143715594058,
+          0.013712502008252409
+        ],
+        "strip_raw": [
+          640.7421386238244,
+          25.906106677593066
+        ],
+        "table_length_cm": 168.0,
+        "table_width_cm": 84.0,
+        "upper_rail_reference_plane": [
+          0.5055121255544963,
+          0.0
+        ],
+        "y_marker_plane": [
+          0.8488639165793838,
+          1.4922109928784963
+        ],
+        "y_marker_raw": [
+          751.290383628777,
+          549.039388669329
+        ]
+      },
+      "fps": 60.0,
+      "frames": 6851,
+      "live_audit": "D:\\experiment\\27\\27_02_baseline_strength_010shots.20261029_121002_080346.partial.live_count.json",
+      "live_audit_sha256": "8ed6dbe96d7bb60b61ecf9ac9ebddbccd024a677b93fa8b905e2060497c114a0",
+      "live_count": 10,
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\preflight\\27_02_baseline_strength_010shots_median.npz",
+      "median_sha256": "a63d426eaac3f2633a594bca136e69e6335c60c1561c4e2e61a20d5183af638b",
+      "name": "27_02_baseline_strength_010shots.mkv",
+      "participant": "27",
+      "path": "D:\\experiment\\27\\27_02_baseline_strength_010shots.mkv",
+      "session_sha256": "5ff4653a6041de796bdfded002d7e72c7a1a1bbd8c143615351999281082d06b",
+      "sha256": "f5f59e97abac028155e137fad35116399dd5e96d739c09603a2271582a1fa789",
+      "size": [
+        1280,
+        720
+      ],
+      "stem": "27_02_baseline_strength_010shots",
+      "training_group": "strength"
+    },
+    {
+      "bytes": 52961121,
+      "calibration_from_recording": {
+        "angle_cap_observed": 13.486097454031977,
+        "aspect_ratio": 2.0,
+        "axes_H": [
+          [
+            -5.095019156401235e-05,
+            -0.0017102658562384576,
+            0.9772817091372761
+          ],
+          [
+            0.0016797930617729235,
+            3.553495023779661e-05,
+            -1.077234771057488
+          ],
+          [
+            -0.000153439382750935,
+            -5.2322684045774104e-05,
+            1.0
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.0140865814724793,
+            -0.3408097734020989
+          ],
+          [
+            1.0045053587317427,
+            0.33337736509287713
+          ],
+          [
+            -0.3437670129529873,
+            0.342989686197635
+          ],
+          [
+            -0.3341857902122507,
+            -0.3311974522973411
+          ]
+        ],
+        "axis_nonorthogonality_degrees": 1.2227112615579045,
+        "calibration_quality": {
+          "accuracy_check": "visible_rail_intersections_and_partial_marks",
+          "dlt_condition": 8.955827421539944,
+          "ignored_inconsistent_marker_candidates": {},
+          "marker_detection": {
+            "O": {
+              "candidate_count": 1,
+              "contrast": 36.44849395751953,
+              "expected_raw": [
+                624.062965511842,
+                533.3533574141796
+              ],
+              "runner_up_score_ratio": 0.0,
+              "size_px": [
+                4,
+                4
+              ]
+            },
+            "Y": {
+              "candidate_count": 1,
+              "contrast": 29.02930450439453,
+              "expected_raw": [
+                748.1688985301963,
+                531.65729571859
+              ],
+              "runner_up_score_ratio": 0.0,
+              "size_px": [
+                5,
+                4
+              ]
+            }
+          },
+          "observed_points": {
+            "O": [
+              629.5988972557373,
+              552.6646756501802
+            ],
+            "TL": [
+              452.41945066412086,
+              6.360770056648807
+            ],
+            "TR": [
+              813.8891285007571,
+              34.236336677100695
+            ],
+            "Y": [
+              751.2903836287772,
+              549.0393886693291
+            ]
+          },
+          "reconstructed_names": [
+            "BR",
+            "BL",
+            "B"
+          ],
+          "reference_points_inside_image": {
+            "B": true,
+            "BL": false,
+            "BR": true,
+            "O": true,
+            "TL": true,
+            "TR": true,
+            "Y": true
+          },
+          "reprojection_residual_px": {
+            "O": 1.1368683772161603e-13,
+            "TL": 1.3430303272033151e-13,
+            "TR": 1.1368683772161603e-13,
+            "Y": 2.5421149729252077e-13
+          },
+          "side_rail_source": "Robust visible cloth-boundary fits with configured cushion margin",
+          "template_version": "seven_landmarks_multiview_v2",
+          "visible_short_rails": {
+            "top": {
+              "coverage": 0.9963503649635036,
+              "inliers": 90,
+              "line_y_from_x": [
+                0.07711730286004809,
+                -28.528597739992787
+              ],
+              "median_gradient": 17.28125,
+              "residual_px": 0.29172480103270715
+            }
+          }
+        },
+        "corners": [
+          [
+            452.4194506641208,
+            6.360770056648929
+          ],
+          [
+            813.889128500757,
+            34.236336677100695
+          ],
+          [
+            797.6721008571848,
+            716.5225721499835
+          ],
+          [
+            449.79378437483115,
+            732.4469598458292
+          ]
+        ],
+        "distance_cap_observed": 0.3388839978576359,
+        "landmarks_raw": {
+          "B": [
+            640.7421386238244,
+            25.906106677593066
+          ],
+          "BL": [
+            449.79378437483115,
+            732.4469598458292
+          ],
+          "BR": [
+            797.6721008571848,
+            716.5225721499835
+          ],
+          "O": [
+            629.5988972557371,
+            552.6646756501802
+          ],
+          "TL": [
+            452.4194506641208,
+            6.360770056648929
+          ],
+          "TR": [
+            813.889128500757,
+            34.236336677100695
+          ],
+          "Y": [
+            751.290383628777,
+            549.039388669329
+          ]
+        },
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates.",
+        "obstructions": {
+          "contours": [
+            {
+              "area_tablewidth_squared": 0.00408,
+              "ball_radius_source": "sqrt(reference_ball_area_px/pi), locally transformed to table plane",
+              "ball_radius_tablewidth_estimate": 0.01710761106577603,
+              "id": "left_1",
+              "image_contour": [
+                [
+                  460.12091941520066,
+                  376.29509026838394
+                ],
+                [
+                  460.067086225357,
+                  389.33041702193776
+                ],
+                [
+                  465.323085212506,
+                  389.39508329793296
+                ],
+                [
+                  466.8296055954011,
+                  387.9677866884608
+                ],
+                [
+                  469.82754806873487,
+                  388.00540690704776
+                ],
+                [
+                  474.32944787063707,
+                  385.89546101499684
+                ],
+                [
+                  492.96721966893944,
+                  386.8561204450392
+                ],
+                [
+                  494.47094350856315,
+                  383.99605997491346
+                ],
+                [
+                  493.81924481710985,
+                  368.85363942936544
+                ],
+                [
+                  469.169019404195,
+                  368.4625651692952
+                ],
+                [
+                  470.6483371508987,
+                  372.82976155939895
+                ],
+                [
+                  469.1354140983363,
+                  375.7022295742153
+                ],
+                [
+                  464.62675475584217,
+                  377.08466460756307
+                ]
+              ],
+              "needs_preview_review": true,
+              "plane_bounds": [
+                0.024,
+                0.976,
+                0.116,
+                1.034
+              ],
+              "plane_contour": [
+                [
+                  0.024,
+                  0.998
+                ],
+                [
+                  0.024,
+                  1.034
+                ],
+                [
+                  0.038,
+                  1.034
+                ],
+                [
+                  0.042,
+                  1.03
+                ],
+                [
+                  0.05,
+                  1.03
+                ],
+                [
+                  0.062,
+                  1.024
+                ],
+                [
+                  0.112,
+                  1.026
+                ],
+                [
+                  0.116,
+                  1.018
+                ],
+                [
+                  0.114,
+                  0.976
+                ],
+                [
+                  0.048,
+                  0.976
+                ],
+                [
+                  0.052,
+                  0.988
+                ],
+                [
+                  0.048,
+                  0.996
+                ],
+                [
+                  0.036,
+                  1.0
+                ]
+              ],
+              "reach_tablewidth": 0.116,
+              "side": "left"
+            },
+            {
+              "area_tablewidth_squared": 0.00321,
+              "ball_radius_source": "sqrt(reference_ball_area_px/pi), locally transformed to table plane",
+              "ball_radius_tablewidth_estimate": 0.018423134416244984,
+              "id": "right_2",
+              "image_contour": [
+                [
+                  768.9137214358594,
+                  372.530506980891
+                ],
+                [
+                  768.5863413168235,
+                  387.6376776812652
+                ],
+                [
+                  788.7537823452286,
+                  388.58939553295266
+                ],
+                [
+                  796.0540616211853,
+                  391.41650551484014
+                ],
+                [
+                  796.3079475198888,
+                  380.4906687426998
+                ],
+                [
+                  790.297591852292,
+                  379.7184138170969
+                ],
+                [
+                  788.4262978414652,
+                  373.5275616082918
+                ],
+                [
+                  786.4125428679799,
+                  373.4956135135776
+                ],
+                [
+                  786.365965841164,
+                  375.55055996861
+                ],
+                [
+                  784.3355226601392,
+                  376.2044598007027
+                ],
+                [
+                  783.7407015832841,
+                  372.76755931963436
+                ]
+              ],
+              "needs_preview_review": true,
+              "plane_bounds": [
+                0.888,
+                0.974,
+                0.972,
+                1.028
+              ],
+              "plane_contour": [
+                [
+                  0.89,
+                  0.974
+                ],
+                [
+                  0.89,
+                  1.018
+                ],
+                [
+                  0.95,
+                  1.02
+                ],
+                [
+                  0.972,
+                  1.028
+                ],
+                [
+                  0.972,
+                  0.996
+                ],
+                [
+                  0.954,
+                  0.994
+                ],
+                [
+                  0.948,
+                  0.976
+                ],
+                [
+                  0.942,
+                  0.976
+                ],
+                [
+                  0.942,
+                  0.982
+                ],
+                [
+                  0.936,
+                  0.984
+                ],
+                [
+                  0.934,
+                  0.974
+                ]
+              ],
+              "reach_tablewidth": 0.11199999999999999,
+              "side": "right"
+            }
+          ],
+          "coordinate_unit": "table_width",
+          "detection_parameters": {
+            "cloth_value_median": 152.0,
+            "dark_value_threshold": 85.0,
+            "minimum_reach": 0.055,
+            "rail_exclusion_width": 0.025,
+            "search_width": 0.23,
+            "warp_width": 500
+          },
+          "limitation": "Visible dark footprint is a collision candidate; image alone cannot establish hardware height.",
+          "source": "temporal_reference_image",
+          "version": "reference_black_protrusions_v1"
+        },
+        "opposite_rail_distance_observed": 0.3388839978576359,
+        "origin_plane": [
+          0.4948385484957443,
+          1.497242611086681
+        ],
+        "origin_raw": [
+          629.5988972557371,
+          552.6646756501802
+        ],
+        "plane_H": [
+          [
+            0.002415368684278126,
+            8.734434313309886e-06,
+            -1.092815331020672
+          ],
+          [
+            -0.0001895652771680191,
+            0.002458141949181516,
+            0.0701273428560006
+          ],
+          [
+            -0.000153439382750935,
+            -5.2322684045774104e-05,
+            1.0
+          ]
+        ],
+        "scale": 1.4835678051830756,
+        "source": "automatic_fixed_template_needs_preview_review",
+        "strength_cap_observed": 1.0090133562092733,
+        "strength_maximum": 1.0090133562092733,
+        "strip_plane": [
+          0.5054143715594058,
+          0.013712502008252409
+        ],
+        "strip_raw": [
+          640.7421386238244,
+          25.906106677593066
+        ],
+        "table_length_cm": 168.0,
+        "table_width_cm": 84.0,
+        "upper_rail_reference_plane": [
+          0.5055121255544963,
+          0.0
+        ],
+        "y_marker_plane": [
+          0.8488639165793838,
+          1.4922109928784963
+        ],
+        "y_marker_raw": [
+          751.290383628777,
+          549.039388669329
+        ]
+      },
+      "fps": 60.0,
+      "frames": 6283,
+      "live_audit": "D:\\experiment\\27\\27_03_baseline_angle_010shots.20261029_121200_020441.partial.live_count.json",
+      "live_audit_sha256": "748f01dedfed093252e17b292e92072d1021f8cd9f97916cf8b3d40fd17ff40f",
+      "live_count": 10,
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\preflight\\27_03_baseline_angle_010shots_median.npz",
+      "median_sha256": "be2d3977af81101f812bf3cfe3fc2e0fcd49860b9a9172de658d44b2d3d43101",
+      "name": "27_03_baseline_angle_010shots.mkv",
+      "participant": "27",
+      "path": "D:\\experiment\\27\\27_03_baseline_angle_010shots.mkv",
+      "session_sha256": "5ff4653a6041de796bdfded002d7e72c7a1a1bbd8c143615351999281082d06b",
+      "sha256": "832e4202c31073730538ab9ce5f838386935f0043dc03a925a8db9af4d259dfd",
+      "size": [
+        1280,
+        720
+      ],
+      "stem": "27_03_baseline_angle_010shots",
+      "training_group": "strength"
+    },
+    {
+      "bytes": 742557717,
+      "calibration_from_recording": {
+        "angle_cap_observed": 13.486097454031977,
+        "aspect_ratio": 2.0,
+        "axes_H": [
+          [
+            -5.095019156401235e-05,
+            -0.0017102658562384576,
+            0.9772817091372761
+          ],
+          [
+            0.0016797930617729235,
+            3.553495023779661e-05,
+            -1.077234771057488
+          ],
+          [
+            -0.000153439382750935,
+            -5.2322684045774104e-05,
+            1.0
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.0140865814724793,
+            -0.3408097734020989
+          ],
+          [
+            1.0045053587317427,
+            0.33337736509287713
+          ],
+          [
+            -0.3437670129529873,
+            0.342989686197635
+          ],
+          [
+            -0.3341857902122507,
+            -0.3311974522973411
+          ]
+        ],
+        "axis_nonorthogonality_degrees": 1.2227112615579045,
+        "calibration_quality": {
+          "accuracy_check": "visible_rail_intersections_and_partial_marks",
+          "dlt_condition": 8.955827421539944,
+          "ignored_inconsistent_marker_candidates": {},
+          "marker_detection": {
+            "O": {
+              "candidate_count": 1,
+              "contrast": 36.44849395751953,
+              "expected_raw": [
+                624.062965511842,
+                533.3533574141796
+              ],
+              "runner_up_score_ratio": 0.0,
+              "size_px": [
+                4,
+                4
+              ]
+            },
+            "Y": {
+              "candidate_count": 1,
+              "contrast": 29.02930450439453,
+              "expected_raw": [
+                748.1688985301963,
+                531.65729571859
+              ],
+              "runner_up_score_ratio": 0.0,
+              "size_px": [
+                5,
+                4
+              ]
+            }
+          },
+          "observed_points": {
+            "O": [
+              629.5988972557373,
+              552.6646756501802
+            ],
+            "TL": [
+              452.41945066412086,
+              6.360770056648807
+            ],
+            "TR": [
+              813.8891285007571,
+              34.236336677100695
+            ],
+            "Y": [
+              751.2903836287772,
+              549.0393886693291
+            ]
+          },
+          "reconstructed_names": [
+            "BR",
+            "BL",
+            "B"
+          ],
+          "reference_points_inside_image": {
+            "B": true,
+            "BL": false,
+            "BR": true,
+            "O": true,
+            "TL": true,
+            "TR": true,
+            "Y": true
+          },
+          "reprojection_residual_px": {
+            "O": 1.1368683772161603e-13,
+            "TL": 1.3430303272033151e-13,
+            "TR": 1.1368683772161603e-13,
+            "Y": 2.5421149729252077e-13
+          },
+          "side_rail_source": "Robust visible cloth-boundary fits with configured cushion margin",
+          "template_version": "seven_landmarks_multiview_v2",
+          "visible_short_rails": {
+            "top": {
+              "coverage": 0.9963503649635036,
+              "inliers": 90,
+              "line_y_from_x": [
+                0.07711730286004809,
+                -28.528597739992787
+              ],
+              "median_gradient": 17.28125,
+              "residual_px": 0.29172480103270715
+            }
+          }
+        },
+        "corners": [
+          [
+            452.4194506641208,
+            6.360770056648929
+          ],
+          [
+            813.889128500757,
+            34.236336677100695
+          ],
+          [
+            797.6721008571848,
+            716.5225721499835
+          ],
+          [
+            449.79378437483115,
+            732.4469598458292
+          ]
+        ],
+        "distance_cap_observed": 0.3388839978576359,
+        "landmarks_raw": {
+          "B": [
+            640.7421386238244,
+            25.906106677593066
+          ],
+          "BL": [
+            449.79378437483115,
+            732.4469598458292
+          ],
+          "BR": [
+            797.6721008571848,
+            716.5225721499835
+          ],
+          "O": [
+            629.5988972557371,
+            552.6646756501802
+          ],
+          "TL": [
+            452.4194506641208,
+            6.360770056648929
+          ],
+          "TR": [
+            813.889128500757,
+            34.236336677100695
+          ],
+          "Y": [
+            751.290383628777,
+            549.039388669329
+          ]
+        },
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates.",
+        "obstructions": {
+          "contours": [
+            {
+              "area_tablewidth_squared": 0.00408,
+              "ball_radius_source": "sqrt(reference_ball_area_px/pi), locally transformed to table plane",
+              "ball_radius_tablewidth_estimate": 0.01710761106577603,
+              "id": "left_1",
+              "image_contour": [
+                [
+                  460.12091941520066,
+                  376.29509026838394
+                ],
+                [
+                  460.067086225357,
+                  389.33041702193776
+                ],
+                [
+                  465.323085212506,
+                  389.39508329793296
+                ],
+                [
+                  466.8296055954011,
+                  387.9677866884608
+                ],
+                [
+                  469.82754806873487,
+                  388.00540690704776
+                ],
+                [
+                  474.32944787063707,
+                  385.89546101499684
+                ],
+                [
+                  492.96721966893944,
+                  386.8561204450392
+                ],
+                [
+                  494.47094350856315,
+                  383.99605997491346
+                ],
+                [
+                  493.81924481710985,
+                  368.85363942936544
+                ],
+                [
+                  469.169019404195,
+                  368.4625651692952
+                ],
+                [
+                  470.6483371508987,
+                  372.82976155939895
+                ],
+                [
+                  469.1354140983363,
+                  375.7022295742153
+                ],
+                [
+                  464.62675475584217,
+                  377.08466460756307
+                ]
+              ],
+              "needs_preview_review": true,
+              "plane_bounds": [
+                0.024,
+                0.976,
+                0.116,
+                1.034
+              ],
+              "plane_contour": [
+                [
+                  0.024,
+                  0.998
+                ],
+                [
+                  0.024,
+                  1.034
+                ],
+                [
+                  0.038,
+                  1.034
+                ],
+                [
+                  0.042,
+                  1.03
+                ],
+                [
+                  0.05,
+                  1.03
+                ],
+                [
+                  0.062,
+                  1.024
+                ],
+                [
+                  0.112,
+                  1.026
+                ],
+                [
+                  0.116,
+                  1.018
+                ],
+                [
+                  0.114,
+                  0.976
+                ],
+                [
+                  0.048,
+                  0.976
+                ],
+                [
+                  0.052,
+                  0.988
+                ],
+                [
+                  0.048,
+                  0.996
+                ],
+                [
+                  0.036,
+                  1.0
+                ]
+              ],
+              "reach_tablewidth": 0.116,
+              "side": "left"
+            },
+            {
+              "area_tablewidth_squared": 0.00321,
+              "ball_radius_source": "sqrt(reference_ball_area_px/pi), locally transformed to table plane",
+              "ball_radius_tablewidth_estimate": 0.018423134416244984,
+              "id": "right_2",
+              "image_contour": [
+                [
+                  768.9137214358594,
+                  372.530506980891
+                ],
+                [
+                  768.5863413168235,
+                  387.6376776812652
+                ],
+                [
+                  788.7537823452286,
+                  388.58939553295266
+                ],
+                [
+                  796.0540616211853,
+                  391.41650551484014
+                ],
+                [
+                  796.3079475198888,
+                  380.4906687426998
+                ],
+                [
+                  790.297591852292,
+                  379.7184138170969
+                ],
+                [
+                  788.4262978414652,
+                  373.5275616082918
+                ],
+                [
+                  786.4125428679799,
+                  373.4956135135776
+                ],
+                [
+                  786.365965841164,
+                  375.55055996861
+                ],
+                [
+                  784.3355226601392,
+                  376.2044598007027
+                ],
+                [
+                  783.7407015832841,
+                  372.76755931963436
+                ]
+              ],
+              "needs_preview_review": true,
+              "plane_bounds": [
+                0.888,
+                0.974,
+                0.972,
+                1.028
+              ],
+              "plane_contour": [
+                [
+                  0.89,
+                  0.974
+                ],
+                [
+                  0.89,
+                  1.018
+                ],
+                [
+                  0.95,
+                  1.02
+                ],
+                [
+                  0.972,
+                  1.028
+                ],
+                [
+                  0.972,
+                  0.996
+                ],
+                [
+                  0.954,
+                  0.994
+                ],
+                [
+                  0.948,
+                  0.976
+                ],
+                [
+                  0.942,
+                  0.976
+                ],
+                [
+                  0.942,
+                  0.982
+                ],
+                [
+                  0.936,
+                  0.984
+                ],
+                [
+                  0.934,
+                  0.974
+                ]
+              ],
+              "reach_tablewidth": 0.11199999999999999,
+              "side": "right"
+            }
+          ],
+          "coordinate_unit": "table_width",
+          "detection_parameters": {
+            "cloth_value_median": 152.0,
+            "dark_value_threshold": 85.0,
+            "minimum_reach": 0.055,
+            "rail_exclusion_width": 0.025,
+            "search_width": 0.23,
+            "warp_width": 500
+          },
+          "limitation": "Visible dark footprint is a collision candidate; image alone cannot establish hardware height.",
+          "source": "temporal_reference_image",
+          "version": "reference_black_protrusions_v1"
+        },
+        "opposite_rail_distance_observed": 0.3388839978576359,
+        "origin_plane": [
+          0.4948385484957443,
+          1.497242611086681
+        ],
+        "origin_raw": [
+          629.5988972557371,
+          552.6646756501802
+        ],
+        "plane_H": [
+          [
+            0.002415368684278126,
+            8.734434313309886e-06,
+            -1.092815331020672
+          ],
+          [
+            -0.0001895652771680191,
+            0.002458141949181516,
+            0.0701273428560006
+          ],
+          [
+            -0.000153439382750935,
+            -5.2322684045774104e-05,
+            1.0
+          ]
+        ],
+        "scale": 1.4835678051830756,
+        "source": "automatic_fixed_template_needs_preview_review",
+        "strength_cap_observed": 1.0090133562092733,
+        "strength_maximum": 1.0090133562092733,
+        "strip_plane": [
+          0.5054143715594058,
+          0.013712502008252409
+        ],
+        "strip_raw": [
+          640.7421386238244,
+          25.906106677593066
+        ],
+        "table_length_cm": 168.0,
+        "table_width_cm": 84.0,
+        "upper_rail_reference_plane": [
+          0.5055121255544963,
+          0.0
+        ],
+        "y_marker_plane": [
+          0.8488639165793838,
+          1.4922109928784963
+        ],
+        "y_marker_raw": [
+          751.290383628777,
+          549.039388669329
+        ]
+      },
+      "fps": 60.0,
+      "frames": 88725,
+      "live_audit": "D:\\experiment\\27\\27_04_training_strength_140shots.20261029_121348_631873.partial.live_count.json",
+      "live_audit_sha256": "666f797998251489561d897243a979b2796fc92434732368565aa9f38a6f26b3",
+      "live_count": 140,
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\preflight\\27_04_training_strength_140shots_median.npz",
+      "median_sha256": "b4d58fb178507014f1dbb2f4054ff1af921ea21acbb59fbee9789dedb0ae6dde",
+      "name": "27_04_training_strength_140shots.mkv",
+      "participant": "27",
+      "path": "D:\\experiment\\27\\27_04_training_strength_140shots.mkv",
+      "session_sha256": "5ff4653a6041de796bdfded002d7e72c7a1a1bbd8c143615351999281082d06b",
+      "sha256": "4501c997c8de1282f22de4df79230e8ee387d766dc130fb318c81864c7750f00",
+      "size": [
+        1280,
+        720
+      ],
+      "stem": "27_04_training_strength_140shots",
+      "training_group": "strength"
+    },
+    {
+      "bytes": 373640431,
+      "calibration_from_recording": {
+        "angle_cap_observed": 13.486097454031977,
+        "aspect_ratio": 2.0,
+        "axes_H": [
+          [
+            -5.095019156401235e-05,
+            -0.0017102658562384576,
+            0.9772817091372761
+          ],
+          [
+            0.0016797930617729235,
+            3.553495023779661e-05,
+            -1.077234771057488
+          ],
+          [
+            -0.000153439382750935,
+            -5.2322684045774104e-05,
+            1.0
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.0140865814724793,
+            -0.3408097734020989
+          ],
+          [
+            1.0045053587317427,
+            0.33337736509287713
+          ],
+          [
+            -0.3437670129529873,
+            0.342989686197635
+          ],
+          [
+            -0.3341857902122507,
+            -0.3311974522973411
+          ]
+        ],
+        "axis_nonorthogonality_degrees": 1.2227112615579045,
+        "calibration_quality": {
+          "accuracy_check": "visible_rail_intersections_and_partial_marks",
+          "dlt_condition": 8.955827421539944,
+          "ignored_inconsistent_marker_candidates": {},
+          "marker_detection": {
+            "O": {
+              "candidate_count": 1,
+              "contrast": 36.44849395751953,
+              "expected_raw": [
+                624.062965511842,
+                533.3533574141796
+              ],
+              "runner_up_score_ratio": 0.0,
+              "size_px": [
+                4,
+                4
+              ]
+            },
+            "Y": {
+              "candidate_count": 1,
+              "contrast": 29.02930450439453,
+              "expected_raw": [
+                748.1688985301963,
+                531.65729571859
+              ],
+              "runner_up_score_ratio": 0.0,
+              "size_px": [
+                5,
+                4
+              ]
+            }
+          },
+          "observed_points": {
+            "O": [
+              629.5988972557373,
+              552.6646756501802
+            ],
+            "TL": [
+              452.41945066412086,
+              6.360770056648807
+            ],
+            "TR": [
+              813.8891285007571,
+              34.236336677100695
+            ],
+            "Y": [
+              751.2903836287772,
+              549.0393886693291
+            ]
+          },
+          "reconstructed_names": [
+            "BR",
+            "BL",
+            "B"
+          ],
+          "reference_points_inside_image": {
+            "B": true,
+            "BL": false,
+            "BR": true,
+            "O": true,
+            "TL": true,
+            "TR": true,
+            "Y": true
+          },
+          "reprojection_residual_px": {
+            "O": 1.1368683772161603e-13,
+            "TL": 1.3430303272033151e-13,
+            "TR": 1.1368683772161603e-13,
+            "Y": 2.5421149729252077e-13
+          },
+          "side_rail_source": "Robust visible cloth-boundary fits with configured cushion margin",
+          "template_version": "seven_landmarks_multiview_v2",
+          "visible_short_rails": {
+            "top": {
+              "coverage": 0.9963503649635036,
+              "inliers": 90,
+              "line_y_from_x": [
+                0.07711730286004809,
+                -28.528597739992787
+              ],
+              "median_gradient": 17.28125,
+              "residual_px": 0.29172480103270715
+            }
+          }
+        },
+        "corners": [
+          [
+            452.4194506641208,
+            6.360770056648929
+          ],
+          [
+            813.889128500757,
+            34.236336677100695
+          ],
+          [
+            797.6721008571848,
+            716.5225721499835
+          ],
+          [
+            449.79378437483115,
+            732.4469598458292
+          ]
+        ],
+        "distance_cap_observed": 0.3388839978576359,
+        "landmarks_raw": {
+          "B": [
+            640.7421386238244,
+            25.906106677593066
+          ],
+          "BL": [
+            449.79378437483115,
+            732.4469598458292
+          ],
+          "BR": [
+            797.6721008571848,
+            716.5225721499835
+          ],
+          "O": [
+            629.5988972557371,
+            552.6646756501802
+          ],
+          "TL": [
+            452.4194506641208,
+            6.360770056648929
+          ],
+          "TR": [
+            813.889128500757,
+            34.236336677100695
+          ],
+          "Y": [
+            751.290383628777,
+            549.039388669329
+          ]
+        },
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates.",
+        "obstructions": {
+          "contours": [
+            {
+              "area_tablewidth_squared": 0.00408,
+              "ball_radius_source": "sqrt(reference_ball_area_px/pi), locally transformed to table plane",
+              "ball_radius_tablewidth_estimate": 0.01710761106577603,
+              "id": "left_1",
+              "image_contour": [
+                [
+                  460.12091941520066,
+                  376.29509026838394
+                ],
+                [
+                  460.067086225357,
+                  389.33041702193776
+                ],
+                [
+                  465.323085212506,
+                  389.39508329793296
+                ],
+                [
+                  466.8296055954011,
+                  387.9677866884608
+                ],
+                [
+                  469.82754806873487,
+                  388.00540690704776
+                ],
+                [
+                  474.32944787063707,
+                  385.89546101499684
+                ],
+                [
+                  492.96721966893944,
+                  386.8561204450392
+                ],
+                [
+                  494.47094350856315,
+                  383.99605997491346
+                ],
+                [
+                  493.81924481710985,
+                  368.85363942936544
+                ],
+                [
+                  469.169019404195,
+                  368.4625651692952
+                ],
+                [
+                  470.6483371508987,
+                  372.82976155939895
+                ],
+                [
+                  469.1354140983363,
+                  375.7022295742153
+                ],
+                [
+                  464.62675475584217,
+                  377.08466460756307
+                ]
+              ],
+              "needs_preview_review": true,
+              "plane_bounds": [
+                0.024,
+                0.976,
+                0.116,
+                1.034
+              ],
+              "plane_contour": [
+                [
+                  0.024,
+                  0.998
+                ],
+                [
+                  0.024,
+                  1.034
+                ],
+                [
+                  0.038,
+                  1.034
+                ],
+                [
+                  0.042,
+                  1.03
+                ],
+                [
+                  0.05,
+                  1.03
+                ],
+                [
+                  0.062,
+                  1.024
+                ],
+                [
+                  0.112,
+                  1.026
+                ],
+                [
+                  0.116,
+                  1.018
+                ],
+                [
+                  0.114,
+                  0.976
+                ],
+                [
+                  0.048,
+                  0.976
+                ],
+                [
+                  0.052,
+                  0.988
+                ],
+                [
+                  0.048,
+                  0.996
+                ],
+                [
+                  0.036,
+                  1.0
+                ]
+              ],
+              "reach_tablewidth": 0.116,
+              "side": "left"
+            },
+            {
+              "area_tablewidth_squared": 0.00321,
+              "ball_radius_source": "sqrt(reference_ball_area_px/pi), locally transformed to table plane",
+              "ball_radius_tablewidth_estimate": 0.018423134416244984,
+              "id": "right_2",
+              "image_contour": [
+                [
+                  768.9137214358594,
+                  372.530506980891
+                ],
+                [
+                  768.5863413168235,
+                  387.6376776812652
+                ],
+                [
+                  788.7537823452286,
+                  388.58939553295266
+                ],
+                [
+                  796.0540616211853,
+                  391.41650551484014
+                ],
+                [
+                  796.3079475198888,
+                  380.4906687426998
+                ],
+                [
+                  790.297591852292,
+                  379.7184138170969
+                ],
+                [
+                  788.4262978414652,
+                  373.5275616082918
+                ],
+                [
+                  786.4125428679799,
+                  373.4956135135776
+                ],
+                [
+                  786.365965841164,
+                  375.55055996861
+                ],
+                [
+                  784.3355226601392,
+                  376.2044598007027
+                ],
+                [
+                  783.7407015832841,
+                  372.76755931963436
+                ]
+              ],
+              "needs_preview_review": true,
+              "plane_bounds": [
+                0.888,
+                0.974,
+                0.972,
+                1.028
+              ],
+              "plane_contour": [
+                [
+                  0.89,
+                  0.974
+                ],
+                [
+                  0.89,
+                  1.018
+                ],
+                [
+                  0.95,
+                  1.02
+                ],
+                [
+                  0.972,
+                  1.028
+                ],
+                [
+                  0.972,
+                  0.996
+                ],
+                [
+                  0.954,
+                  0.994
+                ],
+                [
+                  0.948,
+                  0.976
+                ],
+                [
+                  0.942,
+                  0.976
+                ],
+                [
+                  0.942,
+                  0.982
+                ],
+                [
+                  0.936,
+                  0.984
+                ],
+                [
+                  0.934,
+                  0.974
+                ]
+              ],
+              "reach_tablewidth": 0.11199999999999999,
+              "side": "right"
+            }
+          ],
+          "coordinate_unit": "table_width",
+          "detection_parameters": {
+            "cloth_value_median": 152.0,
+            "dark_value_threshold": 85.0,
+            "minimum_reach": 0.055,
+            "rail_exclusion_width": 0.025,
+            "search_width": 0.23,
+            "warp_width": 500
+          },
+          "limitation": "Visible dark footprint is a collision candidate; image alone cannot establish hardware height.",
+          "source": "temporal_reference_image",
+          "version": "reference_black_protrusions_v1"
+        },
+        "opposite_rail_distance_observed": 0.3388839978576359,
+        "origin_plane": [
+          0.4948385484957443,
+          1.497242611086681
+        ],
+        "origin_raw": [
+          629.5988972557371,
+          552.6646756501802
+        ],
+        "plane_H": [
+          [
+            0.002415368684278126,
+            8.734434313309886e-06,
+            -1.092815331020672
+          ],
+          [
+            -0.0001895652771680191,
+            0.002458141949181516,
+            0.0701273428560006
+          ],
+          [
+            -0.000153439382750935,
+            -5.2322684045774104e-05,
+            1.0
+          ]
+        ],
+        "scale": 1.4835678051830756,
+        "source": "automatic_fixed_template_needs_preview_review",
+        "strength_cap_observed": 1.0090133562092733,
+        "strength_maximum": 1.0090133562092733,
+        "strip_plane": [
+          0.5054143715594058,
+          0.013712502008252409
+        ],
+        "strip_raw": [
+          640.7421386238244,
+          25.906106677593066
+        ],
+        "table_length_cm": 168.0,
+        "table_width_cm": 84.0,
+        "upper_rail_reference_plane": [
+          0.5055121255544963,
+          0.0
+        ],
+        "y_marker_plane": [
+          0.8488639165793838,
+          1.4922109928784963
+        ],
+        "y_marker_raw": [
+          751.290383628777,
+          549.039388669329
+        ]
+      },
+      "fps": 60.0,
+      "frames": 44712,
+      "live_audit": "D:\\experiment\\27\\27_05_test_both_030shots.20261029_123829_380410.partial.live_count.json",
+      "live_audit_sha256": "b6689dae0232dc7b593f9be4c84e4db67d62a0362ff7adb4cdf097ad555e3b89",
+      "live_count": 30,
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\preflight\\27_05_test_both_030shots_median.npz",
+      "median_sha256": "cc0fd3b6e29cb900962f1be8af39db8f08217dd810467a86b2c066c41694a2d6",
+      "name": "27_05_test_both_030shots.mkv",
+      "participant": "27",
+      "path": "D:\\experiment\\27\\27_05_test_both_030shots.mkv",
+      "session_sha256": "5ff4653a6041de796bdfded002d7e72c7a1a1bbd8c143615351999281082d06b",
+      "sha256": "b2e87dbc1a0f57c81cb798f8fb8db1227a3c8b70f0ec65f9197ad682759f9ab0",
+      "size": [
+        1280,
+        720
+      ],
+      "stem": "27_05_test_both_030shots",
+      "training_group": "strength"
+    },
+    {
+      "bytes": 152972322,
+      "calibration_from_recording": {
+        "angle_cap_observed": 13.486097454032032,
+        "aspect_ratio": 2.0,
+        "axes_H": [
+          [
+            -7.610956245039432e-05,
+            -0.0016792784097047803,
+            0.979545803800398
+          ],
+          [
+            0.0016462411645784178,
+            3.0589456325864615e-05,
+            -1.0560433053061207
+          ],
+          [
+            -0.0001736660480845411,
+            -7.693684428874587e-05,
+            1.0
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.014086581472479,
+            -0.3408097734020992
+          ],
+          [
+            1.004505358731743,
+            0.333377365092877
+          ],
+          [
+            -0.3437670129529875,
+            0.3429896861976352
+          ],
+          [
+            -0.33418579021225137,
+            -0.331197452297341
+          ]
+        ],
+        "axis_nonorthogonality_degrees": 1.2227112615578903,
+        "calibration_quality": {
+          "accuracy_check": "visible_rail_intersections_and_partial_marks",
+          "dlt_condition": 241.35562565091476,
+          "ignored_inconsistent_marker_candidates": {},
+          "marker_detection": {
+            "B": {
+              "candidate_count": 1,
+              "contrast": 11.815216064453125,
+              "expected_raw": [
+                634.5891933405348,
+                16.924316412667515
+              ],
+              "runner_up_score_ratio": 0.0,
+              "size_px": [
+                3,
+                5
+              ]
+            },
+            "Y": {
+              "candidate_count": 1,
+              "contrast": 31.66643524169922,
+              "expected_raw": [
+                748.5365645943783,
+                531.4700686508177
+              ],
+              "runner_up_score_ratio": 0.0,
+              "size_px": [
+                4,
+                4
+              ]
+            }
+          },
+          "observed_points": {
+            "B": [
+              640.9996366097565,
+              26.26123951910677
+            ],
+            "TL": [
+              450.6493041325297,
+              6.573229883845745
+            ],
+            "TR": [
+              814.186731064661,
+              34.39878759128415
+            ],
+            "Y": [
+              751.2122044378538,
+              549.2664982070435
+            ]
+          },
+          "reconstructed_names": [
+            "BR",
+            "BL",
+            "O"
+          ],
+          "reference_points_inside_image": {
+            "B": true,
+            "BL": false,
+            "BR": true,
+            "O": true,
+            "TL": true,
+            "TR": true,
+            "Y": true
+          },
+          "reprojection_residual_px": {
+            "B": 1.2555714368341094e-13,
+            "TL": 1.0845964142784046e-13,
+            "TR": 1.1718571004216928e-13,
+            "Y": 3.595093471822542e-13
+          },
+          "side_rail_source": "Robust visible cloth-boundary fits with configured cushion margin",
+          "template_version": "seven_landmarks_multiview_v2",
+          "visible_short_rails": {
+            "top": {
+              "coverage": 0.9891304347826086,
+              "inliers": 87,
+              "line_y_from_x": [
+                0.07654110868929363,
+                -27.919967484516757
+              ],
+              "median_gradient": 20.875,
+              "residual_px": 0.2701088159523586
+            }
+          }
+        },
+        "corners": [
+          [
+            450.6493041325298,
+            6.573229883845652
+          ],
+          [
+            814.1867310646609,
+            34.39878759128412
+          ],
+          [
+            796.3632703329395,
+            712.3992976400452
+          ],
+          [
+            453.88159363181217,
+            734.8109664974037
+          ]
+        ],
+        "distance_cap_observed": 0.3388839978576363,
+        "landmarks_raw": {
+          "B": [
+            640.9996366097564,
+            26.261239519106717
+          ],
+          "BL": [
+            453.88159363181217,
+            734.8109664974037
+          ],
+          "BR": [
+            796.3632703329395,
+            712.3992976400452
+          ],
+          "O": [
+            631.1803835869412,
+            554.7066737683385
+          ],
+          "TL": [
+            450.6493041325298,
+            6.573229883845652
+          ],
+          "TR": [
+            814.1867310646609,
+            34.39878759128412
+          ],
+          "Y": [
+            751.2122044378536,
+            549.2664982070431
+          ]
+        },
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates.",
+        "obstructions": {
+          "contours": [
+            {
+              "area_tablewidth_squared": 0.003256,
+              "ball_radius_source": "sqrt(reference_ball_area_px/pi), locally transformed to table plane",
+              "ball_radius_tablewidth_estimate": 0.017061777082702102,
+              "id": "left_1",
+              "image_contour": [
+                [
+                  461.37442564112007,
+                  377.9012682429277
+                ],
+                [
+                  461.4141577207871,
+                  388.7924672963463
+                ],
+                [
+                  465.1832221810587,
+                  388.80018654334765
+                ],
+                [
+                  466.6846732746588,
+                  387.3538014556012
+                ],
+                [
+                  469.69454229794627,
+                  387.3608188149496
+                ],
+                [
+                  474.94793939675554,
+                  385.20170847798886
+                ],
+                [
+                  493.645351822859,
+                  385.974477589929
+                ],
+                [
+                  494.3780401952576,
+                  370.09077197287564
+                ],
+                [
+                  489.15136288737534,
+                  370.06078256082316
+                ],
+                [
+                  488.40569035596343,
+                  371.5041631051328
+                ],
+                [
+                  477.16754078503396,
+                  371.44287577507527
+                ],
+                [
+                  474.9193277249182,
+                  373.6071703807878
+                ],
+                [
+                  473.41611884879205,
+                  373.59961335255036
+                ],
+                [
+                  472.6564473776874,
+                  370.69225221002574
+                ],
+                [
+                  469.64146890470806,
+                  369.2222062008847
+                ],
+                [
+                  471.1616741753639,
+                  374.3141496209446
+                ],
+                [
+                  468.90986556230183,
+                  376.4811714384581
+                ]
+              ],
+              "needs_preview_review": true,
+              "plane_bounds": [
+                0.024,
+                0.964,
+                0.112,
+                1.018
+              ],
+              "plane_contour": [
+                [
+                  0.024,
+                  0.988
+                ],
+                [
+                  0.024,
+                  1.018
+                ],
+                [
+                  0.034,
+                  1.018
+                ],
+                [
+                  0.038,
+                  1.014
+                ],
+                [
+                  0.046,
+                  1.014
+                ],
+                [
+                  0.06,
+                  1.008
+                ],
+                [
+                  0.11,
+                  1.01
+                ],
+                [
+                  0.112,
+                  0.966
+                ],
+                [
+                  0.098,
+                  0.966
+                ],
+                [
+                  0.096,
+                  0.97
+                ],
+                [
+                  0.066,
+                  0.97
+                ],
+                [
+                  0.06,
+                  0.976
+                ],
+                [
+                  0.056,
+                  0.976
+                ],
+                [
+                  0.054,
+                  0.968
+                ],
+                [
+                  0.046,
+                  0.964
+                ],
+                [
+                  0.05,
+                  0.978
+                ],
+                [
+                  0.044,
+                  0.984
+                ]
+              ],
+              "reach_tablewidth": 0.112,
+              "side": "left"
+            },
+            {
+              "area_tablewidth_squared": 0.002294,
+              "ball_radius_source": "sqrt(reference_ball_area_px/pi), locally transformed to table plane",
+              "ball_radius_tablewidth_estimate": 0.018650702790094068,
+              "id": "right_2",
+              "image_contour": [
+                [
+                  768.7343152075047,
+                  377.8181456247943
+                ],
+                [
+                  768.5606962360632,
+                  385.32876434288835
+                ],
+                [
+                  772.5743120650192,
+                  384.6585412479137
+                ],
+                [
+                  773.8733059361581,
+                  386.0257493768987
+                ],
+                [
+                  781.827278102015,
+                  386.72804952070516
+                ],
+                [
+                  785.0902461216381,
+                  388.7758033751889
+                ],
+                [
+                  790.3807492405614,
+                  388.7873882177681
+                ],
+                [
+                  795.6077595978649,
+                  390.8328182175854
+                ],
+                [
+                  795.2074555378833,
+                  380.6536802395712
+                ],
+                [
+                  791.2456814684592,
+                  380.6382633881212
+                ],
+                [
+                  780.0999449758428,
+                  375.82338071031285
+                ],
+                [
+                  774.7803535179511,
+                  375.79739334141163
+                ],
+                [
+                  773.4164938426806,
+                  377.1563454908295
+                ]
+              ],
+              "needs_preview_review": true,
+              "plane_bounds": [
+                0.89,
+                0.978,
+                0.972,
+                1.022
+              ],
+              "plane_contour": [
+                [
+                  0.89,
+                  0.984
+                ],
+                [
+                  0.89,
+                  1.006
+                ],
+                [
+                  0.902,
+                  1.004
+                ],
+                [
+                  0.906,
+                  1.008
+                ],
+                [
+                  0.93,
+                  1.01
+                ],
+                [
+                  0.94,
+                  1.016
+                ],
+                [
+                  0.956,
+                  1.016
+                ],
+                [
+                  0.972,
+                  1.022
+                ],
+                [
+                  0.97,
+                  0.992
+                ],
+                [
+                  0.958,
+                  0.992
+                ],
+                [
+                  0.924,
+                  0.978
+                ],
+                [
+                  0.908,
+                  0.978
+                ],
+                [
+                  0.904,
+                  0.982
+                ]
+              ],
+              "reach_tablewidth": 0.10999999999999999,
+              "side": "right"
+            }
+          ],
+          "coordinate_unit": "table_width",
+          "detection_parameters": {
+            "cloth_value_median": 180.0,
+            "dark_value_threshold": 85.0,
+            "minimum_reach": 0.055,
+            "rail_exclusion_width": 0.025,
+            "search_width": 0.23,
+            "warp_width": 500
+          },
+          "limitation": "Visible dark footprint is a collision candidate; image alone cannot establish hardware height.",
+          "source": "temporal_reference_image",
+          "version": "reference_black_protrusions_v1"
+        },
+        "opposite_rail_distance_observed": 0.3388839978576363,
+        "origin_plane": [
+          0.4948385484957442,
+          1.4972426110866806
+        ],
+        "origin_raw": [
+          631.1803835869412,
+          554.7066737683385
+        ],
+        "plane_H": [
+          [
+            0.002355322181639239,
+            -1.0454117896364082e-05,
+            -1.0613555848434695
+          ],
+          [
+            -0.00018181743628673273,
+            0.0023754220366050747,
+            0.0663217060240187
+          ],
+          [
+            -0.0001736660480845411,
+            -7.693684428874587e-05,
+            1.0
+          ]
+        ],
+        "scale": 1.4835678051830752,
+        "source": "automatic_fixed_template_needs_preview_review",
+        "strength_cap_observed": 1.0090133562092733,
+        "strength_maximum": 1.0090133562092733,
+        "strip_plane": [
+          0.5054143715594062,
+          0.01371250200825239
+        ],
+        "strip_raw": [
+          640.9996366097564,
+          26.261239519106717
+        ],
+        "table_length_cm": 168.0,
+        "table_width_cm": 84.0,
+        "upper_rail_reference_plane": [
+          0.5055121255544966,
+          0.0
+        ],
+        "y_marker_plane": [
+          0.8488639165793838,
+          1.4922109928784961
+        ],
+        "y_marker_raw": [
+          751.2122044378536,
+          549.2664982070431
+        ]
+      },
+      "fps": 60.0,
+      "frames": 18155,
+      "live_audit": "D:\\experiment\\27\\27_06_test_strength_030shots.20261029_125144_225635.partial.live_count.json",
+      "live_audit_sha256": "0da09bcc10b48656adf41ea0bb3cff96a34c0c340badbec237aa3bab04e2a623",
+      "live_count": 30,
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\preflight\\27_06_test_strength_030shots_median.npz",
+      "median_sha256": "8ffaa2cecc3c7a58a05841b5c2f73ad28edc1fd520e54d2a7fdaeeb7f9302af4",
+      "name": "27_06_test_strength_030shots.mkv",
+      "participant": "27",
+      "path": "D:\\experiment\\27\\27_06_test_strength_030shots.mkv",
+      "session_sha256": "5ff4653a6041de796bdfded002d7e72c7a1a1bbd8c143615351999281082d06b",
+      "sha256": "ee390d407e8f774fcd1fea87afd3e203c76651dc3000acc124cde3923f4eb3a4",
+      "size": [
+        1280,
+        720
+      ],
+      "stem": "27_06_test_strength_030shots",
+      "training_group": "strength"
+    },
+    {
+      "bytes": 154515660,
+      "calibration_from_recording": {
+        "angle_cap_observed": 13.486097454032032,
+        "aspect_ratio": 2.0,
+        "axes_H": [
+          [
+            -7.610956245039432e-05,
+            -0.0016792784097047803,
+            0.979545803800398
+          ],
+          [
+            0.0016462411645784178,
+            3.0589456325864615e-05,
+            -1.0560433053061207
+          ],
+          [
+            -0.0001736660480845411,
+            -7.693684428874587e-05,
+            1.0
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.014086581472479,
+            -0.3408097734020992
+          ],
+          [
+            1.004505358731743,
+            0.333377365092877
+          ],
+          [
+            -0.3437670129529875,
+            0.3429896861976352
+          ],
+          [
+            -0.33418579021225137,
+            -0.331197452297341
+          ]
+        ],
+        "axis_nonorthogonality_degrees": 1.2227112615578903,
+        "calibration_quality": {
+          "accuracy_check": "visible_rail_intersections_and_partial_marks",
+          "dlt_condition": 241.35562565091476,
+          "ignored_inconsistent_marker_candidates": {},
+          "marker_detection": {
+            "B": {
+              "candidate_count": 1,
+              "contrast": 11.815216064453125,
+              "expected_raw": [
+                634.5891933405348,
+                16.924316412667515
+              ],
+              "runner_up_score_ratio": 0.0,
+              "size_px": [
+                3,
+                5
+              ]
+            },
+            "Y": {
+              "candidate_count": 1,
+              "contrast": 31.66643524169922,
+              "expected_raw": [
+                748.5365645943783,
+                531.4700686508177
+              ],
+              "runner_up_score_ratio": 0.0,
+              "size_px": [
+                4,
+                4
+              ]
+            }
+          },
+          "observed_points": {
+            "B": [
+              640.9996366097565,
+              26.26123951910677
+            ],
+            "TL": [
+              450.6493041325297,
+              6.573229883845745
+            ],
+            "TR": [
+              814.186731064661,
+              34.39878759128415
+            ],
+            "Y": [
+              751.2122044378538,
+              549.2664982070435
+            ]
+          },
+          "reconstructed_names": [
+            "BR",
+            "BL",
+            "O"
+          ],
+          "reference_points_inside_image": {
+            "B": true,
+            "BL": false,
+            "BR": true,
+            "O": true,
+            "TL": true,
+            "TR": true,
+            "Y": true
+          },
+          "reprojection_residual_px": {
+            "B": 1.2555714368341094e-13,
+            "TL": 1.0845964142784046e-13,
+            "TR": 1.1718571004216928e-13,
+            "Y": 3.595093471822542e-13
+          },
+          "side_rail_source": "Robust visible cloth-boundary fits with configured cushion margin",
+          "template_version": "seven_landmarks_multiview_v2",
+          "visible_short_rails": {
+            "top": {
+              "coverage": 0.9891304347826086,
+              "inliers": 87,
+              "line_y_from_x": [
+                0.07654110868929363,
+                -27.919967484516757
+              ],
+              "median_gradient": 20.875,
+              "residual_px": 0.2701088159523586
+            }
+          }
+        },
+        "corners": [
+          [
+            450.6493041325298,
+            6.573229883845652
+          ],
+          [
+            814.1867310646609,
+            34.39878759128412
+          ],
+          [
+            796.3632703329395,
+            712.3992976400452
+          ],
+          [
+            453.88159363181217,
+            734.8109664974037
+          ]
+        ],
+        "distance_cap_observed": 0.3388839978576363,
+        "landmarks_raw": {
+          "B": [
+            640.9996366097564,
+            26.261239519106717
+          ],
+          "BL": [
+            453.88159363181217,
+            734.8109664974037
+          ],
+          "BR": [
+            796.3632703329395,
+            712.3992976400452
+          ],
+          "O": [
+            631.1803835869412,
+            554.7066737683385
+          ],
+          "TL": [
+            450.6493041325298,
+            6.573229883845652
+          ],
+          "TR": [
+            814.1867310646609,
+            34.39878759128412
+          ],
+          "Y": [
+            751.2122044378536,
+            549.2664982070431
+          ]
+        },
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates.",
+        "obstructions": {
+          "contours": [
+            {
+              "area_tablewidth_squared": 0.003256,
+              "ball_radius_source": "sqrt(reference_ball_area_px/pi), locally transformed to table plane",
+              "ball_radius_tablewidth_estimate": 0.017061777082702102,
+              "id": "left_1",
+              "image_contour": [
+                [
+                  461.37442564112007,
+                  377.9012682429277
+                ],
+                [
+                  461.4141577207871,
+                  388.7924672963463
+                ],
+                [
+                  465.1832221810587,
+                  388.80018654334765
+                ],
+                [
+                  466.6846732746588,
+                  387.3538014556012
+                ],
+                [
+                  469.69454229794627,
+                  387.3608188149496
+                ],
+                [
+                  474.94793939675554,
+                  385.20170847798886
+                ],
+                [
+                  493.645351822859,
+                  385.974477589929
+                ],
+                [
+                  494.3780401952576,
+                  370.09077197287564
+                ],
+                [
+                  489.15136288737534,
+                  370.06078256082316
+                ],
+                [
+                  488.40569035596343,
+                  371.5041631051328
+                ],
+                [
+                  477.16754078503396,
+                  371.44287577507527
+                ],
+                [
+                  474.9193277249182,
+                  373.6071703807878
+                ],
+                [
+                  473.41611884879205,
+                  373.59961335255036
+                ],
+                [
+                  472.6564473776874,
+                  370.69225221002574
+                ],
+                [
+                  469.64146890470806,
+                  369.2222062008847
+                ],
+                [
+                  471.1616741753639,
+                  374.3141496209446
+                ],
+                [
+                  468.90986556230183,
+                  376.4811714384581
+                ]
+              ],
+              "needs_preview_review": true,
+              "plane_bounds": [
+                0.024,
+                0.964,
+                0.112,
+                1.018
+              ],
+              "plane_contour": [
+                [
+                  0.024,
+                  0.988
+                ],
+                [
+                  0.024,
+                  1.018
+                ],
+                [
+                  0.034,
+                  1.018
+                ],
+                [
+                  0.038,
+                  1.014
+                ],
+                [
+                  0.046,
+                  1.014
+                ],
+                [
+                  0.06,
+                  1.008
+                ],
+                [
+                  0.11,
+                  1.01
+                ],
+                [
+                  0.112,
+                  0.966
+                ],
+                [
+                  0.098,
+                  0.966
+                ],
+                [
+                  0.096,
+                  0.97
+                ],
+                [
+                  0.066,
+                  0.97
+                ],
+                [
+                  0.06,
+                  0.976
+                ],
+                [
+                  0.056,
+                  0.976
+                ],
+                [
+                  0.054,
+                  0.968
+                ],
+                [
+                  0.046,
+                  0.964
+                ],
+                [
+                  0.05,
+                  0.978
+                ],
+                [
+                  0.044,
+                  0.984
+                ]
+              ],
+              "reach_tablewidth": 0.112,
+              "side": "left"
+            },
+            {
+              "area_tablewidth_squared": 0.002294,
+              "ball_radius_source": "sqrt(reference_ball_area_px/pi), locally transformed to table plane",
+              "ball_radius_tablewidth_estimate": 0.018650702790094068,
+              "id": "right_2",
+              "image_contour": [
+                [
+                  768.7343152075047,
+                  377.8181456247943
+                ],
+                [
+                  768.5606962360632,
+                  385.32876434288835
+                ],
+                [
+                  772.5743120650192,
+                  384.6585412479137
+                ],
+                [
+                  773.8733059361581,
+                  386.0257493768987
+                ],
+                [
+                  781.827278102015,
+                  386.72804952070516
+                ],
+                [
+                  785.0902461216381,
+                  388.7758033751889
+                ],
+                [
+                  790.3807492405614,
+                  388.7873882177681
+                ],
+                [
+                  795.6077595978649,
+                  390.8328182175854
+                ],
+                [
+                  795.2074555378833,
+                  380.6536802395712
+                ],
+                [
+                  791.2456814684592,
+                  380.6382633881212
+                ],
+                [
+                  780.0999449758428,
+                  375.82338071031285
+                ],
+                [
+                  774.7803535179511,
+                  375.79739334141163
+                ],
+                [
+                  773.4164938426806,
+                  377.1563454908295
+                ]
+              ],
+              "needs_preview_review": true,
+              "plane_bounds": [
+                0.89,
+                0.978,
+                0.972,
+                1.022
+              ],
+              "plane_contour": [
+                [
+                  0.89,
+                  0.984
+                ],
+                [
+                  0.89,
+                  1.006
+                ],
+                [
+                  0.902,
+                  1.004
+                ],
+                [
+                  0.906,
+                  1.008
+                ],
+                [
+                  0.93,
+                  1.01
+                ],
+                [
+                  0.94,
+                  1.016
+                ],
+                [
+                  0.956,
+                  1.016
+                ],
+                [
+                  0.972,
+                  1.022
+                ],
+                [
+                  0.97,
+                  0.992
+                ],
+                [
+                  0.958,
+                  0.992
+                ],
+                [
+                  0.924,
+                  0.978
+                ],
+                [
+                  0.908,
+                  0.978
+                ],
+                [
+                  0.904,
+                  0.982
+                ]
+              ],
+              "reach_tablewidth": 0.10999999999999999,
+              "side": "right"
+            }
+          ],
+          "coordinate_unit": "table_width",
+          "detection_parameters": {
+            "cloth_value_median": 180.0,
+            "dark_value_threshold": 85.0,
+            "minimum_reach": 0.055,
+            "rail_exclusion_width": 0.025,
+            "search_width": 0.23,
+            "warp_width": 500
+          },
+          "limitation": "Visible dark footprint is a collision candidate; image alone cannot establish hardware height.",
+          "source": "temporal_reference_image",
+          "version": "reference_black_protrusions_v1"
+        },
+        "opposite_rail_distance_observed": 0.3388839978576363,
+        "origin_plane": [
+          0.4948385484957442,
+          1.4972426110866806
+        ],
+        "origin_raw": [
+          631.1803835869412,
+          554.7066737683385
+        ],
+        "plane_H": [
+          [
+            0.002355322181639239,
+            -1.0454117896364082e-05,
+            -1.0613555848434695
+          ],
+          [
+            -0.00018181743628673273,
+            0.0023754220366050747,
+            0.0663217060240187
+          ],
+          [
+            -0.0001736660480845411,
+            -7.693684428874587e-05,
+            1.0
+          ]
+        ],
+        "scale": 1.4835678051830752,
+        "source": "automatic_fixed_template_needs_preview_review",
+        "strength_cap_observed": 1.0090133562092733,
+        "strength_maximum": 1.0090133562092733,
+        "strip_plane": [
+          0.5054143715594062,
+          0.01371250200825239
+        ],
+        "strip_raw": [
+          640.9996366097564,
+          26.261239519106717
+        ],
+        "table_length_cm": 168.0,
+        "table_width_cm": 84.0,
+        "upper_rail_reference_plane": [
+          0.5055121255544966,
+          0.0
+        ],
+        "y_marker_plane": [
+          0.8488639165793838,
+          1.4922109928784961
+        ],
+        "y_marker_raw": [
+          751.2122044378536,
+          549.2664982070431
+        ]
+      },
+      "fps": 60.0,
+      "frames": 18459,
+      "live_audit": "D:\\experiment\\27\\27_07_test_angle_030shots.20261029_125648_976315.partial.live_count.json",
+      "live_audit_sha256": "53f87213cde7c88639426f8faf8bd5e1845863efff78173fd81306d697430496",
+      "live_count": 30,
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\preflight\\27_07_test_angle_030shots_median.npz",
+      "median_sha256": "ceb9eec9ac18cacec9547591d8b9c1a69be6ee9bf45d2e4d8371d2d15bfc1f7a",
+      "name": "27_07_test_angle_030shots.mkv",
+      "participant": "27",
+      "path": "D:\\experiment\\27\\27_07_test_angle_030shots.mkv",
+      "session_sha256": "5ff4653a6041de796bdfded002d7e72c7a1a1bbd8c143615351999281082d06b",
+      "sha256": "823d0cc67dac88a34acd51d6d6ea0fd271e1fee3b77504271ec190b66b32ec27",
+      "size": [
+        1280,
+        720
+      ],
+      "stem": "27_07_test_angle_030shots",
+      "training_group": "strength"
+    }
+  ],
+  "task": "21_27_v3_capped_20261029"
+}

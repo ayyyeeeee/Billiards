@@ -1,0 +1,1288 @@
+{
+  "count": 10,
+  "attempts": 10,
+  "invalid": 0,
+  "state": "inactive",
+  "mode": "angle",
+  "active": false,
+  "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+  "needs_review": true,
+  "observation_status": "missing",
+  "last_event": {
+    "kind": "stopped",
+    "count": 10,
+    "attempt": 10,
+    "timestamp": 4155.083333,
+    "source_timestamp": null,
+    "frame_id": null,
+    "mode": "angle",
+    "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+    "reason": "session_stopped",
+    "needs_review": false
+  },
+  "counting_rule": "angle_first_endpoint_8cm_v1",
+  "last_raw_point": null,
+  "detection": {
+    "version": "bounded_dark_red_tracking_v3",
+    "low_light": false,
+    "cloth_value": 154.0,
+    "low_light_frames": 0,
+    "dark_min_value": 8,
+    "dark_hue_max": 20,
+    "dark_min_saturation": 90,
+    "cloth_gate": 120,
+    "tracked_fragment_frames": 0,
+    "tracked_sparse_color_frames": 0,
+    "tracked_sparse_min_fill": 0.25,
+    "fragment_grace_s": 0.25
+  },
+  "ball_unseen_seconds": 3.5,
+  "ready": true,
+  "notice": "实时计数就绪",
+  "dropped_analysis_frames": 0,
+  "received_analysis_frames": 6513,
+  "stream_received_analysis_frames": 249276,
+  "stream_dropped_analysis_frames": 166,
+  "calibration_error": "",
+  "errors": [],
+  "unready_during_recording": false,
+  "decoder_failed": false,
+  "analysis_stale": false,
+  "worker_failed": false,
+  "worker_stalled": false,
+  "analysis_gap_seen": false,
+  "source_timing_unknown": false,
+  "source_timing_ready": true,
+  "processing_error": "",
+  "source_clock": "mpegts_input_pts",
+  "transport_errors_total": 13,
+  "last_analysis_received_perf_counter": 4769.6641621,
+  "last_analysis_processed_perf_counter": 4769.6701482,
+  "processing_ms_p95": 5.211124999868844,
+  "processing_ms_max": 6.670000000667642,
+  "observation_age_ms_p95": 6.756750000204192,
+  "observation_age_ms_max": 8.47299999986717,
+  "events": [
+    {
+      "kind": "armed",
+      "count": 0,
+      "attempt": 0,
+      "timestamp": 4049.983333,
+      "source_timestamp": 4049.983333,
+      "frame_id": 242970,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 242970,
+      "received_monotonic": 4664.5519716,
+      "published_monotonic": 4664.5585681
+    },
+    {
+      "kind": "attempt",
+      "count": 0,
+      "attempt": 1,
+      "timestamp": 4056.083333,
+      "source_timestamp": 4056.083333,
+      "frame_id": 243336,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 243336,
+      "received_monotonic": 4670.6608642,
+      "published_monotonic": 4670.6665616
+    },
+    {
+      "kind": "confirmed",
+      "count": 1,
+      "attempt": 1,
+      "timestamp": 4057.383333,
+      "source_timestamp": 4057.383333,
+      "frame_id": 243414,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "first_angle_endpoint",
+      "needs_review": false,
+      "angle_endpoint_kind": "first_cushion",
+      "endpoint_position": [
+        0.4727692866318604,
+        0.0008735611999860977
+      ],
+      "endpoint_timestamp": 4057.35,
+      "endpoint_source_timestamp": 4057.35,
+      "endpoint_frame_id": 243412,
+      "endpoint_detection_method": "color_contour",
+      "maximum_free_displacement_cm": 125.70867000350353,
+      "minimum_displacement_cm": 8.0,
+      "angle_degrees": 1.253412484226198,
+      "contact_kind": "target",
+      "contact_timestamp": 4057.35,
+      "contact_source_timestamp": 4057.35,
+      "contact_frame_id": 243412,
+      "contact_location_method": "measured_rail_extremum",
+      "contact_position": [
+        0.4727692866318604,
+        0.0008735611999860977
+      ],
+      "approach_position": [
+        0.4892848555841442,
+        0.13444653745954094
+      ],
+      "return_position": [
+        0.4767195758908324,
+        0.03726565689710174
+      ],
+      "decoder_frame": 243414,
+      "received_monotonic": 4671.9592449,
+      "published_monotonic": 4671.9642376
+    },
+    {
+      "kind": "armed",
+      "count": 1,
+      "attempt": 1,
+      "timestamp": 4063.35,
+      "source_timestamp": 4063.35,
+      "frame_id": 243772,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 243772,
+      "received_monotonic": 4677.9514141,
+      "published_monotonic": 4677.9576882
+    },
+    {
+      "kind": "attempt",
+      "count": 1,
+      "attempt": 2,
+      "timestamp": 4064.333333,
+      "source_timestamp": 4064.333333,
+      "frame_id": 243831,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 243831,
+      "received_monotonic": 4678.8753102,
+      "published_monotonic": 4678.8786961
+    },
+    {
+      "kind": "confirmed",
+      "count": 2,
+      "attempt": 2,
+      "timestamp": 4068.066667,
+      "source_timestamp": 4068.066667,
+      "frame_id": 244055,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "first_angle_endpoint",
+      "needs_review": true,
+      "angle_endpoint_kind": "disappeared",
+      "endpoint_position": [
+        0.0598149685143619,
+        0.03544253591385799
+      ],
+      "endpoint_timestamp": 4067.066667,
+      "endpoint_source_timestamp": 4067.066667,
+      "endpoint_frame_id": 243995,
+      "endpoint_detection_method": "color_contour",
+      "maximum_free_displacement_cm": 130.11693823653064,
+      "minimum_displacement_cm": 8.0,
+      "angle_degrees": 16.981157279974823,
+      "last_free_timestamp": 4067.066667,
+      "last_free_frame_id": 243995,
+      "decoder_frame": 244055,
+      "received_monotonic": 4682.6051224,
+      "published_monotonic": 4682.6081289
+    },
+    {
+      "kind": "armed",
+      "count": 2,
+      "attempt": 2,
+      "timestamp": 4073.666667,
+      "source_timestamp": 4073.666667,
+      "frame_id": 244391,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 244391,
+      "received_monotonic": 4688.2029591,
+      "published_monotonic": 4688.2061295
+    },
+    {
+      "kind": "attempt",
+      "count": 2,
+      "attempt": 3,
+      "timestamp": 4074.916667,
+      "source_timestamp": 4074.916667,
+      "frame_id": 244466,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 244466,
+      "received_monotonic": 4689.464034,
+      "published_monotonic": 4689.4701186
+    },
+    {
+      "kind": "confirmed",
+      "count": 3,
+      "attempt": 3,
+      "timestamp": 4077.433333,
+      "source_timestamp": 4077.433333,
+      "frame_id": 244617,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "first_angle_endpoint",
+      "needs_review": true,
+      "angle_endpoint_kind": "disappeared",
+      "endpoint_position": [
+        0.03496101514338778,
+        0.044722918137717234
+      ],
+      "endpoint_timestamp": 4076.433333,
+      "endpoint_source_timestamp": 4076.433333,
+      "endpoint_frame_id": 244557,
+      "endpoint_detection_method": "color_contour",
+      "maximum_free_displacement_cm": 130.51663507579366,
+      "minimum_displacement_cm": 8.0,
+      "angle_degrees": 17.97658294814661,
+      "last_free_timestamp": 4076.433333,
+      "last_free_frame_id": 244557,
+      "decoder_frame": 244617,
+      "received_monotonic": 4692.0113751,
+      "published_monotonic": 4692.0155815
+    },
+    {
+      "kind": "armed",
+      "count": 3,
+      "attempt": 3,
+      "timestamp": 4081.716667,
+      "source_timestamp": 4081.716667,
+      "frame_id": 244874,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 244874,
+      "received_monotonic": 4696.2622158,
+      "published_monotonic": 4696.2682627
+    },
+    {
+      "kind": "attempt",
+      "count": 3,
+      "attempt": 4,
+      "timestamp": 4083.65,
+      "source_timestamp": 4083.65,
+      "frame_id": 244990,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 244990,
+      "received_monotonic": 4698.204886,
+      "published_monotonic": 4698.2096409
+    },
+    {
+      "kind": "confirmed",
+      "count": 4,
+      "attempt": 4,
+      "timestamp": 4084.916667,
+      "source_timestamp": 4084.916667,
+      "frame_id": 245066,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "first_angle_endpoint",
+      "needs_review": true,
+      "angle_endpoint_kind": "first_cushion",
+      "endpoint_position": [
+        0.467109059739587,
+        0.003882977767395616
+      ],
+      "endpoint_timestamp": 4084.866667,
+      "endpoint_source_timestamp": 4084.866667,
+      "endpoint_frame_id": 245063,
+      "endpoint_detection_method": "color_contour",
+      "maximum_free_displacement_cm": 125.46383295707915,
+      "minimum_displacement_cm": 8.0,
+      "angle_degrees": 1.4722205160458688,
+      "contact_kind": "target",
+      "contact_timestamp": 4084.866667,
+      "contact_source_timestamp": 4084.866667,
+      "contact_frame_id": 245063,
+      "contact_location_method": "measured_rail_extremum",
+      "contact_position": [
+        0.467109059739587,
+        0.003882977767395616
+      ],
+      "approach_position": [
+        0.4704595253890654,
+        0.1428233362097516
+      ],
+      "return_position": [
+        0.46626411164940224,
+        0.04078882184159712
+      ],
+      "decoder_frame": 245066,
+      "received_monotonic": 4699.4673355,
+      "published_monotonic": 4699.4726729
+    },
+    {
+      "kind": "armed",
+      "count": 4,
+      "attempt": 4,
+      "timestamp": 4090.85,
+      "source_timestamp": 4090.85,
+      "frame_id": 245422,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 245422,
+      "received_monotonic": 4705.4106796,
+      "published_monotonic": 4705.4164001
+    },
+    {
+      "kind": "attempt",
+      "count": 4,
+      "attempt": 5,
+      "timestamp": 4092.983333,
+      "source_timestamp": 4092.983333,
+      "frame_id": 245550,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 245550,
+      "received_monotonic": 4707.5455737,
+      "published_monotonic": 4707.5503115
+    },
+    {
+      "kind": "confirmed",
+      "count": 5,
+      "attempt": 5,
+      "timestamp": 4095.233333,
+      "source_timestamp": 4095.233333,
+      "frame_id": 245685,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "first_angle_endpoint",
+      "needs_review": false,
+      "angle_endpoint_kind": "first_cushion",
+      "endpoint_position": [
+        0.025669689425577045,
+        0.08694468022135506
+      ],
+      "endpoint_timestamp": 4095.166667,
+      "endpoint_source_timestamp": 4095.166667,
+      "endpoint_frame_id": 245681,
+      "endpoint_detection_method": "color_contour",
+      "maximum_free_displacement_cm": 124.8484082658185,
+      "minimum_displacement_cm": 8.0,
+      "angle_degrees": 18.80936556124584,
+      "contact_kind": "left",
+      "contact_timestamp": 4095.166667,
+      "contact_source_timestamp": 4095.166667,
+      "contact_frame_id": 245681,
+      "contact_location_method": "measured_rail_extremum",
+      "contact_position": [
+        0.025669689425577045,
+        0.08694468022135506
+      ],
+      "approach_position": [
+        0.05857884959329873,
+        0.15273934028314182
+      ],
+      "return_position": [
+        0.04004880659901216,
+        0.07042904256635753
+      ],
+      "decoder_frame": 245685,
+      "received_monotonic": 4709.8107018,
+      "published_monotonic": 4709.8160986
+    },
+    {
+      "kind": "armed",
+      "count": 5,
+      "attempt": 5,
+      "timestamp": 4100.383333,
+      "source_timestamp": 4100.383333,
+      "frame_id": 245994,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 245994,
+      "received_monotonic": 4714.942716,
+      "published_monotonic": 4714.9477821
+    },
+    {
+      "kind": "attempt",
+      "count": 5,
+      "attempt": 6,
+      "timestamp": 4103.816667,
+      "source_timestamp": 4103.816667,
+      "frame_id": 246200,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 246200,
+      "received_monotonic": 4718.4196983,
+      "published_monotonic": 4718.4258954
+    },
+    {
+      "kind": "confirmed",
+      "count": 6,
+      "attempt": 6,
+      "timestamp": 4105.3,
+      "source_timestamp": 4105.3,
+      "frame_id": 246289,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "first_angle_endpoint",
+      "needs_review": false,
+      "angle_endpoint_kind": "first_cushion",
+      "endpoint_position": [
+        0.29692503489332395,
+        0.00581573352275108
+      ],
+      "endpoint_timestamp": 4105.25,
+      "endpoint_source_timestamp": 4105.25,
+      "endpoint_frame_id": 246286,
+      "endpoint_detection_method": "color_contour",
+      "maximum_free_displacement_cm": 126.37810161473814,
+      "minimum_displacement_cm": 8.0,
+      "angle_degrees": 7.96747551473827,
+      "contact_kind": "target",
+      "contact_timestamp": 4105.25,
+      "contact_source_timestamp": 4105.25,
+      "contact_frame_id": 246286,
+      "contact_location_method": "measured_rail_extremum",
+      "contact_position": [
+        0.29692503489332395,
+        0.00581573352275108
+      ],
+      "approach_position": [
+        0.3078298513636439,
+        0.11989734570351793
+      ],
+      "return_position": [
+        0.28931420799687796,
+        0.03252727116291975
+      ],
+      "decoder_frame": 246289,
+      "received_monotonic": 4719.8738684,
+      "published_monotonic": 4719.878762
+    },
+    {
+      "kind": "armed",
+      "count": 6,
+      "attempt": 6,
+      "timestamp": 4110.316667,
+      "source_timestamp": 4110.316667,
+      "frame_id": 246590,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 246590,
+      "received_monotonic": 4724.8777537,
+      "published_monotonic": 4724.8824669
+    },
+    {
+      "kind": "attempt",
+      "count": 6,
+      "attempt": 7,
+      "timestamp": 4118.816667,
+      "source_timestamp": 4118.816667,
+      "frame_id": 247100,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 247100,
+      "received_monotonic": 4733.4050934,
+      "published_monotonic": 4733.4119787
+    },
+    {
+      "kind": "confirmed",
+      "count": 7,
+      "attempt": 7,
+      "timestamp": 4120.266667,
+      "source_timestamp": 4120.266667,
+      "frame_id": 247187,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "first_angle_endpoint",
+      "needs_review": false,
+      "angle_endpoint_kind": "first_cushion",
+      "endpoint_position": [
+        0.5219631197643436,
+        0.013626889455544964
+      ],
+      "endpoint_timestamp": 4120.216667,
+      "endpoint_source_timestamp": 4120.216667,
+      "endpoint_frame_id": 247184,
+      "endpoint_detection_method": "color_contour",
+      "maximum_free_displacement_cm": 124.64454716739907,
+      "minimum_displacement_cm": 8.0,
+      "angle_degrees": 0.6389630319710536,
+      "contact_kind": "target",
+      "contact_timestamp": 4120.216667,
+      "contact_source_timestamp": 4120.216667,
+      "contact_frame_id": 247184,
+      "contact_location_method": "measured_rail_extremum",
+      "contact_position": [
+        0.5219631197643436,
+        0.013626889455544964
+      ],
+      "approach_position": [
+        0.5282037299709986,
+        0.13866384950145016
+      ],
+      "return_position": [
+        0.5253715315090624,
+        0.04936384406951097
+      ],
+      "decoder_frame": 247187,
+      "received_monotonic": 4734.8151541,
+      "published_monotonic": 4734.8191697
+    },
+    {
+      "kind": "armed",
+      "count": 7,
+      "attempt": 7,
+      "timestamp": 4126.2,
+      "source_timestamp": 4126.2,
+      "frame_id": 247543,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 247543,
+      "received_monotonic": 4740.7501391,
+      "published_monotonic": 4740.7534167
+    },
+    {
+      "kind": "attempt",
+      "count": 7,
+      "attempt": 8,
+      "timestamp": 4129.2,
+      "source_timestamp": 4129.2,
+      "frame_id": 247723,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 247723,
+      "received_monotonic": 4743.7491033,
+      "published_monotonic": 4743.7525352
+    },
+    {
+      "kind": "confirmed",
+      "count": 8,
+      "attempt": 8,
+      "timestamp": 4130.583333,
+      "source_timestamp": 4130.583333,
+      "frame_id": 247806,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "first_angle_endpoint",
+      "needs_review": true,
+      "angle_endpoint_kind": "first_cushion",
+      "endpoint_position": [
+        0.459961575507308,
+        -0.007059349592511821
+      ],
+      "endpoint_timestamp": 4130.533333,
+      "endpoint_source_timestamp": 4130.533333,
+      "endpoint_frame_id": 247803,
+      "endpoint_detection_method": "color_contour",
+      "maximum_free_displacement_cm": 126.39532202339208,
+      "minimum_displacement_cm": 8.0,
+      "angle_degrees": 1.7365990312988762,
+      "contact_kind": "target",
+      "contact_timestamp": 4130.533333,
+      "contact_source_timestamp": 4130.533333,
+      "contact_frame_id": 247803,
+      "contact_location_method": "measured_rail_extremum",
+      "contact_position": [
+        0.459961575507308,
+        -0.007059349592511821
+      ],
+      "approach_position": [
+        0.46112729320476825,
+        0.13000880665949271
+      ],
+      "return_position": [
+        0.4657876487806239,
+        0.04933927236550194
+      ],
+      "decoder_frame": 247806,
+      "received_monotonic": 4745.1570134,
+      "published_monotonic": 4745.1616576
+    },
+    {
+      "kind": "armed",
+      "count": 8,
+      "attempt": 8,
+      "timestamp": 4135.883333,
+      "source_timestamp": 4135.883333,
+      "frame_id": 248124,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 248124,
+      "received_monotonic": 4750.4641832,
+      "published_monotonic": 4750.4702398
+    },
+    {
+      "kind": "attempt",
+      "count": 8,
+      "attempt": 9,
+      "timestamp": 4139.466667,
+      "source_timestamp": 4139.466667,
+      "frame_id": 248339,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 248339,
+      "received_monotonic": 4754.0200842,
+      "published_monotonic": 4754.0232423
+    },
+    {
+      "kind": "confirmed",
+      "count": 9,
+      "attempt": 9,
+      "timestamp": 4141.3,
+      "source_timestamp": 4141.3,
+      "frame_id": 248449,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "first_angle_endpoint",
+      "needs_review": false,
+      "angle_endpoint_kind": "first_cushion",
+      "endpoint_position": [
+        0.12861041144241941,
+        0.0032651566613644536
+      ],
+      "endpoint_timestamp": 4141.233333,
+      "endpoint_source_timestamp": 4141.233333,
+      "endpoint_frame_id": 248445,
+      "endpoint_detection_method": "color_contour",
+      "maximum_free_displacement_cm": 129.20968583328462,
+      "minimum_displacement_cm": 8.0,
+      "angle_degrees": 14.182113327456545,
+      "contact_kind": "target",
+      "contact_timestamp": 4141.233333,
+      "contact_source_timestamp": 4141.233333,
+      "contact_frame_id": 248445,
+      "contact_location_method": "measured_rail_extremum",
+      "contact_position": [
+        0.12861041144241941,
+        0.0032651566613644536
+      ],
+      "approach_position": [
+        0.1468928370743291,
+        0.09267265192617061
+      ],
+      "return_position": [
+        0.11814338570605486,
+        0.029556598616837782
+      ],
+      "decoder_frame": 248449,
+      "received_monotonic": 4755.8673602,
+      "published_monotonic": 4755.874532
+    },
+    {
+      "kind": "armed",
+      "count": 9,
+      "attempt": 9,
+      "timestamp": 4146.166667,
+      "source_timestamp": 4146.166667,
+      "frame_id": 248741,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 248741,
+      "received_monotonic": 4760.7391459,
+      "published_monotonic": 4760.7447906
+    },
+    {
+      "kind": "attempt",
+      "count": 9,
+      "attempt": 10,
+      "timestamp": 4147.55,
+      "source_timestamp": 4147.55,
+      "frame_id": 248824,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 248824,
+      "received_monotonic": 4762.1301486,
+      "published_monotonic": 4762.1355086
+    },
+    {
+      "kind": "confirmed",
+      "count": 10,
+      "attempt": 10,
+      "timestamp": 4149.533333,
+      "source_timestamp": 4149.533333,
+      "frame_id": 248943,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "first_angle_endpoint",
+      "needs_review": false,
+      "angle_endpoint_kind": "first_cushion",
+      "endpoint_position": [
+        0.172800066646254,
+        0.007123302694731124
+      ],
+      "endpoint_timestamp": 4149.466667,
+      "endpoint_source_timestamp": 4149.466667,
+      "endpoint_frame_id": 248939,
+      "endpoint_detection_method": "color_contour",
+      "maximum_free_displacement_cm": 128.05976558667797,
+      "minimum_displacement_cm": 8.0,
+      "angle_degrees": 12.603422386787134,
+      "contact_kind": "target",
+      "contact_timestamp": 4149.466667,
+      "contact_source_timestamp": 4149.466667,
+      "contact_frame_id": 248939,
+      "contact_location_method": "measured_rail_extremum",
+      "contact_position": [
+        0.172800066646254,
+        0.007123302694731124
+      ],
+      "approach_position": [
+        0.18320485716090898,
+        0.0935748292668596
+      ],
+      "return_position": [
+        0.16348424614682852,
+        0.03065440698874835
+      ],
+      "decoder_frame": 248943,
+      "received_monotonic": 4764.0863425,
+      "published_monotonic": 4764.0896705
+    },
+    {
+      "kind": "stopped",
+      "count": 10,
+      "attempt": 10,
+      "timestamp": 4155.083333,
+      "source_timestamp": null,
+      "frame_id": null,
+      "mode": "angle",
+      "session_id": "D:\\experiment\\20\\20_03_baseline_angle_010shots.20261025_160201_287792.partial.mkv",
+      "reason": "session_stopped",
+      "needs_review": false
+    }
+  ],
+  "calibration": {
+    "corners": [
+      [
+        454.62818018904045,
+        1.7783011070931405
+      ],
+      [
+        815.860057269511,
+        24.88304295696807
+      ],
+      [
+        797.7598613262572,
+        707.6269022694611
+      ],
+      [
+        454.2487714040727,
+        722.0774811390991
+      ]
+    ],
+    "origin_raw": [
+      631.0144159938939,
+      545.2051790621716
+    ],
+    "y_marker_raw": [
+      751.9159339511978,
+      541.5281248220026
+    ],
+    "strip_raw": [
+      642.0603497727898,
+      18.82916211855441
+    ],
+    "plane_H": [
+      [
+        0.0024611366788287506,
+        1.2963736497832393e-06,
+        -1.1189043948351105
+      ],
+      [
+        -0.00015813147515232636,
+        0.0024723119594209117,
+        0.06749450968459278
+      ],
+      [
+        -0.00013390703571200034,
+        -6.75007295007234e-05,
+        1.0
+      ]
+    ],
+    "axes_H": [
+      [
+        -5.277187727473121e-05,
+        -0.0017351389594074589,
+        0.9793065623809095
+      ],
+      [
+        0.0017041435161845714,
+        3.576123497952986e-05,
+        -1.0948363361554871
+      ],
+      [
+        -0.00013390703571200034,
+        -6.75007295007234e-05,
+        1.0
+      ]
+    ],
+    "axes_corners": [
+      [
+        1.0140865814724787,
+        -0.3408097734020993
+      ],
+      [
+        1.0045053587317434,
+        0.33337736509287685
+      ],
+      [
+        -0.34376701295298706,
+        0.34298968619763537
+      ],
+      [
+        -0.3341857902122518,
+        -0.33119745229734077
+      ]
+    ],
+    "origin_plane": [
+      0.4948385484957441,
+      1.4972426110866806
+    ],
+    "strip_plane": [
+      0.5054143715594064,
+      0.013712502008252372
+    ],
+    "y_marker_plane": [
+      0.848863916579384,
+      1.4922109928784966
+    ],
+    "scale": 1.4835678051830752,
+    "distance_cap_observed": 0.3388839978576363,
+    "opposite_rail_distance_observed": 0.3388839978576363,
+    "strength_cap_observed": 1.0090133562092736,
+    "strength_maximum": 1.0090133562092736,
+    "upper_rail_reference_plane": [
+      0.5055121255544969,
+      0.0
+    ],
+    "angle_cap_observed": 13.486097454032032,
+    "axis_nonorthogonality_degrees": 1.2227112615578335,
+    "aspect_ratio": 2.0,
+    "source": "automatic_fixed_template_needs_preview_review",
+    "landmarks_raw": {
+      "TL": [
+        454.62818018904045,
+        1.7783011070931405
+      ],
+      "TR": [
+        815.860057269511,
+        24.88304295696807
+      ],
+      "BR": [
+        797.7598613262572,
+        707.6269022694611
+      ],
+      "BL": [
+        454.2487714040727,
+        722.0774811390991
+      ],
+      "O": [
+        631.0144159938939,
+        545.2051790621716
+      ],
+      "Y": [
+        751.9159339511978,
+        541.5281248220026
+      ],
+      "B": [
+        642.0603497727898,
+        18.82916211855441
+      ]
+    },
+    "calibration_quality": {
+      "observed_points": {
+        "TR": [
+          815.8600572695109,
+          24.88304295696797
+        ],
+        "BR": [
+          797.7598613262572,
+          707.626902269461
+        ],
+        "O": [
+          631.014415993894,
+          545.2051790621715
+        ],
+        "Y": [
+          751.915933951198,
+          541.5281248220025
+        ]
+      },
+      "reconstructed_names": [
+        "TL",
+        "BL",
+        "B"
+      ],
+      "reprojection_residual_px": {
+        "TR": 1.5106345774618504e-13,
+        "BR": 1.1368683772161603e-13,
+        "O": 1.6077746776921858e-13,
+        "Y": 2.5421149729252077e-13
+      },
+      "dlt_condition": 53.881993328067615,
+      "accuracy_check": "visible_rail_intersections_and_partial_marks",
+      "template_version": "seven_landmarks_multiview_v2",
+      "ignored_inconsistent_marker_candidates": {},
+      "marker_detection": {
+        "O": {
+          "contrast": 38.776092529296875,
+          "size_px": [
+            5,
+            4
+          ],
+          "candidate_count": 1,
+          "expected_raw": [
+            625.8606803212035,
+            536.7476883810194
+          ],
+          "runner_up_score_ratio": 0.0
+        },
+        "Y": {
+          "contrast": 26.184677124023438,
+          "size_px": [
+            5,
+            4
+          ],
+          "candidate_count": 1,
+          "expected_raw": [
+            749.5404209314381,
+            535.0750377367972
+          ],
+          "runner_up_score_ratio": 0.0
+        }
+      },
+      "visible_short_rails": {
+        "top": {
+          "line_y_from_x": [
+            0.07378571582034794,
+            -35.31577537789296
+          ],
+          "inliers": 82,
+          "coverage": 0.8924731182795699,
+          "median_gradient": 14.625,
+          "residual_px": 0.24082132958755764
+        },
+        "bottom": {
+          "line_y_from_x": [
+            -0.03294473881334952,
+            733.9088925366284
+          ],
+          "inliers": 34,
+          "coverage": 0.8172043010752689,
+          "median_gradient": 20.46875,
+          "residual_px": 1.2645722944994304
+        }
+      },
+      "side_rail_source": "Robust visible cloth-boundary fits with configured cushion margin",
+      "reference_points_inside_image": {
+        "TL": true,
+        "TR": true,
+        "BR": true,
+        "BL": false,
+        "O": true,
+        "Y": true,
+        "B": true
+      }
+    },
+    "table_width_cm": 84.0,
+    "table_length_cm": 168.0,
+    "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates.",
+    "obstructions": {
+      "version": "reference_black_protrusions_v1",
+      "contours": [
+        {
+          "id": "left_1",
+          "side": "left",
+          "image_contour": [
+            [
+              463.33452416126113,
+              372.29326631900386
+            ],
+            [
+              463.320925897984,
+              383.7837984121465
+            ],
+            [
+              472.19818390350997,
+              380.2684558054255
+            ],
+            [
+              495.0105539647587,
+              381.17159743618134
+            ],
+            [
+              495.8053255665813,
+              364.0100237432051
+            ],
+            [
+              472.97052521564416,
+              362.32810355458827
+            ],
+            [
+              471.4801369538228,
+              368.77957796274853
+            ],
+            [
+              467.0376329407504,
+              371.6097723614668
+            ]
+          ],
+          "plane_contour": [
+            [
+              0.024,
+              1.002
+            ],
+            [
+              0.024,
+              1.034
+            ],
+            [
+              0.048,
+              1.024
+            ],
+            [
+              0.11,
+              1.026
+            ],
+            [
+              0.112,
+              0.978
+            ],
+            [
+              0.05,
+              0.974
+            ],
+            [
+              0.046,
+              0.992
+            ],
+            [
+              0.034,
+              1.0
+            ]
+          ],
+          "plane_bounds": [
+            0.024,
+            0.974,
+            0.112,
+            1.034
+          ],
+          "area_tablewidth_squared": 0.00394,
+          "reach_tablewidth": 0.112,
+          "ball_radius_tablewidth_estimate": 0.017236556518782514,
+          "ball_radius_source": "sqrt(reference_ball_area_px/pi), locally transformed to table plane",
+          "needs_preview_review": true
+        },
+        {
+          "id": "right_2",
+          "side": "right",
+          "image_contour": [
+            [
+              769.8554259308984,
+              365.5689675418648
+            ],
+            [
+              769.4636565447014,
+              382.04044690416407
+            ],
+            [
+              788.9829495482105,
+              382.2038834727458
+            ],
+            [
+              796.93744115333,
+              385.68311587025676
+            ],
+            [
+              797.2371448747915,
+              374.0756668716618
+            ],
+            [
+              791.8919679411018,
+              373.3399695093157
+            ],
+            [
+              789.9305007596987,
+              371.2673374241627
+            ],
+            [
+              790.0343296727003,
+              367.1594666302365
+            ],
+            [
+              785.3637547001582,
+              365.73826003228805
+            ]
+          ],
+          "plane_contour": [
+            [
+              0.89,
+              0.974
+            ],
+            [
+              0.89,
+              1.022
+            ],
+            [
+              0.948,
+              1.022
+            ],
+            [
+              0.972,
+              1.032
+            ],
+            [
+              0.972,
+              0.998
+            ],
+            [
+              0.956,
+              0.996
+            ],
+            [
+              0.95,
+              0.99
+            ],
+            [
+              0.95,
+              0.978
+            ],
+            [
+              0.936,
+              0.974
+            ]
+          ],
+          "plane_bounds": [
+            0.888,
+            0.974,
+            0.972,
+            1.032
+          ],
+          "area_tablewidth_squared": 0.003642,
+          "reach_tablewidth": 0.11199999999999999,
+          "ball_radius_tablewidth_estimate": 0.018409109345733175,
+          "ball_radius_source": "sqrt(reference_ball_area_px/pi), locally transformed to table plane",
+          "needs_preview_review": true
+        }
+      ],
+      "coordinate_unit": "table_width",
+      "source": "temporal_reference_image",
+      "detection_parameters": {
+        "warp_width": 500,
+        "dark_value_threshold": 82.2,
+        "cloth_value_median": 137.0,
+        "rail_exclusion_width": 0.025,
+        "search_width": 0.23,
+        "minimum_reach": 0.055
+      },
+      "limitation": "Visible dark footprint is a collision candidate; image alone cannot establish hardware height."
+    }
+  },
+  "config": {
+    "scoring_version": 2,
+    "crossing_max_gap_s": 0.15,
+    "table_aspect_ratio": 2.0,
+    "table_length_cm": 168.0,
+    "table_width_cm": 84.0,
+    "table_inner_margin_px": [
+      8,
+      12,
+      18
+    ],
+    "origin_to_strip_length": 1.0,
+    "distance_unit": "origin_to_strip",
+    "table_hsv": [
+      [
+        32,
+        35,
+        35
+      ],
+      [
+        95,
+        255,
+        255
+      ]
+    ],
+    "ball_hsv_ranges": [
+      [
+        [
+          0,
+          105,
+          45
+        ],
+        [
+          7,
+          255,
+          255
+        ]
+      ],
+      [
+        [
+          155,
+          90,
+          40
+        ],
+        [
+          179,
+          255,
+          255
+        ]
+      ]
+    ],
+    "min_ball_area": 45,
+    "max_ball_area": 700,
+    "origin_tolerance": 0.045,
+    "rest_duration_s": 0.35,
+    "rest_radius": 0.013,
+    "departure_distance": 0.055,
+    "stop_duration_s": 0.3,
+    "stop_radius": 0.0035,
+    "lost_duration_s": 0.25,
+    "rail_tolerance": 0.035,
+    "max_interpolation_s": 0.15,
+    "free_ball_hand_fraction": 0.18,
+    "hand_contact_fraction": 0.35
+  },
+  "counter_version": "causal_first_target_bank_v3_dark_origin_recovery",
+  "timing_note": "Source_timestamp is the MPEG-TS input PTS reported by FFmpeg showinfo; raw output uses passthrough and never substitutes frame_index/60 for unknown source time. received/published_monotonic measure software delivery only, not camera exposure or USB latency. Q/E boundaries freeze committed decoder-frame watermarks, not saved-video PTS boundaries.",
+  "finalized": true,
+  "generation": 9,
+  "begin_decoder_frame_exclusive": 242763,
+  "end_decoder_frame_inclusive": 249276,
+  "calibration_sha256": "8001cc48726376426e2be87a6b37f4b0b7b359b372501ad70bd866cbfb07087a"
+}

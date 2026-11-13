@@ -1,0 +1,1653 @@
+{
+  "task": "01_07_v3_capped_20261020",
+  "participant": "03",
+  "training_group": "both",
+  "scoring_version": 3,
+  "inventory_created": "2026-10-20T23:12:41.504454",
+  "final_csv_verification_sha256": "7b140c03588e5f753969ab2c799f0b26bf7b13d1bbeea76b605bec2b4bd4ea3c",
+  "limits": {
+    "baseline": 10,
+    "training": 140,
+    "test": 30
+  },
+  "selection": "First valid trials in source chronological order, not best scores.",
+  "summary": [
+    {
+      "participant": "03",
+      "video": "03_01_baseline_both_010shots.mkv",
+      "stage": "baseline",
+      "mode": "both",
+      "source_valid": 18,
+      "limit": 10,
+      "kept": 10,
+      "excluded": 8,
+      "shortfall": 0
+    },
+    {
+      "participant": "03",
+      "video": "03_02_baseline_strength_010shots.mkv",
+      "stage": "baseline",
+      "mode": "strength",
+      "source_valid": 9,
+      "limit": 10,
+      "kept": 9,
+      "excluded": 0,
+      "shortfall": 1
+    },
+    {
+      "participant": "03",
+      "video": "03_03_baseline_angle_010shots.mkv",
+      "stage": "baseline",
+      "mode": "angle",
+      "source_valid": 13,
+      "limit": 10,
+      "kept": 10,
+      "excluded": 3,
+      "shortfall": 0
+    },
+    {
+      "participant": "03",
+      "video": "03_04_training_both_140shots.mkv",
+      "stage": "training",
+      "mode": "both",
+      "source_valid": 220,
+      "limit": 140,
+      "kept": 140,
+      "excluded": 80,
+      "shortfall": 0
+    },
+    {
+      "participant": "03",
+      "video": "03_05_test_both_030shots.mkv",
+      "stage": "test",
+      "mode": "both",
+      "source_valid": 30,
+      "limit": 30,
+      "kept": 30,
+      "excluded": 0,
+      "shortfall": 0
+    },
+    {
+      "participant": "03",
+      "video": "03_06_test_strength_030shots.mkv",
+      "stage": "test",
+      "mode": "strength",
+      "source_valid": 36,
+      "limit": 30,
+      "kept": 30,
+      "excluded": 6,
+      "shortfall": 0
+    },
+    {
+      "participant": "03",
+      "video": "03_07_test_angle_030shots.mkv",
+      "stage": "test",
+      "mode": "angle",
+      "source_valid": 30,
+      "limit": 30,
+      "kept": 30,
+      "excluded": 0,
+      "shortfall": 0
+    }
+  ],
+  "incomplete_kept": 31,
+  "unresolved_requested_components": 31,
+  "invalid_requested_components": 0,
+  "unconfirmed_stop_estimates_withheld": 27,
+  "strength_review_policy": "strict_natural_stop_v1",
+  "source_videos": 7,
+  "source_manifest": [
+    {
+      "participant": "03",
+      "path": "D:\\experiment\\03\\03_01_baseline_both_010shots.mkv",
+      "name": "03_01_baseline_both_010shots.mkv",
+      "stem": "03_01_baseline_both_010shots",
+      "bytes": 105354414,
+      "sha256": "a93850004681d4f461dda5aa2ae02a2ba1c352da93b5a883e795592e8cf9d319",
+      "frames": 12525,
+      "fps": 60.0,
+      "size": [
+        1280,
+        720
+      ],
+      "session_sha256": "ce85a7d4fc79b35017d899c4597c648ed49e56a2f7e68b07952e6400a8becc26",
+      "safe_cache": null,
+      "median_provenance": {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\preflight\\03_01_baseline_regular_010shots_median.npz",
+        "sha256": "da1083a7f07696ff3e2cd449f7351dafadb9584c03af4549a2690233d36fc76f",
+        "source_sha256": "a93850004681d4f461dda5aa2ae02a2ba1c352da93b5a883e795592e8cf9d319",
+        "source_manifest": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\inventory.json",
+        "reference_frame": null,
+        "verification": "Historical source-bound median SHA equality",
+        "purpose": "Source-matched median only; historical observations are not implicitly reused."
+      },
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\preflight\\03_01_baseline_both_010shots_median.npz",
+      "median_sha256": "da1083a7f07696ff3e2cd449f7351dafadb9584c03af4549a2690233d36fc76f",
+      "override_path": null,
+      "override_sha256": null,
+      "preflight_status": "READY_FOR_GEOMETRY_REVIEW",
+      "calibration": {
+        "corners": [
+          [
+            461.20632875395177,
+            10.074456349644693
+          ],
+          [
+            814.056412357773,
+            39.03663184647443
+          ],
+          [
+            801.9909483813072,
+            722.1766763378937
+          ],
+          [
+            455.6448790812957,
+            736.6429277700852
+          ]
+        ],
+        "origin_raw": [
+          634.5207199355117,
+          554.8500105197024
+        ],
+        "y_marker_raw": [
+          755.0891865275,
+          551.7899449041661
+        ],
+        "strip_raw": [
+          644.9479289608491,
+          30.085287099695993
+        ],
+        "plane_H": [
+          [
+            0.0026618806042625976,
+            2.0375113423631124e-05,
+            -1.2278814492641088
+          ],
+          [
+            -0.00022115259293830808,
+            0.0026943318162002575,
+            0.0748530472097258
+          ],
+          [
+            -0.0001680816222967086,
+            -2.9607035294835447e-05,
+            1.0778185827351936
+          ]
+        ],
+        "axes_H": [
+          [
+            -4.686642324932268e-05,
+            -0.0018465658896767282,
+            1.054304819933419
+          ],
+          [
+            0.0018508266323428405,
+            3.677639769557069e-05,
+            -1.1947932318782617
+          ],
+          [
+            -0.0001680816222967086,
+            -2.9607035294835447e-05,
+            1.0778185827351936
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.014086581472479,
+            -0.340809773402099
+          ],
+          [
+            1.004505358731743,
+            0.333377365092877
+          ],
+          [
+            -0.3437670129529873,
+            0.3429896861976351
+          ],
+          [
+            -0.33418579021225114,
+            -0.33119745229734093
+          ]
+        ],
+        "origin_plane": [
+          0.49483854849574427,
+          1.4972426110866808
+        ],
+        "strip_plane": [
+          0.505414371559406,
+          0.0137125020082524
+        ],
+        "y_marker_plane": [
+          0.8488639165793839,
+          1.4922109928784963
+        ],
+        "scale": 1.4835678051830754,
+        "distance_cap_observed": 0.3388839978576361,
+        "opposite_rail_distance_observed": 0.3388839978576361,
+        "strength_cap_observed": 1.0090133562092736,
+        "strength_maximum": 1.0090133562092736,
+        "upper_rail_reference_plane": [
+          0.5055121255544965,
+          0.0
+        ],
+        "angle_cap_observed": 13.486097454032087,
+        "axis_nonorthogonality_degrees": 1.2227112615578903,
+        "aspect_ratio": 2.0,
+        "source": "automatic_fixed_template_needs_preview_review",
+        "landmarks_raw": {
+          "TL": [
+            461.20632875395177,
+            10.074456349644693
+          ],
+          "TR": [
+            814.056412357773,
+            39.03663184647443
+          ],
+          "BR": [
+            801.9909483813072,
+            722.1766763378937
+          ],
+          "BL": [
+            455.6448790812957,
+            736.6429277700852
+          ],
+          "O": [
+            634.5207199355117,
+            554.8500105197024
+          ],
+          "Y": [
+            755.0891865275,
+            551.7899449041661
+          ],
+          "B": [
+            644.9479289608491,
+            30.085287099695993
+          ]
+        },
+        "calibration_quality": {
+          "observed_points": {
+            "O": [
+              634.1548740129859,
+              554.8455243633719
+            ],
+            "Y": [
+              755.8020619594871,
+              551.7997984114186
+            ],
+            "B": [
+              645.005494693476,
+              30.086045811100263
+            ]
+          },
+          "reconstructed_names": [
+            "TL",
+            "TR",
+            "BR",
+            "BL"
+          ],
+          "reprojection_residual_px": {
+            "O": 0.3658734270582392,
+            "Y": 0.7129435273118974,
+            "B": 0.05757073228522177
+          },
+          "rail_fit_residual_px": [
+            0.022983897189216347,
+            -0.2549828163379607,
+            0.45769626799954927,
+            1.0965590576759383
+          ],
+          "accuracy_check": "three_marks_and_two_observed_side_lines",
+          "template_version": "seven_landmarks_multiview_v2",
+          "marker_detection": {
+            "O": {
+              "contrast": 47.83346176147461,
+              "size_px": [
+                4,
+                5
+              ],
+              "candidate_count": 1,
+              "expected_raw": [
+                629.1351812185419,
+                530.6828368775713
+              ],
+              "runner_up_score_ratio": 0.0
+            },
+            "Y": {
+              "contrast": 38.571388244628906,
+              "size_px": [
+                4,
+                4
+              ],
+              "candidate_count": 1,
+              "expected_raw": [
+                752.0314123354274,
+                528.968672767328
+              ],
+              "runner_up_score_ratio": 0.0
+            },
+            "B": {
+              "contrast": 17.674877166748047,
+              "size_px": [
+                4,
+                7
+              ],
+              "candidate_count": 1,
+              "expected_raw": [
+                639.4835269099225,
+                16.830013668440643
+              ],
+              "runner_up_score_ratio": 0.0
+            }
+          },
+          "visible_short_rails": {
+            "top": {
+              "line_y_from_x": [
+                0.06982973245600478,
+                -26.99484784432355
+              ],
+              "inliers": 80,
+              "coverage": 0.9738805970149254,
+              "median_gradient": 4.09375,
+              "residual_px": 0.328104164468197
+            }
+          },
+          "side_rail_source": "Robust visible cloth-boundary fits with configured cushion margin",
+          "reference_points_inside_image": {
+            "TL": true,
+            "TR": true,
+            "BR": false,
+            "BL": false,
+            "O": true,
+            "Y": true,
+            "B": true
+          }
+        },
+        "table_width_cm": 84.0,
+        "table_length_cm": 168.0,
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates."
+      }
+    },
+    {
+      "participant": "03",
+      "path": "D:\\experiment\\03\\03_02_baseline_strength_010shots.mkv",
+      "name": "03_02_baseline_strength_010shots.mkv",
+      "stem": "03_02_baseline_strength_010shots",
+      "bytes": 57527431,
+      "sha256": "e06df0230f8e98fa806327325e7c4dcbe47f302076c0f07cf7c82ebb44220837",
+      "frames": 6879,
+      "fps": 60.0,
+      "size": [
+        1280,
+        720
+      ],
+      "session_sha256": "ce85a7d4fc79b35017d899c4597c648ed49e56a2f7e68b07952e6400a8becc26",
+      "safe_cache": null,
+      "median_provenance": {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\preflight\\03_02_baseline_strength_010shots_median.npz",
+        "sha256": "b6613eb4ab786b4d84c2327794c2d83b27c40a7a339a214d54e23109c1f524dd",
+        "source_sha256": "e06df0230f8e98fa806327325e7c4dcbe47f302076c0f07cf7c82ebb44220837",
+        "source_manifest": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\inventory.json",
+        "reference_frame": null,
+        "verification": "Historical source-bound median SHA equality",
+        "purpose": "Source-matched median only; historical observations are not implicitly reused."
+      },
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\preflight\\03_02_baseline_strength_010shots_median.npz",
+      "median_sha256": "b6613eb4ab786b4d84c2327794c2d83b27c40a7a339a214d54e23109c1f524dd",
+      "override_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\overrides\\03_02_baseline_strength_010shots.json",
+      "override_sha256": "c8e471c9e60275d155fcc32269ae3117c0d073af35ac05e09727a486df6f67f7",
+      "preflight_status": "READY_FOR_GEOMETRY_REVIEW",
+      "calibration": {
+        "corners": [
+          [
+            469.0,
+            16.0
+          ],
+          [
+            806.0,
+            38.0
+          ],
+          [
+            791.0,
+            711.0
+          ],
+          [
+            462.0,
+            719.0
+          ]
+        ],
+        "origin_raw": [
+          637.0,
+          557.0
+        ],
+        "y_marker_raw": [
+          756.0000000000001,
+          554.0000000000001
+        ],
+        "strip_raw": [
+          644.0,
+          31.000000000000004
+        ],
+        "plane_H": [
+          [
+            0.0026793184525454095,
+            2.667884661140535e-05,
+            -1.2570272157895794
+          ],
+          [
+            -0.0001707227237366988,
+            0.002615161722693977,
+            0.038226369869408104
+          ],
+          [
+            -0.00011802397376578123,
+            -3.5669052934906485e-05,
+            1.0
+          ]
+        ],
+        "axes_H": [
+          [
+            -4.424688700815741e-05,
+            -0.0017551265179903265,
+            1.0057907375448083
+          ],
+          [
+            0.0018009457038151088,
+            2.3966958035562442e-05,
+            -1.1605520089560324
+          ],
+          [
+            -0.00011802397376578123,
+            -3.5669052934906485e-05,
+            1.0
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.0136438921137438,
+            -0.3342156620234801
+          ],
+          [
+            0.9999066822461214,
+            0.3230939660664597
+          ],
+          [
+            -0.31443215386994905,
+            0.3188950205089487
+          ],
+          [
+            -0.30069494400232655,
+            -0.338414607580991
+          ]
+        ],
+        "origin_plane": [
+          0.5133523495160436,
+          1.5317083167487138
+        ],
+        "strip_plane": [
+          0.5084923758750122,
+          0.010132281641984287
+        ],
+        "y_marker_plane": [
+          0.8791313050457708,
+          1.5240622179814887
+        ],
+        "scale": 1.5215837965603167,
+        "distance_cap_observed": 0.30776595039320453,
+        "opposite_rail_distance_observed": 0.30776595039320453,
+        "strength_cap_observed": 1.0065012698009366,
+        "strength_maximum": 1.0065012698009366,
+        "upper_rail_reference_plane": [
+          0.5084600129693359,
+          0.0
+        ],
+        "angle_cap_observed": 13.573516778653309,
+        "axis_nonorthogonality_degrees": 1.0145095868689396,
+        "aspect_ratio": 2.0,
+        "source": "manual_override",
+        "landmarks_raw": {
+          "TL": [
+            469.0,
+            16.0
+          ],
+          "TR": [
+            806.0,
+            38.0
+          ],
+          "BR": [
+            791.0,
+            711.0
+          ],
+          "BL": [
+            462.0,
+            719.0
+          ],
+          "O": [
+            637.0,
+            557.0
+          ],
+          "Y": [
+            756.0000000000001,
+            554.0000000000001
+          ],
+          "B": [
+            644.0,
+            31.000000000000004
+          ]
+        },
+        "calibration_quality": {
+          "observed_points": {
+            "TL": [
+              469.0,
+              16.0
+            ],
+            "TR": [
+              806.0,
+              38.0
+            ],
+            "BR": [
+              791.0,
+              711.0
+            ],
+            "BL": [
+              462.0,
+              719.0
+            ],
+            "O": [
+              637.0,
+              557.0
+            ],
+            "Y": [
+              756.0000000000001,
+              554.0000000000001
+            ],
+            "B": [
+              644.0,
+              31.000000000000004
+            ]
+          },
+          "reconstructed_names": [],
+          "accuracy_check": "legacy_manual_override_not_independently_verified"
+        },
+        "table_width_cm": 84.0,
+        "table_length_cm": 168.0,
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates."
+      }
+    },
+    {
+      "participant": "03",
+      "path": "D:\\experiment\\03\\03_03_baseline_angle_010shots.mkv",
+      "name": "03_03_baseline_angle_010shots.mkv",
+      "stem": "03_03_baseline_angle_010shots",
+      "bytes": 72151729,
+      "sha256": "2b9ef23f934f2361282be4d993ce4158e47862884d1af6899cb1b7165b385bde",
+      "frames": 8607,
+      "fps": 60.0,
+      "size": [
+        1280,
+        720
+      ],
+      "session_sha256": "ce85a7d4fc79b35017d899c4597c648ed49e56a2f7e68b07952e6400a8becc26",
+      "safe_cache": null,
+      "median_provenance": {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\preflight\\03_03_baseline_angle_010shots_median.npz",
+        "sha256": "a6ace8bb2924d2b8bb94292d4053488a1c985d53a0bb1297999865ce1d489f69",
+        "source_sha256": "2b9ef23f934f2361282be4d993ce4158e47862884d1af6899cb1b7165b385bde",
+        "source_manifest": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\inventory.json",
+        "reference_frame": null,
+        "verification": "Historical source-bound median SHA equality",
+        "purpose": "Source-matched median only; historical observations are not implicitly reused."
+      },
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\preflight\\03_03_baseline_angle_010shots_median.npz",
+      "median_sha256": "a6ace8bb2924d2b8bb94292d4053488a1c985d53a0bb1297999865ce1d489f69",
+      "override_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\overrides\\03_03_baseline_angle_010shots.json",
+      "override_sha256": "6ac092d63cfda7862e1672183f4ab50a3a2edee94069497959f24ffc804f9c79",
+      "preflight_status": "READY_FOR_GEOMETRY_REVIEW",
+      "calibration": {
+        "corners": [
+          [
+            466.0,
+            14.0
+          ],
+          [
+            801.0,
+            31.0
+          ],
+          [
+            790.0,
+            737.0
+          ],
+          [
+            457.0,
+            722.0
+          ]
+        ],
+        "origin_raw": [
+          634.4000000000001,
+          559.0
+        ],
+        "y_marker_raw": [
+          756.6000000000003,
+          555.6000000000001
+        ],
+        "strip_raw": [
+          645.3,
+          35.1
+        ],
+        "plane_H": [
+          [
+            0.002964238021977997,
+            3.7680991804804603e-05,
+            -1.3818624521270135
+          ],
+          [
+            -0.00014187049346064934,
+            0.0027956832534892662,
+            0.02697208440381286
+          ],
+          [
+            -7.58102310251394e-06,
+            -8.622137792767208e-06,
+            1.0
+          ]
+        ],
+        "axes_H": [
+          [
+            -5.286264522127402e-05,
+            -0.0018999456605999876,
+            1.0956056864037693
+          ],
+          [
+            0.002009988723147223,
+            4.181881481638572e-05,
+            -1.2985135634469582
+          ],
+          [
+            -7.58102310251394e-06,
+            -8.622137792767208e-06,
+            1.0
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.048202025672546,
+            -0.3625980951170565
+          ],
+          [
+            1.0007085699907106,
+            0.3147793894715028
+          ],
+          [
+            -0.3507451867450435,
+            0.324199761836588
+          ],
+          [
+            -0.30325173106320813,
+            -0.3531777227519713
+          ]
+        ],
+        "origin_plane": [
+          0.5247668962812156,
+          1.5143382113381458
+        ],
+        "strip_plane": [
+          0.5350624196330587,
+          0.033726736479291544
+        ],
+        "y_marker_plane": [
+          0.89119656271569,
+          1.4885837065516114
+        ],
+        "scale": 1.4806472697049762,
+        "distance_cap_observed": 0.32800640544092846,
+        "opposite_rail_distance_observed": 0.32800640544092846,
+        "strength_cap_observed": 1.019738705433248,
+        "strength_maximum": 1.019738705433248,
+        "upper_rail_reference_plane": [
+          0.53529694057856,
+          0.0
+        ],
+        "angle_cap_observed": 14.153341725812945,
+        "axis_nonorthogonality_degrees": 4.41882494050158,
+        "aspect_ratio": 2.0,
+        "source": "manual_override",
+        "landmarks_raw": {
+          "TL": [
+            466.0,
+            14.0
+          ],
+          "TR": [
+            801.0,
+            31.0
+          ],
+          "BR": [
+            790.0,
+            737.0
+          ],
+          "BL": [
+            457.0,
+            722.0
+          ],
+          "O": [
+            634.4000000000001,
+            559.0
+          ],
+          "Y": [
+            756.6000000000003,
+            555.6000000000001
+          ],
+          "B": [
+            645.3,
+            35.1
+          ]
+        },
+        "calibration_quality": {
+          "observed_points": {
+            "TL": [
+              466.0,
+              14.0
+            ],
+            "TR": [
+              801.0,
+              31.0
+            ],
+            "BR": [
+              790.0,
+              737.0
+            ],
+            "BL": [
+              457.0,
+              722.0
+            ],
+            "O": [
+              634.4000000000001,
+              559.0
+            ],
+            "Y": [
+              756.6000000000003,
+              555.6000000000001
+            ],
+            "B": [
+              645.3,
+              35.1
+            ]
+          },
+          "reconstructed_names": [],
+          "accuracy_check": "legacy_manual_override_not_independently_verified"
+        },
+        "table_width_cm": 84.0,
+        "table_length_cm": 168.0,
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates."
+      }
+    },
+    {
+      "participant": "03",
+      "path": "D:\\experiment\\03\\03_04_training_both_140shots.mkv",
+      "name": "03_04_training_both_140shots.mkv",
+      "stem": "03_04_training_both_140shots",
+      "bytes": 1106263638,
+      "sha256": "a5d256bc692ad9caef7995360511559719e8c6d92fb4a275218b4ca6a2395a2e",
+      "frames": 132191,
+      "fps": 60.0,
+      "size": [
+        1280,
+        720
+      ],
+      "session_sha256": "ce85a7d4fc79b35017d899c4597c648ed49e56a2f7e68b07952e6400a8becc26",
+      "safe_cache": null,
+      "median_provenance": {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\preflight\\03_04_training_regular_140shots_median.npz",
+        "sha256": "6294ea19e8414490951e1ced2d37d64897eb2c283d54af523f24879120ae039d",
+        "source_sha256": "a5d256bc692ad9caef7995360511559719e8c6d92fb4a275218b4ca6a2395a2e",
+        "source_manifest": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\inventory.json",
+        "reference_frame": null,
+        "verification": "Historical source-bound median SHA equality",
+        "purpose": "Source-matched median only; historical observations are not implicitly reused."
+      },
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\preflight\\03_04_training_both_140shots_median.npz",
+      "median_sha256": "6294ea19e8414490951e1ced2d37d64897eb2c283d54af523f24879120ae039d",
+      "override_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\overrides\\03_04_training_both_140shots.json",
+      "override_sha256": "dddbe97bc87988126de18f97579074ab9ba5991e393be69367c4f963909f7e97",
+      "preflight_status": "READY_FOR_GEOMETRY_REVIEW",
+      "calibration": {
+        "corners": [
+          [
+            464.0,
+            14.0
+          ],
+          [
+            800.0,
+            31.0
+          ],
+          [
+            789.0,
+            737.0
+          ],
+          [
+            455.0,
+            722.0
+          ]
+        ],
+        "origin_raw": [
+          633.4999999999999,
+          559.4999999999999
+        ],
+        "y_marker_raw": [
+          755.7999999999998,
+          555.7999999999998
+        ],
+        "strip_raw": [
+          644.0,
+          34.999999999999986
+        ],
+        "plane_H": [
+          [
+            0.002955493881474546,
+            3.7569837476371325e-05,
+            -1.3718751387288588
+          ],
+          [
+            -0.00014145461150506905,
+            0.0027958087921001883,
+            0.026493616648949406
+          ],
+          [
+            -7.561087006901946e-06,
+            -8.596741352659507e-06,
+            1.0
+          ]
+        ],
+        "axes_H": [
+          [
+            -5.741715343563018e-05,
+            -0.0018978696932912995,
+            1.0982318600979533
+          ],
+          [
+            0.0020021690715045274,
+            4.008155433898505e-05,
+            -1.2907997364507804
+          ],
+          [
+            -7.561087006901946e-06,
+            -8.596741352659507e-06,
+            1.0
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.0488259987886612,
+            -0.3625477219775394
+          ],
+          [
+            0.9997781443446361,
+            0.31416209838485903
+          ],
+          [
+            -0.35010707875621505,
+            0.322417990138314
+          ],
+          [
+            -0.3010592243121899,
+            -0.3542918302240844
+          ]
+        ],
+        "origin_plane": [
+          0.5265049145078059,
+          1.5156874745659603
+        ],
+        "strip_plane": [
+          0.535546763040083,
+          0.03342295881316871
+        ],
+        "y_marker_plane": [
+          0.892129332264623,
+          1.489117670087142
+        ],
+        "scale": 1.4822920932409842,
+        "distance_cap_observed": 0.3267321789291245,
+        "opposite_rail_distance_observed": 0.3267321789291245,
+        "strength_cap_observed": 1.0193881919498484,
+        "strength_maximum": 1.0193881919498484,
+        "upper_rail_reference_plane": [
+          0.5357506438777321,
+          0.0
+        ],
+        "angle_cap_observed": 14.113476235458108,
+        "axis_nonorthogonality_degrees": 4.505860320878327,
+        "aspect_ratio": 2.0,
+        "source": "manual_override",
+        "landmarks_raw": {
+          "TL": [
+            464.0,
+            14.0
+          ],
+          "TR": [
+            800.0,
+            31.0
+          ],
+          "BR": [
+            789.0,
+            737.0
+          ],
+          "BL": [
+            455.0,
+            722.0
+          ],
+          "O": [
+            633.4999999999999,
+            559.4999999999999
+          ],
+          "Y": [
+            755.7999999999998,
+            555.7999999999998
+          ],
+          "B": [
+            644.0,
+            34.999999999999986
+          ]
+        },
+        "calibration_quality": {
+          "observed_points": {
+            "TL": [
+              464.0,
+              14.0
+            ],
+            "TR": [
+              800.0,
+              31.0
+            ],
+            "BR": [
+              789.0,
+              737.0
+            ],
+            "BL": [
+              455.0,
+              722.0
+            ],
+            "O": [
+              633.4999999999999,
+              559.4999999999999
+            ],
+            "Y": [
+              755.7999999999998,
+              555.7999999999998
+            ],
+            "B": [
+              644.0,
+              34.999999999999986
+            ]
+          },
+          "reconstructed_names": [],
+          "accuracy_check": "legacy_manual_override_not_independently_verified"
+        },
+        "table_width_cm": 84.0,
+        "table_length_cm": 168.0,
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates."
+      }
+    },
+    {
+      "participant": "03",
+      "path": "D:\\experiment\\03\\03_05_test_both_030shots.mkv",
+      "name": "03_05_test_both_030shots.mkv",
+      "stem": "03_05_test_both_030shots",
+      "bytes": 169512638,
+      "sha256": "5049e1e881e527bb2d9adfb3650167b933f3f93629d566ee809997012011158d",
+      "frames": 20481,
+      "fps": 60.0,
+      "size": [
+        1280,
+        720
+      ],
+      "session_sha256": "ce85a7d4fc79b35017d899c4597c648ed49e56a2f7e68b07952e6400a8becc26",
+      "safe_cache": null,
+      "median_provenance": {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\preflight\\03_05_test_regular_030shots_median.npz",
+        "sha256": "b2396146dc15e933f36a4203fffbc383f7fc3f646b237baeec2939c845503e7c",
+        "source_sha256": "5049e1e881e527bb2d9adfb3650167b933f3f93629d566ee809997012011158d",
+        "source_manifest": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\inventory.json",
+        "reference_frame": null,
+        "verification": "Historical source-bound median SHA equality",
+        "purpose": "Source-matched median only; historical observations are not implicitly reused."
+      },
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\preflight\\03_05_test_both_030shots_median.npz",
+      "median_sha256": "b2396146dc15e933f36a4203fffbc383f7fc3f646b237baeec2939c845503e7c",
+      "override_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\overrides\\03_05_test_both_030shots.json",
+      "override_sha256": "dddbe97bc87988126de18f97579074ab9ba5991e393be69367c4f963909f7e97",
+      "preflight_status": "READY_FOR_GEOMETRY_REVIEW",
+      "calibration": {
+        "corners": [
+          [
+            464.0,
+            14.0
+          ],
+          [
+            800.0,
+            31.0
+          ],
+          [
+            789.0,
+            737.0
+          ],
+          [
+            455.0,
+            722.0
+          ]
+        ],
+        "origin_raw": [
+          633.4999999999999,
+          559.4999999999999
+        ],
+        "y_marker_raw": [
+          755.7999999999998,
+          555.7999999999998
+        ],
+        "strip_raw": [
+          644.0,
+          34.999999999999986
+        ],
+        "plane_H": [
+          [
+            0.002955493881474546,
+            3.7569837476371325e-05,
+            -1.3718751387288588
+          ],
+          [
+            -0.00014145461150506905,
+            0.0027958087921001883,
+            0.026493616648949406
+          ],
+          [
+            -7.561087006901946e-06,
+            -8.596741352659507e-06,
+            1.0
+          ]
+        ],
+        "axes_H": [
+          [
+            -5.741715343563018e-05,
+            -0.0018978696932912995,
+            1.0982318600979533
+          ],
+          [
+            0.0020021690715045274,
+            4.008155433898505e-05,
+            -1.2907997364507804
+          ],
+          [
+            -7.561087006901946e-06,
+            -8.596741352659507e-06,
+            1.0
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.0488259987886612,
+            -0.3625477219775394
+          ],
+          [
+            0.9997781443446361,
+            0.31416209838485903
+          ],
+          [
+            -0.35010707875621505,
+            0.322417990138314
+          ],
+          [
+            -0.3010592243121899,
+            -0.3542918302240844
+          ]
+        ],
+        "origin_plane": [
+          0.5265049145078059,
+          1.5156874745659603
+        ],
+        "strip_plane": [
+          0.535546763040083,
+          0.03342295881316871
+        ],
+        "y_marker_plane": [
+          0.892129332264623,
+          1.489117670087142
+        ],
+        "scale": 1.4822920932409842,
+        "distance_cap_observed": 0.3267321789291245,
+        "opposite_rail_distance_observed": 0.3267321789291245,
+        "strength_cap_observed": 1.0193881919498484,
+        "strength_maximum": 1.0193881919498484,
+        "upper_rail_reference_plane": [
+          0.5357506438777321,
+          0.0
+        ],
+        "angle_cap_observed": 14.113476235458108,
+        "axis_nonorthogonality_degrees": 4.505860320878327,
+        "aspect_ratio": 2.0,
+        "source": "manual_override",
+        "landmarks_raw": {
+          "TL": [
+            464.0,
+            14.0
+          ],
+          "TR": [
+            800.0,
+            31.0
+          ],
+          "BR": [
+            789.0,
+            737.0
+          ],
+          "BL": [
+            455.0,
+            722.0
+          ],
+          "O": [
+            633.4999999999999,
+            559.4999999999999
+          ],
+          "Y": [
+            755.7999999999998,
+            555.7999999999998
+          ],
+          "B": [
+            644.0,
+            34.999999999999986
+          ]
+        },
+        "calibration_quality": {
+          "observed_points": {
+            "TL": [
+              464.0,
+              14.0
+            ],
+            "TR": [
+              800.0,
+              31.0
+            ],
+            "BR": [
+              789.0,
+              737.0
+            ],
+            "BL": [
+              455.0,
+              722.0
+            ],
+            "O": [
+              633.4999999999999,
+              559.4999999999999
+            ],
+            "Y": [
+              755.7999999999998,
+              555.7999999999998
+            ],
+            "B": [
+              644.0,
+              34.999999999999986
+            ]
+          },
+          "reconstructed_names": [],
+          "accuracy_check": "legacy_manual_override_not_independently_verified"
+        },
+        "table_width_cm": 84.0,
+        "table_length_cm": 168.0,
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates."
+      }
+    },
+    {
+      "participant": "03",
+      "path": "D:\\experiment\\03\\03_06_test_strength_030shots.mkv",
+      "name": "03_06_test_strength_030shots.mkv",
+      "stem": "03_06_test_strength_030shots",
+      "bytes": 169957715,
+      "sha256": "f22b97c3292b577d9d41ab1409789c8dd09ddc1659650bcfea0544e32df4a58d",
+      "frames": 20337,
+      "fps": 60.0,
+      "size": [
+        1280,
+        720
+      ],
+      "session_sha256": "ce85a7d4fc79b35017d899c4597c648ed49e56a2f7e68b07952e6400a8becc26",
+      "safe_cache": null,
+      "median_provenance": {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\preflight\\03_06_test_strength_030shots_median.npz",
+        "sha256": "ba0bf496de49cebe75eb68fb4f351d76dd506bec463ad5f2f1b455dc122a2dd8",
+        "source_sha256": "f22b97c3292b577d9d41ab1409789c8dd09ddc1659650bcfea0544e32df4a58d",
+        "source_manifest": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\inventory.json",
+        "reference_frame": null,
+        "verification": "Historical source-bound median SHA equality",
+        "purpose": "Source-matched median only; historical observations are not implicitly reused."
+      },
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\preflight\\03_06_test_strength_030shots_median.npz",
+      "median_sha256": "ba0bf496de49cebe75eb68fb4f351d76dd506bec463ad5f2f1b455dc122a2dd8",
+      "override_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\overrides\\03_06_test_strength_030shots.json",
+      "override_sha256": "dddbe97bc87988126de18f97579074ab9ba5991e393be69367c4f963909f7e97",
+      "preflight_status": "READY_FOR_GEOMETRY_REVIEW",
+      "calibration": {
+        "corners": [
+          [
+            464.0,
+            14.0
+          ],
+          [
+            800.0,
+            31.0
+          ],
+          [
+            789.0,
+            737.0
+          ],
+          [
+            455.0,
+            722.0
+          ]
+        ],
+        "origin_raw": [
+          633.4999999999999,
+          559.4999999999999
+        ],
+        "y_marker_raw": [
+          755.7999999999998,
+          555.7999999999998
+        ],
+        "strip_raw": [
+          644.0,
+          34.999999999999986
+        ],
+        "plane_H": [
+          [
+            0.002955493881474546,
+            3.7569837476371325e-05,
+            -1.3718751387288588
+          ],
+          [
+            -0.00014145461150506905,
+            0.0027958087921001883,
+            0.026493616648949406
+          ],
+          [
+            -7.561087006901946e-06,
+            -8.596741352659507e-06,
+            1.0
+          ]
+        ],
+        "axes_H": [
+          [
+            -5.741715343563018e-05,
+            -0.0018978696932912995,
+            1.0982318600979533
+          ],
+          [
+            0.0020021690715045274,
+            4.008155433898505e-05,
+            -1.2907997364507804
+          ],
+          [
+            -7.561087006901946e-06,
+            -8.596741352659507e-06,
+            1.0
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.0488259987886612,
+            -0.3625477219775394
+          ],
+          [
+            0.9997781443446361,
+            0.31416209838485903
+          ],
+          [
+            -0.35010707875621505,
+            0.322417990138314
+          ],
+          [
+            -0.3010592243121899,
+            -0.3542918302240844
+          ]
+        ],
+        "origin_plane": [
+          0.5265049145078059,
+          1.5156874745659603
+        ],
+        "strip_plane": [
+          0.535546763040083,
+          0.03342295881316871
+        ],
+        "y_marker_plane": [
+          0.892129332264623,
+          1.489117670087142
+        ],
+        "scale": 1.4822920932409842,
+        "distance_cap_observed": 0.3267321789291245,
+        "opposite_rail_distance_observed": 0.3267321789291245,
+        "strength_cap_observed": 1.0193881919498484,
+        "strength_maximum": 1.0193881919498484,
+        "upper_rail_reference_plane": [
+          0.5357506438777321,
+          0.0
+        ],
+        "angle_cap_observed": 14.113476235458108,
+        "axis_nonorthogonality_degrees": 4.505860320878327,
+        "aspect_ratio": 2.0,
+        "source": "manual_override",
+        "landmarks_raw": {
+          "TL": [
+            464.0,
+            14.0
+          ],
+          "TR": [
+            800.0,
+            31.0
+          ],
+          "BR": [
+            789.0,
+            737.0
+          ],
+          "BL": [
+            455.0,
+            722.0
+          ],
+          "O": [
+            633.4999999999999,
+            559.4999999999999
+          ],
+          "Y": [
+            755.7999999999998,
+            555.7999999999998
+          ],
+          "B": [
+            644.0,
+            34.999999999999986
+          ]
+        },
+        "calibration_quality": {
+          "observed_points": {
+            "TL": [
+              464.0,
+              14.0
+            ],
+            "TR": [
+              800.0,
+              31.0
+            ],
+            "BR": [
+              789.0,
+              737.0
+            ],
+            "BL": [
+              455.0,
+              722.0
+            ],
+            "O": [
+              633.4999999999999,
+              559.4999999999999
+            ],
+            "Y": [
+              755.7999999999998,
+              555.7999999999998
+            ],
+            "B": [
+              644.0,
+              34.999999999999986
+            ]
+          },
+          "reconstructed_names": [],
+          "accuracy_check": "legacy_manual_override_not_independently_verified"
+        },
+        "table_width_cm": 84.0,
+        "table_length_cm": 168.0,
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates."
+      }
+    },
+    {
+      "participant": "03",
+      "path": "D:\\experiment\\03\\03_07_test_angle_030shots.mkv",
+      "name": "03_07_test_angle_030shots.mkv",
+      "stem": "03_07_test_angle_030shots",
+      "bytes": 138029420,
+      "sha256": "e16b08f279966a22e1efc41752db512423be4b53362c5f6e145d121095aec613",
+      "frames": 16423,
+      "fps": 60.0,
+      "size": [
+        1280,
+        720
+      ],
+      "session_sha256": "ce85a7d4fc79b35017d899c4597c648ed49e56a2f7e68b07952e6400a8becc26",
+      "safe_cache": null,
+      "median_provenance": {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\preflight\\03_07_test_angle_030shots_median.npz",
+        "sha256": "073b66f2aae833d27ab4d8e7a8531136678197b10d390b127406291dd116b7b5",
+        "source_sha256": "e16b08f279966a22e1efc41752db512423be4b53362c5f6e145d121095aec613",
+        "source_manifest": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\inventory.json",
+        "reference_frame": null,
+        "verification": "Historical source-bound median SHA equality",
+        "purpose": "Source-matched median only; historical observations are not implicitly reused."
+      },
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\preflight\\03_07_test_angle_030shots_median.npz",
+      "median_sha256": "073b66f2aae833d27ab4d8e7a8531136678197b10d390b127406291dd116b7b5",
+      "override_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\overrides\\03_07_test_angle_030shots.json",
+      "override_sha256": "dddbe97bc87988126de18f97579074ab9ba5991e393be69367c4f963909f7e97",
+      "preflight_status": "READY_FOR_GEOMETRY_REVIEW",
+      "calibration": {
+        "corners": [
+          [
+            464.0,
+            14.0
+          ],
+          [
+            800.0,
+            31.0
+          ],
+          [
+            789.0,
+            737.0
+          ],
+          [
+            455.0,
+            722.0
+          ]
+        ],
+        "origin_raw": [
+          633.4999999999999,
+          559.4999999999999
+        ],
+        "y_marker_raw": [
+          755.7999999999998,
+          555.7999999999998
+        ],
+        "strip_raw": [
+          644.0,
+          34.999999999999986
+        ],
+        "plane_H": [
+          [
+            0.002955493881474546,
+            3.7569837476371325e-05,
+            -1.3718751387288588
+          ],
+          [
+            -0.00014145461150506905,
+            0.0027958087921001883,
+            0.026493616648949406
+          ],
+          [
+            -7.561087006901946e-06,
+            -8.596741352659507e-06,
+            1.0
+          ]
+        ],
+        "axes_H": [
+          [
+            -5.741715343563018e-05,
+            -0.0018978696932912995,
+            1.0982318600979533
+          ],
+          [
+            0.0020021690715045274,
+            4.008155433898505e-05,
+            -1.2907997364507804
+          ],
+          [
+            -7.561087006901946e-06,
+            -8.596741352659507e-06,
+            1.0
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.0488259987886612,
+            -0.3625477219775394
+          ],
+          [
+            0.9997781443446361,
+            0.31416209838485903
+          ],
+          [
+            -0.35010707875621505,
+            0.322417990138314
+          ],
+          [
+            -0.3010592243121899,
+            -0.3542918302240844
+          ]
+        ],
+        "origin_plane": [
+          0.5265049145078059,
+          1.5156874745659603
+        ],
+        "strip_plane": [
+          0.535546763040083,
+          0.03342295881316871
+        ],
+        "y_marker_plane": [
+          0.892129332264623,
+          1.489117670087142
+        ],
+        "scale": 1.4822920932409842,
+        "distance_cap_observed": 0.3267321789291245,
+        "opposite_rail_distance_observed": 0.3267321789291245,
+        "strength_cap_observed": 1.0193881919498484,
+        "strength_maximum": 1.0193881919498484,
+        "upper_rail_reference_plane": [
+          0.5357506438777321,
+          0.0
+        ],
+        "angle_cap_observed": 14.113476235458108,
+        "axis_nonorthogonality_degrees": 4.505860320878327,
+        "aspect_ratio": 2.0,
+        "source": "manual_override",
+        "landmarks_raw": {
+          "TL": [
+            464.0,
+            14.0
+          ],
+          "TR": [
+            800.0,
+            31.0
+          ],
+          "BR": [
+            789.0,
+            737.0
+          ],
+          "BL": [
+            455.0,
+            722.0
+          ],
+          "O": [
+            633.4999999999999,
+            559.4999999999999
+          ],
+          "Y": [
+            755.7999999999998,
+            555.7999999999998
+          ],
+          "B": [
+            644.0,
+            34.999999999999986
+          ]
+        },
+        "calibration_quality": {
+          "observed_points": {
+            "TL": [
+              464.0,
+              14.0
+            ],
+            "TR": [
+              800.0,
+              31.0
+            ],
+            "BR": [
+              789.0,
+              737.0
+            ],
+            "BL": [
+              455.0,
+              722.0
+            ],
+            "O": [
+              633.4999999999999,
+              559.4999999999999
+            ],
+            "Y": [
+              755.7999999999998,
+              555.7999999999998
+            ],
+            "B": [
+              644.0,
+              34.999999999999986
+            ]
+          },
+          "reconstructed_names": [],
+          "accuracy_check": "legacy_manual_override_not_independently_verified"
+        },
+        "table_width_cm": 84.0,
+        "table_length_cm": 168.0,
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates."
+      }
+    }
+  ],
+  "core_sha256": {
+    "audit_hand_stops.py": "64e4227ba2606f3e1513b7172a659a6be7145efe17c76ad6888bcfd44fbc018a",
+    "calibration.py": "ed56069eec6b00d672922c86b015e0f9f4786aed732b19b6bb5d9595f46b1dc1",
+    "config.json": "580fbaebdec501cf5d79b3ebab10a0b7ee029de25059df85e9c173a46dd0e366",
+    "enrich_review.py": "3816261558ae552b1d25f10377ac0d6be77cc90a88125386de09ff968a858e94",
+    "geometry.py": "ce9d4c2931483476717395216dc34d844e981ae9bc2ef1ea1b135831a65afa1d",
+    "learn_table_template.py": "36b86208b7b0c463e5b7601253c355e9314bf4e220b074adabb0151758ead579",
+    "manual_calibration.py": "02841b10def5b6bf6582262afd77a74b801f2916c154926fcf448c5db07de0e9",
+    "modes.py": "c542d93842f6f6c6d9dff3159c10a08d6ce1ef241c35277b25d2ee7b459d8263",
+    "motion.py": "31e807f4c265ca1fddafd857c738372cbe787fd6268fd9ed2e619054c10617f9",
+    "motion_model.json": "a2e78e092adaa9d0748e4b62aff813d2f73827b89744b9f8130242b6a55d238b",
+    "obstructions.py": "aff8e36cac60cba099f93dd55256ef767ab140f8c20c47643ed1c5a46a747fbc",
+    "pipeline.py": "33c7c49c8117c1e568f7282a01d61e193cd9ff6a86fe5094d373cf0ef974e3ed",
+    "reference_constants.json": "09e03a65c0c62ac68fe84a49744295b1af18d3a33331093d1b1cb6e6d31849ad",
+    "review.py": "7880c5ec23d518da5034591bbc9aa88478fe128f3726d3d038ad07814c9cd9e4",
+    "rules.py": "6d553b1a3028544a078b837e7c5ddf27662d88f24a61cecd105982acb9b2d4ec",
+    "rules_v2.py": "4a4ac9099551a62cae7e171a9b93e76c42bb20f99541ecdafef6acf02367a0e2",
+    "rules_v3.py": "298f32fa19f8bc96f876f6e9623bf07fd5923b278c57ed43cbfb80b9699670a9",
+    "table_template.json": "801f3314f0a5dce7906002e8e69d1f5e4dcb3c1de0faf946c3d8d73ecef7aa8f",
+    "test_count_assessment.py": "046d8357fad7fe4d1c1546422471b36df5e228fc752aab9f7c089b2d472c83b6",
+    "test_geometry.py": "7e4dafa86235f29e67e50ab0eca765bd0d4bb2d6a3c4e8eefc81c4b13508d8a6",
+    "test_modes.py": "7a7c5e70cae6dcc22998e5372a2f0770e4500ba494c766cf4dd4e1376de5ec77",
+    "test_motion.py": "a5b07bde7701bb6b278915d845783e7a26ca5f4a70b7b2af5b8655ac7f828039",
+    "test_obstructions.py": "e24b9e765fe844d63cc00c200183792ca5739ec8f5aaff2d9a9dd0c70ce9dd8f",
+    "test_output_paths.py": "3f55cba6845782b6d1ef2705a6df159f5aae07892216bf3759f6ed582f770e84",
+    "test_rules.py": "4ba9041d46f0a268b1277c342a83f6ec85a1e2f0999fe183abffa0e80453c73c",
+    "test_scoring_v2.py": "e7e1259781a649d775b7a7fc4735989bceeef47f00c1938da80e1314f998a4b6",
+    "test_scoring_v3.py": "90fee5a6c8882d3638c8b2cf931e55f017049357dde3422e850343295738642a",
+    "test_validation_v2.py": "836301b43965536c494460b3597ba2b22b1b4ef38e880ae5cd0f53351da3e30e",
+    "test_validation_v3.py": "00dff54db79a347a9cf76dba12ae4e947e4ce2e4226488372972ed064fa2f7b5",
+    "validate_outputs.py": "310646df62ce5f4240d4b36b5a58c9444d14514bf547217aef219710b3478b11",
+    "verified_counts.json": "0447edcc0343871805b7e5b51b69458c4a9a2892452c95325e30f61a728f9d03",
+    "vision.py": "aa5165ef18d09c84bdb47870deeb284ebb57491aa2111b7ef9eca4da67d61817",
+    "__init__.py": "4e85c890d96efa98270b342c445de5b9d56f03c79c7a69d2cd3eab6bb8860ea7"
+  },
+  "reviewed_raw_evidence": {},
+  "tracking_support_copied": false,
+  "geometry_revisions": {},
+  "geometry_revision_registry_sha256": "2319e9d5d7eff6fe2a786e3b8f60904274e038292f5d8657528e700ab8bb88da",
+  "full_analysis": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\analysis\\03",
+  "units": {
+    "strength": "origin_to_strip",
+    "angle": "degree"
+  },
+  "missing": "Unresolved numeric components remain blank; source review flags are retained.",
+  "unchanged": "Source videos, sessions, logs, MOLT4_results1 and 08/09 are never modified."
+}

@@ -1,0 +1,683 @@
+{
+  "status": "SOURCE_REVIEWED_MINIMAL_CANDIDATE_READY_FOR_ROOT_DECISION",
+  "method": "source_verified_wrong_object_exclusion",
+  "created": "2026-10-29T15:56:11.524777+00:00",
+  "source_video": "D:\\experiment\\26\\26_01_baseline_both_010shots.mkv",
+  "source_sha256": "b1f04506723f8487ef8f7b54ee29b25040841481f6f2ddc6144b099268913334",
+  "original_pack": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\analysis\\26\\cache\\26_01_baseline_both_010shots_evidence.npz",
+  "original_pack_sha256": "6f419f0a12234d3bb11cd19d17135787e28e060c49d2bdedf1194480611093e0",
+  "reviewed_pack": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\26_01_baseline_both_010shots_reviewed_evidence.npz",
+  "reviewed_pack_sha256": "3efe7c06369e694da19d790a6638ec55a92681abbc0e0e98a85431102c09ea7f",
+  "inputs_sha256": {
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\analysis\\26\\cache\\26_01_baseline_both_010shots_evidence.npz": "6f419f0a12234d3bb11cd19d17135787e28e060c49d2bdedf1194480611093e0",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\analysis\\26\\audit\\26_01_baseline_both_010shots_report.json": "b917eefc8a282bb3de692fbb1367f7687b6b631e0e2fcc4901aa7ac066af7587",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\analysis\\26\\calibration\\26_01_baseline_both_010shots.json": "e19fd12d12e895e01ce4f6c8d18d4239f15c51daabf84ccf30014599eb59a330",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\inventory.json": "1a8a26e6acedda8f97f61e9ae4aba79932ed12a371d09bd19a1af1203ade599d",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\geometry_manifest.json": "1a432cbaba95b6402fff484be5ded88d13fc9fcf6c85a6032ad86499ae7b1408",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\native_before_reviewed_rescore_manifest.json": "942d9439c86fad8a47758a684040095fad1294fee6340643d7bdcdba2fc86e92",
+    "D:\\experiment\\26\\26_01_baseline_both_010shots.mkv": "b1f04506723f8487ef8f7b54ee29b25040841481f6f2ddc6144b099268913334",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\source_evidence.json": "d86c17809297dcdf5e37d8b9f5be7ef8af4e9f370f590a359db3aa70659d5da8"
+  },
+  "core_sha256": {
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\audit_hand_stops.py": "64e4227ba2606f3e1513b7172a659a6be7145efe17c76ad6888bcfd44fbc018a",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\calibration.py": "ed56069eec6b00d672922c86b015e0f9f4786aed732b19b6bb5d9595f46b1dc1",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\config.json": "580fbaebdec501cf5d79b3ebab10a0b7ee029de25059df85e9c173a46dd0e366",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\enrich_review.py": "3816261558ae552b1d25f10377ac0d6be77cc90a88125386de09ff968a858e94",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\geometry.py": "ce9d4c2931483476717395216dc34d844e981ae9bc2ef1ea1b135831a65afa1d",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\learn_table_template.py": "36b86208b7b0c463e5b7601253c355e9314bf4e220b074adabb0151758ead579",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\manual_calibration.py": "02841b10def5b6bf6582262afd77a74b801f2916c154926fcf448c5db07de0e9",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\modes.py": "c542d93842f6f6c6d9dff3159c10a08d6ce1ef241c35277b25d2ee7b459d8263",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\motion.py": "31e807f4c265ca1fddafd857c738372cbe787fd6268fd9ed2e619054c10617f9",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\motion_model.json": "a2e78e092adaa9d0748e4b62aff813d2f73827b89744b9f8130242b6a55d238b",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\obstructions.py": "aff8e36cac60cba099f93dd55256ef767ab140f8c20c47643ed1c5a46a747fbc",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\pipeline.py": "33c7c49c8117c1e568f7282a01d61e193cd9ff6a86fe5094d373cf0ef974e3ed",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\reference_constants.json": "09e03a65c0c62ac68fe84a49744295b1af18d3a33331093d1b1cb6e6d31849ad",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\review.py": "7880c5ec23d518da5034591bbc9aa88478fe128f3726d3d038ad07814c9cd9e4",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\rules.py": "6d553b1a3028544a078b837e7c5ddf27662d88f24a61cecd105982acb9b2d4ec",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\rules_v2.py": "4a4ac9099551a62cae7e171a9b93e76c42bb20f99541ecdafef6acf02367a0e2",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\rules_v3.py": "298f32fa19f8bc96f876f6e9623bf07fd5923b278c57ed43cbfb80b9699670a9",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\table_template.json": "801f3314f0a5dce7906002e8e69d1f5e4dcb3c1de0faf946c3d8d73ecef7aa8f",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_count_assessment.py": "046d8357fad7fe4d1c1546422471b36df5e228fc752aab9f7c089b2d472c83b6",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_geometry.py": "7e4dafa86235f29e67e50ab0eca765bd0d4bb2d6a3c4e8eefc81c4b13508d8a6",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_modes.py": "7a7c5e70cae6dcc22998e5372a2f0770e4500ba494c766cf4dd4e1376de5ec77",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_motion.py": "a5b07bde7701bb6b278915d845783e7a26ca5f4a70b7b2af5b8655ac7f828039",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_obstructions.py": "e24b9e765fe844d63cc00c200183792ca5739ec8f5aaff2d9a9dd0c70ce9dd8f",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_output_paths.py": "3f55cba6845782b6d1ef2705a6df159f5aae07892216bf3759f6ed582f770e84",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_rules.py": "4ba9041d46f0a268b1277c342a83f6ec85a1e2f0999fe183abffa0e80453c73c",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_scoring_v2.py": "e7e1259781a649d775b7a7fc4735989bceeef47f00c1938da80e1314f998a4b6",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_scoring_v3.py": "90fee5a6c8882d3638c8b2cf931e55f017049357dde3422e850343295738642a",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_validation_v2.py": "836301b43965536c494460b3597ba2b22b1b4ef38e880ae5cd0f53351da3e30e",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_validation_v3.py": "00dff54db79a347a9cf76dba12ae4e947e4ce2e4226488372972ed064fa2f7b5",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\validate_outputs.py": "310646df62ce5f4240d4b36b5a58c9444d14514bf547217aef219710b3478b11",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\verified_counts.json": "0447edcc0343871805b7e5b51b69458c4a9a2892452c95325e30f61a728f9d03",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\vision.py": "aa5165ef18d09c84bdb47870deeb284ebb57491aa2111b7ef9eca4da67d61817",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\__init__.py": "4e85c890d96efa98270b342c445de5b9d56f03c79c7a69d2cd3eab6bb8860ea7"
+  },
+  "changed_frames": [
+    1285,
+    1299,
+    1308,
+    1333,
+    1348,
+    1349,
+    1350,
+    1351
+  ],
+  "changes": [
+    {
+      "frame": 1285,
+      "original_row": [
+        806.531746031746,
+        502.08730158730157,
+        189.0,
+        1.0,
+        21416.0,
+        0.4770916334661355,
+        0.0
+      ],
+      "reviewed_row": [
+        null,
+        null,
+        0.0,
+        0.0,
+        21416.0,
+        0.0,
+        0.0
+      ],
+      "method": "source_verified_wrong_object_exclusion",
+      "new_observation": false,
+      "exclusion_reason": "Selected contour is the right red sleeve/cuff at the rail; the actual red ball is separately visible freely returning near the centre of the table.",
+      "pixel_evidence": {
+        "frame": 1285,
+        "source_pts_ms": 21416.0,
+        "original_row": [
+          806.531746031746,
+          502.08730158730157,
+          189.0,
+          1.0,
+          21416.0,
+          0.4770916334661355,
+          0.0
+        ],
+        "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\source_f1285.png",
+        "source_png_sha256": "36037728ed8eb4abb443e81d42f932de48c81bef3344fefd75521b341b799602",
+        "source_bgr_sha256": "67aadd88f44ab0729df3715aea6c3673b2d7cd3c7d0b1495c38b51eec86bc938",
+        "annotated": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\annotated_f1285.png",
+        "annotated_sha256": "0100c00548429f91efef9aa802c12be9138af5d1f320799e962f3b06458ef41f"
+      }
+    },
+    {
+      "frame": 1299,
+      "original_row": [
+        800.2579170747633,
+        544.1420176297747,
+        510.5,
+        1.0,
+        21650.000000000004,
+        0.5144422310756972,
+        0.0
+      ],
+      "reviewed_row": [
+        null,
+        null,
+        0.0,
+        0.0,
+        21650.000000000004,
+        0.0,
+        0.0
+      ],
+      "method": "source_verified_wrong_object_exclusion",
+      "new_observation": false,
+      "exclusion_reason": "Selected contour is the right red sleeve/cuff at the rail; the actual red ball is separately visible freely returning near the centre of the table.",
+      "pixel_evidence": {
+        "frame": 1299,
+        "source_pts_ms": 21650.000000000004,
+        "original_row": [
+          800.2579170747633,
+          544.1420176297747,
+          510.5,
+          1.0,
+          21650.000000000004,
+          0.5144422310756972,
+          0.0
+        ],
+        "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\source_f1299.png",
+        "source_png_sha256": "1a72a970fa16a1997ed43966285109ea95723fd41f67a6c3f9e5da398cc0d916",
+        "source_bgr_sha256": "0765e3140f59a3b99da5b0d24b2cd37e3611077da147cb0c6827746358dfd12e",
+        "annotated": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\annotated_f1299.png",
+        "annotated_sha256": "fed3d04c503171a0146bb2535220430c90d96a05128cc72de0d7b1b34e03114f"
+      }
+    },
+    {
+      "frame": 1308,
+      "original_row": [
+        798.9682418699188,
+        563.1763211382113,
+        656.0,
+        1.0,
+        21800.0,
+        0.4457171314741036,
+        0.0
+      ],
+      "reviewed_row": [
+        null,
+        null,
+        0.0,
+        0.0,
+        21800.0,
+        0.0,
+        0.0
+      ],
+      "method": "source_verified_wrong_object_exclusion",
+      "new_observation": false,
+      "exclusion_reason": "Selected contour is the right red sleeve/cuff at the rail; the actual red ball is separately visible freely returning near the centre of the table.",
+      "pixel_evidence": {
+        "frame": 1308,
+        "source_pts_ms": 21800.0,
+        "original_row": [
+          798.9682418699188,
+          563.1763211382113,
+          656.0,
+          1.0,
+          21800.0,
+          0.4457171314741036,
+          0.0
+        ],
+        "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\source_f1308.png",
+        "source_png_sha256": "fe5481742a3d4f27bf0562f10c0dd043bdacc49f5434ac2b718c6019b2fdcea7",
+        "source_bgr_sha256": "f490d6c398faa0ffe0c3128dd8185277eb8a3807cce7cb3de98f660addde4e5d",
+        "annotated": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\annotated_f1308.png",
+        "annotated_sha256": "7d30506f00fe718e002171ef41cc16f85b73cbbd73d1c60474cc2f3dcc6e51ab"
+      }
+    },
+    {
+      "frame": 1333,
+      "original_row": [
+        804.679012345679,
+        585.6913580246913,
+        81.0,
+        1.0,
+        22216.0,
+        0.062250996015936255,
+        0.0
+      ],
+      "reviewed_row": [
+        null,
+        null,
+        0.0,
+        0.0,
+        22216.0,
+        0.0,
+        0.0
+      ],
+      "method": "source_verified_wrong_object_exclusion",
+      "new_observation": false,
+      "exclusion_reason": "Selected contour is the right red sleeve/cuff at the rail; the real ball is at the bottom edge/left retrieving hand, not at this sleeve coordinate.",
+      "pixel_evidence": {
+        "frame": 1333,
+        "source_pts_ms": 22216.0,
+        "original_row": [
+          804.679012345679,
+          585.6913580246913,
+          81.0,
+          1.0,
+          22216.0,
+          0.062250996015936255,
+          0.0
+        ],
+        "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\source_f1333.png",
+        "source_png_sha256": "ad0682ccea9cf0e48ca2a363ea53315b88fca61263024e8999da1ecfad9f412c",
+        "source_bgr_sha256": "80a1ed7cdc2577635d151cafea596ab6526bafffa856d540150a28b1fbfd59ac",
+        "annotated": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\annotated_f1333.png",
+        "annotated_sha256": "811a19187d39262032ff56a9dd6340cc3a87900de815761700a32d975f944ed3"
+      }
+    },
+    {
+      "frame": 1348,
+      "original_row": [
+        800.6237757514352,
+        637.1813576494427,
+        493.5,
+        1.0,
+        22466.0,
+        0.43725099601593626,
+        14.0
+      ],
+      "reviewed_row": [
+        null,
+        null,
+        0.0,
+        0.0,
+        22466.0,
+        0.0,
+        0.0
+      ],
+      "method": "source_verified_wrong_object_exclusion",
+      "new_observation": false,
+      "exclusion_reason": "Selected contour is the right red sleeve/cuff at the rail; the real ball is at the bottom edge/left retrieving hand, not at this sleeve coordinate.",
+      "pixel_evidence": {
+        "frame": 1348,
+        "source_pts_ms": 22466.0,
+        "original_row": [
+          800.6237757514352,
+          637.1813576494427,
+          493.5,
+          1.0,
+          22466.0,
+          0.43725099601593626,
+          14.0
+        ],
+        "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\source_f1348.png",
+        "source_png_sha256": "01bdc3a47ae05614b47be066f74384c37d169eeb242faf76bda3f6727f370adb",
+        "source_bgr_sha256": "1d900506c4d362d4c2cafdbf716bfd142b58f270ded9e63668d063e1741d6ec9",
+        "annotated": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\annotated_f1348.png",
+        "annotated_sha256": "8029981e149124d26619fe38a545fe8f3646aa0127a9f55a80283fb32644205c"
+      }
+    },
+    {
+      "frame": 1349,
+      "original_row": [
+        801.3535932721712,
+        630.7060397553516,
+        436.0,
+        1.0,
+        22483.0,
+        0.31274900398406374,
+        0.0
+      ],
+      "reviewed_row": [
+        null,
+        null,
+        0.0,
+        0.0,
+        22483.0,
+        0.0,
+        0.0
+      ],
+      "method": "source_verified_wrong_object_exclusion",
+      "new_observation": false,
+      "exclusion_reason": "Selected contour is the right red sleeve/cuff at the rail; the real ball is at the bottom edge/left retrieving hand, not at this sleeve coordinate.",
+      "pixel_evidence": {
+        "frame": 1349,
+        "source_pts_ms": 22483.0,
+        "original_row": [
+          801.3535932721712,
+          630.7060397553516,
+          436.0,
+          1.0,
+          22483.0,
+          0.31274900398406374,
+          0.0
+        ],
+        "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\source_f1349.png",
+        "source_png_sha256": "1f786e37b99b6bf69f21540e4ce639ce5dce8c8ffbba3d7157e48b414645cb5f",
+        "source_bgr_sha256": "28d3814f4e857a1f046bf48dc7a4f0563e7580f5433f5c2d89d4909db0cdf0c8",
+        "annotated": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\annotated_f1349.png",
+        "annotated_sha256": "56def944cb5a85cb8255b2ac3491436887d5e6cf7d323705ee9c5554a13ff370"
+      }
+    },
+    {
+      "frame": 1350,
+      "original_row": [
+        802.301060396496,
+        627.9100968188105,
+        361.5,
+        1.0,
+        22500.0,
+        0.2589641434262948,
+        0.0
+      ],
+      "reviewed_row": [
+        null,
+        null,
+        0.0,
+        0.0,
+        22500.0,
+        0.0,
+        0.0
+      ],
+      "method": "source_verified_wrong_object_exclusion",
+      "new_observation": false,
+      "exclusion_reason": "Selected contour is the right red sleeve/cuff at the rail; the real ball is at the bottom edge/left retrieving hand, not at this sleeve coordinate.",
+      "pixel_evidence": {
+        "frame": 1350,
+        "source_pts_ms": 22500.0,
+        "original_row": [
+          802.301060396496,
+          627.9100968188105,
+          361.5,
+          1.0,
+          22500.0,
+          0.2589641434262948,
+          0.0
+        ],
+        "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\source_f1350.png",
+        "source_png_sha256": "1eb18b7d321262d28d3b6c9cfd3a6a6b858a12f45859147bf27abc209023533a",
+        "source_bgr_sha256": "245aff1009817c61e6b19953d80145c34a96a0edddddc9ecc65010661c046e89",
+        "annotated": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\annotated_f1350.png",
+        "annotated_sha256": "72632dfc85a9d1da702cb6cc159ebed8c5459e07b018707f702ad8da908f6fa3"
+      }
+    },
+    {
+      "frame": 1351,
+      "original_row": [
+        803.6636500754148,
+        625.3205128205127,
+        221.0,
+        1.0,
+        22516.0,
+        0.2295816733067729,
+        0.0
+      ],
+      "reviewed_row": [
+        null,
+        null,
+        0.0,
+        0.0,
+        22516.0,
+        0.0,
+        0.0
+      ],
+      "method": "source_verified_wrong_object_exclusion",
+      "new_observation": false,
+      "exclusion_reason": "Selected contour is the right red sleeve/cuff at the rail; the real ball is at the bottom edge/left retrieving hand, not at this sleeve coordinate.",
+      "pixel_evidence": {
+        "frame": 1351,
+        "source_pts_ms": 22516.0,
+        "original_row": [
+          803.6636500754148,
+          625.3205128205127,
+          221.0,
+          1.0,
+          22516.0,
+          0.2295816733067729,
+          0.0
+        ],
+        "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\source_f1351.png",
+        "source_png_sha256": "b28e9905f3f1c24dd4b5be6fde5494c4a73bf81f648d1190b8761c77fca94f74",
+        "source_bgr_sha256": "1c06af45c130d8be60a3f21d44216178d447367eced7ec33395ca83991548bae",
+        "annotated": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\annotated_f1351.png",
+        "annotated_sha256": "f54ece74ac8ce2044a7eb02d6ac407c1df355bb2e33f94764bf9b82e4acaf8a2"
+      }
+    }
+  ],
+  "source_context": [
+    {
+      "frame": 1280,
+      "source_pts_ms": 21333.000000000004,
+      "original_row": [
+        638.8959064327485,
+        530.3918128654971,
+        142.5,
+        1.0,
+        21333.000000000004,
+        0.0,
+        0.0
+      ],
+      "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\source_f1280.png",
+      "source_png_sha256": "8d3578aab8921463831b9921f08ece9db106cc7fa07cf413d9b6bb1f1018f588",
+      "source_bgr_sha256": "843544589327b8e3cbf45de04065c6c280295c6aa01ab7fd8f9c8a6b11652101",
+      "annotated": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\annotated_f1280.png",
+      "annotated_sha256": "e27e30f21eaa942d866300ddcd00fe6308cf8edcabf00e898eed1c295827f0ae"
+    },
+    {
+      "frame": 1285,
+      "source_pts_ms": 21416.0,
+      "original_row": [
+        806.531746031746,
+        502.08730158730157,
+        189.0,
+        1.0,
+        21416.0,
+        0.4770916334661355,
+        0.0
+      ],
+      "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\source_f1285.png",
+      "source_png_sha256": "36037728ed8eb4abb443e81d42f932de48c81bef3344fefd75521b341b799602",
+      "source_bgr_sha256": "67aadd88f44ab0729df3715aea6c3673b2d7cd3c7d0b1495c38b51eec86bc938",
+      "annotated": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\annotated_f1285.png",
+      "annotated_sha256": "0100c00548429f91efef9aa802c12be9138af5d1f320799e962f3b06458ef41f"
+    },
+    {
+      "frame": 1290,
+      "source_pts_ms": 21500.0,
+      "original_row": [
+        636.7552275522755,
+        565.630996309963,
+        135.5,
+        1.0,
+        21500.0,
+        0.0,
+        0.0
+      ],
+      "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\source_f1290.png",
+      "source_png_sha256": "a4d1642953dcf5d578885c88e21038fd2f1980de613319dae86553c8f9c717a3",
+      "source_bgr_sha256": "6d260283468eaefb092700d9b81f98057f546c6cd1d9ac4ee10c38132e189199",
+      "annotated": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\annotated_f1290.png",
+      "annotated_sha256": "86124013627101105114bde4d18b8479b3e3ec271ea9a8082e4922385d573706"
+    },
+    {
+      "frame": 1299,
+      "source_pts_ms": 21650.000000000004,
+      "original_row": [
+        800.2579170747633,
+        544.1420176297747,
+        510.5,
+        1.0,
+        21650.000000000004,
+        0.5144422310756972,
+        0.0
+      ],
+      "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\source_f1299.png",
+      "source_png_sha256": "1a72a970fa16a1997ed43966285109ea95723fd41f67a6c3f9e5da398cc0d916",
+      "source_bgr_sha256": "0765e3140f59a3b99da5b0d24b2cd37e3611077da147cb0c6827746358dfd12e",
+      "annotated": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\annotated_f1299.png",
+      "annotated_sha256": "fed3d04c503171a0146bb2535220430c90d96a05128cc72de0d7b1b34e03114f"
+    },
+    {
+      "frame": 1308,
+      "source_pts_ms": 21800.0,
+      "original_row": [
+        798.9682418699188,
+        563.1763211382113,
+        656.0,
+        1.0,
+        21800.0,
+        0.4457171314741036,
+        0.0
+      ],
+      "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\source_f1308.png",
+      "source_png_sha256": "fe5481742a3d4f27bf0562f10c0dd043bdacc49f5434ac2b718c6019b2fdcea7",
+      "source_bgr_sha256": "f490d6c398faa0ffe0c3128dd8185277eb8a3807cce7cb3de98f660addde4e5d",
+      "annotated": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\annotated_f1308.png",
+      "annotated_sha256": "7d30506f00fe718e002171ef41cc16f85b73cbbd73d1c60474cc2f3dcc6e51ab"
+    },
+    {
+      "frame": 1315,
+      "source_pts_ms": 21916.0,
+      "original_row": [
+        630.7375328083989,
+        655.8713910761154,
+        63.5,
+        1.0,
+        21916.0,
+        0.00049800796812749,
+        0.0
+      ],
+      "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\source_f1315.png",
+      "source_png_sha256": "539d3b8783feee24341493c2e072d17eb0ea09b95824624cb698fc701fbfbc08",
+      "source_bgr_sha256": "6f3e379b9ecfe3562bce610dffd3af9e074fe05828177a45cb05f997e7d168a0",
+      "annotated": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\annotated_f1315.png",
+      "annotated_sha256": "0cc4a696f798f3c53efbeb99718c5d07e6aad02cf98b469fad74867326b5b174"
+    },
+    {
+      "frame": 1330,
+      "source_pts_ms": 22166.0,
+      "original_row": [
+        629.6715867158672,
+        698.7970479704798,
+        135.5,
+        1.0,
+        22166.0,
+        0.09090909090909091,
+        0.0
+      ],
+      "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\source_f1330.png",
+      "source_png_sha256": "31dfc3fe09e1d07cee838882d083f05c32f1678ca120425310c67f1422d95ffc",
+      "source_bgr_sha256": "327214096f535e7c255bd0bc2d13023ae2da3836365aa8ebcda984b2d348f827",
+      "annotated": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\annotated_f1330.png",
+      "annotated_sha256": "c88ed293c25033f36b46c4691a848f86f84d3863052da0a105ba7204e4edf08e"
+    },
+    {
+      "frame": 1333,
+      "source_pts_ms": 22216.0,
+      "original_row": [
+        804.679012345679,
+        585.6913580246913,
+        81.0,
+        1.0,
+        22216.0,
+        0.062250996015936255,
+        0.0
+      ],
+      "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\source_f1333.png",
+      "source_png_sha256": "ad0682ccea9cf0e48ca2a363ea53315b88fca61263024e8999da1ecfad9f412c",
+      "source_bgr_sha256": "80a1ed7cdc2577635d151cafea596ab6526bafffa856d540150a28b1fbfd59ac",
+      "annotated": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\annotated_f1333.png",
+      "annotated_sha256": "811a19187d39262032ff56a9dd6340cc3a87900de815761700a32d975f944ed3"
+    },
+    {
+      "frame": 1348,
+      "source_pts_ms": 22466.0,
+      "original_row": [
+        800.6237757514352,
+        637.1813576494427,
+        493.5,
+        1.0,
+        22466.0,
+        0.43725099601593626,
+        14.0
+      ],
+      "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\source_f1348.png",
+      "source_png_sha256": "01bdc3a47ae05614b47be066f74384c37d169eeb242faf76bda3f6727f370adb",
+      "source_bgr_sha256": "1d900506c4d362d4c2cafdbf716bfd142b58f270ded9e63668d063e1741d6ec9",
+      "annotated": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\annotated_f1348.png",
+      "annotated_sha256": "8029981e149124d26619fe38a545fe8f3646aa0127a9f55a80283fb32644205c"
+    },
+    {
+      "frame": 1349,
+      "source_pts_ms": 22483.0,
+      "original_row": [
+        801.3535932721712,
+        630.7060397553516,
+        436.0,
+        1.0,
+        22483.0,
+        0.31274900398406374,
+        0.0
+      ],
+      "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\source_f1349.png",
+      "source_png_sha256": "1f786e37b99b6bf69f21540e4ce639ce5dce8c8ffbba3d7157e48b414645cb5f",
+      "source_bgr_sha256": "28d3814f4e857a1f046bf48dc7a4f0563e7580f5433f5c2d89d4909db0cdf0c8",
+      "annotated": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\annotated_f1349.png",
+      "annotated_sha256": "56def944cb5a85cb8255b2ac3491436887d5e6cf7d323705ee9c5554a13ff370"
+    },
+    {
+      "frame": 1350,
+      "source_pts_ms": 22500.0,
+      "original_row": [
+        802.301060396496,
+        627.9100968188105,
+        361.5,
+        1.0,
+        22500.0,
+        0.2589641434262948,
+        0.0
+      ],
+      "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\source_f1350.png",
+      "source_png_sha256": "1eb18b7d321262d28d3b6c9cfd3a6a6b858a12f45859147bf27abc209023533a",
+      "source_bgr_sha256": "245aff1009817c61e6b19953d80145c34a96a0edddddc9ecc65010661c046e89",
+      "annotated": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\annotated_f1350.png",
+      "annotated_sha256": "72632dfc85a9d1da702cb6cc159ebed8c5459e07b018707f702ad8da908f6fa3"
+    },
+    {
+      "frame": 1351,
+      "source_pts_ms": 22516.0,
+      "original_row": [
+        803.6636500754148,
+        625.3205128205127,
+        221.0,
+        1.0,
+        22516.0,
+        0.2295816733067729,
+        0.0
+      ],
+      "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\source_f1351.png",
+      "source_png_sha256": "b28e9905f3f1c24dd4b5be6fde5494c4a73bf81f648d1190b8761c77fca94f74",
+      "source_bgr_sha256": "1c06af45c130d8be60a3f21d44216178d447367eced7ec33395ca83991548bae",
+      "annotated": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\annotated_f1351.png",
+      "annotated_sha256": "f54ece74ac8ce2044a7eb02d6ac407c1df355bb2e33f94764bf9b82e4acaf8a2"
+    }
+  ],
+  "actual_visual_review": {
+    "reviewer": "batch2127_scores_final",
+    "actual_pages_viewed": [
+      {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\source_review_page_1.jpg",
+        "sha256": "f853c25c4613bddd3472dfcf33b92fe2435b15ef82d3743ba601e0c1b0d2d8f1"
+      },
+      {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2601\\source_review_page_2.jpg",
+        "sha256": "154329f83a946659f917bf803aff4593d7355ef002fe3193b91a5850ea885058"
+      }
+    ],
+    "frame_count": 12,
+    "wrong_object_frames": [
+      1285,
+      1299,
+      1308,
+      1333,
+      1348,
+      1349,
+      1350,
+      1351
+    ],
+    "conclusion": "Eight separate yellow raw selections land on the red sleeve, individually verified against original source pixels. No actual ball observation is removed.",
+    "timing": "At f1285 the true ball remains free just above the O-Y line; following real observations f1290 and later show its return past that line before the later genuine retrieval. Plate headers are excluded from raw source coordinates."
+  },
+  "verification": {
+    "npz_keys": [
+      "data",
+      "fps",
+      "quad",
+      "median"
+    ],
+    "data_shape": [
+      7399,
+      7
+    ],
+    "data_dtype": "float64",
+    "nx7_schema": [
+      "u",
+      "v",
+      "ball_mask_area",
+      "candidate_count",
+      "PTS_ms",
+      "hand_fraction",
+      "reacquired_gap_frames"
+    ],
+    "full_pts_column_byte_identical": true,
+    "all_other_arrays_byte_identical": true,
+    "all_unselected_raw_rows_byte_identical": true,
+    "exact_changed_row_count": 8,
+    "source_pixels_and_png_hashes_verified": true,
+    "original_pack_matches_root_frozen_manifest": true,
+    "core_files_match_frozen_inventory": true,
+    "native_outputs_modified": false
+  },
+  "limitations": [
+    "No new centroid, interpolated coordinate, fitted position or imputed speed is added.",
+    "This is a limited attempt-3 source correction, not a full-video visual certification.",
+    "Root must independently approve, register and rescore, then compare other real shot scores/endpoints."
+  ]
+}

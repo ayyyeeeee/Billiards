@@ -1,0 +1,89 @@
+{
+  "status": "REVIEWED_RECOVERY_READY_FOR_INDEPENDENT_INTEGRATION",
+  "data_status": "REVIEW_REQUIRED",
+  "created_utc": "2026-10-20T11:21:22.315500+00:00",
+  "accepted_sources": [
+    {
+      "stem": "09_04_training_strength_140shots",
+      "final_reviewed_pack": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0809_20261020\\recovery09\\training_shot93_reviewed_evidence.npz",
+      "pack_sha256": "429030402eec25f42b561344916257a9d92d8a50927543c586b30d42b38da48a",
+      "recovery_report": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0809_20261020\\recovery09\\training_shot93_recovery_report.json",
+      "recovery_report_sha256": "d0a48e0ca1b02f71be4034bf3292b971174bf9d7a32f5ede84b10c03104a6515",
+      "recovery_script": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0809_20261020\\recovery09\\recover_stops.py",
+      "recovery_script_sha256": "bb0abdf89410bd52ea5794febac2bb09044c50353e6b24b57686df47f7687c38",
+      "original_cache": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0809_20261020\\analysis\\09\\cache\\09_04_training_strength_140shots_evidence.npz",
+      "original_cache_sha256": "c27d81ead0c64b979da56f8fcb55c36b5f841d3571e629d66a91f2ce24b92811",
+      "patches": 19,
+      "before": {
+        "valid_shots": 138,
+        "complete_scores": 133
+      },
+      "after": {
+        "valid_shots": 138,
+        "complete_scores": 134
+      },
+      "changed_original_shot": 93,
+      "new_strength_value": 0.0803170888377948,
+      "strength_stop_reason": "stationary",
+      "score_end_s": 1072.867,
+      "independent_y_axis_distance_value": 0.0803170888377948,
+      "independent_formula_passed": true,
+      "strength_model_used": false,
+      "angle_value": "",
+      "actual_frames": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0809_20261020\\recovery09\\training_shot93_actual_frames.jpg"
+    },
+    {
+      "stem": "09_05_test_both_030shots",
+      "final_reviewed_pack": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0809_20261020\\recovery09\\test_both_shot15_v2_reviewed_evidence.npz",
+      "pack_sha256": "e9bd0b5c6c10c7057ad51091e6ae1e7f3a9cd940bb1bad6bf8d75fac1b8793b6",
+      "recovery_report": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0809_20261020\\recovery09\\test_both_shot15_v2_recovery_report.json",
+      "recovery_report_sha256": "257303ca540278a1fcc3e005cb2558ac72370a868c75b926426c56ca7caa365a",
+      "recovery_script": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0809_20261020\\recovery09\\recover_test15_v2.py",
+      "recovery_script_sha256": "fc988b5ac4544f622ce141d21c1bc21657938208e84155ce653ffc294a6f9594",
+      "original_cache": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0809_20261020\\analysis\\09\\cache\\09_05_test_both_030shots_evidence.npz",
+      "original_cache_sha256": "0687ca8f5a1ae10c1724cfed7f21313dd3ecf2d59624d7462e80153fc1f81213",
+      "patches": 29,
+      "before": {
+        "valid_shots": 30,
+        "complete_scores": 29
+      },
+      "after": {
+        "valid_shots": 30,
+        "complete_scores": 30
+      },
+      "changed_original_shot": 15,
+      "new_strength_value": 0.06244646193663508,
+      "strength_stop_reason": "stationary",
+      "score_end_s": 180.367,
+      "independent_y_axis_distance_value": 0.06244646193663508,
+      "independent_formula_passed": true,
+      "strength_model_used": false,
+      "angle_value": 1.3777405492398875,
+      "actual_frames": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0809_20261020\\recovery09\\test_both_shot15_v2_actual_frames.jpg"
+    }
+  ],
+  "training_final_pack_scope": "Only 19 actual-pixel rows for original shot93; no other training recovery accepted.",
+  "training_valid_shots": 138,
+  "training_complete_scores_after": 134,
+  "training_unresolved_original_shots": [
+    25,
+    30,
+    49,
+    68
+  ],
+  "test_both_valid_shots": 30,
+  "test_both_complete_scores_after": 30,
+  "online_count_disagreement": {
+    "online_training_confirmed": 140,
+    "offline_training_valid": 138,
+    "additional_online_events_rejected": 2,
+    "pocket_report": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0809_20261020\\recovery09\\pocket_false_confirmations.json",
+    "pocket_report_sha256": "7911aeade3bcff2083c7e8aad1c9bd3adbddf78bd9260f2ee455d4d20d479d1c"
+  },
+  "unresolved_review": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0809_20261020\\recovery09\\hand_carried_crossings_review.json",
+  "unresolved_review_sha256": "fd02d68c6be7e2f4a8fb454b3cc471b54dbb6856cab2d76a72dc83f4084953a2",
+  "original_analysis_inputs_unchanged": true,
+  "scoring_code_not_modified": true,
+  "finalization_script_sha256": "931e65262743b59590aed576a625019a35c4ed90d84c20b099ff9f10a2ca0685",
+  "limitations": "The recovered packs are separate from original analysis and require the root pipeline provenance binding, re-score and independent export validation. Training has only 138 accepted target-bank shots; the four hand-carried crossings remain blank. No full-training manual truth claim is made."
+}

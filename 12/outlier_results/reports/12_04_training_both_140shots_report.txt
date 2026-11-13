@@ -1,0 +1,39 @@
+========================================================================
+  Outlier Detection Report
+========================================================================
+
+Participant : 12
+CSV File    : 12_04_training_both_140shots.csv
+Mode        : both
+Total shots : 140
+Review policy: retained data are manually reviewed; historical review flags are ignored.
+Flags: 1 = statistical outlier; 0 = not flagged (including untested rows).
+Generated   : 2026-11-12 19:57:30
+
+────────────────────────────────────────────────────────────────────────
+
+  Channel: ANGLE
+  ────────────────────────────────────────
+  Eligible obs     : 135
+  Spline df        : 6
+  Outliers detected: 0
+  Not tested (ineligible): 5
+  Undefined tests (flag 0): 0
+
+  Assumption diagnostics:
+  shapiro_wilk: statistic=0.986087, p=0.188602
+  durbin_watson: 1.7065
+
+  Channel: STRENGTH
+  ────────────────────────────────────────
+  Eligible obs     : 135
+  Spline df        : 6
+  Outliers detected: 0
+  Not tested (ineligible): 5
+  Undefined tests (flag 0): 0
+
+  Assumption diagnostics:
+  shapiro_wilk: statistic=0.990253, p=0.467770
+  durbin_watson: 2.2426
+
+========================================================================

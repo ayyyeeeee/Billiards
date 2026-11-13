@@ -1,0 +1,65 @@
+{
+  "version": "seven_landmarks_multiview_v2",
+  "table_width_cm": 84.0,
+  "table_length_cm": 168.0,
+  "points": {
+    "TL": [
+      0.0,
+      0.0
+    ],
+    "TR": [
+      1.0,
+      0.0
+    ],
+    "BR": [
+      1.0,
+      2.0
+    ],
+    "BL": [
+      0.0,
+      2.0
+    ],
+    "O": [
+      0.4948385484957443,
+      1.4972426110866806
+    ],
+    "Y": [
+      0.848863916579384,
+      1.4922109928784963
+    ],
+    "B": [
+      0.5054143715594063,
+      0.013712502008252383
+    ]
+  },
+  "marker_estimation": "componentwise median of source views with observed top and bottom short rails",
+  "marker_plane_std": {
+    "O": [
+      0.005256062622610438,
+      0.004993662451387992
+    ],
+    "Y": [
+      0.002772871551943577,
+      0.007213976776860766
+    ],
+    "B": [
+      0.005422257186993598,
+      0.0003735196947351347
+    ]
+  },
+  "source_views": [
+    "01_01_baseline_both_010shots",
+    "02_01_baseline_both_010shots",
+    "03_01_baseline_both_010shots",
+    "03_07_test_angle_030shots",
+    "04_01_baseline_both_010shots",
+    "05_01_baseline_both_010shots",
+    "06_01_baseline_both_010shots"
+  ],
+  "template_contributing_views": [
+    "04_01_baseline_both_010shots",
+    "05_01_baseline_both_010shots",
+    "06_01_baseline_both_010shots"
+  ],
+  "uncertainty": "Template is estimated from images, including legacy rail fits; no camera intrinsics or surveyed marker positions supplied."
+}

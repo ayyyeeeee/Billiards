@@ -1,0 +1,383 @@
+{
+  "status": "REVIEWED_CANDIDATE_NOT_INSTALLED",
+  "method": "source_verified_wrong_object_exclusion",
+  "scope": "One actual source-verified wrist row is excluded as missing. No replacement coordinates, interpolation, prediction, altered HSV thresholds, scoring rules or timestamps.",
+  "source": "D:\\experiment\\13\\13_06_test_strength_030shots.mkv",
+  "source_sha256": "9005d138d731e0ac842c0f7d27441f3cc5b292167fa438fd569acf5d5336cbb1",
+  "inputs_sha256": {
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1015_20261021\\analysis\\13\\cache\\13_06_test_strength_030shots_evidence.npz": "676773654e05d8da00bd922d985e15fbdf37126bf52436c9a3ac0dc709f1ca0d",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1015_20261021\\analysis\\13\\audit\\13_06_test_strength_030shots_report.json": "2924355580f94ad0a2d22a236b6fdf9e1497fd44d7b2178054cf098a0c9defe8",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1015_20261021\\analysis\\13\\calibration\\13_06_test_strength_030shots.json": "6add7dc84b66c6276789804e7fd6343a116277434dbfb43e0bee4d8450521cfe",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1015_20261021\\inventory.json": "faff444b21e1a60067d99ce61a9285950c05fa38455fd91426bbbf3c022044c9",
+    "D:\\experiment\\13\\13_06_test_strength_030shots.mkv": "9005d138d731e0ac842c0f7d27441f3cc5b292167fa438fd569acf5d5336cbb1",
+    "D:\\experiment\\13\\13_06_test_strength_030shots.20261021_145529_416702.partial.live_count.json": "2c8aa3dd5ac0c8052ffbb18981a7adf6819148b952229fb8feabd9eb62126fad"
+  },
+  "code_sha256": {
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\rules.py": "6d553b1a3028544a078b837e7c5ddf27662d88f24a61cecd105982acb9b2d4ec",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\rules_v2.py": "4a4ac9099551a62cae7e171a9b93e76c42bb20f99541ecdafef6acf02367a0e2",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\rules_v3.py": "298f32fa19f8bc96f876f6e9623bf07fd5923b278c57ed43cbfb80b9699670a9",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\vision.py": "aa5165ef18d09c84bdb47870deeb284ebb57491aa2111b7ef9eca4da67d61817",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\motion.py": "31e807f4c265ca1fddafd857c738372cbe787fd6268fd9ed2e619054c10617f9",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\recorder_live_counter\\review_20261020\\live_counter.py": "f6dddc5877b318f2607c5f23fb01650ac93d6a93cdcd139dd364c96e6e989043",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\recorder_live_counter\\review_20261020\\live_molt\\live_detection.py": "6ae8428ba2eb48198be42506ab3d831868476702d83843a493002de9c887ba4e",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1015_20261021\\count_review\\13\\exclude_wrong_objects.py": "208a2b15da7c0ae901229c11f3e9d8931a64c85732097e23b0b142f63888f3bf"
+  },
+  "pack": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1015_20261021\\count_review\\13\\candidates\\13_06_test_strength_030shots_reviewed_evidence.npz",
+  "pack_sha256": "48d52d8bcf39229e8bc0641dd2eb6497dfdb6eb10bafd260b290b7d0780e0f4b",
+  "original_shape": [
+    18599,
+    7
+  ],
+  "reviewed_shape": [
+    18599,
+    7
+  ],
+  "source_time_column_bitwise_unchanged": true,
+  "non_data_arrays_unchanged": true,
+  "actual_pixel_patches": [
+    {
+      "frame": 4827,
+      "source_ms": 80450.0,
+      "method": "source_verified_wrong_object_exclusion",
+      "original": [
+        557.3116531165311,
+        711.140921409214,
+        61.5,
+        1.0,
+        80450.0,
+        0.466977466977467,
+        0.0
+      ],
+      "new": [
+        null,
+        null,
+        0.0,
+        0.0,
+        80450.0,
+        0.0,
+        0.0
+      ],
+      "new_observation": false,
+      "exclusion_reason": "The selected red contour is on the bottom wrist while the actual ball is visibly on the upper tabletop in the same decoded frame.",
+      "pixel_evidence": {
+        "decoded_bgr_sha256": "63d60de4cb9db185908895e6677783d492c91e4b242b990ae77aaf1713996ef9",
+        "decoded_shape": [
+          720,
+          1280,
+          3
+        ],
+        "source_frame_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1015_20261021\\count_review\\13\\candidates\\13_06_test_strength_030shots_f4827_source.png",
+        "source_frame_png_sha256": "b76bf0658c182bfc8e66f2e25d108ca57f116affb9f1f995969965bd82669a5e",
+        "original_hsv_ranges": [
+          [
+            [
+              0,
+              105,
+              45
+            ],
+            [
+              7,
+              255,
+              255
+            ]
+          ],
+          [
+            [
+              155,
+              90,
+              40
+            ],
+            [
+              179,
+              255,
+              255
+            ]
+          ]
+        ],
+        "hand_fraction": 0.466977466977467,
+        "wrong_object_contour": {
+          "point": [
+            557.3116531165311,
+            711.140921409214
+          ],
+          "area": 61.5,
+          "contour_raw": [
+            [
+              555,
+              702
+            ],
+            [
+              554,
+              703
+            ],
+            [
+              554,
+              705
+            ],
+            [
+              553,
+              706
+            ],
+            [
+              553,
+              709
+            ],
+            [
+              555,
+              711
+            ],
+            [
+              555,
+              713
+            ],
+            [
+              556,
+              713
+            ],
+            [
+              557,
+              714
+            ],
+            [
+              557,
+              715
+            ],
+            [
+              558,
+              716
+            ],
+            [
+              558,
+              717
+            ],
+            [
+              559,
+              717
+            ],
+            [
+              560,
+              718
+            ],
+            [
+              560,
+              719
+            ],
+            [
+              565,
+              719
+            ],
+            [
+              564,
+              719
+            ],
+            [
+              562,
+              717
+            ],
+            [
+              562,
+              716
+            ],
+            [
+              561,
+              715
+            ],
+            [
+              561,
+              714
+            ],
+            [
+              559,
+              712
+            ],
+            [
+              559,
+              710
+            ],
+            [
+              557,
+              708
+            ],
+            [
+              557,
+              706
+            ],
+            [
+              556,
+              705
+            ],
+            [
+              556,
+              702
+            ]
+          ]
+        },
+        "visible_actual_ball_crop": {
+          "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1015_20261021\\count_review\\13\\candidates\\13_06_test_strength_030shots_visible_ball_crop.png",
+          "sha256": "56c7dded848617eebe6592c98aeea0c851682e55cf55f5306ab1f63faad26314",
+          "raw_bounds": [
+            627,
+            91,
+            720,
+            184
+          ]
+        },
+        "visible_crop_anchor_is_not_a_measurement": true,
+        "excluded_wrist_crop": {
+          "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1015_20261021\\count_review\\13\\candidates\\13_06_test_strength_030shots_excluded_wrist_crop.png",
+          "sha256": "86df9951db27def5769cdf0764e607b42a6608dc8766b73e697a72a73128c17c",
+          "raw_bounds": [
+            511,
+            665,
+            604,
+            720
+          ]
+        }
+      }
+    }
+  ],
+  "changed_frames": [
+    4827,
+    4828
+  ],
+  "directly_changed_observation_frames": [
+    4827
+  ],
+  "derived_gap_changes": [
+    {
+      "frame": 4828,
+      "original": 0.0,
+      "new": 1.0
+    }
+  ],
+  "before": {
+    "attempts": 30,
+    "valid": 29,
+    "complete": 28,
+    "target_bank": 29
+  },
+  "after": {
+    "attempts": 30,
+    "valid": 30,
+    "complete": 28,
+    "target_bank": 30
+  },
+  "recovered_attempt_start_frame": 4771,
+  "recovered_before": {
+    "attempt": 8,
+    "shot": "",
+    "mode": "strength",
+    "valid": 0,
+    "scoring_version": 3,
+    "start_frame": 4771,
+    "bank_frame": null,
+    "end_frame": 4827,
+    "start_s": 79.517,
+    "bank_s": "",
+    "end_s": 80.45,
+    "stop_reason": "wrong_first_cushion",
+    "missing_frames": 0,
+    "interpolated_frames": 0,
+    "time_source": "decoder_timestamp_ms",
+    "strength_value": "",
+    "strength_status": "invalid",
+    "strength_uncapped": "",
+    "angle_value": "",
+    "angle_status": "not_requested",
+    "angle_uncapped": "",
+    "needs_review": 0,
+    "collision_evidence": "[]",
+    "assumed_stop": 0,
+    "value": "",
+    "uncapped_value": "",
+    "maximum": "",
+    "end_plane_x": "",
+    "end_plane_y": "",
+    "position_frame": "",
+    "score_complete": 0,
+    "strength_valid": 0,
+    "angle_valid": 0,
+    "target_bank_valid": 0
+  },
+  "recovered_after": {
+    "attempt": 8,
+    "shot": 8,
+    "mode": "strength",
+    "valid": 1,
+    "scoring_version": 3,
+    "start_frame": 4771,
+    "bank_frame": 4843,
+    "end_frame": 5125,
+    "start_s": 79.517,
+    "bank_s": 80.717,
+    "end_s": 85.417,
+    "stop_reason": "crossing_velocity_unresolved",
+    "missing_frames": 4,
+    "interpolated_frames": 4,
+    "time_source": "decoder_timestamp_ms",
+    "strength_value": "",
+    "strength_uncapped": "",
+    "strength_maximum": 1.0090133586900014,
+    "strength_stop_reason": "crossing_velocity_unresolved",
+    "strength_status": "unresolved",
+    "strength_end_plane_x": 0.6131668713782181,
+    "strength_end_plane_y": 1.4955609190804922,
+    "strength_needs_review": 1,
+    "strength_assumed_stop": 0,
+    "strength_position_frame": "",
+    "strength_method": "unresolved_velocity",
+    "strength_end_frame": 5125,
+    "strength_crossing_s": 85.41053504549272,
+    "strength_velocity_reason": "insufficient_temporal_support",
+    "angle_value": "",
+    "angle_status": "not_requested",
+    "needs_review": 1,
+    "collision_evidence": "[]",
+    "assumed_stop": 0,
+    "value": "",
+    "uncapped_value": "",
+    "maximum": 1.0090133586900014,
+    "end_plane_x": 0.6131668713782181,
+    "end_plane_y": 1.4955609190804922,
+    "position_frame": "",
+    "score_complete": 0,
+    "strength_valid": 0,
+    "angle_valid": 0,
+    "target_bank_valid": 1
+  },
+  "unchanged_original_valid_start_frames": [
+    342,
+    981,
+    1561,
+    2250,
+    2935,
+    3599,
+    4166,
+    5344,
+    5893,
+    6516,
+    7052,
+    7710,
+    8319,
+    8909,
+    9584,
+    10292,
+    11017,
+    11680,
+    12366,
+    12992,
+    13573,
+    14250,
+    14895,
+    15423,
+    15950,
+    16534,
+    17066,
+    17674,
+    18338
+  ],
+  "other_attempts_exactly_unchanged_except_shot_renumbering": true,
+  "before_after_records": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1015_20261021\\count_review\\13\\candidates\\13_06_test_strength_030shots_before_after_records.json",
+  "before_after_records_sha256": "c13b84998319d24a6b8424afd1575c1bbc4a760a8c26ec570c211dcc9ff444ed",
+  "limitation": "This is a source-frame correction of three isolated false-object selections, not a complete manual ground-truth annotation or a count forced to the filename/live total."
+}

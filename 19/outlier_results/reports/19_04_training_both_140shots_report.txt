@@ -1,0 +1,46 @@
+========================================================================
+  Outlier Detection Report
+========================================================================
+
+Participant : 19
+CSV File    : 19_04_training_both_140shots.csv
+Mode        : both
+Total shots : 139
+Review policy: retained data are manually reviewed; historical review flags are ignored.
+Flags: 1 = statistical outlier; 0 = not flagged (including untested rows).
+Generated   : 2026-11-12 19:57:33
+
+────────────────────────────────────────────────────────────────────────
+
+  Channel: ANGLE
+  ────────────────────────────────────────
+  Eligible obs     : 127
+  Spline df        : 6
+  Outliers detected: 0
+  Not tested (ineligible): 12
+  Undefined tests (flag 0): 0
+
+  Assumption diagnostics:
+  shapiro_wilk: statistic=0.954865, p=0.000327
+  durbin_watson: 2.0181
+  ⚠ Shapiro-Wilk p = 0.0003 < 0.05 — residuals may not be normally distributed; t-test p-values may be unreliable.
+
+  Channel: STRENGTH
+  ────────────────────────────────────────
+  Eligible obs     : 127
+  Spline df        : 6
+  Outliers detected: 1
+  Not tested (ineligible): 12
+  Undefined tests (flag 0): 0
+
+  Outlier details:
+   Shot         Value     Predicted      Residual       t_ext         p_raw        p_Bonf
+  ─────────────────────────────────────────────────────────────────────────────────────
+    124      5.413182      1.282556      4.130626      5.0268    0.00000176    0.00022393
+
+  Assumption diagnostics:
+  shapiro_wilk: statistic=0.944597, p=0.000055
+  durbin_watson: 1.8619
+  ⚠ Shapiro-Wilk p = 0.0001 < 0.05 — residuals may not be normally distributed; t-test p-values may be unreliable.
+
+========================================================================

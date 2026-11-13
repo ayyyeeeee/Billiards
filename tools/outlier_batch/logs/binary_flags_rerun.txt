@@ -1,0 +1,413 @@
+============================================================
+  Billiard Training — Outlier Detection Tool
+============================================================
+
+Enter participant ID(s):
+  Single  :  01   or  1
+  Multiple:  01,02,05
+  Range   :  01-30
+  All     :  all
+
+  → Using command-line argument: all
+
+  Participants to process: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30
+
+2026-11-02 15:47:39,221  INFO      Log file: D:\experiment\tools\outlier_batch\logs\outlier_batch_20261102_154739.log
+2026-11-02 15:47:39,221  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:39,221  INFO        Participant 01
+2026-11-02 15:47:39,221  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:39,222  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:39,222  INFO        Processing: 01_04_training_both_140shots.csv  (mode=both)
+2026-11-02 15:47:39,379  INFO          Rows: 140
+2026-11-02 15:47:39,439  INFO          angle: eligible=139, outliers=2
+2026-11-02 15:47:39,439  INFO          strength: eligible=139, outliers=0
+2026-11-02 15:47:39,447  INFO          → Labelled CSV: 01_04_training_both_140shots_outlier_labeled.csv
+2026-11-02 15:47:39,449  INFO          → Report: 01_04_training_both_140shots_report.txt
+2026-11-02 15:47:40,059  INFO          → Plots saved.
+2026-11-02 15:47:40,063  INFO        → Summary: participant_01_summary.txt
+2026-11-02 15:47:40,063  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:40,063  INFO        Participant 02
+2026-11-02 15:47:40,063  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:40,063  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:40,063  INFO        Processing: 02_04_training_both_140shots.csv  (mode=both)
+2026-11-02 15:47:40,083  INFO          Rows: 140
+2026-11-02 15:47:40,125  INFO          angle: eligible=132, outliers=3
+2026-11-02 15:47:40,125  INFO          strength: eligible=132, outliers=0
+2026-11-02 15:47:40,135  INFO          → Labelled CSV: 02_04_training_both_140shots_outlier_labeled.csv
+2026-11-02 15:47:40,135  INFO          → Report: 02_04_training_both_140shots_report.txt
+2026-11-02 15:47:40,714  INFO          → Plots saved.
+2026-11-02 15:47:40,719  INFO        → Summary: participant_02_summary.txt
+2026-11-02 15:47:40,722  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:40,722  INFO        Participant 03
+2026-11-02 15:47:40,722  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:40,724  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:40,727  INFO        Processing: 03_04_training_both_140shots.csv  (mode=both)
+2026-11-02 15:47:40,755  INFO          Rows: 140
+2026-11-02 15:47:40,801  INFO          angle: eligible=120, outliers=0
+2026-11-02 15:47:40,801  INFO          strength: eligible=120, outliers=0
+2026-11-02 15:47:40,809  INFO          → Labelled CSV: 03_04_training_both_140shots_outlier_labeled.csv
+2026-11-02 15:47:40,810  INFO          → Report: 03_04_training_both_140shots_report.txt
+2026-11-02 15:47:41,302  INFO          → Plots saved.
+2026-11-02 15:47:41,304  INFO        → Summary: participant_03_summary.txt
+2026-11-02 15:47:41,305  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:41,305  INFO        Participant 04
+2026-11-02 15:47:41,305  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:41,306  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:41,307  INFO        Processing: 04_04_training_angle_140shots.csv  (mode=angle)
+2026-11-02 15:47:41,322  INFO          Rows: 140
+2026-11-02 15:47:41,344  INFO          angle: eligible=140, outliers=1
+2026-11-02 15:47:41,344  INFO          strength: SKIPPED — Only 0 eligible observations (need ≥ 15).
+2026-11-02 15:47:41,350  INFO          → Labelled CSV: 04_04_training_angle_140shots_outlier_labeled.csv
+2026-11-02 15:47:41,351  INFO          → Report: 04_04_training_angle_140shots_report.txt
+2026-11-02 15:47:41,881  INFO          → Plots saved.
+2026-11-02 15:47:41,884  INFO        → Summary: participant_04_summary.txt
+2026-11-02 15:47:41,884  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:41,884  INFO        Participant 05
+2026-11-02 15:47:41,884  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:41,885  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:41,885  INFO        Processing: 05_04_training_strength_140shots.csv  (mode=strength)
+2026-11-02 15:47:41,898  INFO          Rows: 140
+2026-11-02 15:47:41,918  INFO          angle: SKIPPED — Only 0 eligible observations (need ≥ 15).
+2026-11-02 15:47:41,918  INFO          strength: eligible=117, outliers=1
+2026-11-02 15:47:41,924  INFO          → Labelled CSV: 05_04_training_strength_140shots_outlier_labeled.csv
+2026-11-02 15:47:41,926  INFO          → Report: 05_04_training_strength_140shots_report.txt
+2026-11-02 15:47:42,437  INFO          → Plots saved.
+2026-11-02 15:47:42,437  INFO        → Summary: participant_05_summary.txt
+2026-11-02 15:47:42,437  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:42,437  INFO        Participant 06
+2026-11-02 15:47:42,437  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:42,437  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:42,437  INFO        Processing: 06_04_training_strength_140shots.csv  (mode=strength)
+2026-11-02 15:47:42,457  INFO          Rows: 140
+2026-11-02 15:47:42,495  INFO          angle: SKIPPED — Only 0 eligible observations (need ≥ 15).
+2026-11-02 15:47:42,495  INFO          strength: eligible=139, outliers=0
+2026-11-02 15:47:42,501  INFO          → Labelled CSV: 06_04_training_strength_140shots_outlier_labeled.csv
+2026-11-02 15:47:42,501  INFO          → Report: 06_04_training_strength_140shots_report.txt
+2026-11-02 15:47:42,951  INFO          → Plots saved.
+2026-11-02 15:47:42,951  INFO        → Summary: participant_06_summary.txt
+2026-11-02 15:47:42,951  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:42,951  INFO        Participant 07
+2026-11-02 15:47:42,951  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:42,951  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:42,951  INFO        Processing: 07_04_training_angle_140shots.csv  (mode=angle)
+2026-11-02 15:47:42,978  INFO          Rows: 136
+2026-11-02 15:47:42,978  WARNING       [!] Expected 140 rows but got 136. Proceeding.
+2026-11-02 15:47:42,998  INFO          angle: eligible=136, outliers=2
+2026-11-02 15:47:42,998  INFO          strength: SKIPPED — Only 0 eligible observations (need ≥ 15).
+2026-11-02 15:47:42,998  INFO          → Labelled CSV: 07_04_training_angle_140shots_outlier_labeled.csv
+2026-11-02 15:47:42,998  INFO          → Report: 07_04_training_angle_140shots_report.txt
+2026-11-02 15:47:43,488  INFO          → Plots saved.
+2026-11-02 15:47:43,505  INFO        → Summary: participant_07_summary.txt
+2026-11-02 15:47:43,507  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:43,507  INFO        Participant 08
+2026-11-02 15:47:43,508  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:43,509  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:43,510  INFO        Processing: 08_04_training_strength_140shots.csv  (mode=strength)
+2026-11-02 15:47:43,520  INFO          Rows: 140
+2026-11-02 15:47:43,540  INFO          angle: SKIPPED — Only 0 eligible observations (need ≥ 15).
+2026-11-02 15:47:43,540  INFO          strength: eligible=140, outliers=0
+2026-11-02 15:47:43,544  INFO          → Labelled CSV: 08_04_training_strength_140shots_outlier_labeled.csv
+2026-11-02 15:47:43,544  INFO          → Report: 08_04_training_strength_140shots_report.txt
+2026-11-02 15:47:43,982  INFO          → Plots saved.
+2026-11-02 15:47:43,989  INFO        → Summary: participant_08_summary.txt
+2026-11-02 15:47:43,989  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:43,989  INFO        Participant 09
+2026-11-02 15:47:43,989  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:43,989  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:43,989  INFO        Processing: 09_04_training_strength_140shots.csv  (mode=strength)
+2026-11-02 15:47:43,998  INFO          Rows: 138
+2026-11-02 15:47:43,998  WARNING       [!] Expected 140 rows but got 138. Proceeding.
+2026-11-02 15:47:44,022  INFO          angle: SKIPPED — Only 0 eligible observations (need ≥ 15).
+2026-11-02 15:47:44,022  INFO          strength: eligible=134, outliers=0
+2026-11-02 15:47:44,025  INFO          → Labelled CSV: 09_04_training_strength_140shots_outlier_labeled.csv
+2026-11-02 15:47:44,025  INFO          → Report: 09_04_training_strength_140shots_report.txt
+2026-11-02 15:47:44,470  INFO          → Plots saved.
+2026-11-02 15:47:44,470  INFO        → Summary: participant_09_summary.txt
+2026-11-02 15:47:44,470  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:44,470  INFO        Participant 10
+2026-11-02 15:47:44,470  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:44,470  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:44,470  INFO        Processing: 10_04_training_angle_140shots.csv  (mode=angle)
+2026-11-02 15:47:44,492  INFO          Rows: 140
+2026-11-02 15:47:44,513  INFO          angle: eligible=140, outliers=4
+2026-11-02 15:47:44,513  INFO          strength: SKIPPED — Only 0 eligible observations (need ≥ 15).
+2026-11-02 15:47:44,513  INFO          → Labelled CSV: 10_04_training_angle_140shots_outlier_labeled.csv
+2026-11-02 15:47:44,513  INFO          → Report: 10_04_training_angle_140shots_report.txt
+2026-11-02 15:47:45,075  INFO          → Plots saved.
+2026-11-02 15:47:45,075  INFO        → Summary: participant_10_summary.txt
+2026-11-02 15:47:45,075  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:45,075  INFO        Participant 11
+2026-11-02 15:47:45,075  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:45,075  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:45,075  INFO        Processing: 11_04_training_angle_140shots.csv  (mode=angle)
+2026-11-02 15:47:45,091  INFO          Rows: 140
+2026-11-02 15:47:45,114  INFO          angle: eligible=140, outliers=3
+2026-11-02 15:47:45,114  INFO          strength: SKIPPED — Only 0 eligible observations (need ≥ 15).
+2026-11-02 15:47:45,123  INFO          → Labelled CSV: 11_04_training_angle_140shots_outlier_labeled.csv
+2026-11-02 15:47:45,130  INFO          → Report: 11_04_training_angle_140shots_report.txt
+2026-11-02 15:47:45,607  INFO          → Plots saved.
+2026-11-02 15:47:45,607  INFO        → Summary: participant_11_summary.txt
+2026-11-02 15:47:45,607  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:45,607  INFO        Participant 12
+2026-11-02 15:47:45,607  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:45,607  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:45,607  INFO        Processing: 12_04_training_both_140shots.csv  (mode=both)
+2026-11-02 15:47:45,640  INFO          Rows: 140
+2026-11-02 15:47:45,679  INFO          angle: eligible=135, outliers=0
+2026-11-02 15:47:45,679  INFO          strength: eligible=135, outliers=0
+2026-11-02 15:47:45,684  INFO          → Labelled CSV: 12_04_training_both_140shots_outlier_labeled.csv
+2026-11-02 15:47:45,684  INFO          → Report: 12_04_training_both_140shots_report.txt
+2026-11-02 15:47:46,156  INFO          → Plots saved.
+2026-11-02 15:47:46,156  INFO        → Summary: participant_12_summary.txt
+2026-11-02 15:47:46,156  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:46,156  INFO        Participant 13
+2026-11-02 15:47:46,156  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:46,156  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:46,156  INFO        Processing: 13_04_training_angle_140shots.csv  (mode=angle)
+2026-11-02 15:47:46,171  INFO          Rows: 140
+2026-11-02 15:47:46,197  INFO          angle: eligible=140, outliers=1
+2026-11-02 15:47:46,197  INFO          strength: SKIPPED — Only 0 eligible observations (need ≥ 15).
+2026-11-02 15:47:46,204  INFO          → Labelled CSV: 13_04_training_angle_140shots_outlier_labeled.csv
+2026-11-02 15:47:46,205  INFO          → Report: 13_04_training_angle_140shots_report.txt
+2026-11-02 15:47:46,641  INFO          → Plots saved.
+2026-11-02 15:47:46,641  INFO        → Summary: participant_13_summary.txt
+2026-11-02 15:47:46,641  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:46,641  INFO        Participant 14
+2026-11-02 15:47:46,641  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:46,641  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:46,641  INFO        Processing: 14_04_training_strength_140shots.csv  (mode=strength)
+2026-11-02 15:47:46,659  INFO          Rows: 140
+2026-11-02 15:47:46,669  INFO          angle: SKIPPED — Only 0 eligible observations (need ≥ 15).
+2026-11-02 15:47:46,669  INFO          strength: eligible=134, outliers=0
+2026-11-02 15:47:46,669  INFO          → Labelled CSV: 14_04_training_strength_140shots_outlier_labeled.csv
+2026-11-02 15:47:46,685  INFO          → Report: 14_04_training_strength_140shots_report.txt
+2026-11-02 15:47:47,193  INFO          → Plots saved.
+2026-11-02 15:47:47,194  INFO        → Summary: participant_14_summary.txt
+2026-11-02 15:47:47,195  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:47,195  INFO        Participant 15
+2026-11-02 15:47:47,195  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:47,196  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:47,196  INFO        Processing: 15_04_training_angle_140shots.csv  (mode=angle)
+2026-11-02 15:47:47,210  INFO          Rows: 140
+2026-11-02 15:47:47,231  INFO          angle: eligible=140, outliers=1
+2026-11-02 15:47:47,231  INFO          strength: SKIPPED — Only 0 eligible observations (need ≥ 15).
+2026-11-02 15:47:47,237  INFO          → Labelled CSV: 15_04_training_angle_140shots_outlier_labeled.csv
+2026-11-02 15:47:47,238  INFO          → Report: 15_04_training_angle_140shots_report.txt
+2026-11-02 15:47:47,688  INFO          → Plots saved.
+2026-11-02 15:47:47,688  INFO        → Summary: participant_15_summary.txt
+2026-11-02 15:47:47,688  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:47,688  INFO        Participant 16
+2026-11-02 15:47:47,688  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:47,688  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:47,688  INFO        Processing: 16_04_training_strength_140shots.csv  (mode=strength)
+2026-11-02 15:47:47,700  INFO          Rows: 140
+2026-11-02 15:47:47,737  INFO          angle: SKIPPED — Only 0 eligible observations (need ≥ 15).
+2026-11-02 15:47:47,737  INFO          strength: eligible=137, outliers=0
+2026-11-02 15:47:47,742  INFO          → Labelled CSV: 16_04_training_strength_140shots_outlier_labeled.csv
+2026-11-02 15:47:47,744  INFO          → Report: 16_04_training_strength_140shots_report.txt
+2026-11-02 15:47:48,196  INFO          → Plots saved.
+2026-11-02 15:47:48,198  INFO        → Summary: participant_16_summary.txt
+2026-11-02 15:47:48,198  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:48,199  INFO        Participant 17
+2026-11-02 15:47:48,199  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:48,199  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:48,199  INFO        Processing: 17_04_training_both_140shots.csv  (mode=both)
+2026-11-02 15:47:48,210  INFO          Rows: 140
+2026-11-02 15:47:48,249  INFO          angle: eligible=137, outliers=1
+2026-11-02 15:47:48,249  INFO          strength: eligible=137, outliers=0
+2026-11-02 15:47:48,255  INFO          → Labelled CSV: 17_04_training_both_140shots_outlier_labeled.csv
+2026-11-02 15:47:48,256  INFO          → Report: 17_04_training_both_140shots_report.txt
+2026-11-02 15:47:48,848  INFO          → Plots saved.
+2026-11-02 15:47:48,849  INFO        → Summary: participant_17_summary.txt
+2026-11-02 15:47:48,852  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:48,852  INFO        Participant 18
+2026-11-02 15:47:48,852  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:48,853  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:48,853  INFO        Processing: 18_04_training_both_140shots.csv  (mode=both)
+2026-11-02 15:47:48,870  INFO          Rows: 140
+2026-11-02 15:47:48,906  INFO          angle: eligible=137, outliers=0
+2026-11-02 15:47:48,906  INFO          strength: eligible=137, outliers=0
+2026-11-02 15:47:48,917  INFO          → Labelled CSV: 18_04_training_both_140shots_outlier_labeled.csv
+2026-11-02 15:47:48,919  INFO          → Report: 18_04_training_both_140shots_report.txt
+2026-11-02 15:47:49,426  INFO          → Plots saved.
+2026-11-02 15:47:49,430  INFO        → Summary: participant_18_summary.txt
+2026-11-02 15:47:49,432  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:49,432  INFO        Participant 19
+2026-11-02 15:47:49,432  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:49,433  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:49,434  INFO        Processing: 19_04_training_both_140shots.csv  (mode=both)
+2026-11-02 15:47:49,456  INFO          Rows: 139
+2026-11-02 15:47:49,456  WARNING       [!] Expected 140 rows but got 139. Proceeding.
+2026-11-02 15:47:49,506  INFO          angle: eligible=127, outliers=0
+2026-11-02 15:47:49,506  INFO          strength: eligible=127, outliers=0
+2026-11-02 15:47:49,515  INFO          → Labelled CSV: 19_04_training_both_140shots_outlier_labeled.csv
+2026-11-02 15:47:49,516  INFO          → Report: 19_04_training_both_140shots_report.txt
+2026-11-02 15:47:50,156  INFO          → Plots saved.
+2026-11-02 15:47:50,157  INFO        → Summary: participant_19_summary.txt
+2026-11-02 15:47:50,158  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:50,158  INFO        Participant 20
+2026-11-02 15:47:50,158  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:50,158  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:50,158  INFO        Processing: 20_04_training_angle_140shots.csv  (mode=angle)
+2026-11-02 15:47:50,168  INFO          Rows: 140
+2026-11-02 15:47:50,191  INFO          angle: eligible=140, outliers=3
+2026-11-02 15:47:50,191  INFO          strength: SKIPPED — Only 0 eligible observations (need ≥ 15).
+2026-11-02 15:47:50,198  INFO          → Labelled CSV: 20_04_training_angle_140shots_outlier_labeled.csv
+2026-11-02 15:47:50,201  INFO          → Report: 20_04_training_angle_140shots_report.txt
+2026-11-02 15:47:50,739  INFO          → Plots saved.
+2026-11-02 15:47:50,740  INFO        → Summary: participant_20_summary.txt
+2026-11-02 15:47:50,740  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:50,740  INFO        Participant 21
+2026-11-02 15:47:50,740  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:50,740  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:50,740  INFO        Processing: 21_04_training_both_140shots.csv  (mode=both)
+2026-11-02 15:47:50,755  INFO          Rows: 140
+2026-11-02 15:47:50,796  INFO          angle: eligible=140, outliers=1
+2026-11-02 15:47:50,796  INFO          strength: eligible=140, outliers=0
+2026-11-02 15:47:50,801  INFO          → Labelled CSV: 21_04_training_both_140shots_outlier_labeled.csv
+2026-11-02 15:47:50,804  INFO          → Report: 21_04_training_both_140shots_report.txt
+2026-11-02 15:47:51,344  INFO          → Plots saved.
+2026-11-02 15:47:51,345  INFO        → Summary: participant_21_summary.txt
+2026-11-02 15:47:51,346  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:51,346  INFO        Participant 22
+2026-11-02 15:47:51,346  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:51,346  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:51,347  INFO        Processing: 22_04_training_strength_140shots.csv  (mode=strength)
+2026-11-02 15:47:51,356  INFO          Rows: 140
+2026-11-02 15:47:51,372  INFO          angle: SKIPPED — Only 0 eligible observations (need ≥ 15).
+2026-11-02 15:47:51,372  INFO          strength: eligible=135, outliers=0
+2026-11-02 15:47:51,374  INFO          → Labelled CSV: 22_04_training_strength_140shots_outlier_labeled.csv
+2026-11-02 15:47:51,376  INFO          → Report: 22_04_training_strength_140shots_report.txt
+2026-11-02 15:47:51,876  INFO          → Plots saved.
+2026-11-02 15:47:51,877  INFO        → Summary: participant_22_summary.txt
+2026-11-02 15:47:51,878  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:51,878  INFO        Participant 23
+2026-11-02 15:47:51,878  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:51,878  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:51,879  INFO        Processing: 23_04_training_angle_140shots.csv  (mode=angle)
+2026-11-02 15:47:51,888  INFO          Rows: 140
+2026-11-02 15:47:51,904  INFO          angle: eligible=140, outliers=1
+2026-11-02 15:47:51,904  INFO          strength: SKIPPED — Only 0 eligible observations (need ≥ 15).
+2026-11-02 15:47:51,904  INFO          → Labelled CSV: 23_04_training_angle_140shots_outlier_labeled.csv
+2026-11-02 15:47:51,920  INFO          → Report: 23_04_training_angle_140shots_report.txt
+2026-11-02 15:47:52,355  INFO          → Plots saved.
+2026-11-02 15:47:52,355  INFO        → Summary: participant_23_summary.txt
+2026-11-02 15:47:52,355  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:52,355  INFO        Participant 24
+2026-11-02 15:47:52,369  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:52,369  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:52,369  INFO        Processing: 24_04_training_strength_140shots.csv  (mode=strength)
+2026-11-02 15:47:52,369  INFO          Rows: 140
+2026-11-02 15:47:52,411  INFO          angle: SKIPPED — Only 0 eligible observations (need ≥ 15).
+2026-11-02 15:47:52,411  INFO          strength: eligible=137, outliers=0
+2026-11-02 15:47:52,418  INFO          → Labelled CSV: 24_04_training_strength_140shots_outlier_labeled.csv
+2026-11-02 15:47:52,420  INFO          → Report: 24_04_training_strength_140shots_report.txt
+2026-11-02 15:47:52,954  INFO          → Plots saved.
+2026-11-02 15:47:52,955  INFO        → Summary: participant_24_summary.txt
+2026-11-02 15:47:52,957  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:52,957  INFO        Participant 25
+2026-11-02 15:47:52,957  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:52,958  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:52,958  INFO        Processing: 25_04_training_both_140shots.csv  (mode=both)
+2026-11-02 15:47:52,974  INFO          Rows: 140
+2026-11-02 15:47:53,026  INFO          angle: eligible=134, outliers=0
+2026-11-02 15:47:53,026  INFO          strength: eligible=134, outliers=0
+2026-11-02 15:47:53,032  INFO          → Labelled CSV: 25_04_training_both_140shots_outlier_labeled.csv
+2026-11-02 15:47:53,032  INFO          → Report: 25_04_training_both_140shots_report.txt
+2026-11-02 15:47:53,543  INFO          → Plots saved.
+2026-11-02 15:47:53,543  INFO        → Summary: participant_25_summary.txt
+2026-11-02 15:47:53,543  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:53,543  INFO        Participant 26
+2026-11-02 15:47:53,543  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:53,543  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:53,548  INFO        Processing: 26_04_training_angle_140shots.csv  (mode=angle)
+2026-11-02 15:47:53,564  INFO          Rows: 140
+2026-11-02 15:47:53,586  INFO          angle: eligible=140, outliers=2
+2026-11-02 15:47:53,589  INFO          strength: SKIPPED — Only 0 eligible observations (need ≥ 15).
+2026-11-02 15:47:53,589  INFO          → Labelled CSV: 26_04_training_angle_140shots_outlier_labeled.csv
+2026-11-02 15:47:53,597  INFO          → Report: 26_04_training_angle_140shots_report.txt
+2026-11-02 15:47:54,170  INFO          → Plots saved.
+2026-11-02 15:47:54,172  INFO        → Summary: participant_26_summary.txt
+2026-11-02 15:47:54,173  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:54,173  INFO        Participant 27
+2026-11-02 15:47:54,173  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:54,173  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:54,174  INFO        Processing: 27_04_training_strength_140shots.csv  (mode=strength)
+2026-11-02 15:47:54,185  INFO          Rows: 140
+2026-11-02 15:47:54,209  INFO          angle: SKIPPED — Only 0 eligible observations (need ≥ 15).
+2026-11-02 15:47:54,210  INFO          strength: eligible=139, outliers=0
+2026-11-02 15:47:54,210  INFO          → Labelled CSV: 27_04_training_strength_140shots_outlier_labeled.csv
+2026-11-02 15:47:54,210  INFO          → Report: 27_04_training_strength_140shots_report.txt
+2026-11-02 15:47:54,723  INFO          → Plots saved.
+2026-11-02 15:47:54,723  INFO        → Summary: participant_27_summary.txt
+2026-11-02 15:47:54,723  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:54,723  INFO        Participant 28
+2026-11-02 15:47:54,723  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:54,723  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:54,723  INFO        Processing: 28_04_training_both_140shots.csv  (mode=both)
+2026-11-02 15:47:54,739  INFO          Rows: 140
+2026-11-02 15:47:54,794  INFO          angle: eligible=133, outliers=0
+2026-11-02 15:47:54,794  INFO          strength: eligible=133, outliers=0
+2026-11-02 15:47:54,805  INFO          → Labelled CSV: 28_04_training_both_140shots_outlier_labeled.csv
+2026-11-02 15:47:54,805  INFO          → Report: 28_04_training_both_140shots_report.txt
+2026-11-02 15:47:55,435  INFO          → Plots saved.
+2026-11-02 15:47:55,435  INFO        → Summary: participant_28_summary.txt
+2026-11-02 15:47:55,435  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:55,435  INFO        Participant 29
+2026-11-02 15:47:55,435  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:55,435  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:55,435  INFO        Processing: 29_04_training_angle_140shots.csv  (mode=angle)
+2026-11-02 15:47:55,435  INFO          Rows: 140
+2026-11-02 15:47:55,472  INFO          angle: eligible=140, outliers=2
+2026-11-02 15:47:55,472  INFO          strength: SKIPPED — Only 0 eligible observations (need ≥ 15).
+2026-11-02 15:47:55,473  INFO          → Labelled CSV: 29_04_training_angle_140shots_outlier_labeled.csv
+2026-11-02 15:47:55,473  INFO          → Report: 29_04_training_angle_140shots_report.txt
+2026-11-02 15:47:55,919  INFO          → Plots saved.
+2026-11-02 15:47:55,919  INFO        → Summary: participant_29_summary.txt
+2026-11-02 15:47:55,919  INFO      
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:55,919  INFO        Participant 30
+2026-11-02 15:47:55,919  INFO      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-11-02 15:47:55,919  INFO        Found 1 training CSV(s).
+2026-11-02 15:47:55,919  INFO        Processing: 30_04_training_strength_140shots.csv  (mode=strength)
+2026-11-02 15:47:55,935  INFO          Rows: 140
+2026-11-02 15:47:55,968  INFO          angle: SKIPPED — Only 0 eligible observations (need ≥ 15).
+2026-11-02 15:47:55,968  INFO          strength: eligible=139, outliers=0
+2026-11-02 15:47:55,969  INFO          → Labelled CSV: 30_04_training_strength_140shots_outlier_labeled.csv
+2026-11-02 15:47:55,969  INFO          → Report: 30_04_training_strength_140shots_report.txt
+2026-11-02 15:47:56,499  INFO          → Plots saved.
+2026-11-02 15:47:56,499  INFO        → Summary: participant_30_summary.txt
+
+============================================================
+  Done.  Success: 30   Errors: 0
+  Log: D:\experiment\tools\outlier_batch\logs\outlier_batch_20261102_154739.log
+============================================================
