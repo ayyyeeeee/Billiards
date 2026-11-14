@@ -1,0 +1,397 @@
+{
+  "status": "SOURCE_REVIEWED_MINIMAL_CANDIDATE_READY_FOR_PARENT_APPROVAL",
+  "source_video": "D:\\experiment\\19\\19_04_training_both_140shots.mkv",
+  "source_sha256": "8302b5125ee12fecc2135090b9b071ca1fa54eecdce2f9b5e8f58b4e2083843b",
+  "original_pack": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1920_20261025\\analysis\\19\\cache\\19_04_training_both_140shots_evidence.npz",
+  "original_pack_sha256": "d240169b17306238354fbf172da661cae2c2178a5cd4a7cc514d8276e2d6b061",
+  "original_report_sha256": "603b69ee89ed0eb02a23f7d0276004e3045261c95875f26a91576eb796cbe8ab",
+  "reviewed_pack": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1920_20261025\\observation_review_1904\\19_04_training_both_140shots_reviewed_evidence.npz",
+  "reviewed_pack_sha256": "e1a1a4582855633b9153058eafa503e1f37a73e1c985af7ed3e66f8475259a9f",
+  "changed_frames": [
+    14442
+  ],
+  "changes": [
+    {
+      "frame": 14442,
+      "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1920_20261025\\observation_review_1904\\source_f14442.png",
+      "source_png_sha256": "4d4fe1e58e2d486e13fde2171becee60c215a914cafb45600e81fe199abde364",
+      "source_bgr_sha256": "fbfd6403d19bc290cc6b048aa33def97ac7576727cfd4df23231ab786ff557dc",
+      "source_pts_ms": 240700.00000000003,
+      "original_row": [
+        null,
+        null,
+        0.0,
+        0.0,
+        240700.00000000003,
+        0.0,
+        0.0
+      ],
+      "measured_row": [
+        643.0157047506871,
+        109.8884962701217,
+        424.5,
+        1.0,
+        240700.00000000003,
+        0.00149402390438247,
+        4.0
+      ],
+      "method": "Whole actually visible ball foreground contour against this source temporal-median background; a single connected local object, not a predicted or interpolated coordinate.",
+      "source_roi": [
+        620,
+        80,
+        670,
+        140
+      ],
+      "contrast": "max(abs(source_BGR - median_BGR)) per pixel > 25; 3x3 close; only connected component above20px² in the manually source-reviewed ROI.",
+      "contour_area_px2": 424.5,
+      "bounding_box": [
+        632,
+        97,
+        24,
+        26
+      ],
+      "contour_original_pixels": [
+        [
+          642,
+          97
+        ],
+        [
+          641,
+          98
+        ],
+        [
+          638,
+          98
+        ],
+        [
+          636,
+          100
+        ],
+        [
+          636,
+          101
+        ],
+        [
+          635,
+          102
+        ],
+        [
+          634,
+          102
+        ],
+        [
+          634,
+          105
+        ],
+        [
+          632,
+          107
+        ],
+        [
+          632,
+          113
+        ],
+        [
+          634,
+          115
+        ],
+        [
+          634,
+          117
+        ],
+        [
+          635,
+          118
+        ],
+        [
+          635,
+          119
+        ],
+        [
+          636,
+          119
+        ],
+        [
+          639,
+          122
+        ],
+        [
+          647,
+          122
+        ],
+        [
+          650,
+          119
+        ],
+        [
+          651,
+          119
+        ],
+        [
+          651,
+          118
+        ],
+        [
+          654,
+          115
+        ],
+        [
+          654,
+          114
+        ],
+        [
+          655,
+          113
+        ],
+        [
+          654,
+          112
+        ],
+        [
+          654,
+          110
+        ],
+        [
+          653,
+          109
+        ],
+        [
+          653,
+          104
+        ],
+        [
+          652,
+          104
+        ],
+        [
+          651,
+          103
+        ],
+        [
+          651,
+          102
+        ],
+        [
+          650,
+          102
+        ],
+        [
+          649,
+          101
+        ],
+        [
+          649,
+          99
+        ],
+        [
+          648,
+          98
+        ],
+        [
+          646,
+          98
+        ],
+        [
+          645,
+          97
+        ]
+      ],
+      "mask": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1920_20261025\\observation_review_1904\\f14442_foreground_contour_mask.png",
+      "mask_sha256": "25fbf6301e987b87a129ddd26d4052458eea87884077b0562d17d8ff7fcb55d3",
+      "hsv_min": [
+        5,
+        26,
+        50
+      ],
+      "hsv_max": [
+        68,
+        165,
+        233
+      ],
+      "hsv_median": [
+        26.0,
+        87.0,
+        111.0
+      ],
+      "original_red_hsv_pixels_inside_component": 7,
+      "threshold_sensitivity": [
+        {
+          "threshold": 15,
+          "point": [
+            643.0749279538904,
+            110.06436119116235
+          ],
+          "area": 520.5,
+          "shift_from_selected_px": 0.1855690120960373
+        },
+        {
+          "threshold": 20,
+          "point": [
+            643.1520591341077,
+            110.02287926786343
+          ],
+          "area": 473.5,
+          "shift_from_selected_px": 0.19144531323613662
+        },
+        {
+          "threshold": 25,
+          "point": [
+            643.0157047506871,
+            109.8884962701217
+          ],
+          "area": 424.5,
+          "shift_from_selected_px": 0.0
+        },
+        {
+          "threshold": 30,
+          "point": [
+            643.0437367303609,
+            109.73970276008492
+          ],
+          "area": 392.5,
+          "shift_from_selected_px": 0.15141103167702877
+        },
+        {
+          "threshold": 35,
+          "point": [
+            642.9817534490431,
+            109.53716065865598
+          ],
+          "area": 374.5,
+          "shift_from_selected_px": 0.35297224078858386
+        },
+        {
+          "threshold": 40,
+          "point": [
+            643.0633569739953,
+            109.39479905437352
+          ],
+          "area": 352.5,
+          "shift_from_selected_px": 0.4959916080174388
+        }
+      ],
+      "hand_fraction": 0.00149402390438247,
+      "visual_assessment": "Complete free ball with a dominant white facing panel and dark round boundary is clearly visible at this frame. Red-only detection leaves tiny fragments. No hand or other moving object overlaps this selected ball contour."
+    }
+  ],
+  "verification": {
+    "all_original_finite_rows_unchanged": true,
+    "all_nonchanged_rows_unchanged": true,
+    "timestamp_column_unchanged": true,
+    "fps_quad_median_unchanged": true,
+    "pack_roundtrip_exact": true,
+    "native_scoring_outputs_not_written": true,
+    "scoring_core_unchanged": true
+  },
+  "dry_run": {
+    "native_valid": 139,
+    "candidate_valid": 139,
+    "total_attempts": 147,
+    "affected_attempts": [
+      32
+    ],
+    "recovered_angle_value": 0.415438663824262,
+    "recovered_angle_position_frame": 14436,
+    "recovered_angle_contact_kind": "target",
+    "strength_status": "unresolved",
+    "strength_value": "",
+    "strength_reason": "crossing_velocity_unresolved",
+    "field_differences": [
+      {
+        "attempt": 32,
+        "changed_fields": {
+          "angle_position_frame": {
+            "before": 14514,
+            "after": 14436
+          },
+          "collision_evidence": {
+            "before": "[{\"frame\":14514,\"before_frame\":14502,\"after_frame\":14526,\"time_s\":241.9,\"kind\":\"opposite\",\"plane_point\":[0.4982540860985204,1.9902044392552818],\"approach_vector\":[-0.0005850682334204715,0.2651322049120084],\"return_vector\":[0.0013155084537578854,-0.16300130665387913]}]",
+            "after": "[{\"frame\":14436,\"before_frame\":14426,\"after_frame\":14448,\"time_s\":240.6,\"kind\":\"target\",\"plane_point\":[0.5159598471703936,0.028495400234383277],\"approach_vector\":[0.0028129309160306315,-0.39957817966700926],\"return_vector\":[-0.004060952970373788,0.40557255908563594]}]"
+          },
+          "angle_contact_kind": {
+            "before": "opposite",
+            "after": "target"
+          },
+          "angle_end_plane_y": {
+            "before": 1.9902044392552818,
+            "after": 0.028495400234383277
+          },
+          "angle_displacement_sample_count": {
+            "before": 67,
+            "after": 14
+          },
+          "angle_end_plane_x": {
+            "before": 0.4982540860985204,
+            "after": 0.5159598471703936
+          },
+          "angle_stop_reason": {
+            "before": "invalid_reverse",
+            "after": "first_cushion"
+          },
+          "angle_raw_degrees": {
+            "before": 179.19457685667112,
+            "after": 0.415438663824262
+          },
+          "angle_uncapped": {
+            "before": "",
+            "after": 0.415438663824262
+          },
+          "stop_reason": {
+            "before": "invalid_reverse",
+            "after": "first_cushion"
+          },
+          "angle_value": {
+            "before": "",
+            "after": 0.415438663824262
+          },
+          "angle_evidence": {
+            "before": "{\"frame\":14514,\"before_frame\":14502,\"after_frame\":14526,\"time_s\":241.9,\"kind\":\"opposite\",\"plane_point\":[0.4982540860985204,1.9902044392552818],\"approach_vector\":[-0.0005850682334204715,0.2651322049120084],\"return_vector\":[0.0013155084537578854,-0.16300130665387913]}",
+            "after": "{\"frame\":14436,\"before_frame\":14426,\"after_frame\":14448,\"time_s\":240.6,\"kind\":\"target\",\"plane_point\":[0.5159598471703936,0.028495400234383277],\"approach_vector\":[0.0028129309160306315,-0.39957817966700926],\"return_vector\":[-0.004060952970373788,0.40557255908563594]}"
+          },
+          "angle_displacement_end_frame": {
+            "before": 14514,
+            "after": 14436
+          },
+          "interpolated_frames": {
+            "before": 41,
+            "after": 40
+          },
+          "angle_needs_review": {
+            "before": 1,
+            "after": 0
+          },
+          "missing_frames": {
+            "before": 63,
+            "after": 62
+          },
+          "angle_end_frame": {
+            "before": 14526,
+            "after": 14448
+          },
+          "angle_direction_status": {
+            "before": "reverse",
+            "after": "forward"
+          },
+          "angle_reverse": {
+            "before": 1,
+            "after": 0
+          },
+          "angle_status": {
+            "before": "invalid",
+            "after": "scored"
+          },
+          "angle_valid": {
+            "before": 0,
+            "after": 1
+          }
+        }
+      }
+    ]
+  },
+  "limitations": [
+    "Only this one actual source frame is added; the remaining missing frames are not imputed.",
+    "Foreground contour includes real ball boundary/shading/motion blur; it is a different, explicitly identified observation method from red-only centroids.",
+    "A local readable source object and threshold robustness support this measurement, not survey-precision ball-centre ground truth.",
+    "No core rule, physical coefficient, endpoint, count or score is manually assigned. Parent/root must review before installation."
+  ]
+}

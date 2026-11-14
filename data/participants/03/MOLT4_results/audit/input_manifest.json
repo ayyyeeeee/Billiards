@@ -1,0 +1,2245 @@
+{
+  "task": "01_07_v3_capped_20261020",
+  "original_inventory_sha256": "47a44a7790dd8f49b8736a91f0693db77fa8ecf73fe584de9a710a1b76d6072c",
+  "sources": [
+    {
+      "participant": "03",
+      "path": "D:\\experiment\\03\\03_01_baseline_both_010shots.mkv",
+      "name": "03_01_baseline_both_010shots.mkv",
+      "stem": "03_01_baseline_both_010shots",
+      "bytes": 105354414,
+      "sha256": "a93850004681d4f461dda5aa2ae02a2ba1c352da93b5a883e795592e8cf9d319",
+      "frames": 12525,
+      "fps": 60.0,
+      "size": [
+        1280,
+        720
+      ],
+      "session_sha256": "ce85a7d4fc79b35017d899c4597c648ed49e56a2f7e68b07952e6400a8becc26",
+      "safe_cache": null,
+      "median_provenance": {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\preflight\\03_01_baseline_regular_010shots_median.npz",
+        "sha256": "da1083a7f07696ff3e2cd449f7351dafadb9584c03af4549a2690233d36fc76f",
+        "source_sha256": "a93850004681d4f461dda5aa2ae02a2ba1c352da93b5a883e795592e8cf9d319",
+        "source_manifest": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\inventory.json",
+        "reference_frame": null,
+        "verification": "Historical source-bound median SHA equality",
+        "purpose": "Source-matched median only; historical observations are not implicitly reused."
+      },
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\preflight\\03_01_baseline_both_010shots_median.npz",
+      "median_sha256": "da1083a7f07696ff3e2cd449f7351dafadb9584c03af4549a2690233d36fc76f",
+      "override_path": null,
+      "override_sha256": null,
+      "preflight_status": "READY_FOR_GEOMETRY_REVIEW",
+      "calibration": {
+        "corners": [
+          [
+            461.20632875395177,
+            10.074456349644693
+          ],
+          [
+            814.056412357773,
+            39.03663184647443
+          ],
+          [
+            801.9909483813072,
+            722.1766763378937
+          ],
+          [
+            455.6448790812957,
+            736.6429277700852
+          ]
+        ],
+        "origin_raw": [
+          634.5207199355117,
+          554.8500105197024
+        ],
+        "y_marker_raw": [
+          755.0891865275,
+          551.7899449041661
+        ],
+        "strip_raw": [
+          644.9479289608491,
+          30.085287099695993
+        ],
+        "plane_H": [
+          [
+            0.0026618806042625976,
+            2.0375113423631124e-05,
+            -1.2278814492641088
+          ],
+          [
+            -0.00022115259293830808,
+            0.0026943318162002575,
+            0.0748530472097258
+          ],
+          [
+            -0.0001680816222967086,
+            -2.9607035294835447e-05,
+            1.0778185827351936
+          ]
+        ],
+        "axes_H": [
+          [
+            -4.686642324932268e-05,
+            -0.0018465658896767282,
+            1.054304819933419
+          ],
+          [
+            0.0018508266323428405,
+            3.677639769557069e-05,
+            -1.1947932318782617
+          ],
+          [
+            -0.0001680816222967086,
+            -2.9607035294835447e-05,
+            1.0778185827351936
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.014086581472479,
+            -0.340809773402099
+          ],
+          [
+            1.004505358731743,
+            0.333377365092877
+          ],
+          [
+            -0.3437670129529873,
+            0.3429896861976351
+          ],
+          [
+            -0.33418579021225114,
+            -0.33119745229734093
+          ]
+        ],
+        "origin_plane": [
+          0.49483854849574427,
+          1.4972426110866808
+        ],
+        "strip_plane": [
+          0.505414371559406,
+          0.0137125020082524
+        ],
+        "y_marker_plane": [
+          0.8488639165793839,
+          1.4922109928784963
+        ],
+        "scale": 1.4835678051830754,
+        "distance_cap_observed": 0.3388839978576361,
+        "opposite_rail_distance_observed": 0.3388839978576361,
+        "strength_cap_observed": 1.0090133562092736,
+        "strength_maximum": 1.0090133562092736,
+        "upper_rail_reference_plane": [
+          0.5055121255544965,
+          0.0
+        ],
+        "angle_cap_observed": 13.486097454032087,
+        "axis_nonorthogonality_degrees": 1.2227112615578903,
+        "aspect_ratio": 2.0,
+        "source": "automatic_fixed_template_needs_preview_review",
+        "landmarks_raw": {
+          "TL": [
+            461.20632875395177,
+            10.074456349644693
+          ],
+          "TR": [
+            814.056412357773,
+            39.03663184647443
+          ],
+          "BR": [
+            801.9909483813072,
+            722.1766763378937
+          ],
+          "BL": [
+            455.6448790812957,
+            736.6429277700852
+          ],
+          "O": [
+            634.5207199355117,
+            554.8500105197024
+          ],
+          "Y": [
+            755.0891865275,
+            551.7899449041661
+          ],
+          "B": [
+            644.9479289608491,
+            30.085287099695993
+          ]
+        },
+        "calibration_quality": {
+          "observed_points": {
+            "O": [
+              634.1548740129859,
+              554.8455243633719
+            ],
+            "Y": [
+              755.8020619594871,
+              551.7997984114186
+            ],
+            "B": [
+              645.005494693476,
+              30.086045811100263
+            ]
+          },
+          "reconstructed_names": [
+            "TL",
+            "TR",
+            "BR",
+            "BL"
+          ],
+          "reprojection_residual_px": {
+            "O": 0.3658734270582392,
+            "Y": 0.7129435273118974,
+            "B": 0.05757073228522177
+          },
+          "rail_fit_residual_px": [
+            0.022983897189216347,
+            -0.2549828163379607,
+            0.45769626799954927,
+            1.0965590576759383
+          ],
+          "accuracy_check": "three_marks_and_two_observed_side_lines",
+          "template_version": "seven_landmarks_multiview_v2",
+          "marker_detection": {
+            "O": {
+              "contrast": 47.83346176147461,
+              "size_px": [
+                4,
+                5
+              ],
+              "candidate_count": 1,
+              "expected_raw": [
+                629.1351812185419,
+                530.6828368775713
+              ],
+              "runner_up_score_ratio": 0.0
+            },
+            "Y": {
+              "contrast": 38.571388244628906,
+              "size_px": [
+                4,
+                4
+              ],
+              "candidate_count": 1,
+              "expected_raw": [
+                752.0314123354274,
+                528.968672767328
+              ],
+              "runner_up_score_ratio": 0.0
+            },
+            "B": {
+              "contrast": 17.674877166748047,
+              "size_px": [
+                4,
+                7
+              ],
+              "candidate_count": 1,
+              "expected_raw": [
+                639.4835269099225,
+                16.830013668440643
+              ],
+              "runner_up_score_ratio": 0.0
+            }
+          },
+          "visible_short_rails": {
+            "top": {
+              "line_y_from_x": [
+                0.06982973245600478,
+                -26.99484784432355
+              ],
+              "inliers": 80,
+              "coverage": 0.9738805970149254,
+              "median_gradient": 4.09375,
+              "residual_px": 0.328104164468197
+            }
+          },
+          "side_rail_source": "Robust visible cloth-boundary fits with configured cushion margin",
+          "reference_points_inside_image": {
+            "TL": true,
+            "TR": true,
+            "BR": false,
+            "BL": false,
+            "O": true,
+            "Y": true,
+            "B": true
+          }
+        },
+        "table_width_cm": 84.0,
+        "table_length_cm": 168.0,
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates."
+      }
+    },
+    {
+      "participant": "03",
+      "path": "D:\\experiment\\03\\03_02_baseline_strength_010shots.mkv",
+      "name": "03_02_baseline_strength_010shots.mkv",
+      "stem": "03_02_baseline_strength_010shots",
+      "bytes": 57527431,
+      "sha256": "e06df0230f8e98fa806327325e7c4dcbe47f302076c0f07cf7c82ebb44220837",
+      "frames": 6879,
+      "fps": 60.0,
+      "size": [
+        1280,
+        720
+      ],
+      "session_sha256": "ce85a7d4fc79b35017d899c4597c648ed49e56a2f7e68b07952e6400a8becc26",
+      "safe_cache": null,
+      "median_provenance": {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\preflight\\03_02_baseline_strength_010shots_median.npz",
+        "sha256": "b6613eb4ab786b4d84c2327794c2d83b27c40a7a339a214d54e23109c1f524dd",
+        "source_sha256": "e06df0230f8e98fa806327325e7c4dcbe47f302076c0f07cf7c82ebb44220837",
+        "source_manifest": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\inventory.json",
+        "reference_frame": null,
+        "verification": "Historical source-bound median SHA equality",
+        "purpose": "Source-matched median only; historical observations are not implicitly reused."
+      },
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\preflight\\03_02_baseline_strength_010shots_median.npz",
+      "median_sha256": "b6613eb4ab786b4d84c2327794c2d83b27c40a7a339a214d54e23109c1f524dd",
+      "override_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\overrides\\03_02_baseline_strength_010shots.json",
+      "override_sha256": "c8e471c9e60275d155fcc32269ae3117c0d073af35ac05e09727a486df6f67f7",
+      "preflight_status": "READY_FOR_GEOMETRY_REVIEW",
+      "calibration": {
+        "corners": [
+          [
+            469.0,
+            16.0
+          ],
+          [
+            806.0,
+            38.0
+          ],
+          [
+            791.0,
+            711.0
+          ],
+          [
+            462.0,
+            719.0
+          ]
+        ],
+        "origin_raw": [
+          637.0,
+          557.0
+        ],
+        "y_marker_raw": [
+          756.0000000000001,
+          554.0000000000001
+        ],
+        "strip_raw": [
+          644.0,
+          31.000000000000004
+        ],
+        "plane_H": [
+          [
+            0.0026793184525454095,
+            2.667884661140535e-05,
+            -1.2570272157895794
+          ],
+          [
+            -0.0001707227237366988,
+            0.002615161722693977,
+            0.038226369869408104
+          ],
+          [
+            -0.00011802397376578123,
+            -3.5669052934906485e-05,
+            1.0
+          ]
+        ],
+        "axes_H": [
+          [
+            -4.424688700815741e-05,
+            -0.0017551265179903265,
+            1.0057907375448083
+          ],
+          [
+            0.0018009457038151088,
+            2.3966958035562442e-05,
+            -1.1605520089560324
+          ],
+          [
+            -0.00011802397376578123,
+            -3.5669052934906485e-05,
+            1.0
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.0136438921137438,
+            -0.3342156620234801
+          ],
+          [
+            0.9999066822461214,
+            0.3230939660664597
+          ],
+          [
+            -0.31443215386994905,
+            0.3188950205089487
+          ],
+          [
+            -0.30069494400232655,
+            -0.338414607580991
+          ]
+        ],
+        "origin_plane": [
+          0.5133523495160436,
+          1.5317083167487138
+        ],
+        "strip_plane": [
+          0.5084923758750122,
+          0.010132281641984287
+        ],
+        "y_marker_plane": [
+          0.8791313050457708,
+          1.5240622179814887
+        ],
+        "scale": 1.5215837965603167,
+        "distance_cap_observed": 0.30776595039320453,
+        "opposite_rail_distance_observed": 0.30776595039320453,
+        "strength_cap_observed": 1.0065012698009366,
+        "strength_maximum": 1.0065012698009366,
+        "upper_rail_reference_plane": [
+          0.5084600129693359,
+          0.0
+        ],
+        "angle_cap_observed": 13.573516778653309,
+        "axis_nonorthogonality_degrees": 1.0145095868689396,
+        "aspect_ratio": 2.0,
+        "source": "manual_override",
+        "landmarks_raw": {
+          "TL": [
+            469.0,
+            16.0
+          ],
+          "TR": [
+            806.0,
+            38.0
+          ],
+          "BR": [
+            791.0,
+            711.0
+          ],
+          "BL": [
+            462.0,
+            719.0
+          ],
+          "O": [
+            637.0,
+            557.0
+          ],
+          "Y": [
+            756.0000000000001,
+            554.0000000000001
+          ],
+          "B": [
+            644.0,
+            31.000000000000004
+          ]
+        },
+        "calibration_quality": {
+          "observed_points": {
+            "TL": [
+              469.0,
+              16.0
+            ],
+            "TR": [
+              806.0,
+              38.0
+            ],
+            "BR": [
+              791.0,
+              711.0
+            ],
+            "BL": [
+              462.0,
+              719.0
+            ],
+            "O": [
+              637.0,
+              557.0
+            ],
+            "Y": [
+              756.0000000000001,
+              554.0000000000001
+            ],
+            "B": [
+              644.0,
+              31.000000000000004
+            ]
+          },
+          "reconstructed_names": [],
+          "accuracy_check": "legacy_manual_override_not_independently_verified"
+        },
+        "table_width_cm": 84.0,
+        "table_length_cm": 168.0,
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates."
+      }
+    },
+    {
+      "participant": "03",
+      "path": "D:\\experiment\\03\\03_03_baseline_angle_010shots.mkv",
+      "name": "03_03_baseline_angle_010shots.mkv",
+      "stem": "03_03_baseline_angle_010shots",
+      "bytes": 72151729,
+      "sha256": "2b9ef23f934f2361282be4d993ce4158e47862884d1af6899cb1b7165b385bde",
+      "frames": 8607,
+      "fps": 60.0,
+      "size": [
+        1280,
+        720
+      ],
+      "session_sha256": "ce85a7d4fc79b35017d899c4597c648ed49e56a2f7e68b07952e6400a8becc26",
+      "safe_cache": null,
+      "median_provenance": {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\preflight\\03_03_baseline_angle_010shots_median.npz",
+        "sha256": "a6ace8bb2924d2b8bb94292d4053488a1c985d53a0bb1297999865ce1d489f69",
+        "source_sha256": "2b9ef23f934f2361282be4d993ce4158e47862884d1af6899cb1b7165b385bde",
+        "source_manifest": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\inventory.json",
+        "reference_frame": null,
+        "verification": "Historical source-bound median SHA equality",
+        "purpose": "Source-matched median only; historical observations are not implicitly reused."
+      },
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\preflight\\03_03_baseline_angle_010shots_median.npz",
+      "median_sha256": "a6ace8bb2924d2b8bb94292d4053488a1c985d53a0bb1297999865ce1d489f69",
+      "override_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\overrides\\03_03_baseline_angle_010shots.json",
+      "override_sha256": "6ac092d63cfda7862e1672183f4ab50a3a2edee94069497959f24ffc804f9c79",
+      "preflight_status": "READY_FOR_GEOMETRY_REVIEW",
+      "calibration": {
+        "corners": [
+          [
+            466.0,
+            14.0
+          ],
+          [
+            801.0,
+            31.0
+          ],
+          [
+            790.0,
+            737.0
+          ],
+          [
+            457.0,
+            722.0
+          ]
+        ],
+        "origin_raw": [
+          634.4000000000001,
+          559.0
+        ],
+        "y_marker_raw": [
+          756.6000000000003,
+          555.6000000000001
+        ],
+        "strip_raw": [
+          645.3,
+          35.1
+        ],
+        "plane_H": [
+          [
+            0.002964238021977997,
+            3.7680991804804603e-05,
+            -1.3818624521270135
+          ],
+          [
+            -0.00014187049346064934,
+            0.0027956832534892662,
+            0.02697208440381286
+          ],
+          [
+            -7.58102310251394e-06,
+            -8.622137792767208e-06,
+            1.0
+          ]
+        ],
+        "axes_H": [
+          [
+            -5.286264522127402e-05,
+            -0.0018999456605999876,
+            1.0956056864037693
+          ],
+          [
+            0.002009988723147223,
+            4.181881481638572e-05,
+            -1.2985135634469582
+          ],
+          [
+            -7.58102310251394e-06,
+            -8.622137792767208e-06,
+            1.0
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.048202025672546,
+            -0.3625980951170565
+          ],
+          [
+            1.0007085699907106,
+            0.3147793894715028
+          ],
+          [
+            -0.3507451867450435,
+            0.324199761836588
+          ],
+          [
+            -0.30325173106320813,
+            -0.3531777227519713
+          ]
+        ],
+        "origin_plane": [
+          0.5247668962812156,
+          1.5143382113381458
+        ],
+        "strip_plane": [
+          0.5350624196330587,
+          0.033726736479291544
+        ],
+        "y_marker_plane": [
+          0.89119656271569,
+          1.4885837065516114
+        ],
+        "scale": 1.4806472697049762,
+        "distance_cap_observed": 0.32800640544092846,
+        "opposite_rail_distance_observed": 0.32800640544092846,
+        "strength_cap_observed": 1.019738705433248,
+        "strength_maximum": 1.019738705433248,
+        "upper_rail_reference_plane": [
+          0.53529694057856,
+          0.0
+        ],
+        "angle_cap_observed": 14.153341725812945,
+        "axis_nonorthogonality_degrees": 4.41882494050158,
+        "aspect_ratio": 2.0,
+        "source": "manual_override",
+        "landmarks_raw": {
+          "TL": [
+            466.0,
+            14.0
+          ],
+          "TR": [
+            801.0,
+            31.0
+          ],
+          "BR": [
+            790.0,
+            737.0
+          ],
+          "BL": [
+            457.0,
+            722.0
+          ],
+          "O": [
+            634.4000000000001,
+            559.0
+          ],
+          "Y": [
+            756.6000000000003,
+            555.6000000000001
+          ],
+          "B": [
+            645.3,
+            35.1
+          ]
+        },
+        "calibration_quality": {
+          "observed_points": {
+            "TL": [
+              466.0,
+              14.0
+            ],
+            "TR": [
+              801.0,
+              31.0
+            ],
+            "BR": [
+              790.0,
+              737.0
+            ],
+            "BL": [
+              457.0,
+              722.0
+            ],
+            "O": [
+              634.4000000000001,
+              559.0
+            ],
+            "Y": [
+              756.6000000000003,
+              555.6000000000001
+            ],
+            "B": [
+              645.3,
+              35.1
+            ]
+          },
+          "reconstructed_names": [],
+          "accuracy_check": "legacy_manual_override_not_independently_verified"
+        },
+        "table_width_cm": 84.0,
+        "table_length_cm": 168.0,
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates."
+      }
+    },
+    {
+      "participant": "03",
+      "path": "D:\\experiment\\03\\03_04_training_both_140shots.mkv",
+      "name": "03_04_training_both_140shots.mkv",
+      "stem": "03_04_training_both_140shots",
+      "bytes": 1106263638,
+      "sha256": "a5d256bc692ad9caef7995360511559719e8c6d92fb4a275218b4ca6a2395a2e",
+      "frames": 132191,
+      "fps": 60.0,
+      "size": [
+        1280,
+        720
+      ],
+      "session_sha256": "ce85a7d4fc79b35017d899c4597c648ed49e56a2f7e68b07952e6400a8becc26",
+      "safe_cache": null,
+      "median_provenance": {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\preflight\\03_04_training_regular_140shots_median.npz",
+        "sha256": "6294ea19e8414490951e1ced2d37d64897eb2c283d54af523f24879120ae039d",
+        "source_sha256": "a5d256bc692ad9caef7995360511559719e8c6d92fb4a275218b4ca6a2395a2e",
+        "source_manifest": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\inventory.json",
+        "reference_frame": null,
+        "verification": "Historical source-bound median SHA equality",
+        "purpose": "Source-matched median only; historical observations are not implicitly reused."
+      },
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\preflight\\03_04_training_both_140shots_median.npz",
+      "median_sha256": "6294ea19e8414490951e1ced2d37d64897eb2c283d54af523f24879120ae039d",
+      "override_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\overrides\\03_04_training_both_140shots.json",
+      "override_sha256": "dddbe97bc87988126de18f97579074ab9ba5991e393be69367c4f963909f7e97",
+      "preflight_status": "READY_FOR_GEOMETRY_REVIEW",
+      "calibration": {
+        "corners": [
+          [
+            464.0,
+            14.0
+          ],
+          [
+            800.0,
+            31.0
+          ],
+          [
+            789.0,
+            737.0
+          ],
+          [
+            455.0,
+            722.0
+          ]
+        ],
+        "origin_raw": [
+          633.4999999999999,
+          559.4999999999999
+        ],
+        "y_marker_raw": [
+          755.7999999999998,
+          555.7999999999998
+        ],
+        "strip_raw": [
+          644.0,
+          34.999999999999986
+        ],
+        "plane_H": [
+          [
+            0.002955493881474546,
+            3.7569837476371325e-05,
+            -1.3718751387288588
+          ],
+          [
+            -0.00014145461150506905,
+            0.0027958087921001883,
+            0.026493616648949406
+          ],
+          [
+            -7.561087006901946e-06,
+            -8.596741352659507e-06,
+            1.0
+          ]
+        ],
+        "axes_H": [
+          [
+            -5.741715343563018e-05,
+            -0.0018978696932912995,
+            1.0982318600979533
+          ],
+          [
+            0.0020021690715045274,
+            4.008155433898505e-05,
+            -1.2907997364507804
+          ],
+          [
+            -7.561087006901946e-06,
+            -8.596741352659507e-06,
+            1.0
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.0488259987886612,
+            -0.3625477219775394
+          ],
+          [
+            0.9997781443446361,
+            0.31416209838485903
+          ],
+          [
+            -0.35010707875621505,
+            0.322417990138314
+          ],
+          [
+            -0.3010592243121899,
+            -0.3542918302240844
+          ]
+        ],
+        "origin_plane": [
+          0.5265049145078059,
+          1.5156874745659603
+        ],
+        "strip_plane": [
+          0.535546763040083,
+          0.03342295881316871
+        ],
+        "y_marker_plane": [
+          0.892129332264623,
+          1.489117670087142
+        ],
+        "scale": 1.4822920932409842,
+        "distance_cap_observed": 0.3267321789291245,
+        "opposite_rail_distance_observed": 0.3267321789291245,
+        "strength_cap_observed": 1.0193881919498484,
+        "strength_maximum": 1.0193881919498484,
+        "upper_rail_reference_plane": [
+          0.5357506438777321,
+          0.0
+        ],
+        "angle_cap_observed": 14.113476235458108,
+        "axis_nonorthogonality_degrees": 4.505860320878327,
+        "aspect_ratio": 2.0,
+        "source": "manual_override",
+        "landmarks_raw": {
+          "TL": [
+            464.0,
+            14.0
+          ],
+          "TR": [
+            800.0,
+            31.0
+          ],
+          "BR": [
+            789.0,
+            737.0
+          ],
+          "BL": [
+            455.0,
+            722.0
+          ],
+          "O": [
+            633.4999999999999,
+            559.4999999999999
+          ],
+          "Y": [
+            755.7999999999998,
+            555.7999999999998
+          ],
+          "B": [
+            644.0,
+            34.999999999999986
+          ]
+        },
+        "calibration_quality": {
+          "observed_points": {
+            "TL": [
+              464.0,
+              14.0
+            ],
+            "TR": [
+              800.0,
+              31.0
+            ],
+            "BR": [
+              789.0,
+              737.0
+            ],
+            "BL": [
+              455.0,
+              722.0
+            ],
+            "O": [
+              633.4999999999999,
+              559.4999999999999
+            ],
+            "Y": [
+              755.7999999999998,
+              555.7999999999998
+            ],
+            "B": [
+              644.0,
+              34.999999999999986
+            ]
+          },
+          "reconstructed_names": [],
+          "accuracy_check": "legacy_manual_override_not_independently_verified"
+        },
+        "table_width_cm": 84.0,
+        "table_length_cm": 168.0,
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates."
+      }
+    },
+    {
+      "participant": "03",
+      "path": "D:\\experiment\\03\\03_05_test_both_030shots.mkv",
+      "name": "03_05_test_both_030shots.mkv",
+      "stem": "03_05_test_both_030shots",
+      "bytes": 169512638,
+      "sha256": "5049e1e881e527bb2d9adfb3650167b933f3f93629d566ee809997012011158d",
+      "frames": 20481,
+      "fps": 60.0,
+      "size": [
+        1280,
+        720
+      ],
+      "session_sha256": "ce85a7d4fc79b35017d899c4597c648ed49e56a2f7e68b07952e6400a8becc26",
+      "safe_cache": null,
+      "median_provenance": {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\preflight\\03_05_test_regular_030shots_median.npz",
+        "sha256": "b2396146dc15e933f36a4203fffbc383f7fc3f646b237baeec2939c845503e7c",
+        "source_sha256": "5049e1e881e527bb2d9adfb3650167b933f3f93629d566ee809997012011158d",
+        "source_manifest": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\inventory.json",
+        "reference_frame": null,
+        "verification": "Historical source-bound median SHA equality",
+        "purpose": "Source-matched median only; historical observations are not implicitly reused."
+      },
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\preflight\\03_05_test_both_030shots_median.npz",
+      "median_sha256": "b2396146dc15e933f36a4203fffbc383f7fc3f646b237baeec2939c845503e7c",
+      "override_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\overrides\\03_05_test_both_030shots.json",
+      "override_sha256": "dddbe97bc87988126de18f97579074ab9ba5991e393be69367c4f963909f7e97",
+      "preflight_status": "READY_FOR_GEOMETRY_REVIEW",
+      "calibration": {
+        "corners": [
+          [
+            464.0,
+            14.0
+          ],
+          [
+            800.0,
+            31.0
+          ],
+          [
+            789.0,
+            737.0
+          ],
+          [
+            455.0,
+            722.0
+          ]
+        ],
+        "origin_raw": [
+          633.4999999999999,
+          559.4999999999999
+        ],
+        "y_marker_raw": [
+          755.7999999999998,
+          555.7999999999998
+        ],
+        "strip_raw": [
+          644.0,
+          34.999999999999986
+        ],
+        "plane_H": [
+          [
+            0.002955493881474546,
+            3.7569837476371325e-05,
+            -1.3718751387288588
+          ],
+          [
+            -0.00014145461150506905,
+            0.0027958087921001883,
+            0.026493616648949406
+          ],
+          [
+            -7.561087006901946e-06,
+            -8.596741352659507e-06,
+            1.0
+          ]
+        ],
+        "axes_H": [
+          [
+            -5.741715343563018e-05,
+            -0.0018978696932912995,
+            1.0982318600979533
+          ],
+          [
+            0.0020021690715045274,
+            4.008155433898505e-05,
+            -1.2907997364507804
+          ],
+          [
+            -7.561087006901946e-06,
+            -8.596741352659507e-06,
+            1.0
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.0488259987886612,
+            -0.3625477219775394
+          ],
+          [
+            0.9997781443446361,
+            0.31416209838485903
+          ],
+          [
+            -0.35010707875621505,
+            0.322417990138314
+          ],
+          [
+            -0.3010592243121899,
+            -0.3542918302240844
+          ]
+        ],
+        "origin_plane": [
+          0.5265049145078059,
+          1.5156874745659603
+        ],
+        "strip_plane": [
+          0.535546763040083,
+          0.03342295881316871
+        ],
+        "y_marker_plane": [
+          0.892129332264623,
+          1.489117670087142
+        ],
+        "scale": 1.4822920932409842,
+        "distance_cap_observed": 0.3267321789291245,
+        "opposite_rail_distance_observed": 0.3267321789291245,
+        "strength_cap_observed": 1.0193881919498484,
+        "strength_maximum": 1.0193881919498484,
+        "upper_rail_reference_plane": [
+          0.5357506438777321,
+          0.0
+        ],
+        "angle_cap_observed": 14.113476235458108,
+        "axis_nonorthogonality_degrees": 4.505860320878327,
+        "aspect_ratio": 2.0,
+        "source": "manual_override",
+        "landmarks_raw": {
+          "TL": [
+            464.0,
+            14.0
+          ],
+          "TR": [
+            800.0,
+            31.0
+          ],
+          "BR": [
+            789.0,
+            737.0
+          ],
+          "BL": [
+            455.0,
+            722.0
+          ],
+          "O": [
+            633.4999999999999,
+            559.4999999999999
+          ],
+          "Y": [
+            755.7999999999998,
+            555.7999999999998
+          ],
+          "B": [
+            644.0,
+            34.999999999999986
+          ]
+        },
+        "calibration_quality": {
+          "observed_points": {
+            "TL": [
+              464.0,
+              14.0
+            ],
+            "TR": [
+              800.0,
+              31.0
+            ],
+            "BR": [
+              789.0,
+              737.0
+            ],
+            "BL": [
+              455.0,
+              722.0
+            ],
+            "O": [
+              633.4999999999999,
+              559.4999999999999
+            ],
+            "Y": [
+              755.7999999999998,
+              555.7999999999998
+            ],
+            "B": [
+              644.0,
+              34.999999999999986
+            ]
+          },
+          "reconstructed_names": [],
+          "accuracy_check": "legacy_manual_override_not_independently_verified"
+        },
+        "table_width_cm": 84.0,
+        "table_length_cm": 168.0,
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates."
+      }
+    },
+    {
+      "participant": "03",
+      "path": "D:\\experiment\\03\\03_06_test_strength_030shots.mkv",
+      "name": "03_06_test_strength_030shots.mkv",
+      "stem": "03_06_test_strength_030shots",
+      "bytes": 169957715,
+      "sha256": "f22b97c3292b577d9d41ab1409789c8dd09ddc1659650bcfea0544e32df4a58d",
+      "frames": 20337,
+      "fps": 60.0,
+      "size": [
+        1280,
+        720
+      ],
+      "session_sha256": "ce85a7d4fc79b35017d899c4597c648ed49e56a2f7e68b07952e6400a8becc26",
+      "safe_cache": null,
+      "median_provenance": {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\preflight\\03_06_test_strength_030shots_median.npz",
+        "sha256": "ba0bf496de49cebe75eb68fb4f351d76dd506bec463ad5f2f1b455dc122a2dd8",
+        "source_sha256": "f22b97c3292b577d9d41ab1409789c8dd09ddc1659650bcfea0544e32df4a58d",
+        "source_manifest": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\inventory.json",
+        "reference_frame": null,
+        "verification": "Historical source-bound median SHA equality",
+        "purpose": "Source-matched median only; historical observations are not implicitly reused."
+      },
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\preflight\\03_06_test_strength_030shots_median.npz",
+      "median_sha256": "ba0bf496de49cebe75eb68fb4f351d76dd506bec463ad5f2f1b455dc122a2dd8",
+      "override_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\overrides\\03_06_test_strength_030shots.json",
+      "override_sha256": "dddbe97bc87988126de18f97579074ab9ba5991e393be69367c4f963909f7e97",
+      "preflight_status": "READY_FOR_GEOMETRY_REVIEW",
+      "calibration": {
+        "corners": [
+          [
+            464.0,
+            14.0
+          ],
+          [
+            800.0,
+            31.0
+          ],
+          [
+            789.0,
+            737.0
+          ],
+          [
+            455.0,
+            722.0
+          ]
+        ],
+        "origin_raw": [
+          633.4999999999999,
+          559.4999999999999
+        ],
+        "y_marker_raw": [
+          755.7999999999998,
+          555.7999999999998
+        ],
+        "strip_raw": [
+          644.0,
+          34.999999999999986
+        ],
+        "plane_H": [
+          [
+            0.002955493881474546,
+            3.7569837476371325e-05,
+            -1.3718751387288588
+          ],
+          [
+            -0.00014145461150506905,
+            0.0027958087921001883,
+            0.026493616648949406
+          ],
+          [
+            -7.561087006901946e-06,
+            -8.596741352659507e-06,
+            1.0
+          ]
+        ],
+        "axes_H": [
+          [
+            -5.741715343563018e-05,
+            -0.0018978696932912995,
+            1.0982318600979533
+          ],
+          [
+            0.0020021690715045274,
+            4.008155433898505e-05,
+            -1.2907997364507804
+          ],
+          [
+            -7.561087006901946e-06,
+            -8.596741352659507e-06,
+            1.0
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.0488259987886612,
+            -0.3625477219775394
+          ],
+          [
+            0.9997781443446361,
+            0.31416209838485903
+          ],
+          [
+            -0.35010707875621505,
+            0.322417990138314
+          ],
+          [
+            -0.3010592243121899,
+            -0.3542918302240844
+          ]
+        ],
+        "origin_plane": [
+          0.5265049145078059,
+          1.5156874745659603
+        ],
+        "strip_plane": [
+          0.535546763040083,
+          0.03342295881316871
+        ],
+        "y_marker_plane": [
+          0.892129332264623,
+          1.489117670087142
+        ],
+        "scale": 1.4822920932409842,
+        "distance_cap_observed": 0.3267321789291245,
+        "opposite_rail_distance_observed": 0.3267321789291245,
+        "strength_cap_observed": 1.0193881919498484,
+        "strength_maximum": 1.0193881919498484,
+        "upper_rail_reference_plane": [
+          0.5357506438777321,
+          0.0
+        ],
+        "angle_cap_observed": 14.113476235458108,
+        "axis_nonorthogonality_degrees": 4.505860320878327,
+        "aspect_ratio": 2.0,
+        "source": "manual_override",
+        "landmarks_raw": {
+          "TL": [
+            464.0,
+            14.0
+          ],
+          "TR": [
+            800.0,
+            31.0
+          ],
+          "BR": [
+            789.0,
+            737.0
+          ],
+          "BL": [
+            455.0,
+            722.0
+          ],
+          "O": [
+            633.4999999999999,
+            559.4999999999999
+          ],
+          "Y": [
+            755.7999999999998,
+            555.7999999999998
+          ],
+          "B": [
+            644.0,
+            34.999999999999986
+          ]
+        },
+        "calibration_quality": {
+          "observed_points": {
+            "TL": [
+              464.0,
+              14.0
+            ],
+            "TR": [
+              800.0,
+              31.0
+            ],
+            "BR": [
+              789.0,
+              737.0
+            ],
+            "BL": [
+              455.0,
+              722.0
+            ],
+            "O": [
+              633.4999999999999,
+              559.4999999999999
+            ],
+            "Y": [
+              755.7999999999998,
+              555.7999999999998
+            ],
+            "B": [
+              644.0,
+              34.999999999999986
+            ]
+          },
+          "reconstructed_names": [],
+          "accuracy_check": "legacy_manual_override_not_independently_verified"
+        },
+        "table_width_cm": 84.0,
+        "table_length_cm": 168.0,
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates."
+      }
+    },
+    {
+      "participant": "03",
+      "path": "D:\\experiment\\03\\03_07_test_angle_030shots.mkv",
+      "name": "03_07_test_angle_030shots.mkv",
+      "stem": "03_07_test_angle_030shots",
+      "bytes": 138029420,
+      "sha256": "e16b08f279966a22e1efc41752db512423be4b53362c5f6e145d121095aec613",
+      "frames": 16423,
+      "fps": 60.0,
+      "size": [
+        1280,
+        720
+      ],
+      "session_sha256": "ce85a7d4fc79b35017d899c4597c648ed49e56a2f7e68b07952e6400a8becc26",
+      "safe_cache": null,
+      "median_provenance": {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\preflight\\03_07_test_angle_030shots_median.npz",
+        "sha256": "073b66f2aae833d27ab4d8e7a8531136678197b10d390b127406291dd116b7b5",
+        "source_sha256": "e16b08f279966a22e1efc41752db512423be4b53362c5f6e145d121095aec613",
+        "source_manifest": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_20261013\\inventory.json",
+        "reference_frame": null,
+        "verification": "Historical source-bound median SHA equality",
+        "purpose": "Source-matched median only; historical observations are not implicitly reused."
+      },
+      "median_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\preflight\\03_07_test_angle_030shots_median.npz",
+      "median_sha256": "073b66f2aae833d27ab4d8e7a8531136678197b10d390b127406291dd116b7b5",
+      "override_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\overrides\\03_07_test_angle_030shots.json",
+      "override_sha256": "dddbe97bc87988126de18f97579074ab9ba5991e393be69367c4f963909f7e97",
+      "preflight_status": "READY_FOR_GEOMETRY_REVIEW",
+      "calibration": {
+        "corners": [
+          [
+            464.0,
+            14.0
+          ],
+          [
+            800.0,
+            31.0
+          ],
+          [
+            789.0,
+            737.0
+          ],
+          [
+            455.0,
+            722.0
+          ]
+        ],
+        "origin_raw": [
+          633.4999999999999,
+          559.4999999999999
+        ],
+        "y_marker_raw": [
+          755.7999999999998,
+          555.7999999999998
+        ],
+        "strip_raw": [
+          644.0,
+          34.999999999999986
+        ],
+        "plane_H": [
+          [
+            0.002955493881474546,
+            3.7569837476371325e-05,
+            -1.3718751387288588
+          ],
+          [
+            -0.00014145461150506905,
+            0.0027958087921001883,
+            0.026493616648949406
+          ],
+          [
+            -7.561087006901946e-06,
+            -8.596741352659507e-06,
+            1.0
+          ]
+        ],
+        "axes_H": [
+          [
+            -5.741715343563018e-05,
+            -0.0018978696932912995,
+            1.0982318600979533
+          ],
+          [
+            0.0020021690715045274,
+            4.008155433898505e-05,
+            -1.2907997364507804
+          ],
+          [
+            -7.561087006901946e-06,
+            -8.596741352659507e-06,
+            1.0
+          ]
+        ],
+        "axes_corners": [
+          [
+            1.0488259987886612,
+            -0.3625477219775394
+          ],
+          [
+            0.9997781443446361,
+            0.31416209838485903
+          ],
+          [
+            -0.35010707875621505,
+            0.322417990138314
+          ],
+          [
+            -0.3010592243121899,
+            -0.3542918302240844
+          ]
+        ],
+        "origin_plane": [
+          0.5265049145078059,
+          1.5156874745659603
+        ],
+        "strip_plane": [
+          0.535546763040083,
+          0.03342295881316871
+        ],
+        "y_marker_plane": [
+          0.892129332264623,
+          1.489117670087142
+        ],
+        "scale": 1.4822920932409842,
+        "distance_cap_observed": 0.3267321789291245,
+        "opposite_rail_distance_observed": 0.3267321789291245,
+        "strength_cap_observed": 1.0193881919498484,
+        "strength_maximum": 1.0193881919498484,
+        "upper_rail_reference_plane": [
+          0.5357506438777321,
+          0.0
+        ],
+        "angle_cap_observed": 14.113476235458108,
+        "axis_nonorthogonality_degrees": 4.505860320878327,
+        "aspect_ratio": 2.0,
+        "source": "manual_override",
+        "landmarks_raw": {
+          "TL": [
+            464.0,
+            14.0
+          ],
+          "TR": [
+            800.0,
+            31.0
+          ],
+          "BR": [
+            789.0,
+            737.0
+          ],
+          "BL": [
+            455.0,
+            722.0
+          ],
+          "O": [
+            633.4999999999999,
+            559.4999999999999
+          ],
+          "Y": [
+            755.7999999999998,
+            555.7999999999998
+          ],
+          "B": [
+            644.0,
+            34.999999999999986
+          ]
+        },
+        "calibration_quality": {
+          "observed_points": {
+            "TL": [
+              464.0,
+              14.0
+            ],
+            "TR": [
+              800.0,
+              31.0
+            ],
+            "BR": [
+              789.0,
+              737.0
+            ],
+            "BL": [
+              455.0,
+              722.0
+            ],
+            "O": [
+              633.4999999999999,
+              559.4999999999999
+            ],
+            "Y": [
+              755.7999999999998,
+              555.7999999999998
+            ],
+            "B": [
+              644.0,
+              34.999999999999986
+            ]
+          },
+          "reconstructed_names": [],
+          "accuracy_check": "legacy_manual_override_not_independently_verified"
+        },
+        "table_width_cm": 84.0,
+        "table_length_cm": 168.0,
+        "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates."
+      }
+    }
+  ],
+  "protected_files": [
+    {
+      "path": "D:\\experiment\\03\\03_01_baseline_both_010shots.20260923_130927_431595.partial.log",
+      "sha256": "17df866696f8e098d7bc1451ff88d96923bacdf253e7d8b37bb2e2231fc35206"
+    },
+    {
+      "path": "D:\\experiment\\03\\03_02_baseline_strength_010shots.20260923_131305_898879.partial.log",
+      "sha256": "9c72fbb8f5e61fad3c1439343164849dc103f09cfea19a8dd8b008e1ba61d1ad"
+    },
+    {
+      "path": "D:\\experiment\\03\\03_03_baseline_angle_010shots.20260923_131505_067884.partial.log",
+      "sha256": "833e772b241bb3c5179a1e6f870e6c14280806eb45dc03f17b4a5ab9d840d46b"
+    },
+    {
+      "path": "D:\\experiment\\03\\03_04_training_both_140shots.20260923_131736_017883.partial.log",
+      "sha256": "af01b384862f9b033b8660be7b5aaecf8159549c76bb2644b5c3f2cfae4f4780"
+    },
+    {
+      "path": "D:\\experiment\\03\\03_04_training_both_140shots.csv",
+      "sha256": "2c47a525505f22773d71da939b3bb06e400c6bf8a170909213b7632ae50c9889"
+    },
+    {
+      "path": "D:\\experiment\\03\\03_05_test_both_030shots.20260923_135454_487213.partial.log",
+      "sha256": "e88c4f0b43c9f844a73bf9651d2960434933268019bea22ecaca8e753a050cac"
+    },
+    {
+      "path": "D:\\experiment\\03\\03_06_test_strength_030shots.20260923_140046_331973.partial.log",
+      "sha256": "844b8285f2a1effc93bdd83511ffb0a844649757ab61311cfc787804519feb34"
+    },
+    {
+      "path": "D:\\experiment\\03\\03_07_test_angle_030shots.20260923_140631_951319.partial.log",
+      "sha256": "1bed4ce77c90d9296ef40339521fbc3709d52f5845a341c6cb3cc960307c56a8"
+    },
+    {
+      "path": "D:\\experiment\\03\\session.json",
+      "sha256": "ce85a7d4fc79b35017d899c4597c648ed49e56a2f7e68b07952e6400a8becc26"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_01_baseline_both_010shots_attempts.csv",
+      "sha256": "c2206d4957955d0ea1b0566f47211e627b37fe4057851a009e9ff5ee42c94aaf"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_01_baseline_both_010shots_events_1.jpg",
+      "sha256": "98b70ecaee7c9485379392d6e4ca9df68343887d4ec8cdefe2281e9dd32203d1"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_01_baseline_both_010shots_events_2.jpg",
+      "sha256": "16146329964750b32bfbb7c27579b9454d63ea555634c00bfe7cb8809b2528c9"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_01_baseline_both_010shots_events_3.jpg",
+      "sha256": "8f028f3fcb9595e355a798b28a0e86edc665c5ebee10ca4cd62cbfd1880e426d"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_01_baseline_both_010shots_events_4.jpg",
+      "sha256": "522abfd4694e8a7e9a49ca481624402f6410e9a12ce29b689902c03728032b3a"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_01_baseline_both_010shots_events_5.jpg",
+      "sha256": "d5b29df292978f777a8e5e0e36f0c5ade336c9c281a70c8091286f9d5765e773"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_01_baseline_both_010shots_frames.csv",
+      "sha256": "ca9960707449751444d9e1abb3379567eb401c19e9e0a92760ccbe63e81b9fd7"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_01_baseline_both_010shots_report.json",
+      "sha256": "6b1a4b819c52108893adceaf28c543875b6a7b06194b546b4fb089673eb1de79"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_02_baseline_strength_010shots_attempts.csv",
+      "sha256": "ce3324a71b1e47b6294b0ef2a4f9c43160e1b04fac882cdb7f83390ce9f70bee"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_02_baseline_strength_010shots_events_1.jpg",
+      "sha256": "29529d3b94e4d0a444356907da451cc35ad22f911db6098d16e00d53983dff29"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_02_baseline_strength_010shots_events_2.jpg",
+      "sha256": "56bdfa1f8cd4bd9de4d57d27c9309be6bd02a8937a96fde551d6ed167b60b6cf"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_02_baseline_strength_010shots_events_3.jpg",
+      "sha256": "1c1372cceaa621eba9fb3a4390e5b5f6a8284009fcb7bff921bd8f3d527eabb3"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_02_baseline_strength_010shots_frames.csv",
+      "sha256": "6acf66d9b0f31e12d048cb5b9bc021244d62e3c2cbc95e2de9342c989c2545e0"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_02_baseline_strength_010shots_report.json",
+      "sha256": "0671d1b6fc2b8258fd44a6524c4ef0411de207b8f7fa022df9df65de48560eb0"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_03_baseline_angle_010shots_attempts.csv",
+      "sha256": "7bff951658d3781132739e5ee7083b5c660a0fb86478c625ba78158b53fedd77"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_03_baseline_angle_010shots_events_1.jpg",
+      "sha256": "360e56ed8e67278e888745b82be90e22fc877e0fa3f0f07562f318949eab12d4"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_03_baseline_angle_010shots_events_2.jpg",
+      "sha256": "5624212924c45378e191fbf532a29c26cacf249c7c2e926b30d6ba672172ba4c"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_03_baseline_angle_010shots_events_3.jpg",
+      "sha256": "383eb9d546d03d43db9a84bcbe954b9d529fd26192503313c135bf5aca6859d6"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_03_baseline_angle_010shots_events_4.jpg",
+      "sha256": "27b7261d47a0d8e1b8de793cca5df48afa38c15b687b91f98142311784fe562d"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_03_baseline_angle_010shots_frames.csv",
+      "sha256": "3a6bdbac60b1113e61b99567f1a33cd43876437a0a9255a4509f8d546673f697"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_03_baseline_angle_010shots_report.json",
+      "sha256": "16311bbbf3581e74ab5a30a061e249c1cbca7233b26b56ce0d5a579fda13f9b6"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_attempts.csv",
+      "sha256": "200efc44ffde2b053cf46962c45ed8fc8d80d4fdf23ee26cf3d2f50a5aa3f3a1"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_1.jpg",
+      "sha256": "6083dd9bc9298ad75bbcf1b2f0936e889898d95e6fcff783fdd1222f26b29145"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_10.jpg",
+      "sha256": "b4178665c9c022ef9fbf0a2a570aa0747ec9efcd586b6a2b6a822eb577d67983"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_11.jpg",
+      "sha256": "30ffdb4e6f36f4c88ec6825044f88eea3c82e99cd115a28fb61bf36839ec5434"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_12.jpg",
+      "sha256": "6f72706981c8a78ed2fc213ce4e99a0901c43ed9528de280ab8366e3ca5e0c35"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_13.jpg",
+      "sha256": "6a6a6638bb6dc46dc932ac835f4086e01702815c306ea4d80055998f26551e83"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_14.jpg",
+      "sha256": "b31b1af18a35852e5cb906414bb03b67181ce291803447202e0e4eeb678c428f"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_15.jpg",
+      "sha256": "1c650ac4fabe135008577a7bc391ec0a16cb57c71ca097676e103b54d437df8c"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_16.jpg",
+      "sha256": "93e7ab93c839b603f79954c21785025bda579a08a98db706e9bfc8b40860be08"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_17.jpg",
+      "sha256": "33a8f1196de794bf99a75421f8d4ba2142bac6dbccc2af2763a667a79a6213e9"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_18.jpg",
+      "sha256": "18a3a0bc9a6c2f168357fdbef6adcbacada723b05729a38bad5acd3919d7f33b"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_19.jpg",
+      "sha256": "39eef757af0a80355c426a957be0f445074ed970ac2f86098ea4f21fe90bd3f3"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_2.jpg",
+      "sha256": "286a1a3f333a9e755deaf3bf8a1b1c1b91582dcbf5f9cdc56461c6095fbf55ed"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_20.jpg",
+      "sha256": "fe7ce14f138d7ceb9f8743e0817c32d90514785d00ce0f5cb5f429266c3d79e2"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_21.jpg",
+      "sha256": "230219a5aead663961593a01fafefa37664b99445d5d34ec263adc168ceed1be"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_22.jpg",
+      "sha256": "65fc669da9b2d03c58f39c3ed91631ffaae76dc4b6edc0172aa2a03a878fd09f"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_23.jpg",
+      "sha256": "e6334e943a27a4796618c8d809cdbaa72cb9d533f91eb49807660ee64c4ef8b1"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_24.jpg",
+      "sha256": "d11476bd52e1d09a972f596a48ed7ddd9374d41f8a9c42b2e640b314de70d591"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_25.jpg",
+      "sha256": "36a69a3400b046b3ee650838d9d992c58bedb389ac8af736c11c97826f8f2f39"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_26.jpg",
+      "sha256": "90cfd92e0734e6255233dc68627da17104caa29847ac922ce6fe8b677fbbd342"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_27.jpg",
+      "sha256": "9b4be827f0c4c58a5c4c4766fd8388d2784c8bf4213c7c7d7ec6d0e51a4a25f4"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_28.jpg",
+      "sha256": "f802ce839f1a20256b148b0cea9f881e688ee2108464e7a6d56cc18180accefc"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_29.jpg",
+      "sha256": "4f1adad1748d32c5fe0c6111af66e3027539870dae7afb1643e116e6a4c9b85e"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_3.jpg",
+      "sha256": "4a70013f725d5d70cefb543c4f66095493ca8918ce934f048218f3bd9f76a4a6"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_30.jpg",
+      "sha256": "dff69ff4fec6cfb2217e88a2badd08e29e0acedde4a65e81d6b0732981b53983"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_31.jpg",
+      "sha256": "854ff492819dcaa2df8b30717948ba6f5668c9f5b49e0d216c49a5a714fa1d19"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_32.jpg",
+      "sha256": "8960c42d1dfebefdab892f2216b90a7d6328f8b16085fac4e57d5d1dabbaae13"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_33.jpg",
+      "sha256": "f4f5463157cce98ef49890b1b02091a7d414dc0c0ab1ccb3a412004f6e2c177c"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_34.jpg",
+      "sha256": "4d63bfc5167d9fcb03d0dea4befd3fd6aae8593190a11d530cbaa4e97bad593f"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_35.jpg",
+      "sha256": "026d3cc3fb0d3b78716d6d735edb6399d88b7e9ccf877f2914825c3521cfb88d"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_36.jpg",
+      "sha256": "beea3d60f1b6bfcdc4b02d89ef28e8c6c12fdb680375acffe695577bddd5797e"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_37.jpg",
+      "sha256": "09460e5f5cf53cba8c6bee91a6b014da700c006d76acb5ec191dddf974b23dea"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_38.jpg",
+      "sha256": "bac66a7adcdda454eade5d4d31049bdc62ddc2abf2a68f37a27162b1c08d91bd"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_39.jpg",
+      "sha256": "7b02a1067161e5b2a1d7bfbcca7835bb7a9de8ab6ca4d6994f39eb71d4294799"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_4.jpg",
+      "sha256": "2c5c32ae4976c929af9b8aa46a3057d7c14823b59c2e8bf3b253eb8e6fb782fd"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_40.jpg",
+      "sha256": "3e598425fe5b9066bc585dc79c35a11933bc3a5057570ff48750848e169efd81"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_41.jpg",
+      "sha256": "c1552bbe3490366c21acd9aea748c55449566ec850147c31f820e56f1cad457f"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_42.jpg",
+      "sha256": "a424b743b1029903e135c2aeed49088deff0899ff24b0a1551c5b1f6d0091126"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_43.jpg",
+      "sha256": "28f16b4dc2d5732df3dc1fd2433f6a0f69fec1fef5595816cda5eae42c45e7c4"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_44.jpg",
+      "sha256": "ff0eb958b8a223148fb814b60ff7e52ae31526ba93c1765fa4c793c8b231da28"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_45.jpg",
+      "sha256": "3f8292f3bb6ae203a94a39174bbf49e75afd6c15c2695db7029419d9a0287fd8"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_46.jpg",
+      "sha256": "b33aca58f80e676b5b9bb93db6f5dfe70d0f218a688ce6cbd3b9a2281e8724d6"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_47.jpg",
+      "sha256": "70d55634a7dcbdfd8a13c17d2ea12822e5da2019748544423a3df3b691a434cb"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_48.jpg",
+      "sha256": "778059b59c882b12213046f8b58487a7687ddfbd4cf67da315a3f67cd89020d2"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_49.jpg",
+      "sha256": "aec096b08a8cd6c3525fc29c1c0e6762aeb692e2483808aed498d0a3ceb26188"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_5.jpg",
+      "sha256": "4d7f190cc1708d5c1176b95bec0acbd4c1e3e409fa8e88572eda90040d226469"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_50.jpg",
+      "sha256": "11c3bea819468d2b333c246e9a612574a370595e9b7537dd4eb1fbd608541997"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_51.jpg",
+      "sha256": "5b7d70848154591a09d62e04ed30b4847f03d8d3fcfd276eda648f0c813c8cc6"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_52.jpg",
+      "sha256": "5154854190c91aff0051f895011d1952b8c0b753fdf07164f8143d5dcfb04277"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_53.jpg",
+      "sha256": "29460641fd828f8daf48cb4d41951f43afadc5c1f18ac2c27eb2c731a4372129"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_54.jpg",
+      "sha256": "af6175039d9c65f1cb8044c517260f56d4c822b508fb4102f69f80b7e09f4efb"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_55.jpg",
+      "sha256": "7e9c751b3e0bd6324b3fe6028647d75257b104449d9b8c02bf58303e33b89e75"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_56.jpg",
+      "sha256": "1ebe0514e0cc2bc3eeff78bc88390465135f68ec265cce484266704efdb96923"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_57.jpg",
+      "sha256": "e8247a88a396b3d1cf358341b8f963b43f17ff56839d99e3b8734f5006df3316"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_6.jpg",
+      "sha256": "56ff9fbeecdc781c3194036ffaf47d92b125b7b4ee9f61a7ac4f9cccc9fc62e0"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_7.jpg",
+      "sha256": "423e1ec4dc25a16481da3b7a04514ba53bf942bceb57592528e7ba42d5b88b8d"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_8.jpg",
+      "sha256": "03a40a739b815d23d9535128ff0467c181e28a4fedf8a7d19c6c1b32dc1eab01"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_events_9.jpg",
+      "sha256": "071a37cde275411119494cadbc21ef9ccab1338ce84f501b2fa391b8480ebd53"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_frames.csv",
+      "sha256": "4c4ac005334c468e543a34208dde1ecdea232e2caeb7f733b597f8efd90cc43f"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_04_training_both_140shots_report.json",
+      "sha256": "f25a8e34d669c2aefece27680088f6f0dfdcbc53cfa6c40f5f69f325d44aa8db"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_05_test_both_030shots_attempts.csv",
+      "sha256": "ab86b8a5174c722dbac01cc134fc96ff59939ef297e9f14a10096b091e4d89dc"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_05_test_both_030shots_events_1.jpg",
+      "sha256": "073c740c17e30aff3f8fd68d207e95ef448e797b5d07f44eb76f7bbb353334f0"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_05_test_both_030shots_events_2.jpg",
+      "sha256": "d7b2a8360be611c28c1eac73f3c53cf1d988458d7d0f5ff48186d4f67b1639e8"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_05_test_both_030shots_events_3.jpg",
+      "sha256": "a149d73c821e7499b479f19ee530d762188f93084a6a4e9bf2e1976ae1cd0a53"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_05_test_both_030shots_events_4.jpg",
+      "sha256": "f4a9feef5427a23b49390f6323d51baafc214d57a6817b615bdaf7f24e46690d"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_05_test_both_030shots_events_5.jpg",
+      "sha256": "14317ddb6186ee68fe82d056755456994bb6f660bf7424228992e3865ea2f83f"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_05_test_both_030shots_events_6.jpg",
+      "sha256": "436ab71c3a3f2abbe464ba7f8f73848e6749e542a33f3392e6a833c4bb41873e"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_05_test_both_030shots_events_7.jpg",
+      "sha256": "7425e94755c5dee77102c081d98977c7536b29b3db17e0edd41014b03fbe1d8c"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_05_test_both_030shots_events_8.jpg",
+      "sha256": "1c6b86801acefbab08b8885002c8ad11db4dde70870f6528ac093e2534fab482"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_05_test_both_030shots_frames.csv",
+      "sha256": "766553d0e1b7ae3824a5e6436f39693805ee6b928d6859770f378ef78db0b238"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_05_test_both_030shots_report.json",
+      "sha256": "3769702520000371a728f1b228fd9e55fe7ab62d92cbae2bec891ba5eadda3e7"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_06_test_strength_030shots_attempts.csv",
+      "sha256": "82e62ab9b342901ebaa31a20a95ed3ffeace9682ab1e8149b70ac9193cc7d86a"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_06_test_strength_030shots_events_1.jpg",
+      "sha256": "c02b1abcde11cb85028ee5ff1f1e8b2c2396180b2d7e518a7455c62adab52d4f"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_06_test_strength_030shots_events_2.jpg",
+      "sha256": "2ab930bffc44ce1cffe4dbbd1c9864c94ec531c048cd4d67310ff947833e371c"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_06_test_strength_030shots_events_3.jpg",
+      "sha256": "24e5a1556799e9b4af316205cae2529d9730f91a959f20b1999d0bf0ad9d791a"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_06_test_strength_030shots_events_4.jpg",
+      "sha256": "e9768fb4e1eaf38c3f086de6e9b9d5b7882352173af03b575598f42529682a0b"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_06_test_strength_030shots_events_5.jpg",
+      "sha256": "9caf16499efba8cae0ee69f25439a6cf9415873dae62d6c8aa9808348a06ed5e"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_06_test_strength_030shots_events_6.jpg",
+      "sha256": "c11cb846ed82926a81a71df164a373fb852b8ee27ec1270fafbec75b274bad48"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_06_test_strength_030shots_events_7.jpg",
+      "sha256": "5385e240075862be5f94780cb51f752ff8b812cd4765f44155f77964be7eaa08"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_06_test_strength_030shots_events_8.jpg",
+      "sha256": "adff1598bfdc3721cf4e8e63afa493fb565bbdc2c4aba75e317fcd30834d6034"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_06_test_strength_030shots_events_9.jpg",
+      "sha256": "cc76caf7037c8a9f17dbd97e2b6e8925115c270b0f789447fe02602ebadd2eb1"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_06_test_strength_030shots_frames.csv",
+      "sha256": "df8da40c87e9bec36398c0cda92965b18b8ee8c4cd88b296d4bfa20a93438179"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_06_test_strength_030shots_report.json",
+      "sha256": "ba39341278b1e61f8f2ff4b2e7475d0002a4d8afb774a2a2955137c709e535e0"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_07_test_angle_030shots_attempts.csv",
+      "sha256": "0e274d8c1bab7ea2b0e1b5f7fa395010eb71d3ed9bbcb581424c48950de715ba"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_07_test_angle_030shots_events_1.jpg",
+      "sha256": "a219d0021fd6b4de98b905bd7b0144c476f8fa724c7b5265ff249fde838bb68f"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_07_test_angle_030shots_events_2.jpg",
+      "sha256": "a074bcc0b1956ef54526c3997380af8ea9ded10c1f0986db9caaca7ca9141a15"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_07_test_angle_030shots_events_3.jpg",
+      "sha256": "7cc775764d3e94a2f29a44e69e5993fd20c4e79c0055605d582300ff523b8596"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_07_test_angle_030shots_events_4.jpg",
+      "sha256": "4dec556b71380093a3dbccbd13343b9fbf6994fbed1a68b37023d2e775d0df7b"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_07_test_angle_030shots_events_5.jpg",
+      "sha256": "a44ac17a0dc11055ea5b2fac284f67ff36cd95ee754ee4f42faa09ca829b07c4"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_07_test_angle_030shots_events_6.jpg",
+      "sha256": "8f7541fb7f08d44d6f881f691a623d4e845fb3f073e6f60aba764001372f2721"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_07_test_angle_030shots_events_7.jpg",
+      "sha256": "0d33c9a9b0b945a28b18762fcdeb6ec94d11e62c9b9dc6476ad32e634b7ab7cc"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_07_test_angle_030shots_events_8.jpg",
+      "sha256": "d155b3ccf034a58e9ee3b0f5fe7ee5991542aee7dbe657c51934b64e2a9f0ed7"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_07_test_angle_030shots_frames.csv",
+      "sha256": "97917c1c8baf99160f82ee351b546449a9d6053daafc1163ce2e6887dd1668ac"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\audit\\03_07_test_angle_030shots_report.json",
+      "sha256": "c2440d42989803ca0de0959a41639b62811604eea936d396e17301a34067d41c"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\batch_report.json",
+      "sha256": "90a58e4690ea8e3066426eb7c11098ea6e51777621b8e80a8812f56048f5fa3d"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\cache\\03_01_baseline_both_010shots_evidence.key",
+      "sha256": "0c4bc94f22edf3cd1ec6e1b62b781c433d0be7dbdfda6e5ee3c4ae9c34d64dd2"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\cache\\03_01_baseline_both_010shots_evidence.npz",
+      "sha256": "fe3e23bc323d10978be6ae7baa14b729ac48d0cb93353537f2433db85d92aeba"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\cache\\03_01_baseline_both_010shots_median.jpg",
+      "sha256": "274be90feb8e84d47078ad690c0e1f4bda4649216c8a5f22e069e42cf7fb4223"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\cache\\03_02_baseline_strength_010shots_evidence.key",
+      "sha256": "b6f0eb39dbc42325e48fadcdecf70ab4fa9e16bdc65591ce837f484575caf4d3"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\cache\\03_02_baseline_strength_010shots_evidence.npz",
+      "sha256": "d5f58d7bd4a06ddd3d9746c87eca5395af64f5e50fb4bb92097af1e6efb6929d"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\cache\\03_02_baseline_strength_010shots_median.jpg",
+      "sha256": "ba8497421085839644449c0f9f7342632aceabdead26bd9d863faf9ea58a2737"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\cache\\03_03_baseline_angle_010shots_evidence.key",
+      "sha256": "6d777476ad212ab080174cbc3ca83befcffec31c1090793d9ebd7f94d1cea707"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\cache\\03_03_baseline_angle_010shots_evidence.npz",
+      "sha256": "2bece9cc20066570f0c6e350928ec16fa46ccdb470e0cffde3ef30d0547d971e"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\cache\\03_03_baseline_angle_010shots_median.jpg",
+      "sha256": "7bf7ebaa293f6f66c1e8fcd5c84e45410ef853b8f6a4392659d5458a7f40a1ff"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\cache\\03_04_training_both_140shots_evidence.key",
+      "sha256": "8a2192f8293aced9354f14209b68095bc8bf3c3e15f6fc643d15183891c1da77"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\cache\\03_04_training_both_140shots_evidence.npz",
+      "sha256": "d78eda9031cf7e338002dfb8551741d2e2784fea493e15862ee42d7827fdf4f9"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\cache\\03_04_training_both_140shots_median.jpg",
+      "sha256": "c5e579a8f8d0eff2b662c54d9732a2e63326f1aa89871c6dad69bfb5b9daa658"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\cache\\03_05_test_both_030shots_evidence.key",
+      "sha256": "217515b08813ed2978f86280c882e676f475b0b9abd27452b37d8ab9bc2b9558"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\cache\\03_05_test_both_030shots_evidence.npz",
+      "sha256": "fb876c20ec9a5359ab2eee52912e534770be4f649327ab0a34b8b277d8ad515c"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\cache\\03_05_test_both_030shots_median.jpg",
+      "sha256": "6afbfebaa0f151c8307bf38676176ac43dd348895102e311c652268d826570b0"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\cache\\03_06_test_strength_030shots_evidence.key",
+      "sha256": "96cfd0a65939dd93bec21151fce32c43a0973b0b201af393be9adf3373cc9843"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\cache\\03_06_test_strength_030shots_evidence.npz",
+      "sha256": "b90010e4ff710dabf32c74e3a8db9dec0f7bf40e1e82f7e1e9a825068ac0552c"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\cache\\03_06_test_strength_030shots_median.jpg",
+      "sha256": "f514f271be459d6ccfb354a8fe88796537850e2ff078c00a4d74f0cf1d456e5d"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\cache\\03_07_test_angle_030shots_evidence.key",
+      "sha256": "4ca815ef4b794ab0843b2f37715dd1b894cb93a1bb5b5d3c4fe1e4e59859441b"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\cache\\03_07_test_angle_030shots_evidence.npz",
+      "sha256": "66715c968349c6c7322541673dbc8a4af4055ca7c8cbe3d4cc19535f2f12ae0e"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\cache\\03_07_test_angle_030shots_median.jpg",
+      "sha256": "bfbc5221916f14320da4135fe09902ffcb9411e414c70b4635d11f723df3cadc"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\calibration\\03_01_baseline_both_010shots.jpg",
+      "sha256": "860925e15b530c2964b98e6728d02a2aeda8689f8259e03aead748bd0d3a8c37"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\calibration\\03_01_baseline_both_010shots.json",
+      "sha256": "1ee154d7eecc5ea976dd6991749e4f156a44dae8da00901d42ded88699f236f0"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\calibration\\03_02_baseline_strength_010shots.jpg",
+      "sha256": "4053c9e4920fdc77919ba866d1146395e96f383aed94e30121c80d486f10f3d5"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\calibration\\03_02_baseline_strength_010shots.json",
+      "sha256": "8b8e9b3b70509b3f4f0e3d5f10456633d2dee69e2750b8d0ed41581bf30b9b1e"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\calibration\\03_03_baseline_angle_010shots.jpg",
+      "sha256": "bf9064fe94131ccbcbaf28ec4f7242af70c902f6d95a5387a13520d3fefbbe3f"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\calibration\\03_03_baseline_angle_010shots.json",
+      "sha256": "99ec65acc4dad4a54854d6a86aa7c310b8aa1677d250f94348a96e72ee528973"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\calibration\\03_04_training_both_140shots.jpg",
+      "sha256": "e87ce730e1b072fde9525966e18884535117297dc40727afa7df50985c5f16b1"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\calibration\\03_04_training_both_140shots.json",
+      "sha256": "fd8d49868a54118aec4bd879793eb763c2dc7d11da302430afb2583ed3c2b40d"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\calibration\\03_05_test_both_030shots.jpg",
+      "sha256": "31f5820a2272a206138af6fbbde64e0a1dfdeb98259dbaf09f4a0f9520c720bb"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\calibration\\03_05_test_both_030shots.json",
+      "sha256": "e7ac2b2f3151288f8ad8ba62d94de501bc8c6fd0034afe8df138a383183a7e6f"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\calibration\\03_06_test_strength_030shots.jpg",
+      "sha256": "bfa86a7e27e126218dc862cd31b4219c66798b49eee7900b4a5dee2724c41633"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\calibration\\03_06_test_strength_030shots.json",
+      "sha256": "db97ef58b43e808efb7f4947b15b392308795069e8d7753fda814bdab876cd9a"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\calibration\\03_07_test_angle_030shots.jpg",
+      "sha256": "cb88fe43a6bc1f0d14d7afc8a3667914e48e0dc978127a9aaff4a538e724bd90"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\calibration\\03_07_test_angle_030shots.json",
+      "sha256": "28c050843b0a53b531f73418cda75b4d45f38e8e98a582c9177a2116e2ccdf3b"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\csv\\03_01_baseline_both_010shots.csv",
+      "sha256": "d8684ade4c1f5d19d4c4b48c23f0630c576b676fedc9f6867963e3212faaebcb"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\csv\\03_02_baseline_strength_010shots.csv",
+      "sha256": "5d068f62d4450c5bcbf623e85a5ada55b8d2944088ad75ff17557af03c51db00"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\csv\\03_03_baseline_angle_010shots.csv",
+      "sha256": "da8cb2b86752f73cd6e985bebb24da8cd227a81494d26da60e834e43f7ad8764"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\csv\\03_04_training_both_140shots.csv",
+      "sha256": "dabf4b7059463f29f408a4d385439b7ea34a449a78593fb4904aea0fbda67240"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\csv\\03_05_test_both_030shots.csv",
+      "sha256": "0be54429475c3004332c9b7b4c6c1be3bcc076e49fae1b0fba6301e49615fe60"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\csv\\03_06_test_strength_030shots.csv",
+      "sha256": "bd6bc63d9673794d46d749f5c0bcdca13c27955370b22042760d7341812be8e5"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\csv\\03_07_test_angle_030shots.csv",
+      "sha256": "42d0a20001b3b7b00ac8432ae7542a1361d83f10b7381d0a12db3408546b1bd2"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\tracked\\03_01_baseline_both_010shots_tracked.mp4",
+      "sha256": "58514c72c09daa78a1666db557092b54b789ca2c4abb8428f6cfb479636d1f02"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\tracked\\03_02_baseline_strength_010shots_tracked.mp4",
+      "sha256": "fc108f9d0935564f3686c9ff8ab889bac2bfd8d83b12aa80317b1a0736f36e7f"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\tracked\\03_03_baseline_angle_010shots_tracked.mp4",
+      "sha256": "14593479c358a9bb320b21329879b0377ccb3d1ad743e35b7a64d2dac4029037"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\tracked\\03_04_training_both_140shots_tracked.mp4",
+      "sha256": "a4d332bd96dfe8f6a5bca50a9cf78e29d098ef0a896a9421084a69c9f4ad9fd5"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\tracked\\03_05_test_both_030shots_tracked.mp4",
+      "sha256": "2f3fcdc3febdd2afbdafc06fcd1a858655713fda949f79d6fd4ae0b4a7b2d2a8"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\tracked\\03_06_test_strength_030shots_tracked.mp4",
+      "sha256": "11872d569eb659446376a8cb70a783ff72b8d7f6b2d366c37da13d548ec01697"
+    },
+    {
+      "path": "D:\\experiment\\03\\MOLT4_results1\\tracked\\03_07_test_angle_030shots_tracked.mp4",
+      "sha256": "8fc5d1dfda11b7449f113d2d63a2593a65cb3d92922d80761bea93a68d944179"
+    }
+  ],
+  "core_sha256": {
+    "audit_hand_stops.py": "64e4227ba2606f3e1513b7172a659a6be7145efe17c76ad6888bcfd44fbc018a",
+    "calibration.py": "ed56069eec6b00d672922c86b015e0f9f4786aed732b19b6bb5d9595f46b1dc1",
+    "config.json": "580fbaebdec501cf5d79b3ebab10a0b7ee029de25059df85e9c173a46dd0e366",
+    "enrich_review.py": "3816261558ae552b1d25f10377ac0d6be77cc90a88125386de09ff968a858e94",
+    "geometry.py": "ce9d4c2931483476717395216dc34d844e981ae9bc2ef1ea1b135831a65afa1d",
+    "learn_table_template.py": "36b86208b7b0c463e5b7601253c355e9314bf4e220b074adabb0151758ead579",
+    "manual_calibration.py": "02841b10def5b6bf6582262afd77a74b801f2916c154926fcf448c5db07de0e9",
+    "modes.py": "c542d93842f6f6c6d9dff3159c10a08d6ce1ef241c35277b25d2ee7b459d8263",
+    "motion.py": "31e807f4c265ca1fddafd857c738372cbe787fd6268fd9ed2e619054c10617f9",
+    "motion_model.json": "a2e78e092adaa9d0748e4b62aff813d2f73827b89744b9f8130242b6a55d238b",
+    "obstructions.py": "aff8e36cac60cba099f93dd55256ef767ab140f8c20c47643ed1c5a46a747fbc",
+    "pipeline.py": "33c7c49c8117c1e568f7282a01d61e193cd9ff6a86fe5094d373cf0ef974e3ed",
+    "reference_constants.json": "09e03a65c0c62ac68fe84a49744295b1af18d3a33331093d1b1cb6e6d31849ad",
+    "review.py": "7880c5ec23d518da5034591bbc9aa88478fe128f3726d3d038ad07814c9cd9e4",
+    "rules.py": "6d553b1a3028544a078b837e7c5ddf27662d88f24a61cecd105982acb9b2d4ec",
+    "rules_v2.py": "4a4ac9099551a62cae7e171a9b93e76c42bb20f99541ecdafef6acf02367a0e2",
+    "rules_v3.py": "298f32fa19f8bc96f876f6e9623bf07fd5923b278c57ed43cbfb80b9699670a9",
+    "table_template.json": "801f3314f0a5dce7906002e8e69d1f5e4dcb3c1de0faf946c3d8d73ecef7aa8f",
+    "test_count_assessment.py": "046d8357fad7fe4d1c1546422471b36df5e228fc752aab9f7c089b2d472c83b6",
+    "test_geometry.py": "7e4dafa86235f29e67e50ab0eca765bd0d4bb2d6a3c4e8eefc81c4b13508d8a6",
+    "test_modes.py": "7a7c5e70cae6dcc22998e5372a2f0770e4500ba494c766cf4dd4e1376de5ec77",
+    "test_motion.py": "a5b07bde7701bb6b278915d845783e7a26ca5f4a70b7b2af5b8655ac7f828039",
+    "test_obstructions.py": "e24b9e765fe844d63cc00c200183792ca5739ec8f5aaff2d9a9dd0c70ce9dd8f",
+    "test_output_paths.py": "3f55cba6845782b6d1ef2705a6df159f5aae07892216bf3759f6ed582f770e84",
+    "test_rules.py": "4ba9041d46f0a268b1277c342a83f6ec85a1e2f0999fe183abffa0e80453c73c",
+    "test_scoring_v2.py": "e7e1259781a649d775b7a7fc4735989bceeef47f00c1938da80e1314f998a4b6",
+    "test_scoring_v3.py": "90fee5a6c8882d3638c8b2cf931e55f017049357dde3422e850343295738642a",
+    "test_validation_v2.py": "836301b43965536c494460b3597ba2b22b1b4ef38e880ae5cd0f53351da3e30e",
+    "test_validation_v3.py": "00dff54db79a347a9cf76dba12ae4e947e4ce2e4226488372972ed064fa2f7b5",
+    "validate_outputs.py": "310646df62ce5f4240d4b36b5a58c9444d14514bf547217aef219710b3478b11",
+    "verified_counts.json": "0447edcc0343871805b7e5b51b69458c4a9a2892452c95325e30f61a728f9d03",
+    "vision.py": "aa5165ef18d09c84bdb47870deeb284ebb57491aa2111b7ef9eca4da67d61817",
+    "__init__.py": "4e85c890d96efa98270b342c445de5b9d56f03c79c7a69d2cd3eab6bb8860ea7"
+  }
+}

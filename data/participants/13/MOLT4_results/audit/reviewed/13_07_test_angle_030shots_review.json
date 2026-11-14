@@ -1,0 +1,463 @@
+{
+  "status": "REVIEWED_CANDIDATE_NOT_INSTALLED",
+  "method": "source_verified_wrong_object_exclusion",
+  "scope": "One actual source-verified wrist row is excluded as missing. No replacement coordinates, interpolation, prediction, altered HSV thresholds, scoring rules or timestamps.",
+  "source": "D:\\experiment\\13\\13_07_test_angle_030shots.mkv",
+  "source_sha256": "32aa1fd74e3e55d7d917c28560ca1d0254d4e63340bb0194e319957639b3a109",
+  "inputs_sha256": {
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1015_20261021\\analysis\\13\\cache\\13_07_test_angle_030shots_evidence.npz": "0854013e87b7eefe31fd466b15218f8634daaee62cac65e7c7f1bd9c345407d1",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1015_20261021\\analysis\\13\\audit\\13_07_test_angle_030shots_report.json": "46323a20294ac4f074209e39c1199fcac8fd7ea1f599d54acda2bc497137f89e",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1015_20261021\\analysis\\13\\calibration\\13_07_test_angle_030shots.json": "6a995578b9dd56bf3ae86f8b531f1d3c8d02c08d4a0d42de20c2b20848738bfe",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1015_20261021\\inventory.json": "faff444b21e1a60067d99ce61a9285950c05fa38455fd91426bbbf3c022044c9",
+    "D:\\experiment\\13\\13_07_test_angle_030shots.mkv": "32aa1fd74e3e55d7d917c28560ca1d0254d4e63340bb0194e319957639b3a109",
+    "D:\\experiment\\13\\13_07_test_angle_030shots.20261021_150041_791321.partial.live_count.json": "7068e1c85cf76ddbb1b1a191769fc5867f3330927e90991907c96f5407fb27ff"
+  },
+  "code_sha256": {
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\rules.py": "6d553b1a3028544a078b837e7c5ddf27662d88f24a61cecd105982acb9b2d4ec",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\rules_v2.py": "4a4ac9099551a62cae7e171a9b93e76c42bb20f99541ecdafef6acf02367a0e2",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\rules_v3.py": "298f32fa19f8bc96f876f6e9623bf07fd5923b278c57ed43cbfb80b9699670a9",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\vision.py": "aa5165ef18d09c84bdb47870deeb284ebb57491aa2111b7ef9eca4da67d61817",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\motion.py": "31e807f4c265ca1fddafd857c738372cbe787fd6268fd9ed2e619054c10617f9",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\recorder_live_counter\\review_20261020\\live_counter.py": "f6dddc5877b318f2607c5f23fb01650ac93d6a93cdcd139dd364c96e6e989043",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\recorder_live_counter\\review_20261020\\live_molt\\live_detection.py": "6ae8428ba2eb48198be42506ab3d831868476702d83843a493002de9c887ba4e",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1015_20261021\\count_review\\13\\exclude_wrong_objects.py": "208a2b15da7c0ae901229c11f3e9d8931a64c85732097e23b0b142f63888f3bf"
+  },
+  "pack": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1015_20261021\\count_review\\13\\candidates\\13_07_test_angle_030shots_reviewed_evidence.npz",
+  "pack_sha256": "f7b0aa8fd4bb4413e9978c6f70fcd5536fb1210715c1f6de24728e2b4c0ab7c8",
+  "original_shape": [
+    18979,
+    7
+  ],
+  "reviewed_shape": [
+    18979,
+    7
+  ],
+  "source_time_column_bitwise_unchanged": true,
+  "non_data_arrays_unchanged": true,
+  "actual_pixel_patches": [
+    {
+      "frame": 5339,
+      "source_ms": 88983.0,
+      "method": "source_verified_wrong_object_exclusion",
+      "original": [
+        584.5918699186992,
+        692.6894308943089,
+        102.5,
+        1.0,
+        88983.0,
+        0.4164576016056197,
+        0.0
+      ],
+      "new": [
+        null,
+        null,
+        0.0,
+        0.0,
+        88983.0,
+        0.0,
+        0.0
+      ],
+      "new_observation": false,
+      "exclusion_reason": "The selected red contour is on the bottom wrist while the actual ball is visibly on the upper tabletop in the same decoded frame.",
+      "pixel_evidence": {
+        "decoded_bgr_sha256": "73012adbeb7aa947ccbb5d738ed965dfd4fa3b810c9e7d81d0027c0ad80e2792",
+        "decoded_shape": [
+          720,
+          1280,
+          3
+        ],
+        "source_frame_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1015_20261021\\count_review\\13\\candidates\\13_07_test_angle_030shots_f5339_source.png",
+        "source_frame_png_sha256": "b6061714a05c4e9550d2204b7dbb27dcbe042b3f2dfa08c1798d503e9961fda8",
+        "original_hsv_ranges": [
+          [
+            [
+              0,
+              105,
+              45
+            ],
+            [
+              7,
+              255,
+              255
+            ]
+          ],
+          [
+            [
+              155,
+              90,
+              40
+            ],
+            [
+              179,
+              255,
+              255
+            ]
+          ]
+        ],
+        "hand_fraction": 0.4164576016056197,
+        "wrong_object_contour": {
+          "point": [
+            584.5918699186992,
+            692.6894308943089
+          ],
+          "area": 102.5,
+          "contour_raw": [
+            [
+              577,
+              682
+            ],
+            [
+              577,
+              683
+            ],
+            [
+              576,
+              684
+            ],
+            [
+              574,
+              684
+            ],
+            [
+              575,
+              685
+            ],
+            [
+              575,
+              686
+            ],
+            [
+              576,
+              687
+            ],
+            [
+              576,
+              689
+            ],
+            [
+              577,
+              689
+            ],
+            [
+              578,
+              690
+            ],
+            [
+              578,
+              692
+            ],
+            [
+              579,
+              692
+            ],
+            [
+              582,
+              695
+            ],
+            [
+              583,
+              695
+            ],
+            [
+              585,
+              697
+            ],
+            [
+              587,
+              697
+            ],
+            [
+              589,
+              699
+            ],
+            [
+              592,
+              699
+            ],
+            [
+              593,
+              700
+            ],
+            [
+              594,
+              699
+            ],
+            [
+              595,
+              699
+            ],
+            [
+              595,
+              696
+            ],
+            [
+              596,
+              695
+            ],
+            [
+              592,
+              695
+            ],
+            [
+              591,
+              694
+            ],
+            [
+              589,
+              694
+            ],
+            [
+              588,
+              693
+            ],
+            [
+              587,
+              693
+            ],
+            [
+              586,
+              692
+            ],
+            [
+              585,
+              692
+            ],
+            [
+              579,
+              686
+            ],
+            [
+              579,
+              685
+            ],
+            [
+              577,
+              683
+            ]
+          ]
+        },
+        "visible_actual_ball_crop": {
+          "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1015_20261021\\count_review\\13\\candidates\\13_07_test_angle_030shots_visible_ball_crop.png",
+          "sha256": "edcab7890e0e5ade350199c8259745fa4d13b8b65019d27f2ccf0da46c4141ea",
+          "raw_bounds": [
+            592,
+            0,
+            685,
+            80
+          ]
+        },
+        "visible_crop_anchor_is_not_a_measurement": true,
+        "excluded_wrist_crop": {
+          "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1015_20261021\\count_review\\13\\candidates\\13_07_test_angle_030shots_excluded_wrist_crop.png",
+          "sha256": "2444c11d37c5fd6c3fd8e002b6eb1053a2ee5c96b7b4dd43e395ae63b846fbee",
+          "raw_bounds": [
+            539,
+            647,
+            632,
+            720
+          ]
+        }
+      }
+    }
+  ],
+  "changed_frames": [
+    5339,
+    5340
+  ],
+  "directly_changed_observation_frames": [
+    5339
+  ],
+  "derived_gap_changes": [
+    {
+      "frame": 5340,
+      "original": 0.0,
+      "new": 1.0
+    }
+  ],
+  "before": {
+    "attempts": 33,
+    "valid": 29,
+    "complete": 29,
+    "target_bank": 29
+  },
+  "after": {
+    "attempts": 33,
+    "valid": 30,
+    "complete": 30,
+    "target_bank": 30
+  },
+  "recovered_attempt_start_frame": 5274,
+  "recovered_before": {
+    "attempt": 11,
+    "shot": "",
+    "mode": "angle",
+    "scoring_version": 3,
+    "start_frame": 5274,
+    "end_frame": 5759,
+    "start_s": 87.9,
+    "end_s": 95.983,
+    "origin_rest_start_frame": 5063,
+    "next_origin_rest_start_frame": 5604,
+    "angle_search_end_frame": 5603,
+    "bank_frame": null,
+    "bank_s": "",
+    "target_bank_valid": 0,
+    "missing_frames": 0,
+    "interpolated_frames": 0,
+    "time_source": "decoder_timestamp_ms",
+    "angle_value": "",
+    "angle_uncapped": "",
+    "angle_maximum": 90.0,
+    "angle_status": "invalid",
+    "angle_valid": 0,
+    "angle_stop_reason": "invalid_reverse",
+    "angle_end_plane_x": 0.5158729495420608,
+    "angle_end_plane_y": 1.5700996304066233,
+    "angle_end_frame": 5603,
+    "angle_position_frame": 5603,
+    "angle_needs_review": 1,
+    "angle_assumed_stop": 1,
+    "angle_method": "observed_endpoint",
+    "angle_endpoint_kind": "video_end",
+    "angle_raw_degrees": 163.48767168836966,
+    "angle_direction_status": "reverse",
+    "angle_reverse": 1,
+    "angle_contact_kind": "",
+    "angle_evidence": "{}",
+    "angle_min_displacement_cm": 8.0,
+    "angle_max_displacement_cm": 125.05987703471055,
+    "angle_displacement_valid": 1,
+    "angle_displacement_end_frame": 5603,
+    "angle_displacement_frame": 5341,
+    "angle_displacement_sample_count": 327,
+    "strength_value": "",
+    "strength_uncapped": "",
+    "strength_maximum": "",
+    "strength_status": "not_requested",
+    "strength_valid": 0,
+    "strength_stop_reason": "",
+    "strength_end_plane_x": "",
+    "strength_end_plane_y": "",
+    "strength_end_frame": "",
+    "strength_position_frame": "",
+    "strength_needs_review": 0,
+    "strength_assumed_stop": 0,
+    "strength_method": "",
+    "collision_evidence": "[]",
+    "valid": 0,
+    "score_complete": 0,
+    "needs_review": 1,
+    "assumed_stop": 1,
+    "stop_reason": "invalid_reverse",
+    "value": "",
+    "uncapped_value": "",
+    "maximum": 90.0,
+    "end_plane_x": 0.5158729495420608,
+    "end_plane_y": 1.5700996304066233,
+    "position_frame": 5603
+  },
+  "recovered_after": {
+    "attempt": 11,
+    "shot": 9,
+    "mode": "angle",
+    "scoring_version": 3,
+    "start_frame": 5274,
+    "end_frame": 5759,
+    "start_s": 87.9,
+    "end_s": 95.983,
+    "origin_rest_start_frame": 5063,
+    "next_origin_rest_start_frame": 5604,
+    "angle_search_end_frame": 5603,
+    "bank_frame": 5341,
+    "bank_s": 89.017,
+    "target_bank_valid": 1,
+    "missing_frames": 1,
+    "interpolated_frames": 1,
+    "time_source": "decoder_timestamp_ms",
+    "angle_value": 0.15722771515339365,
+    "angle_uncapped": 0.15722771515339365,
+    "angle_maximum": 90.0,
+    "angle_status": "scored",
+    "angle_valid": 1,
+    "angle_stop_reason": "first_cushion",
+    "angle_end_plane_x": 0.5013662677169344,
+    "angle_end_plane_y": 0.008448920575652335,
+    "angle_end_frame": 5353,
+    "angle_position_frame": 5341,
+    "angle_needs_review": 0,
+    "angle_assumed_stop": 0,
+    "angle_method": "observed_endpoint",
+    "angle_endpoint_kind": "first_cushion",
+    "angle_raw_degrees": 0.15722771515339365,
+    "angle_direction_status": "forward",
+    "angle_reverse": 0,
+    "angle_contact_kind": "target",
+    "angle_evidence": "{\"frame\":5341,\"before_frame\":5329,\"after_frame\":5353,\"time_s\":89.017,\"kind\":\"target\",\"plane_point\":[0.5013662677169344,0.008448920575652335],\"approach_vector\":[-0.0025502717087668714,-0.22153917503498577],\"return_vector\":[-0.0024713183863955823,0.17150737396641788]}",
+    "angle_min_displacement_cm": 8.0,
+    "angle_max_displacement_cm": 125.05987703471055,
+    "angle_displacement_valid": 1,
+    "angle_displacement_end_frame": 5341,
+    "angle_displacement_frame": 5341,
+    "angle_displacement_sample_count": 65,
+    "strength_value": "",
+    "strength_uncapped": "",
+    "strength_maximum": "",
+    "strength_status": "not_requested",
+    "strength_valid": 0,
+    "strength_stop_reason": "",
+    "strength_end_plane_x": "",
+    "strength_end_plane_y": "",
+    "strength_end_frame": "",
+    "strength_position_frame": "",
+    "strength_needs_review": 0,
+    "strength_assumed_stop": 0,
+    "strength_method": "",
+    "collision_evidence": "[{\"frame\":5341,\"before_frame\":5329,\"after_frame\":5353,\"time_s\":89.017,\"kind\":\"target\",\"plane_point\":[0.5013662677169344,0.008448920575652335],\"approach_vector\":[-0.0025502717087668714,-0.22153917503498577],\"return_vector\":[-0.0024713183863955823,0.17150737396641788]}]",
+    "valid": 1,
+    "score_complete": 1,
+    "needs_review": 0,
+    "assumed_stop": 0,
+    "stop_reason": "first_cushion",
+    "value": 0.15722771515339365,
+    "uncapped_value": 0.15722771515339365,
+    "maximum": 90.0,
+    "end_plane_x": 0.5013662677169344,
+    "end_plane_y": 0.008448920575652335,
+    "position_frame": 5341
+  },
+  "unchanged_original_valid_start_frames": [
+    284,
+    908,
+    1565,
+    2236,
+    2854,
+    3509,
+    4143,
+    4695,
+    5760,
+    6271,
+    6867,
+    7533,
+    8253,
+    8934,
+    9545,
+    10160,
+    10819,
+    11385,
+    12143,
+    13080,
+    13727,
+    14463,
+    15044,
+    15674,
+    16263,
+    16874,
+    17395,
+    18032,
+    18605
+  ],
+  "other_attempts_exactly_unchanged_except_shot_renumbering": true,
+  "before_after_records": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_1015_20261021\\count_review\\13\\candidates\\13_07_test_angle_030shots_before_after_records.json",
+  "before_after_records_sha256": "c4ce118900b282ab9dc4a56a23604894fca19cb8b9e0b9342315df66b968f5c2",
+  "limitation": "This is a source-frame correction of three isolated false-object selections, not a complete manual ground-truth annotation or a count forced to the filename/live total."
+}

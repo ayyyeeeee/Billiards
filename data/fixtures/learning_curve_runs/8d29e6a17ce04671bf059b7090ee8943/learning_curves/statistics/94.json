@@ -1,0 +1,424 @@
+{
+  "schema_version": 4,
+  "captions": [
+    [
+      "a",
+      "Strength training: points are trial values and the line is a Student-t spline mean (nu=5). Shading is model trial SD, not a confidence interval. Red rug marks below the horizontal axis identify excluded outlier=1 trials; they have no error-value coordinate and never enter statistics or fitting."
+    ],
+    [
+      "b",
+      "Student-t model variance: scale squared times nu/(nu-2). Mean and log-scale use separate smooth functions of trial. Training outlier=1 and missing measurements are excluded independently per component; remaining finite training values are included."
+    ],
+    [
+      "c",
+      "Censor panel omitted because no included training observations are censored; panels a and b use the full row."
+    ],
+    [
+      "d",
+      "Both-condition baseline and immediate test, separated into strength and angle components from the same both-condition trials. Each component is compared with its own baseline; neither is pooled with single-condition trials. Full-stage Student-t mean ± model SD (nu=5); n = valid/recorded. No estimate shown when data are insufficient. Error bars are not confidence intervals."
+    ],
+    [
+      "e",
+      "Strength baseline and immediate test under the strength condition. This is the trained condition. Full-stage Student-t mean ± model SD (nu=5); n = valid/recorded. No estimate shown when data are insufficient. Error bars are not confidence intervals."
+    ],
+    [
+      "f",
+      "Angle baseline and immediate test under the angle condition. This untrained condition assesses possible transfer. Full-stage Student-t mean ± model SD (nu=5); n = valid/recorded. No estimate shown when data are insufficient. Error bars are not confidence intervals."
+    ]
+  ],
+  "censor_panel_visible": false,
+  "participant": "94",
+  "training_condition": "strength",
+  "block_size": 10,
+  "total_trials": 63,
+  "training_components": {
+    "strength": {
+      "n": 21,
+      "rows": 21,
+      "outlier_count": 0,
+      "outliers": [],
+      "units": [
+        "origin_to_strip"
+      ],
+      "blocks": [
+        {
+          "start": 1,
+          "end": 10,
+          "n": 10,
+          "rows": 10,
+          "center": 5.5,
+          "mean": 0.55,
+          "sd": 0.30276503540974914,
+          "cap_known": 10,
+          "capped": 0,
+          "cap_pct": 0.0
+        },
+        {
+          "start": 11,
+          "end": 20,
+          "n": 10,
+          "rows": 10,
+          "center": 15.5,
+          "mean": 1.55,
+          "sd": 0.30276503540974914,
+          "cap_known": 10,
+          "capped": 0,
+          "cap_pct": 0.0
+        },
+        {
+          "start": 21,
+          "end": 21,
+          "n": 1,
+          "rows": 1,
+          "center": 21.0,
+          "mean": 2.1,
+          "sd": null,
+          "cap_known": 1,
+          "capped": 0,
+          "cap_pct": 0.0
+        }
+      ],
+      "acquisition_display": {
+        "separated": false,
+        "mode": "linear"
+      },
+      "robust_fit": {
+        "method": "Student-t location-scale spline",
+        "nu": 5.0,
+        "success": false,
+        "message": "Scale reached numerical boundary; fit not accepted.",
+        "n_censored": 0,
+        "shot": [],
+        "mean": [],
+        "variance": [],
+        "historical_flags_retained": false,
+        "n_obs": 21
+      }
+    }
+  },
+  "comparisons": {
+    "both": {
+      "strength": {
+        "baseline_n": 2,
+        "baseline_rows": 3,
+        "test_n": 9,
+        "test_rows": 11,
+        "units": [
+          "origin_to_strip"
+        ],
+        "baseline_mean": null,
+        "test_mean": 0.6,
+        "baseline_raw_mean": 0.25,
+        "test_minus_baseline": null,
+        "relative_reduction": null,
+        "robust_phases": {
+          "baseline": {
+            "success": false,
+            "reason": "Insufficient observations for requested location/scale model.",
+            "mean": null,
+            "sd": null,
+            "n": 2,
+            "n_censored": 0
+          },
+          "test": {
+            "success": true,
+            "reason": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+            "mean": 0.6,
+            "sd": 0.3100488581964848,
+            "n": 9,
+            "n_censored": 0
+          }
+        },
+        "test_blocks": [
+          {
+            "start": 1,
+            "end": 11,
+            "n": 9,
+            "rows": 11,
+            "center": 6.0,
+            "mean": 0.6,
+            "sd": 0.3100488581964848,
+            "cap_known": 9,
+            "capped": 0,
+            "cap_pct": 0.0,
+            "raw_mean": 0.6000000000000001,
+            "raw_sd": 0.27386127875258304
+          }
+        ]
+      },
+      "angle": {
+        "baseline_n": 3,
+        "baseline_rows": 3,
+        "test_n": 11,
+        "test_rows": 11,
+        "units": [
+          "degree"
+        ],
+        "baseline_mean": null,
+        "test_mean": 7.0,
+        "baseline_raw_mean": 3.0,
+        "test_minus_baseline": null,
+        "relative_reduction": null,
+        "robust_phases": {
+          "baseline": {
+            "success": false,
+            "reason": "Insufficient observations for requested location/scale model.",
+            "mean": null,
+            "sd": null,
+            "n": 3,
+            "n_censored": 0
+          },
+          "test": {
+            "success": true,
+            "reason": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+            "mean": 7.0,
+            "sd": 3.7946103607649593,
+            "n": 11,
+            "n_censored": 0
+          }
+        },
+        "test_blocks": [
+          {
+            "start": 1,
+            "end": 11,
+            "n": 11,
+            "rows": 11,
+            "center": 6.0,
+            "mean": 7.0,
+            "sd": 3.7946103607649593,
+            "cap_known": 11,
+            "capped": 0,
+            "cap_pct": 0.0,
+            "raw_mean": 7.0,
+            "raw_sd": 3.3166247903554
+          }
+        ]
+      }
+    },
+    "strength": {
+      "strength": {
+        "baseline_n": 3,
+        "baseline_rows": 3,
+        "test_n": 11,
+        "test_rows": 11,
+        "units": [
+          "origin_to_strip"
+        ],
+        "baseline_mean": null,
+        "test_mean": 0.6,
+        "baseline_raw_mean": 0.20000000000000004,
+        "test_minus_baseline": null,
+        "relative_reduction": null,
+        "robust_phases": {
+          "baseline": {
+            "success": false,
+            "reason": "Insufficient observations for requested location/scale model.",
+            "mean": null,
+            "sd": null,
+            "n": 3,
+            "n_censored": 0
+          },
+          "test": {
+            "success": true,
+            "reason": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+            "mean": 0.6,
+            "sd": 0.37946103607649584,
+            "n": 11,
+            "n_censored": 0
+          }
+        },
+        "test_blocks": [
+          {
+            "start": 1,
+            "end": 11,
+            "n": 11,
+            "rows": 11,
+            "center": 6.0,
+            "mean": 0.6,
+            "sd": 0.37946103607649584,
+            "cap_known": 11,
+            "capped": 0,
+            "cap_pct": 0.0,
+            "raw_mean": 0.6,
+            "raw_sd": 0.33166247903554
+          }
+        ]
+      }
+    },
+    "angle": {
+      "angle": {
+        "baseline_n": 3,
+        "baseline_rows": 3,
+        "test_n": 11,
+        "test_rows": 11,
+        "units": [
+          "degree"
+        ],
+        "baseline_mean": null,
+        "test_mean": 7.0,
+        "baseline_raw_mean": 3.0,
+        "test_minus_baseline": null,
+        "relative_reduction": null,
+        "robust_phases": {
+          "baseline": {
+            "success": false,
+            "reason": "Insufficient observations for requested location/scale model.",
+            "mean": null,
+            "sd": null,
+            "n": 3,
+            "n_censored": 0
+          },
+          "test": {
+            "success": true,
+            "reason": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+            "mean": 7.0,
+            "sd": 3.7946103607649593,
+            "n": 11,
+            "n_censored": 0
+          }
+        },
+        "test_blocks": [
+          {
+            "start": 1,
+            "end": 11,
+            "n": 11,
+            "rows": 11,
+            "center": 6.0,
+            "mean": 7.0,
+            "sd": 3.7946103607649593,
+            "cap_known": 11,
+            "capped": 0,
+            "cap_pct": 0.0,
+            "raw_mean": 7.0,
+            "raw_sd": 3.3166247903554
+          }
+        ]
+      }
+    }
+  },
+  "sources": [
+    {
+      "file": "D:\\experiment\\learning_curve_tool\\.test_runs\\8d29e6a17ce04671bf059b7090ee8943\\94\\MOLT4_results\\csv\\94_01_baseline_both_999shots.csv",
+      "n": 3,
+      "sha256": "efd607a220f0492501174314cf467c6bdf507bd1fc74cb6c19790e77c756dda6",
+      "metrics": {
+        "strength": {
+          "scored": 2,
+          "missing": 1,
+          "units": [
+            "origin_to_strip"
+          ]
+        },
+        "angle": {
+          "scored": 3,
+          "missing": 0,
+          "units": [
+            "degree"
+          ]
+        }
+      }
+    },
+    {
+      "file": "D:\\experiment\\learning_curve_tool\\.test_runs\\8d29e6a17ce04671bf059b7090ee8943\\94\\MOLT4_results\\csv\\94_02_baseline_strength_999shots.csv",
+      "n": 3,
+      "sha256": "1ab362aa4fca4b06af8eec0cce45e88432b841aa14d6b6783b37fbfecf49e84e",
+      "metrics": {
+        "strength": {
+          "scored": 3,
+          "missing": 0,
+          "units": [
+            "origin_to_strip"
+          ]
+        }
+      }
+    },
+    {
+      "file": "D:\\experiment\\learning_curve_tool\\.test_runs\\8d29e6a17ce04671bf059b7090ee8943\\94\\MOLT4_results\\csv\\94_03_baseline_angle_999shots.csv",
+      "n": 3,
+      "sha256": "38bcdb0819d8662988586d2e71eb61ea585b99c453e23d418913eb4d4caf3a5b",
+      "metrics": {
+        "angle": {
+          "scored": 3,
+          "missing": 0,
+          "units": [
+            "degree"
+          ]
+        }
+      }
+    },
+    {
+      "file": "D:\\experiment\\learning_curve_tool\\.test_runs\\8d29e6a17ce04671bf059b7090ee8943\\94\\MOLT4_results\\csv\\94_04_training_strength_999shots.csv",
+      "n": 21,
+      "sha256": "702cebda4b33fbcf71a71dc47e96ce9decdba621e24337065a0f30cec9c6a777",
+      "metrics": {
+        "strength": {
+          "scored": 21,
+          "missing": 0,
+          "units": [
+            "origin_to_strip"
+          ]
+        }
+      }
+    },
+    {
+      "file": "D:\\experiment\\learning_curve_tool\\.test_runs\\8d29e6a17ce04671bf059b7090ee8943\\94\\MOLT4_results\\csv\\94_05_test_both_999shots.csv",
+      "n": 11,
+      "sha256": "e72b2d6dee260e822dd9d1d9b23e1be21057b8e10b5ceba3efbac2601acfbe34",
+      "metrics": {
+        "strength": {
+          "scored": 9,
+          "missing": 2,
+          "units": [
+            "origin_to_strip"
+          ]
+        },
+        "angle": {
+          "scored": 11,
+          "missing": 0,
+          "units": [
+            "degree"
+          ]
+        }
+      }
+    },
+    {
+      "file": "D:\\experiment\\learning_curve_tool\\.test_runs\\8d29e6a17ce04671bf059b7090ee8943\\94\\MOLT4_results\\csv\\94_06_test_strength_999shots.csv",
+      "n": 11,
+      "sha256": "df79cf27c9823778bb2ae11dc8819f188598f0b036e8223ad64a862a89850a5a",
+      "metrics": {
+        "strength": {
+          "scored": 11,
+          "missing": 0,
+          "units": [
+            "origin_to_strip"
+          ]
+        }
+      }
+    },
+    {
+      "file": "D:\\experiment\\learning_curve_tool\\.test_runs\\8d29e6a17ce04671bf059b7090ee8943\\94\\MOLT4_results\\csv\\94_07_test_angle_999shots.csv",
+      "n": 11,
+      "sha256": "47201bddcf2a2f7ff24f39197d9c4cbfe20ac047380eb2fabd5a25adeaec0c26",
+      "metrics": {
+        "angle": {
+          "scored": 11,
+          "missing": 0,
+          "units": [
+            "degree"
+          ]
+        }
+      }
+    }
+  ],
+  "warnings": [
+    "94_01_baseline_both_999shots.csv/strength：1 个未纳入计算记录（训练outlier=1或缺失；其他阶段按有效性字段）；保留 shot 位置，不填零，统计仅使用该分量可用数值。",
+    "94_01_baseline_both_999shots.csv：实际 3 球，使用实际数据而非文件名球数。",
+    "94_02_baseline_strength_999shots.csv：实际 3 球，使用实际数据而非文件名球数。",
+    "94_03_baseline_angle_999shots.csv：实际 3 球，使用实际数据而非文件名球数。",
+    "94_04_training_strength_999shots.csv：实际 21 球，使用实际数据而非文件名球数。",
+    "94_05_test_both_999shots.csv/strength：2 个未纳入计算记录（训练outlier=1或缺失；其他阶段按有效性字段）；保留 shot 位置，不填零，统计仅使用该分量可用数值。",
+    "94_05_test_both_999shots.csv：实际 11 球，使用实际数据而非文件名球数。",
+    "94_06_test_strength_999shots.csv：实际 11 球，使用实际数据而非文件名球数。",
+    "94_07_test_angle_999shots.csv：实际 11 球，使用实际数据而非文件名球数。"
+  ]
+}

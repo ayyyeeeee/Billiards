@@ -1,0 +1,6262 @@
+{
+  "summary": {
+    "fits": 40,
+    "successful": 40,
+    "holdout": {
+      "interleaved": {
+        "successful_folds": 200,
+        "n": 5400,
+        "t_nll_per_observation": 1.0536083777941352,
+        "gaussian_nll_per_observation": 1.4127674574375375,
+        "t_better_folds": 113
+      },
+      "blocked": {
+        "successful_folds": 199,
+        "n": 5372,
+        "t_nll_per_observation": 1.1015734570037383,
+        "gaussian_nll_per_observation": 1.5039532790897583,
+        "t_better_folds": 139
+      }
+    }
+  },
+  "channels": [
+    {
+      "participant": "01",
+      "channel": "angle",
+      "n": 140,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.07356407291052088,
+          "median_variance_ratio": 1.0729815243046228
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0062408036959736195,
+          "median_variance_ratio": 1.1177969695282037
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.05038642111194223,
+          "median_variance_ratio": 1.1554863995117888
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.07372900287100415,
+          "median_variance_ratio": 0.9636056869167917
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.050024066011811176,
+          "median_variance_ratio": 1.033855310529142
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0786446086214485,
+          "median_variance_ratio": 0.8793430025399942
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.016318247944699528,
+          "median_variance_ratio": 0.9127519337447714
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.05260316297496572,
+          "median_variance_ratio": 0.9688452549248439
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 37.2532466395202,
+          "gaussian_nll": 36.98749777062237
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 33.64156507302453,
+          "gaussian_nll": 33.28930528615866
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 34.736104165096755,
+          "gaussian_nll": 41.064395918281306
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 26.940644109848243,
+          "gaussian_nll": 29.031011612217593
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 36.87851548774732,
+          "gaussian_nll": 40.72100616747817
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 38.46495887951316,
+          "gaussian_nll": 37.18598070885485
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 36.032246881922696,
+          "gaussian_nll": 33.33382309947228
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 32.0818903285035,
+          "gaussian_nll": 38.190090920417774
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 26.591584031818897,
+          "gaussian_nll": 27.711706350185494
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 63.04610822746935,
+          "gaussian_nll": 65.21209979463771
+        }
+      ],
+      "adjacent_exact_residual_correlation": 0.14234141261247854
+    },
+    {
+      "participant": "01",
+      "channel": "strength",
+      "n": 139,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.016517586205494837,
+          "median_variance_ratio": 1.1399161840667118
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.006159807784371844,
+          "median_variance_ratio": 1.1279569928061997
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.010328690015184772,
+          "median_variance_ratio": 1.12385415281665
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.01316090502273227,
+          "median_variance_ratio": 1.0086403882963757
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.009300541445482941,
+          "median_variance_ratio": 0.9947228858520116
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.014231692942962003,
+          "median_variance_ratio": 0.8943341081840966
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.009859514889684473,
+          "median_variance_ratio": 0.8873437247798839
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.013846137945187659,
+          "median_variance_ratio": 0.8777546490402933
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 0.10369050376770583,
+          "gaussian_nll": 0.058305560343126395
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 4.139333383958118,
+          "gaussian_nll": 3.3405205606695523
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 27,
+          "success": true,
+          "t_nll": 11.251669857632198,
+          "gaussian_nll": 11.673953070948961
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 15.768463000319349,
+          "gaussian_nll": 15.038736056722058
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 1.8899879774959516,
+          "gaussian_nll": 1.25767805094253
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 4.444513870797158,
+          "gaussian_nll": 5.874854334682798
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 4.59929203986328,
+          "gaussian_nll": 3.994517259317676
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 27,
+          "success": true,
+          "t_nll": 14.614902615912454,
+          "gaussian_nll": 14.675126519620335
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 3.868907541001038,
+          "gaussian_nll": 4.048193204239503
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 2.7040642044234966,
+          "gaussian_nll": 3.445379197587309
+        }
+      ],
+      "adjacent_exact_residual_correlation": -0.3174716981333182
+    },
+    {
+      "participant": "02",
+      "channel": "angle",
+      "n": 140,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.03435279656710172,
+          "median_variance_ratio": 1.0349599578983475
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.016759634146862688,
+          "median_variance_ratio": 1.0502207959474439
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.024842967559363462,
+          "median_variance_ratio": 1.063353960957594
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.023451165178183606,
+          "median_variance_ratio": 0.9911363751198237
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.02235812775022879,
+          "median_variance_ratio": 1.0082797982395966
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.040079902751432875,
+          "median_variance_ratio": 1.0140412803203844
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04025480448378861,
+          "median_variance_ratio": 1.0376844713704574
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04994132645092824,
+          "median_variance_ratio": 1.0550374714305657
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 73.63948960821126,
+          "gaussian_nll": 75.59708811485588
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 68.70684693934366,
+          "gaussian_nll": 71.89986643959297
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 58.722999532205264,
+          "gaussian_nll": 65.55517139901994
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 65.0850834217501,
+          "gaussian_nll": 77.09095323383225
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 64.12789928700543,
+          "gaussian_nll": 72.0231118221097
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 84.3000383621317,
+          "gaussian_nll": 107.21028316948001
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 65.82811412864903,
+          "gaussian_nll": 70.30494104490978
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 62.91062651756338,
+          "gaussian_nll": 71.38585802825833
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 64.06187719198374,
+          "gaussian_nll": 67.61353633297993
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 57.96529481577993,
+          "gaussian_nll": 72.85021810551235
+        }
+      ],
+      "adjacent_exact_residual_correlation": 0.05652492019972886
+    },
+    {
+      "participant": "02",
+      "channel": "strength",
+      "n": 132,
+      "censored": 25,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.01209461829735315,
+          "median_variance_ratio": 1.129404887285315
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.007914165535090249,
+          "median_variance_ratio": 1.1370532881976732
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.006035830286793829,
+          "median_variance_ratio": 1.1437805941094958
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0036351991692765893,
+          "median_variance_ratio": 0.9934366985859903
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0031370801366737136,
+          "median_variance_ratio": 1.0032805927248667
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.012022964848102502,
+          "median_variance_ratio": 0.862226440706183
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.012438107056278614,
+          "median_variance_ratio": 0.8686382079724271
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.013074804148208562,
+          "median_variance_ratio": 0.8703029699219451
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 26,
+          "success": true,
+          "t_nll": 28.13801688175797,
+          "gaussian_nll": 26.72196507576124
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 26,
+          "success": true,
+          "t_nll": 27.27732576324138,
+          "gaussian_nll": 29.147652567903304
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 26,
+          "success": true,
+          "t_nll": 23.761895258357953,
+          "gaussian_nll": 24.16605950807861
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 26,
+          "success": true,
+          "t_nll": 22.164367312955314,
+          "gaussian_nll": 23.07335350536501
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 26,
+          "success": true,
+          "t_nll": 25.783910014369297,
+          "gaussian_nll": 26.767429460458928
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 26,
+          "success": true,
+          "t_nll": 29.232525787409216,
+          "gaussian_nll": 30.693698549929223
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 26,
+          "success": true,
+          "t_nll": 25.432560152474508,
+          "gaussian_nll": 24.58573103578618
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 26,
+          "success": true,
+          "t_nll": 26.531475108253456,
+          "gaussian_nll": 28.041367723717208
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 26,
+          "success": true,
+          "t_nll": 24.41178283222298,
+          "gaussian_nll": 24.265856538098582
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 26,
+          "success": true,
+          "t_nll": 32.15956402768974,
+          "gaussian_nll": 25.110314060501473
+        }
+      ],
+      "adjacent_exact_residual_correlation": -0.014571493110297581
+    },
+    {
+      "participant": "03",
+      "channel": "angle",
+      "n": 140,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04133665652779326,
+          "median_variance_ratio": 1.1281574175520799
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.011919848934837579,
+          "median_variance_ratio": 1.1200469888618971
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.02868004093508881,
+          "median_variance_ratio": 1.1189667803919279
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04057068832908992,
+          "median_variance_ratio": 1.0076229783694743
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.025043786065620972,
+          "median_variance_ratio": 0.9973745704523278
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0461490162276525,
+          "median_variance_ratio": 0.9018703351316143
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.017302614607663424,
+          "median_variance_ratio": 0.8948825221994976
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.02859822372896511,
+          "median_variance_ratio": 0.8893131495677228
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 43.927827905056425,
+          "gaussian_nll": 47.43765383842195
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 44.31662029461325,
+          "gaussian_nll": 45.838556253302976
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 45.29130114832002,
+          "gaussian_nll": 46.32997591597193
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 37.156445018215216,
+          "gaussian_nll": 37.19982017097886
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 39.1070755904851,
+          "gaussian_nll": 39.66568527875148
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 39.521498308140885,
+          "gaussian_nll": 42.06788309818015
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 37.41508519870248,
+          "gaussian_nll": 44.74331571186528
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 48.67032631595577,
+          "gaussian_nll": 54.57870324810799
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 45.96501793706166,
+          "gaussian_nll": 50.96114159406577
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 48.39953507708323,
+          "gaussian_nll": 58.35860812788079
+        }
+      ],
+      "adjacent_exact_residual_correlation": 0.20871037304140397
+    },
+    {
+      "participant": "03",
+      "channel": "strength",
+      "n": 120,
+      "censored": 1,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.041817231095710734,
+          "median_variance_ratio": 1.1302440494930974
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.008117748874315893,
+          "median_variance_ratio": 1.127939904670845
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0369760527346177,
+          "median_variance_ratio": 1.1319428268420544
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04078356121537825,
+          "median_variance_ratio": 1.001913671426924
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.039883860331697114,
+          "median_variance_ratio": 1.005087182253765
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0453519871810052,
+          "median_variance_ratio": 0.8944730789452615
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.015033077151433009,
+          "median_variance_ratio": 0.8890164237907789
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.046485077986295156,
+          "median_variance_ratio": 0.8941666342852783
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 24,
+          "success": true,
+          "t_nll": 5.6608380383374275,
+          "gaussian_nll": 10.336024766010672
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 24,
+          "success": true,
+          "t_nll": 2.7833966436645587,
+          "gaussian_nll": 3.127807777432806
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 24,
+          "success": true,
+          "t_nll": 3.184622150067395,
+          "gaussian_nll": 3.5876877706278063
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 23,
+          "success": true,
+          "t_nll": 11.108500306456891,
+          "gaussian_nll": 9.128912956594558
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 23,
+          "success": true,
+          "t_nll": 5.52990254890376,
+          "gaussian_nll": 5.039251450838959
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 24,
+          "success": true,
+          "t_nll": 7.166709335413231,
+          "gaussian_nll": 29.486235097516197
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 24,
+          "success": true,
+          "t_nll": 11.387566804230385,
+          "gaussian_nll": 17.737516850271867
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 24,
+          "success": true,
+          "t_nll": 5.507092471737808,
+          "gaussian_nll": 4.034214411211373
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 23,
+          "success": true,
+          "t_nll": 4.602817328516009,
+          "gaussian_nll": 6.783547682180112
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 23,
+          "success": true,
+          "t_nll": 11.850655656520566,
+          "gaussian_nll": 18.854452851642826
+        }
+      ],
+      "adjacent_exact_residual_correlation": 0.0029293872711207637
+    },
+    {
+      "participant": "04",
+      "channel": "angle",
+      "n": 140,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.07708637556787756,
+          "median_variance_ratio": 0.9148158333454106
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.023462124364157275,
+          "median_variance_ratio": 1.0205008926428705
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04306630651859657,
+          "median_variance_ratio": 1.108170961061525
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.06751399340392192,
+          "median_variance_ratio": 0.899911944838568
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04262277154207875,
+          "median_variance_ratio": 1.0852096661900177
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.07662169263542766,
+          "median_variance_ratio": 0.9912509045798661
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04903097542278209,
+          "median_variance_ratio": 1.0933959230487664
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.06521239620026853,
+          "median_variance_ratio": 1.1904659733316145
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 73.23420276507241,
+          "gaussian_nll": 89.8024571168554
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 82.14308920913666,
+          "gaussian_nll": 91.56797259055004
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 65.99608520133293,
+          "gaussian_nll": 86.32094268306506
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 68.05641203919046,
+          "gaussian_nll": 84.58195051380778
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 86.50837152618627,
+          "gaussian_nll": 199.5684450451412
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 97.19249479812291,
+          "gaussian_nll": 93.58105328787705
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 73.25645645945974,
+          "gaussian_nll": 88.82596683791306
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 65.80038224324113,
+          "gaussian_nll": 85.90988698960076
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 59.823650608592374,
+          "gaussian_nll": 89.20764656492534
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 134.731987892687,
+          "gaussian_nll": 288.9567157349643
+        }
+      ],
+      "adjacent_exact_residual_correlation": -0.0062116448914038115
+    },
+    {
+      "participant": "05",
+      "channel": "strength",
+      "n": 117,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.03726054661685764,
+          "median_variance_ratio": 1.075905186963796
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.025218668992177902,
+          "median_variance_ratio": 1.118155152475902
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.03593117716678306,
+          "median_variance_ratio": 1.141381229555528
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.02689531359126414,
+          "median_variance_ratio": 0.9646242333640994
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.022864882572233815,
+          "median_variance_ratio": 1.0217057856913732
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04599978409259558,
+          "median_variance_ratio": 0.8639351523274328
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04022405826588229,
+          "median_variance_ratio": 0.8902334485369222
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04532535646431032,
+          "median_variance_ratio": 0.9110299825220516
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 23,
+          "success": true,
+          "t_nll": 16.291368927311705,
+          "gaussian_nll": 15.271231964155332
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 23,
+          "success": true,
+          "t_nll": 7.3784509390201904,
+          "gaussian_nll": 7.882487653997588
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 23,
+          "success": true,
+          "t_nll": 13.25303514113688,
+          "gaussian_nll": 10.905331000527102
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 23,
+          "success": true,
+          "t_nll": 14.50862414422658,
+          "gaussian_nll": 17.778194911756238
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 23,
+          "success": true,
+          "t_nll": 10.72046062844918,
+          "gaussian_nll": 12.302614404432216
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 23,
+          "success": true,
+          "t_nll": 19.081908291663144,
+          "gaussian_nll": 25.489612232469824
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 23,
+          "success": true,
+          "t_nll": 15.59382317920706,
+          "gaussian_nll": 22.24048243940241
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 23,
+          "success": true,
+          "t_nll": 6.947084329804897,
+          "gaussian_nll": 12.474114779703223
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 23,
+          "success": true,
+          "t_nll": 7.898595401281902,
+          "gaussian_nll": 7.831900044557669
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 23,
+          "success": true,
+          "t_nll": 11.141932044606929,
+          "gaussian_nll": 8.697852907887892
+        }
+      ],
+      "adjacent_exact_residual_correlation": 0.11256495733402581
+    },
+    {
+      "participant": "06",
+      "channel": "strength",
+      "n": 139,
+      "censored": 3,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.07161518127736297,
+          "median_variance_ratio": 1.065634580984784
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0153916213066108,
+          "median_variance_ratio": 1.1272243158063455
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.054681226364173455,
+          "median_variance_ratio": 1.1855935411576304
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.06542607436228681,
+          "median_variance_ratio": 0.9499048027460174
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.05517943846897366,
+          "median_variance_ratio": 1.0468697789033683
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0638649442653765,
+          "median_variance_ratio": 0.8427357070935972
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.02587256814647506,
+          "median_variance_ratio": 0.8856134357185108
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.06525935435380528,
+          "median_variance_ratio": 0.9186554402005235
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 16.62304688976772,
+          "gaussian_nll": 15.711497978139167
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 18.412325549383482,
+          "gaussian_nll": 20.66797352251232
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 27,
+          "success": true,
+          "t_nll": 15.699206708749742,
+          "gaussian_nll": 15.552438582021157
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 20.922747681384475,
+          "gaussian_nll": 18.793914965871814
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 10.749639109615368,
+          "gaussian_nll": 9.318172822491622
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 29.42310478266859,
+          "gaussian_nll": 25.575816647436604
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 16.791168168499066,
+          "gaussian_nll": 15.826283830025044
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 27,
+          "success": true,
+          "t_nll": 13.103689027393527,
+          "gaussian_nll": 12.52323120341139
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 12.945490010044578,
+          "gaussian_nll": 14.382020719628299
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 11.11934496079568,
+          "gaussian_nll": 11.152040792789025
+        }
+      ],
+      "adjacent_exact_residual_correlation": -0.06508309225204006
+    },
+    {
+      "participant": "07",
+      "channel": "angle",
+      "n": 136,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04139036922406309,
+          "median_variance_ratio": 1.1027925683061048
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.006875856578839357,
+          "median_variance_ratio": 1.1072335741137318
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.040728991942856396,
+          "median_variance_ratio": 1.1173951408715455
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.041069965073079334,
+          "median_variance_ratio": 0.9921951341033107
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04359898459448326,
+          "median_variance_ratio": 1.0124773603169408
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.047827548216542545,
+          "median_variance_ratio": 0.9084658550056671
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.016234324847195742,
+          "median_variance_ratio": 0.9234885089605942
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.050891884699424385,
+          "median_variance_ratio": 0.9437787855098607
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 27,
+          "success": true,
+          "t_nll": 30.477118833734977,
+          "gaussian_nll": 31.329478045910882
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 27,
+          "success": true,
+          "t_nll": 38.95199664991727,
+          "gaussian_nll": 64.17919889319785
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 27,
+          "success": true,
+          "t_nll": 27.89815454618383,
+          "gaussian_nll": 28.544663052309087
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 25.633611679512967,
+          "gaussian_nll": 32.03213115487567
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 26,
+          "success": true,
+          "t_nll": 23.049583636774493,
+          "gaussian_nll": 26.274119285533448
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 27,
+          "success": true,
+          "t_nll": 20.208277490274458,
+          "gaussian_nll": 25.36839186030572
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 27,
+          "success": true,
+          "t_nll": 31.83640902185531,
+          "gaussian_nll": 29.239560203252733
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 27,
+          "success": true,
+          "t_nll": 25.58942937817942,
+          "gaussian_nll": 27.793632134925012
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 28.3602757414294,
+          "gaussian_nll": 29.655664207425705
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 26,
+          "success": true,
+          "t_nll": 43.16545971385174,
+          "gaussian_nll": 74.11170507419536
+        }
+      ],
+      "adjacent_exact_residual_correlation": 0.09026897487685868
+    },
+    {
+      "participant": "08",
+      "channel": "strength",
+      "n": 140,
+      "censored": 5,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.07224554071520262,
+          "median_variance_ratio": 1.1073311802996604
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.004906023634844146,
+          "median_variance_ratio": 1.1439310792436026
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.08351625563604212,
+          "median_variance_ratio": 1.21078444979928
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.07291896261744,
+          "median_variance_ratio": 0.970109273712918
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0831472985693603,
+          "median_variance_ratio": 1.0580942156644302
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.07535416325568926,
+          "median_variance_ratio": 0.8406240060694938
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.006283222290383235,
+          "median_variance_ratio": 0.8646923360351404
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.08309692985572281,
+          "median_variance_ratio": 0.9141773564278347
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 11.635537366057573,
+          "gaussian_nll": 10.59336412054078
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 9.718772472608135,
+          "gaussian_nll": 8.705154171518295
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 20.166358747230298,
+          "gaussian_nll": 19.836534506679488
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 11.46415844013433,
+          "gaussian_nll": 10.13937356939584
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 7.801488113656122,
+          "gaussian_nll": 7.632371039805685
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 35.93551145344594,
+          "gaussian_nll": 22.25279750988351
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 8.693610061097791,
+          "gaussian_nll": 5.8573574744636305
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 9.285205936460184,
+          "gaussian_nll": 9.320446779241593
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 10.90817175134976,
+          "gaussian_nll": 9.448744630297501
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 11.574159222022415,
+          "gaussian_nll": 10.183826304172632
+        }
+      ],
+      "adjacent_exact_residual_correlation": -0.1867044554966602
+    },
+    {
+      "participant": "09",
+      "channel": "strength",
+      "n": 134,
+      "censored": 5,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.026619186914789403,
+          "median_variance_ratio": 1.1322633950263916
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.016748911854493374,
+          "median_variance_ratio": 1.1319574979846494
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.02543604996417773,
+          "median_variance_ratio": 1.1306303739943733
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.02070673143761136,
+          "median_variance_ratio": 0.9985734181671192
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.020322252546100997,
+          "median_variance_ratio": 1.0025951116374459
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.03631339003401053,
+          "median_variance_ratio": 0.8758534770677058
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.029853176097694903,
+          "median_variance_ratio": 0.8769611704180365
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.038121211682776525,
+          "median_variance_ratio": 0.8811856825141953
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 27,
+          "success": true,
+          "t_nll": 23.900053716962027,
+          "gaussian_nll": 25.119969132970112
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 27,
+          "success": true,
+          "t_nll": 20.440483081717247,
+          "gaussian_nll": 19.595321819621144
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 26,
+          "success": true,
+          "t_nll": 13.80722047932838,
+          "gaussian_nll": 12.089345868990177
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 26,
+          "success": true,
+          "t_nll": 14.278443894118725,
+          "gaussian_nll": 14.539894468895119
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 26,
+          "success": true,
+          "t_nll": 26.89705860028176,
+          "gaussian_nll": 28.50697196206778
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 27,
+          "success": true,
+          "t_nll": 23.010896576253455,
+          "gaussian_nll": 25.929619394847084
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 27,
+          "success": true,
+          "t_nll": 25.72196448413654,
+          "gaussian_nll": 26.74861080674699
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 26,
+          "success": true,
+          "t_nll": 15.732142831027824,
+          "gaussian_nll": 16.225134061202905
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 26,
+          "success": true,
+          "t_nll": 17.507778281459338,
+          "gaussian_nll": 18.646180234656736
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 26,
+          "success": true,
+          "t_nll": 17.734493848183398,
+          "gaussian_nll": 13.802987697626092
+        }
+      ],
+      "adjacent_exact_residual_correlation": 0.1496726743712421
+    },
+    {
+      "participant": "10",
+      "channel": "angle",
+      "n": 140,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.02010366366581333,
+          "median_variance_ratio": 1.0533857485596245
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.01755013704389766,
+          "median_variance_ratio": 1.062156682146886
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.01568265031561909,
+          "median_variance_ratio": 1.068868693740548
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.002823734652508314,
+          "median_variance_ratio": 0.9975726964506899
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0030113596601685816,
+          "median_variance_ratio": 1.0019132210670434
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0384769164390581,
+          "median_variance_ratio": 1.021097704956127
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.037420111048296366,
+          "median_variance_ratio": 1.0200099132106257
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.036701432654656654,
+          "median_variance_ratio": 1.0191235217494554
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 58.960759295876336,
+          "gaussian_nll": 61.94191806520978
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 60.98511172450266,
+          "gaussian_nll": 61.034025184167746
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 64.50007662794766,
+          "gaussian_nll": 75.00159883951322
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 46.98432056708827,
+          "gaussian_nll": 54.21223263332075
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 66.35962941609115,
+          "gaussian_nll": 76.2377674370974
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 67.58904362484023,
+          "gaussian_nll": 101.10743323792848
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 55.41161664289848,
+          "gaussian_nll": 60.47132143773347
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 68.45809457091401,
+          "gaussian_nll": 78.25551029792096
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 57.16575008710847,
+          "gaussian_nll": 58.234345770517
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 55.393485218467546,
+          "gaussian_nll": 59.33513437651514
+        }
+      ],
+      "adjacent_exact_residual_correlation": -0.0517576405054229
+    },
+    {
+      "participant": "11",
+      "channel": "angle",
+      "n": 140,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.037562504628495856,
+          "median_variance_ratio": 1.073054934911354
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.004562576293525816,
+          "median_variance_ratio": 1.089153945421224
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.03599654029845254,
+          "median_variance_ratio": 1.1033277649844861
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.03937448318271601,
+          "median_variance_ratio": 0.9917115518495212
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.03738042567807178,
+          "median_variance_ratio": 1.010958411415229
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.046078637847249415,
+          "median_variance_ratio": 0.9489747765183305
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.009897428357410407,
+          "median_variance_ratio": 0.9693187693586008
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04325438387841981,
+          "median_variance_ratio": 0.9935910957681265
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 59.400148153330754,
+          "gaussian_nll": 117.31975283511429
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 42.629575771278745,
+          "gaussian_nll": 50.092861495532745
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 50.09141694257846,
+          "gaussian_nll": 61.660749031244855
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 40.197309205112994,
+          "gaussian_nll": 48.66458261262672
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 38.37502130344338,
+          "gaussian_nll": 47.625930451124354
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 44.06722796439151,
+          "gaussian_nll": 51.53549399481648
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 58.23417318418604,
+          "gaussian_nll": 115.18655768827368
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 38.37333613188506,
+          "gaussian_nll": 49.66427376954018
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 48.14888416226032,
+          "gaussian_nll": 53.785710323650136
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 49.54465702708057,
+          "gaussian_nll": 58.970479070494925
+        }
+      ],
+      "adjacent_exact_residual_correlation": 0.06743086907391581
+    },
+    {
+      "participant": "12",
+      "channel": "angle",
+      "n": 140,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.011480761331501063,
+          "median_variance_ratio": 1.1334254298898396
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.015989619240313318,
+          "median_variance_ratio": 1.1374454988047191
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04037387734600908,
+          "median_variance_ratio": 1.1384634491356516
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.01694209293318504,
+          "median_variance_ratio": 0.9952941557597962
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.02988984311896775,
+          "median_variance_ratio": 1.0027581207348715
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.03958983105837617,
+          "median_variance_ratio": 0.8649925320976595
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.023999249348363862,
+          "median_variance_ratio": 0.8710316880622428
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.023169092983007147,
+          "median_variance_ratio": 0.8767193333042425
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 19.614162452887193,
+          "gaussian_nll": 19.608602044418554
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 12.01110654750795,
+          "gaussian_nll": 10.886681233620726
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 11.594266208288905,
+          "gaussian_nll": 11.261086182342009
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 11.887913762183436,
+          "gaussian_nll": 10.800957399631402
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 14.648273496529493,
+          "gaussian_nll": 12.999760275872612
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 25.0497594589753,
+          "gaussian_nll": 25.502898139601086
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 11.845471290294554,
+          "gaussian_nll": 13.662885922985703
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 14.226841756067902,
+          "gaussian_nll": 12.52284597067934
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 10.60453578058658,
+          "gaussian_nll": 12.080378988601877
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 17.969699836838892,
+          "gaussian_nll": 18.87888002345335
+        }
+      ],
+      "adjacent_exact_residual_correlation": 0.19083616616432442
+    },
+    {
+      "participant": "12",
+      "channel": "strength",
+      "n": 135,
+      "censored": 1,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.02109687509418434,
+          "median_variance_ratio": 1.089043606545314
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.007249966761002354,
+          "median_variance_ratio": 1.1208815342520888
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.012568483761454289,
+          "median_variance_ratio": 1.1317856652713687
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.017311779782093722,
+          "median_variance_ratio": 0.9765631387484773
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.013744432821304872,
+          "median_variance_ratio": 1.0168620396724104
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.019884303124822304,
+          "median_variance_ratio": 0.8821858888890004
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.01362067636805613,
+          "median_variance_ratio": 0.898257150110692
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.021758446776440073,
+          "median_variance_ratio": 0.9301093294747053
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 27,
+          "success": true,
+          "t_nll": 11.138230926602983,
+          "gaussian_nll": 9.889387782900403
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 27,
+          "success": true,
+          "t_nll": -0.75775921917339,
+          "gaussian_nll": -0.6294933396052449
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 27,
+          "success": true,
+          "t_nll": 2.081141494109176,
+          "gaussian_nll": 1.3484843167530407
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 26,
+          "success": true,
+          "t_nll": 5.809225532707494,
+          "gaussian_nll": 5.4787222168434315
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 26,
+          "success": true,
+          "t_nll": 11.023658356483203,
+          "gaussian_nll": 15.296586237498571
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 27,
+          "success": true,
+          "t_nll": 12.529441592002964,
+          "gaussian_nll": 14.004914352832673
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 27,
+          "success": true,
+          "t_nll": 0.8277215108201292,
+          "gaussian_nll": 0.8795139128971321
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 27,
+          "success": true,
+          "t_nll": 3.123068180708538,
+          "gaussian_nll": 2.518984525898458
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 26,
+          "success": true,
+          "t_nll": -0.8882056937634826,
+          "gaussian_nll": 3.1950552616732484
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 26,
+          "success": true,
+          "t_nll": 10.534946556132502,
+          "gaussian_nll": 8.507411027776557
+        }
+      ],
+      "adjacent_exact_residual_correlation": -0.10940934380103207
+    },
+    {
+      "participant": "13",
+      "channel": "angle",
+      "n": 140,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.015633637735989112,
+          "median_variance_ratio": 1.0960263054562538
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.009311484972891514,
+          "median_variance_ratio": 1.1019575688213492
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.011638689393172598,
+          "median_variance_ratio": 1.1043332814025821
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.010235707331742883,
+          "median_variance_ratio": 0.997050402166368
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.006671351851728929,
+          "median_variance_ratio": 1.0017501510740359
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.019870892084347662,
+          "median_variance_ratio": 0.9191071386089086
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.01816094376193639,
+          "median_variance_ratio": 0.9232198115884305
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.018517100583724546,
+          "median_variance_ratio": 0.928244147820434
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 15.191939591179546,
+          "gaussian_nll": 17.352260668131123
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 28.653833127248184,
+          "gaussian_nll": 38.177922242175484
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 16.606796700047916,
+          "gaussian_nll": 19.34516202608683
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 28.106240845334437,
+          "gaussian_nll": 27.41334527173101
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 29.29225455986022,
+          "gaussian_nll": 27.273724209531753
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 17.189001270457158,
+          "gaussian_nll": 21.41487882569015
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 22.714638164291454,
+          "gaussian_nll": 24.616528277884676
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 21.291496631648734,
+          "gaussian_nll": 21.25219956839097
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 24.56427195266227,
+          "gaussian_nll": 26.062698248474394
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 28.40454798985668,
+          "gaussian_nll": 58.82256381107857
+        }
+      ],
+      "adjacent_exact_residual_correlation": -0.006504480599088221
+    },
+    {
+      "participant": "14",
+      "channel": "strength",
+      "n": 134,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.02467713235400453,
+          "median_variance_ratio": 1.1560759289957931
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0064351900751576626,
+          "median_variance_ratio": 1.142780060882251
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.030412288271222655,
+          "median_variance_ratio": 1.1349394628113516
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.02754860503287173,
+          "median_variance_ratio": 1.011024514156784
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.027295129561023257,
+          "median_variance_ratio": 0.9937028527872167
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.03395707513272727,
+          "median_variance_ratio": 0.8744751269721567
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.01050936884104478,
+          "median_variance_ratio": 0.8659568436033747
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.024898600378083134,
+          "median_variance_ratio": 0.8613949344479468
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 27,
+          "success": true,
+          "t_nll": 6.795224787399855,
+          "gaussian_nll": 6.269351604302626
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 27,
+          "success": true,
+          "t_nll": 14.749431845222535,
+          "gaussian_nll": 13.561612478370765
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 26,
+          "success": true,
+          "t_nll": 9.307175510312895,
+          "gaussian_nll": 9.288853567090698
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 26,
+          "success": true,
+          "t_nll": 13.990309143676615,
+          "gaussian_nll": 11.177177993970709
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 26,
+          "success": true,
+          "t_nll": 12.575128689543595,
+          "gaussian_nll": 11.513370701771647
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 27,
+          "success": true,
+          "t_nll": 13.705783411369847,
+          "gaussian_nll": 19.64072204145067
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 27,
+          "success": true,
+          "t_nll": 14.394567523754167,
+          "gaussian_nll": 12.283748683495526
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 26,
+          "success": true,
+          "t_nll": 16.30971046419587,
+          "gaussian_nll": 15.973180654521224
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 26,
+          "success": true,
+          "t_nll": 9.751752821388568,
+          "gaussian_nll": 8.698364290795569
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 26,
+          "success": true,
+          "t_nll": 8.014780518674739,
+          "gaussian_nll": 15.261484951615838
+        }
+      ],
+      "adjacent_exact_residual_correlation": 0.053338250558469885
+    },
+    {
+      "participant": "15",
+      "channel": "angle",
+      "n": 140,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04238668677215271,
+          "median_variance_ratio": 1.0469366956971107
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0204989212289843,
+          "median_variance_ratio": 1.0209933530888327
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.026246948128846457,
+          "median_variance_ratio": 1.014070152736406
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.03828997965744776,
+          "median_variance_ratio": 1.02118317157238
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.018976476946718192,
+          "median_variance_ratio": 0.9907845449128758
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.06812650546431148,
+          "median_variance_ratio": 1.1629798305186516
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.049424411242593974,
+          "median_variance_ratio": 1.1214576967309977
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0454117967856438,
+          "median_variance_ratio": 1.0827372976513518
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 51.79072823348199,
+          "gaussian_nll": 84.99417141715487
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 72.46185029005451,
+          "gaussian_nll": 1292.8558329860323
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 49.51376403884956,
+          "gaussian_nll": 84.81675621843759
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 41.228627074823855,
+          "gaussian_nll": 81.41744480398386
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 37.80379808102846,
+          "gaussian_nll": 81.26020660713435
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 48.20906781783844,
+          "gaussian_nll": 83.92747439039493
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 83.78460402643877,
+          "gaussian_nll": 84.86960639737953
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 53.170911594306055,
+          "gaussian_nll": 85.00534222343131
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 37.51043129849085,
+          "gaussian_nll": 82.43263093116863
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 58.888144284234514,
+          "gaussian_nll": 1051.8451648694959
+        }
+      ],
+      "adjacent_exact_residual_correlation": -0.0002924224489761556
+    },
+    {
+      "participant": "16",
+      "channel": "strength",
+      "n": 137,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.05447810886858451,
+          "median_variance_ratio": 1.1199910641599862
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.011166466787050312,
+          "median_variance_ratio": 1.1453652540193187
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.036257789832163684,
+          "median_variance_ratio": 1.170196637348523
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.046486852238255855,
+          "median_variance_ratio": 0.9817086245651121
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0361395936927077,
+          "median_variance_ratio": 1.0191233367646195
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.03962307457514624,
+          "median_variance_ratio": 0.8532751622404817
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.017547881987902594,
+          "median_variance_ratio": 0.8638313774378616
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0420028224654543,
+          "median_variance_ratio": 0.8730382038721296
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 27,
+          "success": true,
+          "t_nll": 11.07037595303142,
+          "gaussian_nll": 10.05242901887454
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 27,
+          "success": true,
+          "t_nll": 11.060962454250987,
+          "gaussian_nll": 9.993769413284234
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 27,
+          "success": true,
+          "t_nll": 14.366905127080372,
+          "gaussian_nll": 16.437360141280063
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 11.5803955480419,
+          "gaussian_nll": 8.099812862410971
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 15.082160576362185,
+          "gaussian_nll": 12.48648543314376
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 27,
+          "success": true,
+          "t_nll": 11.655398759835691,
+          "gaussian_nll": 10.307464102581076
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 27,
+          "success": true,
+          "t_nll": 15.830906753825666,
+          "gaussian_nll": 16.37553823038235
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 27,
+          "success": true,
+          "t_nll": 10.331196533225134,
+          "gaussian_nll": 6.497621771753578
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 11.129780677672073,
+          "gaussian_nll": 10.767623264228618
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 14.635295972007182,
+          "gaussian_nll": 10.700930328387843
+        }
+      ],
+      "adjacent_exact_residual_correlation": 0.05587226574243608
+    },
+    {
+      "participant": "17",
+      "channel": "angle",
+      "n": 140,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.020203700412004758,
+          "median_variance_ratio": 1.116507218562489
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.009157880058875151,
+          "median_variance_ratio": 1.108758281246276
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.02006378577476273,
+          "median_variance_ratio": 1.1065653697917233
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.020121656556502887,
+          "median_variance_ratio": 1.0066885614795504
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.017874926707537573,
+          "median_variance_ratio": 0.9970368560396698
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.027136788106151766,
+          "median_variance_ratio": 0.9205602688911447
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.014425499597367148,
+          "median_variance_ratio": 0.9137310894740981
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.02311580993159954,
+          "median_variance_ratio": 0.9102353928433944
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 41.76763946156312,
+          "gaussian_nll": 41.60258124390516
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 33.916850444267865,
+          "gaussian_nll": 35.61575342708997
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 42.95062819187348,
+          "gaussian_nll": 49.49919556662875
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 44.78074448066526,
+          "gaussian_nll": 42.9941820793992
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 33.40994512570359,
+          "gaussian_nll": 34.02728072015098
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 39.56370650019304,
+          "gaussian_nll": 44.22190806168804
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 45.29870219641429,
+          "gaussian_nll": 54.37048490612357
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 39.57673176404154,
+          "gaussian_nll": 40.128932468855865
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 38.92761238397511,
+          "gaussian_nll": 39.79756209588564
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 36.22927387019949,
+          "gaussian_nll": 35.36341245342177
+        }
+      ],
+      "adjacent_exact_residual_correlation": 0.1100192288850276
+    },
+    {
+      "participant": "17",
+      "channel": "strength",
+      "n": 137,
+      "censored": 2,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.06020189773091623,
+          "median_variance_ratio": 1.108126275654123
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.009895156629492058,
+          "median_variance_ratio": 1.1180768472193165
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.050471139363104926,
+          "median_variance_ratio": 1.1540973238629948
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.055829607112108603,
+          "median_variance_ratio": 0.9875954993458131
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.054352271474692355,
+          "median_variance_ratio": 1.0304679308049527
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.05119932464571908,
+          "median_variance_ratio": 0.8793560585948587
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.015404898078399516,
+          "median_variance_ratio": 0.8930386671218662
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.062280238841142824,
+          "median_variance_ratio": 0.9185470879045461
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 27,
+          "success": true,
+          "t_nll": 14.34670930123146,
+          "gaussian_nll": 14.010574927324994
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 27,
+          "success": true,
+          "t_nll": 5.491445983326299,
+          "gaussian_nll": 5.232438967131045
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 27,
+          "success": true,
+          "t_nll": 19.36168158923256,
+          "gaussian_nll": 20.39102905966974
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 9.19281705759793,
+          "gaussian_nll": 8.581120340821014
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 11.589677725833084,
+          "gaussian_nll": 13.779398931374361
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 27,
+          "success": true,
+          "t_nll": 18.641883036153647,
+          "gaussian_nll": 31.995874131810233
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 27,
+          "success": true,
+          "t_nll": 15.110172104493028,
+          "gaussian_nll": 20.614675638410446
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 27,
+          "success": true,
+          "t_nll": 12.012775220063215,
+          "gaussian_nll": 12.443857079706918
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 5.950673135462974,
+          "gaussian_nll": 7.601459477401878
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 9.056037720461285,
+          "gaussian_nll": 10.125272360591921
+        }
+      ],
+      "adjacent_exact_residual_correlation": 0.07289989609244857
+    },
+    {
+      "participant": "18",
+      "channel": "angle",
+      "n": 140,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04264789925957161,
+          "median_variance_ratio": 1.1301391606541866
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.004975194868815526,
+          "median_variance_ratio": 1.1274953309217692
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.05147223546205759,
+          "median_variance_ratio": 1.1379969307264082
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.03888002907111816,
+          "median_variance_ratio": 1.002204080245222
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.05569841212735948,
+          "median_variance_ratio": 1.0079216557526203
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.032924008235701616,
+          "median_variance_ratio": 0.8893558751613435
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.009503617858466588,
+          "median_variance_ratio": 0.8872662644572786
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.06378101752898274,
+          "median_variance_ratio": 0.8928645829599873
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 14.866704037716039,
+          "gaussian_nll": 15.643699154166473
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 19.496165225136508,
+          "gaussian_nll": 17.361547859960293
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 19.645925378104526,
+          "gaussian_nll": 18.653917792104398
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 20.88025582370039,
+          "gaussian_nll": 21.51154978602924
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 16.41223140785418,
+          "gaussian_nll": 15.74714303574809
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 25.276804416360527,
+          "gaussian_nll": 21.07287040087956
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 20.895290273175036,
+          "gaussian_nll": 19.934835582504633
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 18.12675966602376,
+          "gaussian_nll": 19.765506061927724
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 18.855936787481287,
+          "gaussian_nll": 19.11252971792022
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 15.788722244361118,
+          "gaussian_nll": 18.560644376363058
+        }
+      ],
+      "adjacent_exact_residual_correlation": 0.0034662933771927845
+    },
+    {
+      "participant": "18",
+      "channel": "strength",
+      "n": 137,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.024913404479124688,
+          "median_variance_ratio": 1.1139431701219946
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.008603122924505715,
+          "median_variance_ratio": 1.1384768592404897
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.025407739748334775,
+          "median_variance_ratio": 1.1598628864385163
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.018643584292204855,
+          "median_variance_ratio": 0.982449342481559
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.030286290035598965,
+          "median_variance_ratio": 1.0173367347293265
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.014797865380686715,
+          "median_variance_ratio": 0.8548656593068471
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.013308383697610138,
+          "median_variance_ratio": 0.8713891849879543
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.039286169771729364,
+          "median_variance_ratio": 0.8902829020632128
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 27,
+          "success": true,
+          "t_nll": 3.318677206934533,
+          "gaussian_nll": 2.4349118920456214
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 27,
+          "success": true,
+          "t_nll": 6.621469326389288,
+          "gaussian_nll": 4.89957565012996
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 27,
+          "success": true,
+          "t_nll": -0.9927062697007337,
+          "gaussian_nll": -1.2847913735052818
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 2.634642352756856,
+          "gaussian_nll": 2.743994655402159
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 2.3109176186092477,
+          "gaussian_nll": 0.9440739628418674
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 27,
+          "success": true,
+          "t_nll": 4.305574551566899,
+          "gaussian_nll": 3.445356669350775
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 27,
+          "success": true,
+          "t_nll": 1.59485483683379,
+          "gaussian_nll": 2.427667360826986
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 27,
+          "success": true,
+          "t_nll": -3.8256948212630406,
+          "gaussian_nll": -3.7525821322031083
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 3.707076945644018,
+          "gaussian_nll": 2.900538503554961
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 6.642258317266297,
+          "gaussian_nll": 5.743949238016068
+        }
+      ],
+      "adjacent_exact_residual_correlation": -0.3538523236874109
+    },
+    {
+      "participant": "19",
+      "channel": "angle",
+      "n": 139,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.02291176755301352,
+          "median_variance_ratio": 1.0070979533332487
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.01775035024345666,
+          "median_variance_ratio": 1.0296594953068368
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.020823273305086723,
+          "median_variance_ratio": 1.0628788716385944
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0160296635537461,
+          "median_variance_ratio": 0.9804661533556722
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.009345206736959917,
+          "median_variance_ratio": 1.0114911653222844
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.03766707672881004,
+          "median_variance_ratio": 1.0115514446694756
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.03306736533250795,
+          "median_variance_ratio": 1.0621550853542896
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.03326123047636099,
+          "median_variance_ratio": 1.0927239117324756
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 77.96841809089258,
+          "gaussian_nll": 82.35057734685327
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 76.21546553995091,
+          "gaussian_nll": 78.61686165332007
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 27,
+          "success": true,
+          "t_nll": 69.84703304277411,
+          "gaussian_nll": 74.78126869371704
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 67.11469021180972,
+          "gaussian_nll": 71.21455814580249
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 81.12647414332068,
+          "gaussian_nll": 82.99628044342816
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 67.97867669698309,
+          "gaussian_nll": 74.937245817231
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": false
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 27,
+          "success": true,
+          "t_nll": 67.4195148671284,
+          "gaussian_nll": 72.62251268113
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 69.46318238855822,
+          "gaussian_nll": 71.09314816890594
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 104.40405924904552,
+          "gaussian_nll": 92.35857053554848
+        }
+      ],
+      "adjacent_exact_residual_correlation": -0.21470712383289797
+    },
+    {
+      "participant": "19",
+      "channel": "strength",
+      "n": 127,
+      "censored": 75,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.035843091025882026,
+          "median_variance_ratio": 1.1338055050312452
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.007778888606034089,
+          "median_variance_ratio": 1.1235031701965743
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.01666716586949317,
+          "median_variance_ratio": 1.1306956418512517
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.033645983000402425,
+          "median_variance_ratio": 0.999813361268662
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.01780081069775807,
+          "median_variance_ratio": 1.001066372209748
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.03324191476803261,
+          "median_variance_ratio": 0.8825369080845099
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.012406785869267896,
+          "median_variance_ratio": 0.8874684367873713
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.024979662012753128,
+          "median_variance_ratio": 0.8820153021936131
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 25,
+          "success": true,
+          "t_nll": 18.17895485286133,
+          "gaussian_nll": 17.298340904277367
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 25,
+          "success": true,
+          "t_nll": 18.23825195027292,
+          "gaussian_nll": 19.99047129579322
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 25,
+          "success": true,
+          "t_nll": 26.366636992796046,
+          "gaussian_nll": 26.09558838681742
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 25,
+          "success": true,
+          "t_nll": 18.804568168846224,
+          "gaussian_nll": 17.97426922317035
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 25,
+          "success": true,
+          "t_nll": 19.590698043328377,
+          "gaussian_nll": 18.941378958292834
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 25,
+          "success": true,
+          "t_nll": 18.06917701061481,
+          "gaussian_nll": 35.14267871018692
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 25,
+          "success": true,
+          "t_nll": 20.76544027591748,
+          "gaussian_nll": 36.211810155703276
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 25,
+          "success": true,
+          "t_nll": 21.64782178646591,
+          "gaussian_nll": 21.465958409277633
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 25,
+          "success": true,
+          "t_nll": 19.952320367000375,
+          "gaussian_nll": 20.804407777931893
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 25,
+          "success": true,
+          "t_nll": 20.64508273976275,
+          "gaussian_nll": 48.41284614809401
+        }
+      ],
+      "adjacent_exact_residual_correlation": 0.13688330443649271
+    },
+    {
+      "participant": "20",
+      "channel": "angle",
+      "n": 140,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04384673963323367,
+          "median_variance_ratio": 0.9410345040269945
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.031807924763241215,
+          "median_variance_ratio": 0.9915737425388463
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.03736452600316911,
+          "median_variance_ratio": 1.0274950252887454
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0287842789228475,
+          "median_variance_ratio": 0.9485159607369745
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.023167881617674208,
+          "median_variance_ratio": 1.033415884816951
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.08101578080255421,
+          "median_variance_ratio": 1.1045168688801634
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0763613250094651,
+          "median_variance_ratio": 1.1674267566114118
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.08326596283135007,
+          "median_variance_ratio": 1.2020647781546803
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 73.44350600393645,
+          "gaussian_nll": 80.99527166252413
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 73.85689731402172,
+          "gaussian_nll": 77.84487344566041
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 62.36541306459378,
+          "gaussian_nll": 72.86258714170427
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 81.02898366212149,
+          "gaussian_nll": 85.73586756872844
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 63.48829663820434,
+          "gaussian_nll": 71.30799548120653
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 77.32219747058797,
+          "gaussian_nll": 166.9715738348305
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 85.90019331867565,
+          "gaussian_nll": 85.10418933467403
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 62.76588664579091,
+          "gaussian_nll": 75.93798527476537
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 57.251859704785645,
+          "gaussian_nll": 70.81075367768965
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 104.68014968698704,
+          "gaussian_nll": 86.80247469758567
+        }
+      ],
+      "adjacent_exact_residual_correlation": -0.0751641959661023
+    },
+    {
+      "participant": "21",
+      "channel": "angle",
+      "n": 140,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04378060440291309,
+          "median_variance_ratio": 1.109514550607654
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.009893254358972,
+          "median_variance_ratio": 1.1078201334580382
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.08393484086756015,
+          "median_variance_ratio": 1.1191387755066708
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.049401740219678254,
+          "median_variance_ratio": 1.0021698953229186
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.08008526118375409,
+          "median_variance_ratio": 1.0110487826940346
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.06682218085480485,
+          "median_variance_ratio": 0.9189988096183974
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.018615956183000496,
+          "median_variance_ratio": 0.9150769299904657
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.07388306001185288,
+          "median_variance_ratio": 0.9280905226647536
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 33.50076331139252,
+          "gaussian_nll": 36.34744917509775
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 45.35298311094536,
+          "gaussian_nll": 45.8870572585866
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 34.97985995334066,
+          "gaussian_nll": 33.57391007644719
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 38.174161314767545,
+          "gaussian_nll": 39.46056707154002
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 32.93683696092955,
+          "gaussian_nll": 32.06037991500929
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 40.880957039056256,
+          "gaussian_nll": 136.27867566360175
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 37.87985584473196,
+          "gaussian_nll": 46.53541851491298
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 46.353320739575494,
+          "gaussian_nll": 45.431537492103516
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 31.41548027379384,
+          "gaussian_nll": 31.587936367848787
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 31.059912564331913,
+          "gaussian_nll": 31.190134603252424
+        }
+      ],
+      "adjacent_exact_residual_correlation": 0.20456375018642436
+    },
+    {
+      "participant": "21",
+      "channel": "strength",
+      "n": 140,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.027384374149739966,
+          "median_variance_ratio": 1.1388201952902248
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.007989263933405537,
+          "median_variance_ratio": 1.1374703239629138
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.017096758813586476,
+          "median_variance_ratio": 1.1398639378270108
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.02157133521752251,
+          "median_variance_ratio": 1.0009600690901421
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.022306055004141477,
+          "median_variance_ratio": 1.0006617532341755
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.019083086599777643,
+          "median_variance_ratio": 0.8718600530695464
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.011715612217681198,
+          "median_variance_ratio": 0.8714228125651349
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.03054019964443387,
+          "median_variance_ratio": 0.86803150864907
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 15.515831095174583,
+          "gaussian_nll": 14.221632078121184
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 11.85934222075051,
+          "gaussian_nll": 10.74293326157905
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 5.906400897025396,
+          "gaussian_nll": 5.35591292242265
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 10.243323514639245,
+          "gaussian_nll": 9.720379814221896
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 9.8928963832872,
+          "gaussian_nll": 10.171706296683869
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 17.803757937801137,
+          "gaussian_nll": 27.95818278684773
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 17.379678198982475,
+          "gaussian_nll": 21.543825396106396
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 9.153464275307062,
+          "gaussian_nll": 8.768230899629256
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 7.386266999393446,
+          "gaussian_nll": 6.59589933796964
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 5.05141004778412,
+          "gaussian_nll": 5.0473034266065735
+        }
+      ],
+      "adjacent_exact_residual_correlation": 0.030901007960554974
+    },
+    {
+      "participant": "22",
+      "channel": "strength",
+      "n": 135,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.010025435389268516,
+          "median_variance_ratio": 1.1321680732434771
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0058086667995636745,
+          "median_variance_ratio": 1.1285374882225279
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.006062880697948068,
+          "median_variance_ratio": 1.1260618429257707
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.005617103931817901,
+          "median_variance_ratio": 1.0027592728113845
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.007442971994926001,
+          "median_variance_ratio": 0.9985535168781478
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.01019800186483567,
+          "median_variance_ratio": 0.8868398527271598
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.010250272109052442,
+          "median_variance_ratio": 0.8840065441514013
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.014753673802263799,
+          "median_variance_ratio": 0.8835387325368439
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 27,
+          "success": true,
+          "t_nll": -2.196874743383894,
+          "gaussian_nll": -2.426493764783352
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 27,
+          "success": true,
+          "t_nll": 0.18585678672500472,
+          "gaussian_nll": -0.0035396306471022765
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 27,
+          "success": true,
+          "t_nll": 2.1991230944469917,
+          "gaussian_nll": 3.177834275892076
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 26,
+          "success": true,
+          "t_nll": 0.942505206451979,
+          "gaussian_nll": -0.32971092167466376
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 26,
+          "success": true,
+          "t_nll": 3.276776911458578,
+          "gaussian_nll": 1.6260354960491363
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 27,
+          "success": true,
+          "t_nll": 1.2344949520508524,
+          "gaussian_nll": 4.023663087963104
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 27,
+          "success": true,
+          "t_nll": 1.1931619362352153,
+          "gaussian_nll": 2.0188811142718253
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 27,
+          "success": true,
+          "t_nll": -1.906531883673452,
+          "gaussian_nll": -2.7353791882828755
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 26,
+          "success": true,
+          "t_nll": 5.78461451829202,
+          "gaussian_nll": 4.395235806849904
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 26,
+          "success": true,
+          "t_nll": 2.121443223363198,
+          "gaussian_nll": 15.299515120147584
+        }
+      ],
+      "adjacent_exact_residual_correlation": -0.18958471293195284
+    },
+    {
+      "participant": "23",
+      "channel": "angle",
+      "n": 140,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.032711572990430884,
+          "median_variance_ratio": 1.1033719771347696
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0077518940098341965,
+          "median_variance_ratio": 1.1100506295910588
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.022961823146866973,
+          "median_variance_ratio": 1.1059364822968694
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.03230492744530517,
+          "median_variance_ratio": 0.9962541838506982
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.022660458287933005,
+          "median_variance_ratio": 1.002358126937647
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.034299618055804296,
+          "median_variance_ratio": 0.9263042663743511
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.01463312774089833,
+          "median_variance_ratio": 0.9195493299777022
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.030274348560734927,
+          "median_variance_ratio": 0.9270684484940919
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 25.144705762532574,
+          "gaussian_nll": 27.03567507465565
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 21.895977630784202,
+          "gaussian_nll": 24.22399439507177
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 24.706246973485108,
+          "gaussian_nll": 24.921272679918744
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 37.0844703144125,
+          "gaussian_nll": 36.37399524666376
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 38.37823139419996,
+          "gaussian_nll": 49.05680742065696
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 21.05567310684963,
+          "gaussian_nll": 28.46868868598548
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 22.9320173194154,
+          "gaussian_nll": 25.33476485376663
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 38.06855803695691,
+          "gaussian_nll": 33.454416439366234
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 27.474264300830004,
+          "gaussian_nll": 25.367562096580684
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 35.39662824970432,
+          "gaussian_nll": 46.28298251097694
+        }
+      ],
+      "adjacent_exact_residual_correlation": 0.046018877002213604
+    },
+    {
+      "participant": "24",
+      "channel": "strength",
+      "n": 137,
+      "censored": 18,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.014378145668477298,
+          "median_variance_ratio": 1.1487720681136098
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.009978189714863998,
+          "median_variance_ratio": 1.1403728962584996
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.01411631414791255,
+          "median_variance_ratio": 1.1363675747132869
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.011311552484331676,
+          "median_variance_ratio": 1.0068471991854846
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.01115033836703803,
+          "median_variance_ratio": 0.9965376463282428
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.020423690845449732,
+          "median_variance_ratio": 0.8706584669382843
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.015546707816168386,
+          "median_variance_ratio": 0.8648471884508879
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.019721705053843835,
+          "median_variance_ratio": 0.8618775938525047
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 27,
+          "success": true,
+          "t_nll": 29.674660118247292,
+          "gaussian_nll": 28.317376987750173
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 27,
+          "success": true,
+          "t_nll": 27.341072790154445,
+          "gaussian_nll": 26.744762220469955
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 27,
+          "success": true,
+          "t_nll": 27.4211080931995,
+          "gaussian_nll": 27.94149202940215
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 25.736595282346993,
+          "gaussian_nll": 25.03019497475065
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 26.917430316683692,
+          "gaussian_nll": 26.343811662969884
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 27,
+          "success": true,
+          "t_nll": 28.61812097495339,
+          "gaussian_nll": 45.02332083400009
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 27,
+          "success": true,
+          "t_nll": 29.899625201950826,
+          "gaussian_nll": 30.509490089734626
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 27,
+          "success": true,
+          "t_nll": 26.2870054893517,
+          "gaussian_nll": 25.675259921771328
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 26.783866455688717,
+          "gaussian_nll": 28.25699978302052
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 28.573408302997432,
+          "gaussian_nll": 28.715391858829133
+        }
+      ],
+      "adjacent_exact_residual_correlation": -0.23701977655416082
+    },
+    {
+      "participant": "25",
+      "channel": "angle",
+      "n": 140,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04468393711629182,
+          "median_variance_ratio": 1.1032735560808544
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.012233951679119556,
+          "median_variance_ratio": 1.103777002366826
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.050045872335856896,
+          "median_variance_ratio": 1.1083618028280375
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04944567294711499,
+          "median_variance_ratio": 0.9960552076539824
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04279510961713664,
+          "median_variance_ratio": 1.007310523236706
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.06063476323163273,
+          "median_variance_ratio": 0.9203396025010944
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.020779480399846742,
+          "median_variance_ratio": 0.9281764711399947
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.03344905082329482,
+          "median_variance_ratio": 0.9391219591381466
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 22.614554535683116,
+          "gaussian_nll": 25.465882827201707
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 23.80470761682352,
+          "gaussian_nll": 24.251596365626764
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 31.522007296046144,
+          "gaussian_nll": 30.045853536559328
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 19.286298345274638,
+          "gaussian_nll": 21.68389295439765
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 30.981218535886985,
+          "gaussian_nll": 68.23388220364798
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 27.21351883172042,
+          "gaussian_nll": 25.476627342721745
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 27.426432714215114,
+          "gaussian_nll": 27.050610897683026
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 30.763211448831147,
+          "gaussian_nll": 28.415146025760357
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 14.304521344486457,
+          "gaussian_nll": 19.926560149655597
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 46.23279626289516,
+          "gaussian_nll": 68.36509793099616
+        }
+      ],
+      "adjacent_exact_residual_correlation": 0.16264175610644402
+    },
+    {
+      "participant": "25",
+      "channel": "strength",
+      "n": 134,
+      "censored": 5,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.015087654610449492,
+          "median_variance_ratio": 1.1029922236858054
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0072597375179496715,
+          "median_variance_ratio": 1.1079775687206945
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.016567991430884034,
+          "median_variance_ratio": 1.1136711554736238
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.010394529484238593,
+          "median_variance_ratio": 0.9990352425406033
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.017779810187415573,
+          "median_variance_ratio": 1.0030351082959545
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.013444738945819143,
+          "median_variance_ratio": 0.9129826027354899
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.013710937903939405,
+          "median_variance_ratio": 0.9090595770215921
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.025942326061459742,
+          "median_variance_ratio": 0.9083002359254496
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 27,
+          "success": true,
+          "t_nll": 17.049579065133663,
+          "gaussian_nll": 17.02766235345643
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 27,
+          "success": true,
+          "t_nll": 12.766163850748411,
+          "gaussian_nll": 13.354665706431081
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 26,
+          "success": true,
+          "t_nll": 9.784595645501138,
+          "gaussian_nll": 11.266494558631653
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 26,
+          "success": true,
+          "t_nll": 15.816404995907568,
+          "gaussian_nll": 14.616325021761233
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 26,
+          "success": true,
+          "t_nll": 21.43318940504209,
+          "gaussian_nll": 23.5190190330261
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 27,
+          "success": true,
+          "t_nll": 20.259979464637002,
+          "gaussian_nll": 24.370180042801746
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 27,
+          "success": true,
+          "t_nll": 17.626314535122475,
+          "gaussian_nll": 18.369419957671028
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 26,
+          "success": true,
+          "t_nll": 15.136184202027424,
+          "gaussian_nll": 15.909292785437867
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 26,
+          "success": true,
+          "t_nll": 14.19118038985999,
+          "gaussian_nll": 13.862141285478051
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 26,
+          "success": true,
+          "t_nll": 5.342563242963622,
+          "gaussian_nll": 8.765694903454483
+        }
+      ],
+      "adjacent_exact_residual_correlation": 0.1434386738902741
+    },
+    {
+      "participant": "26",
+      "channel": "angle",
+      "n": 140,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.005363641521517716,
+          "median_variance_ratio": 1.1098402516369181
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.005603808317798345,
+          "median_variance_ratio": 1.0642605853622136
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.009629570494525987,
+          "median_variance_ratio": 1.0536101506414286
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0056130500687994345,
+          "median_variance_ratio": 1.0296776510627557
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.006591964290064468,
+          "median_variance_ratio": 0.9860042957625335
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.023929626117533905,
+          "median_variance_ratio": 1.056775395738792
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.019065885522503174,
+          "median_variance_ratio": 1.0313686776253126
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.016851989902784505,
+          "median_variance_ratio": 0.957839461958202
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 41.43145734481495,
+          "gaussian_nll": 48.591561658180034
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 40.85189271926846,
+          "gaussian_nll": 51.171791559429614
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 48.276449132328516,
+          "gaussian_nll": 76.66290298737124
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 38.881964183299154,
+          "gaussian_nll": 44.35741386830061
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 43.79800260746818,
+          "gaussian_nll": 51.69929432385727
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 33.087383510456725,
+          "gaussian_nll": 43.27646439421593
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 39.619421389027075,
+          "gaussian_nll": 45.33340073037332
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 48.25011074820761,
+          "gaussian_nll": 52.82109373602607
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 49.73878224532553,
+          "gaussian_nll": 56.89736092062137
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 45.00601506008022,
+          "gaussian_nll": 72.844858517884
+        }
+      ],
+      "adjacent_exact_residual_correlation": -0.10033265908013327
+    },
+    {
+      "participant": "27",
+      "channel": "strength",
+      "n": 139,
+      "censored": 1,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.011343948598006819,
+          "median_variance_ratio": 1.0730147571411317
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.009144658045863565,
+          "median_variance_ratio": 1.1228893519352297
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.03046886722375219,
+          "median_variance_ratio": 1.1547695827191244
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.012831559574777274,
+          "median_variance_ratio": 0.9554317793996517
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.02645754565972259,
+          "median_variance_ratio": 1.0329556523705001
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.025719362191560544,
+          "median_variance_ratio": 0.8493716416167092
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.016085372122661073,
+          "median_variance_ratio": 0.8896754582671513
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.02358404155526826,
+          "median_variance_ratio": 0.9287986478302686
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 14.927254017217127,
+          "gaussian_nll": 16.920839010245636
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 8.426657571293564,
+          "gaussian_nll": 9.215863913561124
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 27,
+          "success": true,
+          "t_nll": 20.87877878838987,
+          "gaussian_nll": 18.4803203787097
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 9.006110446968814,
+          "gaussian_nll": 8.076794236193301
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 9.160694609494595,
+          "gaussian_nll": 8.268499612628148
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 32.30065606104477,
+          "gaussian_nll": 33.733941046120144
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 8.093575702311107,
+          "gaussian_nll": 8.774561862950163
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 27,
+          "success": true,
+          "t_nll": 6.3051293815010965,
+          "gaussian_nll": 10.172810056785286
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 1.3582119486366353,
+          "gaussian_nll": 3.31404118557208
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 39.4560467706344,
+          "gaussian_nll": 19.209055099807
+        }
+      ],
+      "adjacent_exact_residual_correlation": -0.13450769415959266
+    },
+    {
+      "participant": "28",
+      "channel": "angle",
+      "n": 140,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.05013333447385359,
+          "median_variance_ratio": 1.1286406265338003
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.004474295584563454,
+          "median_variance_ratio": 1.1183289695721474
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.034158477398228665,
+          "median_variance_ratio": 1.1238547814107434
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04825958626851839,
+          "median_variance_ratio": 1.0029524955604026
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.033933628030867004,
+          "median_variance_ratio": 1.0023585208484822
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04532003444249422,
+          "median_variance_ratio": 0.895749208523331
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.00764513645397035,
+          "median_variance_ratio": 0.8961955384871871
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.03476384657890699,
+          "median_variance_ratio": 0.8864875304927655
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 25.784328426096916,
+          "gaussian_nll": 30.198381285805294
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 19.814153501397687,
+          "gaussian_nll": 19.223767989163505
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 21.17675539420653,
+          "gaussian_nll": 20.485078918610483
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 22.19394570142632,
+          "gaussian_nll": 19.411417157886405
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 27.3524419866708,
+          "gaussian_nll": 24.459486472487722
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 18.561472775967303,
+          "gaussian_nll": 19.964269249567987
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 21.91865665994287,
+          "gaussian_nll": 19.818591087101048
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 27.36499932603037,
+          "gaussian_nll": 39.83695689448493
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 26.029631402039723,
+          "gaussian_nll": 26.950347069582712
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 23.539272351168545,
+          "gaussian_nll": 21.815054390490076
+        }
+      ],
+      "adjacent_exact_residual_correlation": 0.18417829567440322
+    },
+    {
+      "participant": "28",
+      "channel": "strength",
+      "n": 133,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04335289214261073,
+          "median_variance_ratio": 1.120055515181791
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0030919833598452725,
+          "median_variance_ratio": 1.1385721713277575
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0326693456174881,
+          "median_variance_ratio": 1.15569895772714
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.040956118900101326,
+          "median_variance_ratio": 0.9839354671231748
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.033312777993199975,
+          "median_variance_ratio": 1.015511185898066
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.03820207176373991,
+          "median_variance_ratio": 0.8594668854184739
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0047195848724553135,
+          "median_variance_ratio": 0.873413457370186
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.034360141973412535,
+          "median_variance_ratio": 0.8868817038847494
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 27,
+          "success": true,
+          "t_nll": 12.69807839128951,
+          "gaussian_nll": 14.837222950453993
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 26,
+          "success": true,
+          "t_nll": 5.7699945833835535,
+          "gaussian_nll": 4.082232506195047
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 26,
+          "success": true,
+          "t_nll": 5.327606222986789,
+          "gaussian_nll": 6.231332559938355
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 26,
+          "success": true,
+          "t_nll": 11.731152661307318,
+          "gaussian_nll": 13.130512721612108
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 26,
+          "success": true,
+          "t_nll": 9.060364217410848,
+          "gaussian_nll": 6.362719723925842
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 27,
+          "success": true,
+          "t_nll": 14.882922932090409,
+          "gaussian_nll": 14.75500727520117
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 26,
+          "success": true,
+          "t_nll": 5.432905948865587,
+          "gaussian_nll": 5.704808194450357
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 26,
+          "success": true,
+          "t_nll": 8.86317038340603,
+          "gaussian_nll": 8.988674953553527
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 26,
+          "success": true,
+          "t_nll": 9.414097631786884,
+          "gaussian_nll": 8.157824669949111
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 26,
+          "success": true,
+          "t_nll": 5.788240554027702,
+          "gaussian_nll": 6.154279665809131
+        }
+      ],
+      "adjacent_exact_residual_correlation": -0.11673297042632307
+    },
+    {
+      "participant": "29",
+      "channel": "angle",
+      "n": 140,
+      "censored": 0,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.05195205791121511,
+          "median_variance_ratio": 0.9671497745424286
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04654843606730452,
+          "median_variance_ratio": 0.9576800502771501
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.04798247252769661,
+          "median_variance_ratio": 0.9582093720726093
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.025063576180159912,
+          "median_variance_ratio": 1.0029190410059434
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.012316522586488167,
+          "median_variance_ratio": 0.9990763131508731
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0988190970455703,
+          "median_variance_ratio": 1.1539980649196921
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0944069744750284,
+          "median_variance_ratio": 1.1533558059947908
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0951705733595207,
+          "median_variance_ratio": 1.1422620592906763
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 67.87610989220872,
+          "gaussian_nll": 76.05010778549665
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 77.06002610432446,
+          "gaussian_nll": 78.81071831506318
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 69.21946950994621,
+          "gaussian_nll": 72.4798179172589
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 85.46237798628728,
+          "gaussian_nll": 86.79646903902302
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 78.24919073594165,
+          "gaussian_nll": 81.87528281496401
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 82.89716078979515,
+          "gaussian_nll": 87.87824187941284
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 67.63646954417884,
+          "gaussian_nll": 73.0104791050407
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 28,
+          "success": true,
+          "t_nll": 71.56240826619799,
+          "gaussian_nll": 80.0333925507443
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 94.11816588995679,
+          "gaussian_nll": 89.00356119165131
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 68.78546366479839,
+          "gaussian_nll": 72.76214823095039
+        }
+      ],
+      "adjacent_exact_residual_correlation": -0.0931573549002666
+    },
+    {
+      "participant": "30",
+      "channel": "strength",
+      "n": 139,
+      "censored": 17,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "sensitivity": [
+        {
+          "nu": 4.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.01871937446317513,
+          "median_variance_ratio": 1.12786334933702
+        },
+        {
+          "nu": 4.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.011782394322292337,
+          "median_variance_ratio": 1.1270218070906761
+        },
+        {
+          "nu": 4.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.019858579675310187,
+          "median_variance_ratio": 1.1265328471196674
+        },
+        {
+          "nu": 5.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.015358811665173002,
+          "median_variance_ratio": 0.999886612341336
+        },
+        {
+          "nu": 5.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.0,
+          "median_variance_ratio": 1.0
+        },
+        {
+          "nu": 5.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.015424441232642652,
+          "median_variance_ratio": 1.0001657743725851
+        },
+        {
+          "nu": 8.0,
+          "penalty": 0.3,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.026291178718650943,
+          "median_variance_ratio": 0.8846380736638965
+        },
+        {
+          "nu": 8.0,
+          "penalty": 1.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.019653260224762898,
+          "median_variance_ratio": 0.8828635218619718
+        },
+        {
+          "nu": 8.0,
+          "penalty": 3.0,
+          "success": true,
+          "mean_rms_change_in_default_sd": 0.02395789942675151,
+          "median_variance_ratio": 0.8764545448039204
+        }
+      ],
+      "holdout": [
+        {
+          "strategy": "interleaved",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 19.384839890184377,
+          "gaussian_nll": 19.71028202726215
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 21.662938950403742,
+          "gaussian_nll": 20.361406970479635
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 2,
+          "n": 27,
+          "success": true,
+          "t_nll": 21.14280061862262,
+          "gaussian_nll": 24.238360108215822
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 22.832158556714415,
+          "gaussian_nll": 22.107617840935617
+        },
+        {
+          "strategy": "interleaved",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 24.82535084028806,
+          "gaussian_nll": 24.35149809408254
+        },
+        {
+          "strategy": "blocked",
+          "fold": 0,
+          "n": 28,
+          "success": true,
+          "t_nll": 28.230061634916577,
+          "gaussian_nll": 58.5909283188409
+        },
+        {
+          "strategy": "blocked",
+          "fold": 1,
+          "n": 28,
+          "success": true,
+          "t_nll": 23.952323599348148,
+          "gaussian_nll": 25.458649670244878
+        },
+        {
+          "strategy": "blocked",
+          "fold": 2,
+          "n": 27,
+          "success": true,
+          "t_nll": 23.884236996607846,
+          "gaussian_nll": 23.429040419834497
+        },
+        {
+          "strategy": "blocked",
+          "fold": 3,
+          "n": 27,
+          "success": true,
+          "t_nll": 20.215246576768028,
+          "gaussian_nll": 21.921681209541184
+        },
+        {
+          "strategy": "blocked",
+          "fold": 4,
+          "n": 27,
+          "success": true,
+          "t_nll": 15.403134062559513,
+          "gaussian_nll": 16.881601197925427
+        }
+      ],
+      "adjacent_exact_residual_correlation": 0.135969027938538
+    }
+  ]
+}

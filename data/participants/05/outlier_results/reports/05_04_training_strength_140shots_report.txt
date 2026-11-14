@@ -1,0 +1,40 @@
+========================================================================
+  Outlier Detection Report
+========================================================================
+
+Participant : 05
+CSV File    : 05_04_training_strength_140shots.csv
+Mode        : strength
+Total shots : 140
+Review policy: retained data are manually reviewed; historical review flags are ignored.
+Flags: 1 = statistical outlier; 0 = not flagged (including untested rows).
+Generated   : 2026-11-12 19:57:27
+
+────────────────────────────────────────────────────────────────────────
+
+  Channel: ANGLE
+  ────────────────────────────────────────
+  Fit skipped : Only 0 eligible observations (need ≥ 15).
+  Eligible obs: 0
+  Outliers    : N/A
+
+
+  Channel: STRENGTH
+  ────────────────────────────────────────
+  Eligible obs     : 117
+  Spline df        : 6
+  Outliers detected: 1
+  Not tested (ineligible): 23
+  Undefined tests (flag 0): 0
+
+  Outlier details:
+   Shot         Value     Predicted      Residual       t_ext         p_raw        p_Bonf
+  ─────────────────────────────────────────────────────────────────────────────────────
+     18      0.976242     -0.452821      1.429063      3.9740    0.00012664    0.01481743
+
+  Assumption diagnostics:
+  shapiro_wilk: statistic=0.931832, p=0.000016
+  durbin_watson: 1.9056
+  ⚠ Shapiro-Wilk p = 0.0000 < 0.05 — residuals may not be normally distributed; t-test p-values may be unreliable.
+
+========================================================================

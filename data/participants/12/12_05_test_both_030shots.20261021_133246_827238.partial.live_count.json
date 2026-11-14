@@ -1,0 +1,2682 @@
+{
+  "count": 30,
+  "attempts": 30,
+  "invalid": 0,
+  "state": "inactive",
+  "mode": "both",
+  "active": false,
+  "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+  "needs_review": true,
+  "observation_status": "observed",
+  "last_event": {
+    "kind": "stopped",
+    "count": 30,
+    "attempt": 30,
+    "timestamp": 2629.4,
+    "source_timestamp": null,
+    "frame_id": null,
+    "mode": "both",
+    "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+    "reason": "session_stopped",
+    "needs_review": true
+  },
+  "counting_rule": "first_target_bank_v1",
+  "last_raw_point": [
+    674.1290322580645,
+    705.3960573476702
+  ],
+  "detection": {
+    "version": "bounded_dark_red_tracking_v3",
+    "low_light": false,
+    "cloth_value": 140.0,
+    "low_light_frames": 0,
+    "dark_min_value": 8,
+    "dark_hue_max": 20,
+    "dark_min_saturation": 90,
+    "cloth_gate": 120,
+    "tracked_fragment_frames": 0,
+    "tracked_sparse_color_frames": 0,
+    "tracked_sparse_min_fill": 0.25,
+    "fragment_grace_s": 0.25
+  },
+  "ball_unseen_seconds": 0.0,
+  "ready": true,
+  "notice": "实时计数就绪",
+  "dropped_analysis_frames": 0,
+  "received_analysis_frames": 15308,
+  "stream_received_analysis_frames": 157736,
+  "stream_dropped_analysis_frames": 13,
+  "calibration_error": "",
+  "errors": [],
+  "unready_during_recording": false,
+  "decoder_failed": false,
+  "analysis_stale": false,
+  "worker_failed": false,
+  "worker_stalled": false,
+  "analysis_gap_seen": false,
+  "source_timing_unknown": false,
+  "source_timing_ready": true,
+  "processing_error": "",
+  "source_clock": "mpegts_input_pts",
+  "transport_errors_total": 1,
+  "last_analysis_received_perf_counter": 16675.7710135,
+  "last_analysis_processed_perf_counter": 16675.7734566,
+  "processing_ms_p95": 5.612429998654988,
+  "processing_ms_max": 6.993499999225605,
+  "observation_age_ms_p95": 7.5242750019242495,
+  "observation_age_ms_max": 9.756399998877896,
+  "events": [
+    {
+      "kind": "armed",
+      "count": 0,
+      "attempt": 0,
+      "timestamp": 2374.633333,
+      "source_timestamp": 2374.633333,
+      "frame_id": 142449,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 142449,
+      "received_monotonic": 16420.9614133,
+      "published_monotonic": 16420.967677
+    },
+    {
+      "kind": "attempt",
+      "count": 0,
+      "attempt": 1,
+      "timestamp": 2377.283333,
+      "source_timestamp": 2377.283333,
+      "frame_id": 142608,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 142608,
+      "received_monotonic": 16423.6278705,
+      "published_monotonic": 16423.6344881
+    },
+    {
+      "kind": "confirmed",
+      "count": 1,
+      "attempt": 1,
+      "timestamp": 2378.35,
+      "source_timestamp": 2378.35,
+      "frame_id": 142672,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": false,
+      "contact_timestamp": 2378.3,
+      "contact_source_timestamp": 2378.3,
+      "contact_frame_id": 142669,
+      "start_timestamp": 2377.283333,
+      "start_source_timestamp": 2377.283333,
+      "contact_position": [
+        0.5151497110340133,
+        0.003982394806997852
+      ],
+      "approach_position": [
+        0.5120088852266881,
+        0.16392885557778908
+      ],
+      "return_position": [
+        0.5200985381171096,
+        0.057760592019519684
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 142672,
+      "received_monotonic": 16424.6977454,
+      "published_monotonic": 16424.7030745
+    },
+    {
+      "kind": "armed",
+      "count": 1,
+      "attempt": 1,
+      "timestamp": 2381.85,
+      "source_timestamp": 2381.85,
+      "frame_id": 142882,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 142882,
+      "received_monotonic": 16428.1702738,
+      "published_monotonic": 16428.1753936
+    },
+    {
+      "kind": "attempt",
+      "count": 1,
+      "attempt": 2,
+      "timestamp": 2384.5,
+      "source_timestamp": 2384.5,
+      "frame_id": 143041,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": true,
+      "decoder_frame": 143041,
+      "received_monotonic": 16430.8409201,
+      "published_monotonic": 16430.8458183
+    },
+    {
+      "kind": "confirmed",
+      "count": 2,
+      "attempt": 2,
+      "timestamp": 2385.483333,
+      "source_timestamp": 2385.483333,
+      "frame_id": 143100,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": true,
+      "contact_timestamp": 2385.45,
+      "contact_source_timestamp": 2385.45,
+      "contact_frame_id": 143098,
+      "start_timestamp": 2384.5,
+      "start_source_timestamp": 2384.5,
+      "contact_position": [
+        0.5087056600180431,
+        0.008677960989995157
+      ],
+      "approach_position": [
+        0.5011471974239848,
+        0.1925501644239674
+      ],
+      "return_position": [
+        0.5085935285829413,
+        0.04907832875667547
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 143100,
+      "received_monotonic": 16431.823748,
+      "published_monotonic": 16431.829905
+    },
+    {
+      "kind": "armed",
+      "count": 2,
+      "attempt": 2,
+      "timestamp": 2390.866667,
+      "source_timestamp": 2390.866667,
+      "frame_id": 143423,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 143423,
+      "received_monotonic": 16437.1615494,
+      "published_monotonic": 16437.1647109
+    },
+    {
+      "kind": "attempt",
+      "count": 2,
+      "attempt": 3,
+      "timestamp": 2394.416667,
+      "source_timestamp": 2394.416667,
+      "frame_id": 143636,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 143636,
+      "received_monotonic": 16440.7604105,
+      "published_monotonic": 16440.7665812
+    },
+    {
+      "kind": "confirmed",
+      "count": 3,
+      "attempt": 3,
+      "timestamp": 2395.4,
+      "source_timestamp": 2395.4,
+      "frame_id": 143695,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": false,
+      "contact_timestamp": 2395.366667,
+      "contact_source_timestamp": 2395.366667,
+      "contact_frame_id": 143693,
+      "start_timestamp": 2394.416667,
+      "start_source_timestamp": 2394.416667,
+      "contact_position": [
+        0.5111734302368472,
+        0.005845589083332129
+      ],
+      "approach_position": [
+        0.5057058196985597,
+        0.20662570771671332
+      ],
+      "return_position": [
+        0.5128538299498876,
+        0.04005626470082055
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 143695,
+      "received_monotonic": 16441.7032828,
+      "published_monotonic": 16441.7070822
+    },
+    {
+      "kind": "armed",
+      "count": 3,
+      "attempt": 3,
+      "timestamp": 2400.016667,
+      "source_timestamp": 2400.016667,
+      "frame_id": 143972,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 143972,
+      "received_monotonic": 16446.3480725,
+      "published_monotonic": 16446.3539182
+    },
+    {
+      "kind": "attempt",
+      "count": 3,
+      "attempt": 4,
+      "timestamp": 2402.166667,
+      "source_timestamp": 2402.166667,
+      "frame_id": 144101,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 144101,
+      "received_monotonic": 16448.5000864,
+      "published_monotonic": 16448.5052594
+    },
+    {
+      "kind": "confirmed",
+      "count": 4,
+      "attempt": 4,
+      "timestamp": 2403.05,
+      "source_timestamp": 2403.05,
+      "frame_id": 144154,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": true,
+      "contact_timestamp": 2403.016667,
+      "contact_source_timestamp": 2403.016667,
+      "contact_frame_id": 144152,
+      "start_timestamp": 2402.166667,
+      "start_source_timestamp": 2402.166667,
+      "contact_position": [
+        0.5168050570945926,
+        0.005252020328811411
+      ],
+      "approach_position": [
+        0.5129002556190696,
+        0.22957477512495292
+      ],
+      "return_position": [
+        0.5184079334623506,
+        0.037276653777015716
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 144154,
+      "received_monotonic": 16449.3722586,
+      "published_monotonic": 16449.3788206
+    },
+    {
+      "kind": "armed",
+      "count": 4,
+      "attempt": 4,
+      "timestamp": 2407.116667,
+      "source_timestamp": 2407.116667,
+      "frame_id": 144398,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 144398,
+      "received_monotonic": 16453.4352358,
+      "published_monotonic": 16453.440521
+    },
+    {
+      "kind": "attempt",
+      "count": 4,
+      "attempt": 5,
+      "timestamp": 2409.6,
+      "source_timestamp": 2409.6,
+      "frame_id": 144547,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 144547,
+      "received_monotonic": 16455.8964223,
+      "published_monotonic": 16455.8998548
+    },
+    {
+      "kind": "confirmed",
+      "count": 5,
+      "attempt": 5,
+      "timestamp": 2410.55,
+      "source_timestamp": 2410.55,
+      "frame_id": 144604,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": true,
+      "contact_timestamp": 2410.516667,
+      "contact_source_timestamp": 2410.516667,
+      "contact_frame_id": 144602,
+      "start_timestamp": 2409.6,
+      "start_source_timestamp": 2409.6,
+      "contact_position": [
+        0.5109700433626826,
+        0.007192468272742468
+      ],
+      "approach_position": [
+        0.5057438372076899,
+        0.2094769746079533
+      ],
+      "return_position": [
+        0.5108248996352345,
+        0.036984387679973446
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 144604,
+      "received_monotonic": 16456.8996994,
+      "published_monotonic": 16456.9059618
+    },
+    {
+      "kind": "armed",
+      "count": 5,
+      "attempt": 5,
+      "timestamp": 2415.066667,
+      "source_timestamp": 2415.066667,
+      "frame_id": 144875,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 144875,
+      "received_monotonic": 16461.3767786,
+      "published_monotonic": 16461.3811137
+    },
+    {
+      "kind": "attempt",
+      "count": 5,
+      "attempt": 6,
+      "timestamp": 2417.966667,
+      "source_timestamp": 2417.966667,
+      "frame_id": 145049,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 145049,
+      "received_monotonic": 16464.2940067,
+      "published_monotonic": 16464.3004433
+    },
+    {
+      "kind": "confirmed",
+      "count": 6,
+      "attempt": 6,
+      "timestamp": 2418.866667,
+      "source_timestamp": 2418.866667,
+      "frame_id": 145103,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": false,
+      "contact_timestamp": 2418.833333,
+      "contact_source_timestamp": 2418.833333,
+      "contact_frame_id": 145101,
+      "start_timestamp": 2417.966667,
+      "start_source_timestamp": 2417.966667,
+      "contact_position": [
+        0.5087974067485784,
+        0.013143396161649857
+      ],
+      "approach_position": [
+        0.5114681745792309,
+        0.20795744890430187
+      ],
+      "return_position": [
+        0.5119478336711067,
+        0.048226299823697104
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 145103,
+      "received_monotonic": 16465.1560426,
+      "published_monotonic": 16465.159385
+    },
+    {
+      "kind": "armed",
+      "count": 6,
+      "attempt": 6,
+      "timestamp": 2423.433333,
+      "source_timestamp": 2423.433333,
+      "frame_id": 145377,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 145377,
+      "received_monotonic": 16469.7630716,
+      "published_monotonic": 16469.7680441
+    },
+    {
+      "kind": "attempt",
+      "count": 6,
+      "attempt": 7,
+      "timestamp": 2425.733333,
+      "source_timestamp": 2425.733333,
+      "frame_id": 145515,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 145515,
+      "received_monotonic": 16472.0442447,
+      "published_monotonic": 16472.047426
+    },
+    {
+      "kind": "confirmed",
+      "count": 7,
+      "attempt": 7,
+      "timestamp": 2426.683333,
+      "source_timestamp": 2426.683333,
+      "frame_id": 145572,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": false,
+      "contact_timestamp": 2426.633333,
+      "contact_source_timestamp": 2426.633333,
+      "contact_frame_id": 145569,
+      "start_timestamp": 2425.733333,
+      "start_source_timestamp": 2425.733333,
+      "contact_position": [
+        0.5073611728404991,
+        0.007705611984830682
+      ],
+      "approach_position": [
+        0.5156022365153322,
+        0.22181826977687633
+      ],
+      "return_position": [
+        0.5050831157434226,
+        0.057255373532721955
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 145572,
+      "received_monotonic": 16473.0243948,
+      "published_monotonic": 16473.0299489
+    },
+    {
+      "kind": "armed",
+      "count": 7,
+      "attempt": 7,
+      "timestamp": 2431.283333,
+      "source_timestamp": 2431.283333,
+      "frame_id": 145848,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 145848,
+      "received_monotonic": 16477.6337116,
+      "published_monotonic": 16477.6394713
+    },
+    {
+      "kind": "armed",
+      "count": 7,
+      "attempt": 7,
+      "timestamp": 2431.666667,
+      "source_timestamp": 2431.666667,
+      "frame_id": 145871,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 145871,
+      "received_monotonic": 16477.9595852,
+      "published_monotonic": 16477.962908
+    },
+    {
+      "kind": "attempt",
+      "count": 7,
+      "attempt": 8,
+      "timestamp": 2434.183333,
+      "source_timestamp": 2434.183333,
+      "frame_id": 146022,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 146022,
+      "received_monotonic": 16480.5052619,
+      "published_monotonic": 16480.5110956
+    },
+    {
+      "kind": "confirmed",
+      "count": 8,
+      "attempt": 8,
+      "timestamp": 2435.05,
+      "source_timestamp": 2435.05,
+      "frame_id": 146074,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": false,
+      "contact_timestamp": 2435.016667,
+      "contact_source_timestamp": 2435.016667,
+      "contact_frame_id": 146072,
+      "start_timestamp": 2434.183333,
+      "start_source_timestamp": 2434.183333,
+      "contact_position": [
+        0.5140801595420115,
+        0.009323611129907663
+      ],
+      "approach_position": [
+        0.5177073131596225,
+        0.2365507133028793
+      ],
+      "return_position": [
+        0.5131665900597582,
+        0.045530290897373926
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 146074,
+      "received_monotonic": 16481.3755104,
+      "published_monotonic": 16481.380215
+    },
+    {
+      "kind": "armed",
+      "count": 8,
+      "attempt": 8,
+      "timestamp": 2439.483333,
+      "source_timestamp": 2439.483333,
+      "frame_id": 146340,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 146340,
+      "received_monotonic": 16485.8334427,
+      "published_monotonic": 16485.840557
+    },
+    {
+      "kind": "attempt",
+      "count": 8,
+      "attempt": 9,
+      "timestamp": 2442.433333,
+      "source_timestamp": 2442.433333,
+      "frame_id": 146517,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 146517,
+      "received_monotonic": 16488.7527069,
+      "published_monotonic": 16488.7588058
+    },
+    {
+      "kind": "confirmed",
+      "count": 9,
+      "attempt": 9,
+      "timestamp": 2443.366667,
+      "source_timestamp": 2443.366667,
+      "frame_id": 146573,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": false,
+      "contact_timestamp": 2443.333333,
+      "contact_source_timestamp": 2443.333333,
+      "contact_frame_id": 146571,
+      "start_timestamp": 2442.433333,
+      "start_source_timestamp": 2442.433333,
+      "contact_position": [
+        0.5155542108293041,
+        0.019444126930813314
+      ],
+      "approach_position": [
+        0.5127232420542476,
+        0.20248515681571325
+      ],
+      "return_position": [
+        0.5114044118650921,
+        0.05587172382690932
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 146573,
+      "received_monotonic": 16489.7009785,
+      "published_monotonic": 16489.7060078
+    },
+    {
+      "kind": "armed",
+      "count": 9,
+      "attempt": 9,
+      "timestamp": 2448.85,
+      "source_timestamp": 2448.85,
+      "frame_id": 146902,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 146902,
+      "received_monotonic": 16495.1576573,
+      "published_monotonic": 16495.1642333
+    },
+    {
+      "kind": "attempt",
+      "count": 9,
+      "attempt": 10,
+      "timestamp": 2451.533333,
+      "source_timestamp": 2451.533333,
+      "frame_id": 147063,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 147063,
+      "received_monotonic": 16497.8487835,
+      "published_monotonic": 16497.8523661
+    },
+    {
+      "kind": "confirmed",
+      "count": 10,
+      "attempt": 10,
+      "timestamp": 2452.383333,
+      "source_timestamp": 2452.383333,
+      "frame_id": 147114,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": false,
+      "contact_timestamp": 2452.35,
+      "contact_source_timestamp": 2452.35,
+      "contact_frame_id": 147112,
+      "start_timestamp": 2451.533333,
+      "start_source_timestamp": 2451.533333,
+      "contact_position": [
+        0.5167173044256717,
+        0.012945027550202498
+      ],
+      "approach_position": [
+        0.5231039495582788,
+        0.1993921966281155
+      ],
+      "return_position": [
+        0.5218033349616947,
+        0.06307096355295418
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 147114,
+      "received_monotonic": 16498.7027356,
+      "published_monotonic": 16498.7074337
+    },
+    {
+      "kind": "armed",
+      "count": 10,
+      "attempt": 10,
+      "timestamp": 2456.25,
+      "source_timestamp": 2456.25,
+      "frame_id": 147346,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 147346,
+      "received_monotonic": 16502.580332,
+      "published_monotonic": 16502.5850381
+    },
+    {
+      "kind": "armed",
+      "count": 10,
+      "attempt": 10,
+      "timestamp": 2456.85,
+      "source_timestamp": 2456.85,
+      "frame_id": 147382,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 147382,
+      "received_monotonic": 16503.1598551,
+      "published_monotonic": 16503.1645059
+    },
+    {
+      "kind": "attempt",
+      "count": 10,
+      "attempt": 11,
+      "timestamp": 2459.283333,
+      "source_timestamp": 2459.283333,
+      "frame_id": 147528,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 147528,
+      "received_monotonic": 16505.6330936,
+      "published_monotonic": 16505.6392954
+    },
+    {
+      "kind": "confirmed",
+      "count": 11,
+      "attempt": 11,
+      "timestamp": 2460.116667,
+      "source_timestamp": 2460.116667,
+      "frame_id": 147578,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": false,
+      "contact_timestamp": 2460.083333,
+      "contact_source_timestamp": 2460.083333,
+      "contact_frame_id": 147576,
+      "start_timestamp": 2459.283333,
+      "start_source_timestamp": 2459.283333,
+      "contact_position": [
+        0.5155763015118792,
+        0.007146222708766677
+      ],
+      "approach_position": [
+        0.5200380152727029,
+        0.21240893897896732
+      ],
+      "return_position": [
+        0.5151417736786384,
+        0.04698377350472326
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 147578,
+      "received_monotonic": 16506.4441544,
+      "published_monotonic": 16506.4496265
+    },
+    {
+      "kind": "armed",
+      "count": 11,
+      "attempt": 11,
+      "timestamp": 2464.35,
+      "source_timestamp": 2464.35,
+      "frame_id": 147832,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 147832,
+      "received_monotonic": 16510.6890583,
+      "published_monotonic": 16510.6958784
+    },
+    {
+      "kind": "attempt",
+      "count": 11,
+      "attempt": 12,
+      "timestamp": 2466.783333,
+      "source_timestamp": 2466.783333,
+      "frame_id": 147978,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 147978,
+      "received_monotonic": 16513.1114386,
+      "published_monotonic": 16513.1169839
+    },
+    {
+      "kind": "confirmed",
+      "count": 12,
+      "attempt": 12,
+      "timestamp": 2467.633333,
+      "source_timestamp": 2467.633333,
+      "frame_id": 148029,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": true,
+      "contact_timestamp": 2467.6,
+      "contact_source_timestamp": 2467.6,
+      "contact_frame_id": 148027,
+      "start_timestamp": 2466.783333,
+      "start_source_timestamp": 2466.783333,
+      "contact_position": [
+        0.5113976018976504,
+        0.01006821877096068
+      ],
+      "approach_position": [
+        0.5101890864652355,
+        0.20652136280594638
+      ],
+      "return_position": [
+        0.5109826211452269,
+        0.0540805766425586
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 148029,
+      "received_monotonic": 16513.9585263,
+      "published_monotonic": 16513.9651547
+    },
+    {
+      "kind": "armed",
+      "count": 12,
+      "attempt": 12,
+      "timestamp": 2471.983333,
+      "source_timestamp": 2471.983333,
+      "frame_id": 148290,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 148290,
+      "received_monotonic": 16518.2966792,
+      "published_monotonic": 16518.3027216
+    },
+    {
+      "kind": "attempt",
+      "count": 12,
+      "attempt": 13,
+      "timestamp": 2474.1,
+      "source_timestamp": 2474.1,
+      "frame_id": 148417,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 148417,
+      "received_monotonic": 16520.4398848,
+      "published_monotonic": 16520.4447806
+    },
+    {
+      "kind": "confirmed",
+      "count": 13,
+      "attempt": 13,
+      "timestamp": 2475.016667,
+      "source_timestamp": 2475.016667,
+      "frame_id": 148472,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": false,
+      "contact_timestamp": 2474.983333,
+      "contact_source_timestamp": 2474.983333,
+      "contact_frame_id": 148470,
+      "start_timestamp": 2474.1,
+      "start_source_timestamp": 2474.1,
+      "contact_position": [
+        0.5159209272907989,
+        0.00535615851042584
+      ],
+      "approach_position": [
+        0.5105907236042266,
+        0.22382389946611594
+      ],
+      "return_position": [
+        0.5154061962130188,
+        0.04227760121865665
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 148472,
+      "received_monotonic": 16521.3616562,
+      "published_monotonic": 16521.3674106
+    },
+    {
+      "kind": "armed",
+      "count": 13,
+      "attempt": 13,
+      "timestamp": 2480.233333,
+      "source_timestamp": 2480.233333,
+      "frame_id": 148785,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 148785,
+      "received_monotonic": 16526.5761537,
+      "published_monotonic": 16526.5814523
+    },
+    {
+      "kind": "attempt",
+      "count": 13,
+      "attempt": 14,
+      "timestamp": 2482.483333,
+      "source_timestamp": 2482.483333,
+      "frame_id": 148920,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 148920,
+      "received_monotonic": 16528.8284865,
+      "published_monotonic": 16528.8343575
+    },
+    {
+      "kind": "confirmed",
+      "count": 14,
+      "attempt": 14,
+      "timestamp": 2483.4,
+      "source_timestamp": 2483.4,
+      "frame_id": 148975,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": true,
+      "contact_timestamp": 2483.366667,
+      "contact_source_timestamp": 2483.366667,
+      "contact_frame_id": 148973,
+      "start_timestamp": 2482.483333,
+      "start_source_timestamp": 2482.483333,
+      "contact_position": [
+        0.5194562887478372,
+        0.00967139872834631
+      ],
+      "approach_position": [
+        0.5108530164396382,
+        0.22238772632155127
+      ],
+      "return_position": [
+        0.5161711172933985,
+        0.04754032256980002
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 148975,
+      "received_monotonic": 16529.698668,
+      "published_monotonic": 16529.702771
+    },
+    {
+      "kind": "armed",
+      "count": 14,
+      "attempt": 14,
+      "timestamp": 2488.2,
+      "source_timestamp": 2488.2,
+      "frame_id": 149263,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 149263,
+      "received_monotonic": 16534.5260495,
+      "published_monotonic": 16534.5291082
+    },
+    {
+      "kind": "armed",
+      "count": 14,
+      "attempt": 14,
+      "timestamp": 2488.85,
+      "source_timestamp": 2488.85,
+      "frame_id": 149302,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 149302,
+      "received_monotonic": 16535.1730409,
+      "published_monotonic": 16535.1780128
+    },
+    {
+      "kind": "attempt",
+      "count": 14,
+      "attempt": 15,
+      "timestamp": 2491.35,
+      "source_timestamp": 2491.35,
+      "frame_id": 149452,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 149452,
+      "received_monotonic": 16537.692009,
+      "published_monotonic": 16537.6980848
+    },
+    {
+      "kind": "confirmed",
+      "count": 15,
+      "attempt": 15,
+      "timestamp": 2492.15,
+      "source_timestamp": 2492.15,
+      "frame_id": 149500,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": true,
+      "contact_timestamp": 2492.1,
+      "contact_source_timestamp": 2492.1,
+      "contact_frame_id": 149497,
+      "start_timestamp": 2491.35,
+      "start_source_timestamp": 2491.35,
+      "contact_position": [
+        0.5098536752258408,
+        0.0072483374940058585
+      ],
+      "approach_position": [
+        0.5181363838898894,
+        0.22466313328223872
+      ],
+      "return_position": [
+        0.5030522996878648,
+        0.071904116122129
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 149500,
+      "received_monotonic": 16538.4983439,
+      "published_monotonic": 16538.5057009
+    },
+    {
+      "kind": "armed",
+      "count": 15,
+      "attempt": 15,
+      "timestamp": 2495.883333,
+      "source_timestamp": 2495.883333,
+      "frame_id": 149724,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 149724,
+      "received_monotonic": 16542.2318223,
+      "published_monotonic": 16542.2365915
+    },
+    {
+      "kind": "armed",
+      "count": 15,
+      "attempt": 15,
+      "timestamp": 2496.416667,
+      "source_timestamp": 2496.416667,
+      "frame_id": 149756,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 149756,
+      "received_monotonic": 16542.758806,
+      "published_monotonic": 16542.7646437
+    },
+    {
+      "kind": "attempt",
+      "count": 15,
+      "attempt": 16,
+      "timestamp": 2499.1,
+      "source_timestamp": 2499.1,
+      "frame_id": 149917,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 149917,
+      "received_monotonic": 16545.4300726,
+      "published_monotonic": 16545.4364205
+    },
+    {
+      "kind": "confirmed",
+      "count": 16,
+      "attempt": 16,
+      "timestamp": 2500.033333,
+      "source_timestamp": 2500.033333,
+      "frame_id": 149973,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": true,
+      "contact_timestamp": 2500.0,
+      "contact_source_timestamp": 2500.0,
+      "contact_frame_id": 149971,
+      "start_timestamp": 2499.1,
+      "start_source_timestamp": 2499.1,
+      "contact_position": [
+        0.5076055950509272,
+        0.006817852875620611
+      ],
+      "approach_position": [
+        0.5042020384159788,
+        0.2023952133816854
+      ],
+      "return_position": [
+        0.5089280735791635,
+        0.05031874316152599
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 149973,
+      "received_monotonic": 16546.3588782,
+      "published_monotonic": 16546.3659965
+    },
+    {
+      "kind": "armed",
+      "count": 16,
+      "attempt": 16,
+      "timestamp": 2505.05,
+      "source_timestamp": 2505.05,
+      "frame_id": 150274,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 150274,
+      "received_monotonic": 16551.3764412,
+      "published_monotonic": 16551.3813857
+    },
+    {
+      "kind": "attempt",
+      "count": 16,
+      "attempt": 17,
+      "timestamp": 2507.0,
+      "source_timestamp": 2507.0,
+      "frame_id": 150391,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 150391,
+      "received_monotonic": 16553.3098203,
+      "published_monotonic": 16553.3134898
+    },
+    {
+      "kind": "confirmed",
+      "count": 17,
+      "attempt": 17,
+      "timestamp": 2507.916667,
+      "source_timestamp": 2507.916667,
+      "frame_id": 150446,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": false,
+      "contact_timestamp": 2507.883333,
+      "contact_source_timestamp": 2507.883333,
+      "contact_frame_id": 150444,
+      "start_timestamp": 2507.0,
+      "start_source_timestamp": 2507.0,
+      "contact_position": [
+        0.5185478411562858,
+        0.015807983010381374
+      ],
+      "approach_position": [
+        0.5146956185054956,
+        0.20718803900484
+      ],
+      "return_position": [
+        0.5172653880989037,
+        0.062059266759657845
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 150446,
+      "received_monotonic": 16554.2288817,
+      "published_monotonic": 16554.2355128
+    },
+    {
+      "kind": "armed",
+      "count": 17,
+      "attempt": 17,
+      "timestamp": 2512.666667,
+      "source_timestamp": 2512.666667,
+      "frame_id": 150731,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 150731,
+      "received_monotonic": 16558.9742133,
+      "published_monotonic": 16558.977943
+    },
+    {
+      "kind": "attempt",
+      "count": 17,
+      "attempt": 18,
+      "timestamp": 2515.4,
+      "source_timestamp": 2515.4,
+      "frame_id": 150895,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 150895,
+      "received_monotonic": 16561.7050726,
+      "published_monotonic": 16561.7087122
+    },
+    {
+      "kind": "confirmed",
+      "count": 18,
+      "attempt": 18,
+      "timestamp": 2516.416667,
+      "source_timestamp": 2516.416667,
+      "frame_id": 150956,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": true,
+      "contact_timestamp": 2516.383333,
+      "contact_source_timestamp": 2516.383333,
+      "contact_frame_id": 150954,
+      "start_timestamp": 2515.4,
+      "start_source_timestamp": 2515.4,
+      "contact_position": [
+        0.515494261311583,
+        0.013737545321370902
+      ],
+      "approach_position": [
+        0.5091493309499743,
+        0.18104390217491395
+      ],
+      "return_position": [
+        0.5154643528323058,
+        0.05065782196753419
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 150956,
+      "received_monotonic": 16562.7460663,
+      "published_monotonic": 16562.754352
+    },
+    {
+      "kind": "armed",
+      "count": 18,
+      "attempt": 18,
+      "timestamp": 2521.45,
+      "source_timestamp": 2521.45,
+      "frame_id": 151258,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 151258,
+      "received_monotonic": 16567.7654654,
+      "published_monotonic": 16567.7713371
+    },
+    {
+      "kind": "armed",
+      "count": 18,
+      "attempt": 18,
+      "timestamp": 2522.066667,
+      "source_timestamp": 2522.066667,
+      "frame_id": 151295,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 151295,
+      "received_monotonic": 16568.3675684,
+      "published_monotonic": 16568.3712772
+    },
+    {
+      "kind": "attempt",
+      "count": 18,
+      "attempt": 19,
+      "timestamp": 2525.066667,
+      "source_timestamp": 2525.066667,
+      "frame_id": 151475,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 151475,
+      "received_monotonic": 16571.3756877,
+      "published_monotonic": 16571.3793442
+    },
+    {
+      "kind": "confirmed",
+      "count": 19,
+      "attempt": 19,
+      "timestamp": 2526.15,
+      "source_timestamp": 2526.15,
+      "frame_id": 151540,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": false,
+      "contact_timestamp": 2526.1,
+      "contact_source_timestamp": 2526.1,
+      "contact_frame_id": 151537,
+      "start_timestamp": 2525.066667,
+      "start_source_timestamp": 2525.066667,
+      "contact_position": [
+        0.5133030828369721,
+        0.0016449548116232362
+      ],
+      "approach_position": [
+        0.5113085833085481,
+        0.17970741284270664
+      ],
+      "return_position": [
+        0.516338441831839,
+        0.04697383790868553
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 151540,
+      "received_monotonic": 16572.494685,
+      "published_monotonic": 16572.5009209
+    },
+    {
+      "kind": "armed",
+      "count": 19,
+      "attempt": 19,
+      "timestamp": 2531.983333,
+      "source_timestamp": 2531.983333,
+      "frame_id": 151890,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 151890,
+      "received_monotonic": 16578.2996776,
+      "published_monotonic": 16578.307758
+    },
+    {
+      "kind": "attempt",
+      "count": 19,
+      "attempt": 20,
+      "timestamp": 2535.316667,
+      "source_timestamp": 2535.316667,
+      "frame_id": 152090,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 152090,
+      "received_monotonic": 16581.6399692,
+      "published_monotonic": 16581.6464101
+    },
+    {
+      "kind": "confirmed",
+      "count": 20,
+      "attempt": 20,
+      "timestamp": 2536.35,
+      "source_timestamp": 2536.35,
+      "frame_id": 152152,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": false,
+      "contact_timestamp": 2536.316667,
+      "contact_source_timestamp": 2536.316667,
+      "contact_frame_id": 152150,
+      "start_timestamp": 2535.316667,
+      "start_source_timestamp": 2535.316667,
+      "contact_position": [
+        0.512352086609926,
+        0.006436329638372777
+      ],
+      "approach_position": [
+        0.5128634517531854,
+        0.1584834586936584
+      ],
+      "return_position": [
+        0.5117671180175603,
+        0.04808478449084028
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 152152,
+      "received_monotonic": 16582.6854041,
+      "published_monotonic": 16582.6911954
+    },
+    {
+      "kind": "armed",
+      "count": 20,
+      "attempt": 20,
+      "timestamp": 2542.466667,
+      "source_timestamp": 2542.466667,
+      "frame_id": 152519,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 152519,
+      "received_monotonic": 16588.7667922,
+      "published_monotonic": 16588.7703822
+    },
+    {
+      "kind": "attempt",
+      "count": 20,
+      "attempt": 21,
+      "timestamp": 2545.833333,
+      "source_timestamp": 2545.833333,
+      "frame_id": 152721,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 152721,
+      "received_monotonic": 16592.1672236,
+      "published_monotonic": 16592.1734767
+    },
+    {
+      "kind": "confirmed",
+      "count": 21,
+      "attempt": 21,
+      "timestamp": 2546.75,
+      "source_timestamp": 2546.75,
+      "frame_id": 152776,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": true,
+      "contact_timestamp": 2546.7,
+      "contact_source_timestamp": 2546.7,
+      "contact_frame_id": 152773,
+      "start_timestamp": 2545.833333,
+      "start_source_timestamp": 2545.833333,
+      "contact_position": [
+        0.5131217721321091,
+        0.012087919315667073
+      ],
+      "approach_position": [
+        0.5127519633039568,
+        0.21089588161323972
+      ],
+      "return_position": [
+        0.5163316353256218,
+        0.06790095755782719
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 152776,
+      "received_monotonic": 16593.0906182,
+      "published_monotonic": 16593.0955636
+    },
+    {
+      "kind": "armed",
+      "count": 21,
+      "attempt": 21,
+      "timestamp": 2552.3,
+      "source_timestamp": 2552.3,
+      "frame_id": 153109,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 153109,
+      "received_monotonic": 16598.6250219,
+      "published_monotonic": 16598.6318014
+    },
+    {
+      "kind": "attempt",
+      "count": 21,
+      "attempt": 22,
+      "timestamp": 2554.55,
+      "source_timestamp": 2554.55,
+      "frame_id": 153244,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 153244,
+      "received_monotonic": 16600.9061807,
+      "published_monotonic": 16600.9116247
+    },
+    {
+      "kind": "confirmed",
+      "count": 22,
+      "attempt": 22,
+      "timestamp": 2555.5,
+      "source_timestamp": 2555.5,
+      "frame_id": 153301,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": true,
+      "contact_timestamp": 2555.466667,
+      "contact_source_timestamp": 2555.466667,
+      "contact_frame_id": 153299,
+      "start_timestamp": 2554.55,
+      "start_source_timestamp": 2554.55,
+      "contact_position": [
+        0.5193680307833847,
+        0.007154943725337969
+      ],
+      "approach_position": [
+        0.5181510270967025,
+        0.23159017472517276
+      ],
+      "return_position": [
+        0.5189316479538518,
+        0.03981360939326802
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 153301,
+      "received_monotonic": 16601.8239133,
+      "published_monotonic": 16601.8302524
+    },
+    {
+      "kind": "armed",
+      "count": 22,
+      "attempt": 22,
+      "timestamp": 2561.266667,
+      "source_timestamp": 2561.266667,
+      "frame_id": 153647,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 153647,
+      "received_monotonic": 16607.5697604,
+      "published_monotonic": 16607.5746072
+    },
+    {
+      "kind": "attempt",
+      "count": 22,
+      "attempt": 23,
+      "timestamp": 2564.25,
+      "source_timestamp": 2564.25,
+      "frame_id": 153826,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 153826,
+      "received_monotonic": 16610.5690792,
+      "published_monotonic": 16610.574099
+    },
+    {
+      "kind": "confirmed",
+      "count": 23,
+      "attempt": 23,
+      "timestamp": 2565.083333,
+      "source_timestamp": 2565.083333,
+      "frame_id": 153876,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": true,
+      "contact_timestamp": 2565.033333,
+      "contact_source_timestamp": 2565.033333,
+      "contact_frame_id": 153873,
+      "start_timestamp": 2564.25,
+      "start_source_timestamp": 2564.25,
+      "contact_position": [
+        0.5112231438977566,
+        0.011803377370926443
+      ],
+      "approach_position": [
+        0.5091329392028688,
+        0.2506235469316378
+      ],
+      "return_position": [
+        0.5116976702968468,
+        0.06744559139871077
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 153876,
+      "received_monotonic": 16611.4299177,
+      "published_monotonic": 16611.4359217
+    },
+    {
+      "kind": "armed",
+      "count": 23,
+      "attempt": 23,
+      "timestamp": 2569.85,
+      "source_timestamp": 2569.85,
+      "frame_id": 154162,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 154162,
+      "received_monotonic": 16616.1763304,
+      "published_monotonic": 16616.1821034
+    },
+    {
+      "kind": "attempt",
+      "count": 23,
+      "attempt": 24,
+      "timestamp": 2573.216667,
+      "source_timestamp": 2573.216667,
+      "frame_id": 154364,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 154364,
+      "received_monotonic": 16619.5504437,
+      "published_monotonic": 16619.5584164
+    },
+    {
+      "kind": "confirmed",
+      "count": 24,
+      "attempt": 24,
+      "timestamp": 2574.183333,
+      "source_timestamp": 2574.183333,
+      "frame_id": 154422,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": false,
+      "contact_timestamp": 2574.15,
+      "contact_source_timestamp": 2574.15,
+      "contact_frame_id": 154420,
+      "start_timestamp": 2573.216667,
+      "start_source_timestamp": 2573.216667,
+      "contact_position": [
+        0.5130389402627699,
+        0.014692959441769312
+      ],
+      "approach_position": [
+        0.518078392765671,
+        0.19878799189092905
+      ],
+      "return_position": [
+        0.5137731976074423,
+        0.05608851161377266
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 154422,
+      "received_monotonic": 16620.5046012,
+      "published_monotonic": 16620.5096729
+    },
+    {
+      "kind": "armed",
+      "count": 24,
+      "attempt": 24,
+      "timestamp": 2579.416667,
+      "source_timestamp": 2579.416667,
+      "frame_id": 154736,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 154736,
+      "received_monotonic": 16625.763394,
+      "published_monotonic": 16625.768985
+    },
+    {
+      "kind": "attempt",
+      "count": 24,
+      "attempt": 25,
+      "timestamp": 2582.466667,
+      "source_timestamp": 2582.466667,
+      "frame_id": 154919,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 154919,
+      "received_monotonic": 16628.7788247,
+      "published_monotonic": 16628.78208
+    },
+    {
+      "kind": "confirmed",
+      "count": 25,
+      "attempt": 25,
+      "timestamp": 2583.233333,
+      "source_timestamp": 2583.233333,
+      "frame_id": 154965,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": false,
+      "contact_timestamp": 2583.2,
+      "contact_source_timestamp": 2583.2,
+      "contact_frame_id": 154963,
+      "start_timestamp": 2582.466667,
+      "start_source_timestamp": 2582.466667,
+      "contact_position": [
+        0.510394303600109,
+        0.010567407556423665
+      ],
+      "approach_position": [
+        0.5085920536288759,
+        0.22955176291163992
+      ],
+      "return_position": [
+        0.5131993188253534,
+        0.05962188648964324
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 154965,
+      "received_monotonic": 16629.5646642,
+      "published_monotonic": 16629.5691361
+    },
+    {
+      "kind": "armed",
+      "count": 25,
+      "attempt": 25,
+      "timestamp": 2587.533333,
+      "source_timestamp": 2587.533333,
+      "frame_id": 155223,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 155223,
+      "received_monotonic": 16633.8335614,
+      "published_monotonic": 16633.8368667
+    },
+    {
+      "kind": "attempt",
+      "count": 25,
+      "attempt": 26,
+      "timestamp": 2590.016667,
+      "source_timestamp": 2590.016667,
+      "frame_id": 155372,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 155372,
+      "received_monotonic": 16636.3480025,
+      "published_monotonic": 16636.3525069
+    },
+    {
+      "kind": "confirmed",
+      "count": 26,
+      "attempt": 26,
+      "timestamp": 2590.966667,
+      "source_timestamp": 2590.966667,
+      "frame_id": 155429,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": true,
+      "contact_timestamp": 2590.933333,
+      "contact_source_timestamp": 2590.933333,
+      "contact_frame_id": 155427,
+      "start_timestamp": 2590.016667,
+      "start_source_timestamp": 2590.016667,
+      "contact_position": [
+        0.5061639315320801,
+        0.022810535105424707
+      ],
+      "approach_position": [
+        0.5093702558467526,
+        0.19947537563540227
+      ],
+      "return_position": [
+        0.5075950464608056,
+        0.0626943116981102
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 155429,
+      "received_monotonic": 16637.3180846,
+      "published_monotonic": 16637.3235184
+    },
+    {
+      "kind": "armed",
+      "count": 26,
+      "attempt": 26,
+      "timestamp": 2596.466667,
+      "source_timestamp": 2596.466667,
+      "frame_id": 155759,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 155759,
+      "received_monotonic": 16642.7679971,
+      "published_monotonic": 16642.7723864
+    },
+    {
+      "kind": "attempt",
+      "count": 26,
+      "attempt": 27,
+      "timestamp": 2599.1,
+      "source_timestamp": 2599.1,
+      "frame_id": 155917,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 155917,
+      "received_monotonic": 16645.4268535,
+      "published_monotonic": 16645.4328863
+    },
+    {
+      "kind": "confirmed",
+      "count": 27,
+      "attempt": 27,
+      "timestamp": 2600.116667,
+      "source_timestamp": 2600.116667,
+      "frame_id": 155978,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": false,
+      "contact_timestamp": 2600.066667,
+      "contact_source_timestamp": 2600.066667,
+      "contact_frame_id": 155975,
+      "start_timestamp": 2599.1,
+      "start_source_timestamp": 2599.1,
+      "contact_position": [
+        0.49838847762181093,
+        0.014490984516008115
+      ],
+      "approach_position": [
+        0.4976540288138994,
+        0.18684036637734971
+      ],
+      "return_position": [
+        0.49974929459197615,
+        0.056574480833075876
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 155978,
+      "received_monotonic": 16646.4389518,
+      "published_monotonic": 16646.4441805
+    },
+    {
+      "kind": "armed",
+      "count": 27,
+      "attempt": 27,
+      "timestamp": 2604.866667,
+      "source_timestamp": 2604.866667,
+      "frame_id": 156263,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 156263,
+      "received_monotonic": 16651.168292,
+      "published_monotonic": 16651.1724908
+    },
+    {
+      "kind": "armed",
+      "count": 27,
+      "attempt": 27,
+      "timestamp": 2605.516667,
+      "source_timestamp": 2605.516667,
+      "frame_id": 156302,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 156302,
+      "received_monotonic": 16651.8241236,
+      "published_monotonic": 16651.8294776
+    },
+    {
+      "kind": "attempt",
+      "count": 27,
+      "attempt": 28,
+      "timestamp": 2608.25,
+      "source_timestamp": 2608.25,
+      "frame_id": 156466,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 156466,
+      "received_monotonic": 16654.5824751,
+      "published_monotonic": 16654.5875687
+    },
+    {
+      "kind": "confirmed",
+      "count": 28,
+      "attempt": 28,
+      "timestamp": 2609.166667,
+      "source_timestamp": 2609.166667,
+      "frame_id": 156521,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": false,
+      "contact_timestamp": 2609.133333,
+      "contact_source_timestamp": 2609.133333,
+      "contact_frame_id": 156519,
+      "start_timestamp": 2608.25,
+      "start_source_timestamp": 2608.25,
+      "contact_position": [
+        0.5046336729476479,
+        0.009054225554394005
+      ],
+      "approach_position": [
+        0.5058647871893431,
+        0.19137603626351155
+      ],
+      "return_position": [
+        0.5057494690561123,
+        0.05610379537422222
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 156521,
+      "received_monotonic": 16655.4995632,
+      "published_monotonic": 16655.5054867
+    },
+    {
+      "kind": "armed",
+      "count": 28,
+      "attempt": 28,
+      "timestamp": 2614.483333,
+      "source_timestamp": 2614.483333,
+      "frame_id": 156840,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 156840,
+      "received_monotonic": 16660.8288287,
+      "published_monotonic": 16660.8357339
+    },
+    {
+      "kind": "attempt",
+      "count": 28,
+      "attempt": 29,
+      "timestamp": 2616.433333,
+      "source_timestamp": 2616.433333,
+      "frame_id": 156957,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 156957,
+      "received_monotonic": 16662.7662814,
+      "published_monotonic": 16662.770997
+    },
+    {
+      "kind": "confirmed",
+      "count": 29,
+      "attempt": 29,
+      "timestamp": 2617.25,
+      "source_timestamp": 2617.25,
+      "frame_id": 157006,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": false,
+      "contact_timestamp": 2617.2,
+      "contact_source_timestamp": 2617.2,
+      "contact_frame_id": 157003,
+      "start_timestamp": 2616.433333,
+      "start_source_timestamp": 2616.433333,
+      "contact_position": [
+        0.5089764159064831,
+        0.007251117488646256
+      ],
+      "approach_position": [
+        0.5036359202772596,
+        0.23065272059437994
+      ],
+      "return_position": [
+        0.5167381120891886,
+        0.057247857126128274
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 157006,
+      "received_monotonic": 16663.5653402,
+      "published_monotonic": 16663.5709215
+    },
+    {
+      "kind": "armed",
+      "count": 29,
+      "attempt": 29,
+      "timestamp": 2621.35,
+      "source_timestamp": 2621.35,
+      "frame_id": 157252,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "observed_origin_rest",
+      "needs_review": false,
+      "decoder_frame": 157252,
+      "received_monotonic": 16667.701893,
+      "published_monotonic": 16667.7085292
+    },
+    {
+      "kind": "attempt",
+      "count": 29,
+      "attempt": 30,
+      "timestamp": 2624.5,
+      "source_timestamp": 2624.5,
+      "frame_id": 157441,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "departure_from_rested_origin",
+      "needs_review": false,
+      "decoder_frame": 157441,
+      "received_monotonic": 16670.8349637,
+      "published_monotonic": 16670.8409362
+    },
+    {
+      "kind": "confirmed",
+      "count": 30,
+      "attempt": 30,
+      "timestamp": 2625.533333,
+      "source_timestamp": 2625.533333,
+      "frame_id": 157503,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "first_target_bank",
+      "needs_review": true,
+      "contact_timestamp": 2625.5,
+      "contact_source_timestamp": 2625.5,
+      "contact_frame_id": 157501,
+      "start_timestamp": 2624.5,
+      "start_source_timestamp": 2624.5,
+      "contact_position": [
+        0.5073893017381762,
+        0.005749850952288622
+      ],
+      "approach_position": [
+        0.5077075275619463,
+        0.16202787011448525
+      ],
+      "return_position": [
+        0.5057463632402914,
+        0.04901461710781838
+      ],
+      "contact_detection_method": "color_contour",
+      "return_detection_method": "color_contour",
+      "decoder_frame": 157503,
+      "received_monotonic": 16671.8499443,
+      "published_monotonic": 16671.8538269
+    },
+    {
+      "kind": "stopped",
+      "count": 30,
+      "attempt": 30,
+      "timestamp": 2629.4,
+      "source_timestamp": null,
+      "frame_id": null,
+      "mode": "both",
+      "session_id": "D:\\experiment\\12\\12_05_test_both_030shots.20261021_133246_827238.partial.mkv",
+      "reason": "session_stopped",
+      "needs_review": true
+    }
+  ],
+  "calibration": {
+    "corners": [
+      [
+        447.88820326221685,
+        -4.347073478947408
+      ],
+      [
+        815.7108068911888,
+        25.19869498251499
+      ],
+      [
+        794.9859523674769,
+        703.0539830932076
+      ],
+      [
+        453.9209796071604,
+        719.0220563476537
+      ]
+    ],
+    "origin_raw": [
+      629.8829235493645,
+      544.8166248579033
+    ],
+    "y_marker_raw": [
+      750.1930333850377,
+      541.1516322309859
+    ],
+    "strip_raw": [
+      639.8673929196741,
+      16.25590399500783
+    ],
+    "plane_H": [
+      [
+        0.0025447082048676082,
+        -2.1222436554334485e-05,
+        -1.1398370411958783
+      ],
+      [
+        -0.00020527178321561615,
+        0.0025554793693185504,
+        0.1030476667572355
+      ],
+      [
+        -0.00016733315118988546,
+        -0.00010414081685234866,
+        1.074493836649628
+      ]
+    ],
+    "axes_H": [
+      [
+        -5.569058238014406e-05,
+        -0.001828145583093083,
+        1.031082653173429
+      ],
+      [
+        0.0017716517471370581,
+        3.346635855813761e-05,
+        -1.1341662105139585
+      ],
+      [
+        -0.00016733315118988546,
+        -0.00010414081685234866,
+        1.074493836649628
+      ]
+    ],
+    "axes_corners": [
+      [
+        1.0140865814724784,
+        -0.3408097734020993
+      ],
+      [
+        1.0045053587317436,
+        0.3333773650928773
+      ],
+      [
+        -0.3437670129529875,
+        0.34298968619763526
+      ],
+      [
+        -0.3341857902122527,
+        -0.3311974522973414
+      ]
+    ],
+    "origin_plane": [
+      0.49483854849574443,
+      1.4972426110866799
+    ],
+    "strip_plane": [
+      0.505414371559406,
+      0.013712502008252383
+    ],
+    "y_marker_plane": [
+      0.8488639165793842,
+      1.4922109928784961
+    ],
+    "scale": 1.4835678051830745,
+    "distance_cap_observed": 0.3388839978576369,
+    "opposite_rail_distance_observed": 0.3388839978576369,
+    "strength_cap_observed": 1.0090133562092733,
+    "strength_maximum": 1.0090133562092733,
+    "upper_rail_reference_plane": [
+      0.5055121255544965,
+      0.0
+    ],
+    "angle_cap_observed": 13.486097454031977,
+    "axis_nonorthogonality_degrees": 1.2227112615577624,
+    "aspect_ratio": 2.0,
+    "source": "automatic_fixed_template_needs_preview_review",
+    "landmarks_raw": {
+      "TL": [
+        447.88820326221685,
+        -4.347073478947408
+      ],
+      "TR": [
+        815.7108068911888,
+        25.19869498251499
+      ],
+      "BR": [
+        794.9859523674769,
+        703.0539830932076
+      ],
+      "BL": [
+        453.9209796071604,
+        719.0220563476537
+      ],
+      "O": [
+        629.8829235493645,
+        544.8166248579033
+      ],
+      "Y": [
+        750.1930333850377,
+        541.1516322309859
+      ],
+      "B": [
+        639.8673929196741,
+        16.25590399500783
+      ]
+    },
+    "calibration_quality": {
+      "observed_points": {
+        "O": [
+          629.6054188943069,
+          544.8136723274624
+        ],
+        "Y": [
+          750.4154500530555,
+          541.1569778263193
+        ],
+        "B": [
+          640.0212586927055,
+          16.25764521919946
+        ]
+      },
+      "reconstructed_names": [
+        "TL",
+        "TR",
+        "BR",
+        "BL"
+      ],
+      "reprojection_residual_px": {
+        "O": 0.2775203614414934,
+        "Y": 0.22248089716108857,
+        "B": 0.15387562501004187
+      },
+      "rail_fit_residual_px": [
+        0.18820481226876717,
+        -0.2984408209498081,
+        0.3783419359941713,
+        0.14379966787635523
+      ],
+      "accuracy_check": "three_marks_and_two_observed_side_lines",
+      "template_version": "seven_landmarks_multiview_v2",
+      "marker_detection": {
+        "O": {
+          "contrast": 38.82804870605469,
+          "size_px": [
+            4,
+            4
+          ],
+          "candidate_count": 1,
+          "expected_raw": [
+            624.4224781673452,
+            537.5085835469852
+          ],
+          "runner_up_score_ratio": 0.0
+        },
+        "Y": {
+          "contrast": 30.03514862060547,
+          "size_px": [
+            4,
+            4
+          ],
+          "candidate_count": 1,
+          "expected_raw": [
+            747.4027844118734,
+            535.8412426562326
+          ],
+          "runner_up_score_ratio": 0.0
+        },
+        "B": {
+          "contrast": 13.234909057617188,
+          "size_px": [
+            3,
+            6
+          ],
+          "candidate_count": 1,
+          "expected_raw": [
+            633.7260132922394,
+            17.095900542753153
+          ],
+          "runner_up_score_ratio": 0.0
+        }
+      },
+      "visible_short_rails": {
+        "top": {
+          "line_y_from_x": [
+            0.07618281220378503,
+            -37.95519784870036
+          ],
+          "inliers": 75,
+          "coverage": 0.8309352517985612,
+          "median_gradient": 15.75,
+          "residual_px": 0.25448947357066487
+        }
+      },
+      "side_rail_source": "Robust visible cloth-boundary fits with configured cushion margin",
+      "reference_points_inside_image": {
+        "TL": false,
+        "TR": true,
+        "BR": true,
+        "BL": true,
+        "O": true,
+        "Y": true,
+        "B": true
+      }
+    },
+    "table_width_cm": 84.0,
+    "table_length_cm": 168.0,
+    "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates.",
+    "obstructions": {
+      "version": "reference_black_protrusions_v1",
+      "contours": [
+        {
+          "id": "left_1",
+          "side": "left",
+          "image_contour": [
+            [
+              460.7836915030275,
+              366.7813104519371
+            ],
+            [
+              460.15795132738003,
+              384.0619265652298
+            ],
+            [
+              466.16296554351413,
+              384.13464373711355
+            ],
+            [
+              469.1424550511616,
+              381.29810097718047
+            ],
+            [
+              472.8863820086582,
+              381.3453344186996
+            ],
+            [
+              474.3742716244034,
+              379.9284459026262
+            ],
+            [
+              493.7561263420811,
+              380.1778794836392
+            ],
+            [
+              493.69075839548344,
+              362.25462437520747
+            ],
+            [
+              475.7689556916587,
+              361.96708833948003
+            ],
+            [
+              473.5080472054568,
+              359.76769737042594
+            ],
+            [
+              465.24726608647666,
+              359.6320082710876
+            ],
+            [
+              465.2619285455656,
+              361.7985143972938
+            ],
+            [
+              469.7697099793013,
+              361.87083689881905
+            ],
+            [
+              470.53370367694185,
+              364.0463292046131
+            ],
+            [
+              469.0418289883857,
+              365.46493382545674
+            ],
+            [
+              465.2863504883003,
+              365.40706929438693
+            ],
+            [
+              464.5642996637946,
+              369.7225593744068
+            ],
+            [
+              463.0610393340643,
+              369.7005431973536
+            ],
+            [
+              462.28862952647063,
+              366.80411600302887
+            ]
+          ],
+          "plane_contour": [
+            [
+              0.026,
+              0.986
+            ],
+            [
+              0.024,
+              1.034
+            ],
+            [
+              0.04,
+              1.034
+            ],
+            [
+              0.048,
+              1.026
+            ],
+            [
+              0.058,
+              1.026
+            ],
+            [
+              0.062,
+              1.022
+            ],
+            [
+              0.114,
+              1.022
+            ],
+            [
+              0.114,
+              0.972
+            ],
+            [
+              0.066,
+              0.972
+            ],
+            [
+              0.06,
+              0.966
+            ],
+            [
+              0.038,
+              0.966
+            ],
+            [
+              0.038,
+              0.972
+            ],
+            [
+              0.05,
+              0.972
+            ],
+            [
+              0.052,
+              0.978
+            ],
+            [
+              0.048,
+              0.982
+            ],
+            [
+              0.038,
+              0.982
+            ],
+            [
+              0.036,
+              0.994
+            ],
+            [
+              0.032,
+              0.994
+            ],
+            [
+              0.03,
+              0.986
+            ]
+          ],
+          "plane_bounds": [
+            0.024,
+            0.966,
+            0.116,
+            1.034
+          ],
+          "area_tablewidth_squared": 0.00463,
+          "reach_tablewidth": 0.116,
+          "ball_radius_tablewidth_estimate": 0.017178739010393917,
+          "ball_radius_source": "sqrt(reference_ball_area_px/pi), locally transformed to table plane",
+          "needs_preview_review": true
+        },
+        {
+          "id": "right_2",
+          "side": "right",
+          "image_contour": [
+            [
+              768.4900251688427,
+              365.2965897242732
+            ],
+            [
+              768.0738216363166,
+              380.9844561739637
+            ],
+            [
+              790.8084770833192,
+              382.64488380882824
+            ],
+            [
+              795.3926128004455,
+              385.4140781107138
+            ],
+            [
+              795.7530836884056,
+              373.2154118853916
+            ],
+            [
+              790.4166614538638,
+              373.1359009208397
+            ],
+            [
+              789.1200555356603,
+              371.75685868620184
+            ],
+            [
+              789.2180202872679,
+              368.35723222414697
+            ],
+            [
+              787.9394455243538,
+              366.2946096015149
+            ]
+          ],
+          "plane_contour": [
+            [
+              0.89,
+              0.968
+            ],
+            [
+              0.89,
+              1.014
+            ],
+            [
+              0.958,
+              1.018
+            ],
+            [
+              0.972,
+              1.026
+            ],
+            [
+              0.972,
+              0.99
+            ],
+            [
+              0.956,
+              0.99
+            ],
+            [
+              0.952,
+              0.986
+            ],
+            [
+              0.952,
+              0.976
+            ],
+            [
+              0.948,
+              0.97
+            ]
+          ],
+          "plane_bounds": [
+            0.888,
+            0.968,
+            0.972,
+            1.026
+          ],
+          "area_tablewidth_squared": 0.003614,
+          "reach_tablewidth": 0.11199999999999999,
+          "ball_radius_tablewidth_estimate": 0.018500084081522008,
+          "ball_radius_source": "sqrt(reference_ball_area_px/pi), locally transformed to table plane",
+          "needs_preview_review": true
+        }
+      ],
+      "coordinate_unit": "table_width",
+      "source": "temporal_reference_image",
+      "detection_parameters": {
+        "warp_width": 500,
+        "dark_value_threshold": 81.0,
+        "cloth_value_median": 135.0,
+        "rail_exclusion_width": 0.025,
+        "search_width": 0.23,
+        "minimum_reach": 0.055
+      },
+      "limitation": "Visible dark footprint is a collision candidate; image alone cannot establish hardware height."
+    }
+  },
+  "config": {
+    "scoring_version": 2,
+    "crossing_max_gap_s": 0.15,
+    "table_aspect_ratio": 2.0,
+    "table_length_cm": 168.0,
+    "table_width_cm": 84.0,
+    "table_inner_margin_px": [
+      8,
+      12,
+      18
+    ],
+    "origin_to_strip_length": 1.0,
+    "distance_unit": "origin_to_strip",
+    "table_hsv": [
+      [
+        32,
+        35,
+        35
+      ],
+      [
+        95,
+        255,
+        255
+      ]
+    ],
+    "ball_hsv_ranges": [
+      [
+        [
+          0,
+          105,
+          45
+        ],
+        [
+          7,
+          255,
+          255
+        ]
+      ],
+      [
+        [
+          155,
+          90,
+          40
+        ],
+        [
+          179,
+          255,
+          255
+        ]
+      ]
+    ],
+    "min_ball_area": 45,
+    "max_ball_area": 700,
+    "origin_tolerance": 0.045,
+    "rest_duration_s": 0.35,
+    "rest_radius": 0.013,
+    "departure_distance": 0.055,
+    "stop_duration_s": 0.3,
+    "stop_radius": 0.0035,
+    "lost_duration_s": 0.25,
+    "rail_tolerance": 0.035,
+    "max_interpolation_s": 0.15,
+    "free_ball_hand_fraction": 0.18,
+    "hand_contact_fraction": 0.35
+  },
+  "counter_version": "causal_first_target_bank_v3_dark_origin_recovery",
+  "timing_note": "Source_timestamp is the MPEG-TS input PTS reported by FFmpeg showinfo; raw output uses passthrough and never substitutes frame_index/60 for unknown source time. received/published_monotonic measure software delivery only, not camera exposure or USB latency. Q/E boundaries freeze committed decoder-frame watermarks, not saved-video PTS boundaries.",
+  "finalized": true,
+  "generation": 5,
+  "begin_decoder_frame_exclusive": 142427,
+  "end_decoder_frame_inclusive": 157735,
+  "calibration_sha256": "b439e1bf29a2169d191d15db24131b2c301898d651f3e42a74887e590dae17cd"
+}

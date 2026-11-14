@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "type": "command",
+        "bash": "bash HILD/scripts/session_context.sh",
+        "cwd": ".",
+        "timeoutSec": 40
+      }
+    ]
+  }
+}

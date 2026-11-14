@@ -1,0 +1,89 @@
+{
+  "status": "READ_ONLY_REVIEW_COMPLETE_KEEP_21_NO_RECOVERY_PROPOSED",
+  "video": "D:\\experiment\\01\\01_07_test_angle_030shots.mkv",
+  "source_sha256": "ee2215a0a646c2e83eca503d5a888efaa77c1e0ec0fe549248f435a7b0bf4ee6",
+  "filename_target": 30,
+  "current_valid_shots": 21,
+  "audited_attempts": 21,
+  "excluded_for_below8cm": 0,
+  "excluded_for_reverse": 0,
+  "unresolved_audited_attempts": 0,
+  "explanation_zh": "审计21次尝试全部通过，缺口不是9次真实尝试被8cm或反向规则排除；文件名30是目标，不能作为已发生30次的真值。",
+  "full_raw_observed_upper_rail_approach_return_groups": 21,
+  "all_upper_rail_extrema_match_current_rows": true,
+  "largest_bank_timestamp_match_difference_s": 0.0,
+  "source_frames": 13289,
+  "source_last_timestamp_s": 221.466,
+  "missing_frames": 1368,
+  "long_missing_runs": 21,
+  "manual_source_findings": [
+    {
+      "seconds": [
+        9,
+        12
+      ],
+      "finding": "Return from first shot, then hand pickup and carriage to O; no new free O departure."
+    },
+    {
+      "seconds": [
+        29,
+        34
+      ],
+      "finding": "Return from third shot, then hand pickup/replacement at O; next departure 36.683s."
+    },
+    {
+      "seconds": [
+        88.033,
+        89.75
+      ],
+      "finding": "Source before/middle/after the blind interval shows pickup and hand carriage to O."
+    },
+    {
+      "seconds": [
+        99.933,
+        101.233
+      ],
+      "finding": "Hand carriage/reset, then ball at O, preceding 107.216s departure."
+    },
+    {
+      "seconds": [
+        107.216,
+        124.866
+      ],
+      "finding": "One launch/contact at 108.283s, continuing return at 111/114s, pickup/reset 117.783–119.233s, wait at O through 121s, next launch 124.866s."
+    },
+    {
+      "seconds": [
+        131.866,
+        184.483
+      ],
+      "finding": "All sampled long blind-run boundaries/midpoints show hand carriage and O replacement, not extra launches."
+    },
+    {
+      "seconds": [
+        185,
+        221.466
+      ],
+      "finding": "Existing raw is fully observed; source pause/tail frames show the listed final four contacts and returns. No additional shot evidence found."
+    }
+  ],
+  "proposed_raw_changes": 0,
+  "proposed_score_changes": 0,
+  "recovery_recommended": false,
+  "recommendation_zh": "保留现有21条angle结果；没有发现可凭原片恢复的漏杆证据，不改主raw、不扩阈值、不补到30。",
+  "manual_coverage": "Independent 0–80s source overview, 6fps suspicious intervals, and eight real bank witness trios; main review inspected 48 actual source frames at all >=0.3s missing runs after 80s plus long pause/final-tail contexts.",
+  "limitation": "This targeted review combines every existing raw observation with selected actual source frames; it is not independent manual annotation of every frame and does not claim a filename-based ground truth.",
+  "evidence_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\count_review\\01_test_angle\\source_review_evidence.json",
+  "evidence_sha256": "9ae267049093aec479d0bcc1c19f962c31874e8de44104e52b54217bbc7b99ed",
+  "independent_review_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\count_review\\01_test_angle\\independent_manual_review.json",
+  "independent_review_sha256": "589802568ed159e00c428f24da76cb0939af4a41889f8878ba1aecf5899eb73b",
+  "input_hashes": {
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\analysis\\01\\audit\\01_07_test_angle_030shots_report.json": "dffd36498055c1aee17cb336f6f091379d185d7c7861a79f789804267db2259b",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\analysis\\01\\audit\\01_07_test_angle_030shots_attempts.csv": "4a019a025ada38c3d7503478916daf59a48ba43073791f0617963b3d6ddc3fcd",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\analysis\\01\\cache\\01_07_test_angle_030shots_evidence.npz": "deedf9a0a94b1465e3a795cc8048a01639de3cf3280870058b30e67a4d00b15d",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\analysis\\01\\calibration\\01_07_test_angle_030shots.json": "d90daa2e74baf0316a1b4a18839e2946a75e6905743db7df72d87ab7da3f04b1",
+    "D:\\experiment\\01\\01_07_test_angle_030shots.mkv": "ee2215a0a646c2e83eca503d5a888efaa77c1e0ec0fe549248f435a7b0bf4ee6"
+  },
+  "all_inputs_still_unchanged": true,
+  "script_sha256": "9691dca1a3f9fcc11907ccacffbc0563c994052490264346defa90b32dbbe11a"
+}

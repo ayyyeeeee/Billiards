@@ -1,0 +1,75 @@
+{
+  "created_utc": "2026-10-20T15:24:33.905172+00:00",
+  "status": "CANDIDATE_FOR_PARENT_REVIEW_NOT_INSTALLED",
+  "input_median": {
+    "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\preflight\\06_03_baseline_angle_010shots_median.npz",
+    "sha256": "4f2158713f8c59346f9f47dded8e3b5ec39f85b5c08988433c1750e36d775565"
+  },
+  "original_calibration": {
+    "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\preflight\\06_03_baseline_angle_010shots_calibration.json",
+    "sha256": "181195f5c4fb4486b15d85e9941f05ceadae01e8bc03a519491509c7ed474378"
+  },
+  "script_sha256": "da9e23d12727645309d4b5794d08f7cd700f0e08541d8d027732b290e60669af",
+  "configuration_sha256": "580fbaebdec501cf5d79b3ebab10a0b7ee029de25059df85e9c173a46dd0e366",
+  "template_sha256": "801f3314f0a5dce7906002e8e69d1f5e4dcb3c1de0faf946c3d8d73ecef7aa8f",
+  "core_sha256": {
+    "calibration.py": "ed56069eec6b00d672922c86b015e0f9f4786aed732b19b6bb5d9595f46b1dc1",
+    "geometry.py": "ce9d4c2931483476717395216dc34d844e981ae9bc2ef1ea1b135831a65afa1d",
+    "vision.py": "aa5165ef18d09c84bdb47870deeb284ebb57491aa2111b7ef9eca4da67d61817"
+  },
+  "evidence": {
+    "before_top_corner_y_residual_to_visible_line_px": [
+      17.191110900624363,
+      -16.73912839628283
+    ],
+    "candidate_top_corner_y_residual_to_visible_line_px": [
+      -0.3140429994662117,
+      -0.15218709775678008
+    ],
+    "original_auto_observed_O": [
+      629.3851190559121,
+      558.2551709048266
+    ],
+    "manual_actual_O": [
+      634.0,
+      550.0
+    ],
+    "original_auto_vs_actual_O_distance_px": 9.45753523895108,
+    "candidate_reprojection_residual_px": {
+      "TL": 0.3957798612158144,
+      "TR": 0.2972627452359567,
+      "O": 0.2537253567583251,
+      "Y": 0.26426901080964965,
+      "B": 0.6931983169868079
+    },
+    "candidate_dlt_condition": 10.47430995393016,
+    "candidate_corners": [
+      [
+        452.5457295623654,
+        5.004544117074092
+      ],
+      [
+        817.8222670525154,
+        30.636405125972654
+      ],
+      [
+        801.2441380353578,
+        710.9690685222191
+      ],
+      [
+        457.88437050095536,
+        725.4399881710265
+      ]
+    ],
+    "reconstructed_names": [
+      "BR",
+      "BL"
+    ],
+    "scope": "No source video/cache/config/core/analysis/preflight/override was modified. Candidate geometry only."
+  },
+  "artifacts": {
+    "06_03_baseline_angle_010shots_candidate_calibration.jpg": "6b9481bbfd1eb2ddf702f4b57cfbff659537c66a5fca6e7abc39c0da1c0efe70",
+    "06_03_baseline_angle_010shots_candidate_calibration.json": "90ff8684116401d36373301b5a3c9af23e00136f791bc24a841b676bbf0701f3",
+    "06_03_baseline_angle_010shots_candidate_override.json": "2942feda50ad3842e8fe6099fef6ae6623efd1f010148e920ec6496b59f1438d"
+  }
+}

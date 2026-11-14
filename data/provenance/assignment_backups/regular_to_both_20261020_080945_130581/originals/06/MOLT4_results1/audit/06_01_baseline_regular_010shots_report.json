@@ -1,0 +1,246 @@
+{
+  "video": "06_01_baseline_regular_010shots.mkv",
+  "frames": 9255,
+  "fps": 60.0,
+  "mode": "regular",
+  "valid_shots": 12,
+  "attempts": 12,
+  "filename_expected_shots": 10,
+  "count_matches_filename": false,
+  "user_verified_shots": null,
+  "count_matches_verified": null,
+  "review_shots": 2,
+  "calibration": {
+    "corners": [
+      [
+        452.3928527832031,
+        12.0
+      ],
+      [
+        818.1150512695312,
+        12.0
+      ],
+      [
+        801.6511840820312,
+        701.0
+      ],
+      [
+        456.9670104980469,
+        701.0
+      ]
+    ],
+    "origin_raw": [
+      634.1043717064429,
+      550.060170875761
+    ],
+    "y_marker_raw": [
+      755.5570210345813,
+      546.3079252659265
+    ],
+    "strip_raw": [
+      643.3830802285056,
+      22.69442221253688
+    ],
+    "plane_H": [
+      [
+        0.002731579124771531,
+        -1.8134504684005415e-05,
+        -1.2355292588022302
+      ],
+      [
+        -8.481562456453551e-21,
+        0.0027330394577681815,
+        -0.032796473493218174
+      ],
+      [
+        6.539932600621879e-20,
+        -8.340642909965972e-05,
+        1.0
+      ]
+    ],
+    "axes_H": [
+      [
+        -5.850401120247454e-05,
+        -0.0018936572643966484,
+        1.0787230876999985
+      ],
+      [
+        0.0018080088736958581,
+        3.1810915644125105e-05,
+        -1.1639642485895074
+      ],
+      [
+        6.539932600621879e-20,
+        -8.340642909965972e-05,
+        1.0
+      ]
+    ],
+    "axes_corners": [
+      [
+        1.0305638718301924,
+        -0.34599852739288545
+      ],
+      [
+        1.0091462197944425,
+        0.3158929248077093
+      ],
+      [
+        -0.3139887281918803,
+        0.3268371412172238
+      ],
+      [
+        -0.2925710761561304,
+        -0.33505431098337096
+      ]
+    ],
+    "origin_plane": [
+      0.51,
+      1.54125
+    ],
+    "strip_plane": [
+      0.5225,
+      0.02928370786516854
+    ],
+    "y_marker_plane": [
+      0.8575,
+      1.53
+    ],
+    "scale": 1.5120179623774153,
+    "distance_cap_observed": 0.30340248027125705,
+    "angle_cap_observed": 13.057317196161813,
+    "axis_nonorthogonality_degrees": 2.3279269092284522,
+    "aspect_ratio": 2.0,
+    "source": "automatic_needs_preview_review"
+  },
+  "constants": {
+    "distance_max": 0.31257961678133805,
+    "angle_max_degrees": 13.052608558247528,
+    "method": "Median of independently rectified marker observations; frozen for subsequent batches",
+    "source_videos": [
+      "01_01_baseline_regular_010shots.mkv",
+      "01_02_baseline_strength_010shots.mkv",
+      "01_03_baseline_angle_010shots.mkv",
+      "05_01_baseline_regular_010shots.mkv",
+      "05_02_baseline_strength_010shots.mkv",
+      "05_03_baseline_angle_010shots.mkv"
+    ],
+    "distance_unit": "origin_to_strip",
+    "table_dimensions_cm": [
+      168.0,
+      84.0
+    ],
+    "measurements": [
+      {
+        "video": "01_01_baseline_regular_010shots.mkv",
+        "distance": 0.3263874302070551,
+        "angle": 13.222993547812942
+      },
+      {
+        "video": "01_02_baseline_strength_010shots.mkv",
+        "distance": 0.3061056105610562,
+        "angle": 12.890480629751352
+      },
+      {
+        "video": "01_03_baseline_angle_010shots.mkv",
+        "distance": 0.30305522285218855,
+        "angle": 12.933424228971196
+      },
+      {
+        "video": "05_01_baseline_regular_010shots.mkv",
+        "distance": 0.31355759376156933,
+        "angle": 13.015382344139164
+      },
+      {
+        "video": "05_02_baseline_strength_010shots.mkv",
+        "distance": 0.31477413569971435,
+        "angle": 13.124300607285026
+      },
+      {
+        "video": "05_03_baseline_angle_010shots.mkv",
+        "distance": 0.3116016398011067,
+        "angle": 13.089834772355891
+      }
+    ]
+  },
+  "config": {
+    "table_aspect_ratio": 2.0,
+    "table_length_cm": 168.0,
+    "table_width_cm": 84.0,
+    "table_inner_margin_px": [
+      8,
+      12,
+      18
+    ],
+    "origin_to_strip_length": 1.0,
+    "distance_unit": "origin_to_strip",
+    "table_hsv": [
+      [
+        32,
+        35,
+        35
+      ],
+      [
+        95,
+        255,
+        255
+      ]
+    ],
+    "ball_hsv_ranges": [
+      [
+        [
+          0,
+          105,
+          45
+        ],
+        [
+          7,
+          255,
+          255
+        ]
+      ],
+      [
+        [
+          155,
+          90,
+          40
+        ],
+        [
+          179,
+          255,
+          255
+        ]
+      ]
+    ],
+    "min_ball_area": 45,
+    "max_ball_area": 700,
+    "origin_tolerance": 0.045,
+    "rest_duration_s": 0.35,
+    "rest_radius": 0.013,
+    "departure_distance": 0.055,
+    "stop_duration_s": 0.3,
+    "stop_radius": 0.0035,
+    "lost_duration_s": 0.25,
+    "rail_tolerance": 0.035,
+    "max_interpolation_s": 0.15,
+    "free_ball_hand_fraction": 0.18,
+    "hand_contact_fraction": 0.35
+  },
+  "preview": {
+    "segments_seconds": [
+      [
+        0,
+        10
+      ],
+      [
+        72.125,
+        82.125
+      ],
+      [
+        124.25,
+        134.25
+      ]
+    ],
+    "output_frames": 1800
+  },
+  "validation": "Automatic event classification; inspect event sheets and flagged attempts before scientific use"
+}

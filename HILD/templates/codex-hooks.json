@@ -1,0 +1,36 @@
+{
+  "description": "Optional HILD orientation and journaling reminders for a trusted Codex project.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$(git rev-parse --show-toplevel)/HILD/scripts/session_context.sh\"",
+            "statusMessage": "Collecting HILD orientation facts"
+          }
+        ]
+      },
+      {
+        "matcher": "compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Context compacted: check HILD/journal and HILD/plan for missing milestones before continuing.'"
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Preserve work, decisions, PRs, evidence and open questions not yet recorded in HILD/journal or HILD/plan.'"
+          }
+        ]
+      }
+    ]
+  }
+}

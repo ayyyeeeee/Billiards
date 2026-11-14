@@ -1,0 +1,1746 @@
+{
+  "status": "SOURCE_REVIEWED_MINIMAL_CANDIDATE_READY_FOR_PARENT_APPROVAL",
+  "method": "source_verified_hsv_fragment_recovery_and_wrong_object_exclusion",
+  "source_video": "D:\\experiment\\25\\25_07_test_angle_030shots.mkv",
+  "source_sha256": "b2747bde6375593e81e160b467c0ef63209db268d855707e8ccbf776a93fee1d",
+  "original_pack": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\analysis\\25\\cache\\25_07_test_angle_030shots_evidence.npz",
+  "original_pack_sha256": "b0ac3415d3f5d155710ad4a8811e3829c4107e7663d20e35b234daface434d61",
+  "reviewed_pack": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2507\\25_07_test_angle_030shots_reviewed_evidence.npz",
+  "reviewed_pack_sha256": "d7f3e96f9ff0faeaa0b4bbc6a1ff79310750cd527d323cf71c4363cb6f5b767b",
+  "inputs_sha256": {
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\analysis\\25\\cache\\25_07_test_angle_030shots_evidence.npz": "b0ac3415d3f5d155710ad4a8811e3829c4107e7663d20e35b234daface434d61",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\analysis\\25\\audit\\25_07_test_angle_030shots_report.json": "f33389825f159ee412df7731e7ae2fc9a56e922eacfdc055af1228f15652a380",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\analysis\\25\\calibration\\25_07_test_angle_030shots.json": "0f83e3a84d3846bb6c6281074bf7632d9e83ec5c9fcb0c727daa62eeec8e5b28",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\inventory.json": "1a8a26e6acedda8f97f61e9ae4aba79932ed12a371d09bd19a1af1203ade599d",
+    "D:\\experiment\\25\\25_07_test_angle_030shots.mkv": "b2747bde6375593e81e160b467c0ef63209db268d855707e8ccbf776a93fee1d",
+    "D:\\experiment\\25\\25_07_test_angle_030shots.20261028_155317_617261.partial.live_count.json": "132516f02c069c83641e03e24ec98a3fa14006b90bf502bd13a044ed3dc11301"
+  },
+  "core_sha256": {
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\audit_hand_stops.py": "64e4227ba2606f3e1513b7172a659a6be7145efe17c76ad6888bcfd44fbc018a",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\calibration.py": "ed56069eec6b00d672922c86b015e0f9f4786aed732b19b6bb5d9595f46b1dc1",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\config.json": "580fbaebdec501cf5d79b3ebab10a0b7ee029de25059df85e9c173a46dd0e366",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\enrich_review.py": "3816261558ae552b1d25f10377ac0d6be77cc90a88125386de09ff968a858e94",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\geometry.py": "ce9d4c2931483476717395216dc34d844e981ae9bc2ef1ea1b135831a65afa1d",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\learn_table_template.py": "36b86208b7b0c463e5b7601253c355e9314bf4e220b074adabb0151758ead579",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\manual_calibration.py": "02841b10def5b6bf6582262afd77a74b801f2916c154926fcf448c5db07de0e9",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\modes.py": "c542d93842f6f6c6d9dff3159c10a08d6ce1ef241c35277b25d2ee7b459d8263",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\motion.py": "31e807f4c265ca1fddafd857c738372cbe787fd6268fd9ed2e619054c10617f9",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\motion_model.json": "a2e78e092adaa9d0748e4b62aff813d2f73827b89744b9f8130242b6a55d238b",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\obstructions.py": "aff8e36cac60cba099f93dd55256ef767ab140f8c20c47643ed1c5a46a747fbc",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\pipeline.py": "33c7c49c8117c1e568f7282a01d61e193cd9ff6a86fe5094d373cf0ef974e3ed",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\reference_constants.json": "09e03a65c0c62ac68fe84a49744295b1af18d3a33331093d1b1cb6e6d31849ad",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\review.py": "7880c5ec23d518da5034591bbc9aa88478fe128f3726d3d038ad07814c9cd9e4",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\rules.py": "6d553b1a3028544a078b837e7c5ddf27662d88f24a61cecd105982acb9b2d4ec",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\rules_v2.py": "4a4ac9099551a62cae7e171a9b93e76c42bb20f99541ecdafef6acf02367a0e2",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\rules_v3.py": "298f32fa19f8bc96f876f6e9623bf07fd5923b278c57ed43cbfb80b9699670a9",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\table_template.json": "801f3314f0a5dce7906002e8e69d1f5e4dcb3c1de0faf946c3d8d73ecef7aa8f",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_count_assessment.py": "046d8357fad7fe4d1c1546422471b36df5e228fc752aab9f7c089b2d472c83b6",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_geometry.py": "7e4dafa86235f29e67e50ab0eca765bd0d4bb2d6a3c4e8eefc81c4b13508d8a6",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_modes.py": "7a7c5e70cae6dcc22998e5372a2f0770e4500ba494c766cf4dd4e1376de5ec77",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_motion.py": "a5b07bde7701bb6b278915d845783e7a26ca5f4a70b7b2af5b8655ac7f828039",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_obstructions.py": "e24b9e765fe844d63cc00c200183792ca5739ec8f5aaff2d9a9dd0c70ce9dd8f",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_output_paths.py": "3f55cba6845782b6d1ef2705a6df159f5aae07892216bf3759f6ed582f770e84",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_rules.py": "4ba9041d46f0a268b1277c342a83f6ec85a1e2f0999fe183abffa0e80453c73c",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_scoring_v2.py": "e7e1259781a649d775b7a7fc4735989bceeef47f00c1938da80e1314f998a4b6",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_scoring_v3.py": "90fee5a6c8882d3638c8b2cf931e55f017049357dde3422e850343295738642a",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_validation_v2.py": "836301b43965536c494460b3597ba2b22b1b4ef38e880ae5cd0f53351da3e30e",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_validation_v3.py": "00dff54db79a347a9cf76dba12ae4e947e4ce2e4226488372972ed064fa2f7b5",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\validate_outputs.py": "310646df62ce5f4240d4b36b5a58c9444d14514bf547217aef219710b3478b11",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\verified_counts.json": "0447edcc0343871805b7e5b51b69458c4a9a2892452c95325e30f61a728f9d03",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\vision.py": "aa5165ef18d09c84bdb47870deeb284ebb57491aa2111b7ef9eca4da67d61817",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\__init__.py": "4e85c890d96efa98270b342c445de5b9d56f03c79c7a69d2cd3eab6bb8860ea7"
+  },
+  "changed_frames": [
+    5823,
+    9160,
+    12137,
+    12138,
+    12139,
+    12144
+  ],
+  "restored_frames": [
+    5823,
+    9160
+  ],
+  "excluded_frames": [
+    12137,
+    12138,
+    12139,
+    12144
+  ],
+  "changes": [
+    {
+      "frame": 5823,
+      "method": "actual_source_hsv_contour_below_global_area_gate",
+      "original_row": [
+        null,
+        null,
+        0.0,
+        0.0,
+        97050.0,
+        0.0,
+        0.0
+      ],
+      "reviewed_row": [
+        644.5349794238682,
+        24.300411522633745,
+        40.5,
+        1.0,
+        97050.0,
+        0.002054442732408834,
+        0.0
+      ],
+      "new_observation": true,
+      "reason": "Actual visible free ball red contour was below45px2. Original HSV limits/mask/3x3 close and contour moments reproduce this local source observation.",
+      "source_evidence": {
+        "frame": 5823,
+        "source_pts_ms": 97050.0,
+        "original_row": [
+          null,
+          null,
+          0.0,
+          0.0,
+          97050.0,
+          0.0,
+          0.0
+        ],
+        "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2507\\source_f5823.png",
+        "source_png_sha256": "2331b44c5bd7bad7445baee28fe3756678b606acb886419ab968d2aaedc1fa03",
+        "source_bgr_sha256": "a9c2ffa0e574a5e62d2cbd1e3339ff2a6be058681171f8c83c08eb9b27b90668",
+        "local_roi": [
+          600,
+          0,
+          680,
+          180
+        ],
+        "actual_hsv_contours": [
+          {
+            "point": [
+              644.5349794238682,
+              24.300411522633745
+            ],
+            "area": 40.5,
+            "box": [
+              638,
+              20,
+              12,
+              18
+            ],
+            "contour": [
+              [
+                640,
+                20
+              ],
+              [
+                640,
+                21
+              ],
+              [
+                639,
+                22
+              ],
+              [
+                638,
+                22
+              ],
+              [
+                638,
+                25
+              ],
+              [
+                640,
+                23
+              ],
+              [
+                646,
+                23
+              ],
+              [
+                648,
+                25
+              ],
+              [
+                648,
+                26
+              ],
+              [
+                649,
+                27
+              ],
+              [
+                649,
+                31
+              ],
+              [
+                648,
+                32
+              ],
+              [
+                648,
+                33
+              ],
+              [
+                645,
+                36
+              ],
+              [
+                642,
+                36
+              ],
+              [
+                643,
+                36
+              ],
+              [
+                644,
+                37
+              ],
+              [
+                645,
+                37
+              ],
+              [
+                645,
+                36
+              ],
+              [
+                646,
+                35
+              ],
+              [
+                649,
+                35
+              ],
+              [
+                649,
+                22
+              ],
+              [
+                648,
+                22
+              ],
+              [
+                647,
+                21
+              ],
+              [
+                647,
+                20
+              ]
+            ],
+            "hand_fraction": 0.002054442732408834
+          }
+        ]
+      },
+      "selected_original_contour": {
+        "point": [
+          644.5349794238682,
+          24.300411522633745
+        ],
+        "area": 40.5,
+        "box": [
+          638,
+          20,
+          12,
+          18
+        ],
+        "contour": [
+          [
+            640,
+            20
+          ],
+          [
+            640,
+            21
+          ],
+          [
+            639,
+            22
+          ],
+          [
+            638,
+            22
+          ],
+          [
+            638,
+            25
+          ],
+          [
+            640,
+            23
+          ],
+          [
+            646,
+            23
+          ],
+          [
+            648,
+            25
+          ],
+          [
+            648,
+            26
+          ],
+          [
+            649,
+            27
+          ],
+          [
+            649,
+            31
+          ],
+          [
+            648,
+            32
+          ],
+          [
+            648,
+            33
+          ],
+          [
+            645,
+            36
+          ],
+          [
+            642,
+            36
+          ],
+          [
+            643,
+            36
+          ],
+          [
+            644,
+            37
+          ],
+          [
+            645,
+            37
+          ],
+          [
+            645,
+            36
+          ],
+          [
+            646,
+            35
+          ],
+          [
+            649,
+            35
+          ],
+          [
+            649,
+            22
+          ],
+          [
+            648,
+            22
+          ],
+          [
+            647,
+            21
+          ],
+          [
+            647,
+            20
+          ]
+        ],
+        "hand_fraction": 0.002054442732408834
+      }
+    },
+    {
+      "frame": 9160,
+      "method": "actual_source_hsv_contour_below_global_area_gate",
+      "original_row": [
+        null,
+        null,
+        0.0,
+        0.0,
+        152667.0,
+        0.0,
+        0.0
+      ],
+      "reviewed_row": [
+        630.9613526570048,
+        69.9903381642512,
+        34.5,
+        1.0,
+        152667.0,
+        0.00398406374501992,
+        2.0
+      ],
+      "new_observation": true,
+      "reason": "Actual visible free ball red contour was below45px2. Original HSV limits/mask/3x3 close and contour moments reproduce this local source observation.",
+      "source_evidence": {
+        "frame": 9160,
+        "source_pts_ms": 152667.0,
+        "original_row": [
+          null,
+          null,
+          0.0,
+          0.0,
+          152667.0,
+          0.0,
+          0.0
+        ],
+        "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2507\\source_f9160.png",
+        "source_png_sha256": "35d8256d50b20218681c581bb6b9e19aabe95b804740b16079f15c6a7ae55e3c",
+        "source_bgr_sha256": "f63388d78394181e52d953e25f2bf6682f2f75769bffc8bca009f0fbb2b40221",
+        "local_roi": [
+          600,
+          0,
+          680,
+          180
+        ],
+        "actual_hsv_contours": [
+          {
+            "point": [
+              630.9613526570048,
+              69.9903381642512
+            ],
+            "area": 34.5,
+            "box": [
+              626,
+              62,
+              14,
+              12
+            ],
+            "contour": [
+              [
+                626,
+                62
+              ],
+              [
+                626,
+                69
+              ],
+              [
+                627,
+                69
+              ],
+              [
+                628,
+                70
+              ],
+              [
+                628,
+                73
+              ],
+              [
+                637,
+                73
+              ],
+              [
+                637,
+                70
+              ],
+              [
+                638,
+                69
+              ],
+              [
+                639,
+                69
+              ],
+              [
+                639,
+                66
+              ],
+              [
+                639,
+                67
+              ],
+              [
+                638,
+                68
+              ],
+              [
+                638,
+                69
+              ],
+              [
+                637,
+                70
+              ],
+              [
+                636,
+                70
+              ],
+              [
+                635,
+                71
+              ],
+              [
+                631,
+                71
+              ],
+              [
+                627,
+                67
+              ],
+              [
+                627,
+                62
+              ]
+            ],
+            "hand_fraction": 0.00398406374501992
+          }
+        ]
+      },
+      "selected_original_contour": {
+        "point": [
+          630.9613526570048,
+          69.9903381642512
+        ],
+        "area": 34.5,
+        "box": [
+          626,
+          62,
+          14,
+          12
+        ],
+        "contour": [
+          [
+            626,
+            62
+          ],
+          [
+            626,
+            69
+          ],
+          [
+            627,
+            69
+          ],
+          [
+            628,
+            70
+          ],
+          [
+            628,
+            73
+          ],
+          [
+            637,
+            73
+          ],
+          [
+            637,
+            70
+          ],
+          [
+            638,
+            69
+          ],
+          [
+            639,
+            69
+          ],
+          [
+            639,
+            66
+          ],
+          [
+            639,
+            67
+          ],
+          [
+            638,
+            68
+          ],
+          [
+            638,
+            69
+          ],
+          [
+            637,
+            70
+          ],
+          [
+            636,
+            70
+          ],
+          [
+            635,
+            71
+          ],
+          [
+            631,
+            71
+          ],
+          [
+            627,
+            67
+          ],
+          [
+            627,
+            62
+          ]
+        ],
+        "hand_fraction": 0.00398406374501992
+      }
+    },
+    {
+      "frame": 12137,
+      "method": "source_verified_wrong_object_exclusion",
+      "original_row": [
+        446.72930648769574,
+        12.532438478747203,
+        149.0,
+        1.0,
+        202284.0,
+        0.04714475431606906,
+        0.0
+      ],
+      "reviewed_row": [
+        null,
+        null,
+        0.0,
+        0.0,
+        202284.0,
+        0.0,
+        0.0
+      ],
+      "new_observation": false,
+      "reason": "Actual source frames show selected upper-left point on red clothing while the real free ball is on the upper central cloth. No replacement position is inferred.",
+      "source_evidence": {
+        "frame": 12137,
+        "source_pts_ms": 202284.0,
+        "original_row": [
+          446.72930648769574,
+          12.532438478747203,
+          149.0,
+          1.0,
+          202284.0,
+          0.04714475431606906,
+          0.0
+        ],
+        "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2507\\source_f12137.png",
+        "source_png_sha256": "d9ee192e29ec7a8250a846fd8d53e5580c9d10360167bfcfe7313ee82abcd930",
+        "source_bgr_sha256": "f2a5cfef97bcbb8f5db3249cd27b4156ef8ef25db8c8d1d82e1890b146f54518",
+        "local_roi": [
+          600,
+          0,
+          680,
+          180
+        ],
+        "actual_hsv_contours": [
+          {
+            "point": [
+              635.4074074074074,
+              124.40123456790123
+            ],
+            "area": 27.0,
+            "box": [
+              630,
+              118,
+              12,
+              12
+            ],
+            "contour": [
+              [
+                630,
+                118
+              ],
+              [
+                630,
+                129
+              ],
+              [
+                641,
+                129
+              ],
+              [
+                641,
+                118
+              ],
+              [
+                640,
+                118
+              ],
+              [
+                640,
+                127
+              ],
+              [
+                638,
+                129
+              ],
+              [
+                634,
+                129
+              ],
+              [
+                633,
+                128
+              ],
+              [
+                632,
+                128
+              ],
+              [
+                631,
+                127
+              ],
+              [
+                631,
+                118
+              ]
+            ],
+            "hand_fraction": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "frame": 12138,
+      "method": "source_verified_wrong_object_exclusion",
+      "original_row": [
+        446.94825870646764,
+        12.91044776119403,
+        167.5,
+        2.0,
+        202300.0,
+        0.049136786188579015,
+        0.0
+      ],
+      "reviewed_row": [
+        null,
+        null,
+        0.0,
+        0.0,
+        202300.0,
+        0.0,
+        0.0
+      ],
+      "new_observation": false,
+      "reason": "Actual source frames show selected upper-left point on red clothing while the real free ball is on the upper central cloth. No replacement position is inferred.",
+      "source_evidence": {
+        "frame": 12138,
+        "source_pts_ms": 202300.0,
+        "original_row": [
+          446.94825870646764,
+          12.91044776119403,
+          167.5,
+          2.0,
+          202300.0,
+          0.049136786188579015,
+          0.0
+        ],
+        "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2507\\source_f12138.png",
+        "source_png_sha256": "cb248f5740a99f63dee6607c4e46ece543760d50b5ddbd9fe3f3e4f74621c948",
+        "source_bgr_sha256": "b30779a6b2053e1ab5021a9fb4d1eeb819aff4758ad271ca928946cb37b66e84",
+        "local_roi": [
+          600,
+          0,
+          680,
+          180
+        ],
+        "actual_hsv_contours": [
+          {
+            "point": [
+              635.2939068100359,
+              112.40979689366786
+            ],
+            "area": 139.5,
+            "box": [
+              628,
+              106,
+              14,
+              14
+            ],
+            "contour": [
+              [
+                632,
+                106
+              ],
+              [
+                632,
+                107
+              ],
+              [
+                631,
+                108
+              ],
+              [
+                630,
+                108
+              ],
+              [
+                630,
+                111
+              ],
+              [
+                629,
+                112
+              ],
+              [
+                628,
+                112
+              ],
+              [
+                628,
+                115
+              ],
+              [
+                629,
+                115
+              ],
+              [
+                630,
+                116
+              ],
+              [
+                630,
+                117
+              ],
+              [
+                631,
+                117
+              ],
+              [
+                632,
+                118
+              ],
+              [
+                632,
+                119
+              ],
+              [
+                639,
+                119
+              ],
+              [
+                639,
+                118
+              ],
+              [
+                640,
+                117
+              ],
+              [
+                641,
+                117
+              ],
+              [
+                641,
+                106
+              ]
+            ],
+            "hand_fraction": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "frame": 12139,
+      "method": "source_verified_wrong_object_exclusion",
+      "original_row": [
+        447.43652743652746,
+        13.484029484029485,
+        203.5,
+        1.0,
+        202317.0,
+        0.049136786188579015,
+        0.0
+      ],
+      "reviewed_row": [
+        null,
+        null,
+        0.0,
+        0.0,
+        202317.0,
+        0.0,
+        0.0
+      ],
+      "new_observation": false,
+      "reason": "Actual source frames show selected upper-left point on red clothing while the real free ball is on the upper central cloth. No replacement position is inferred.",
+      "source_evidence": {
+        "frame": 12139,
+        "source_pts_ms": 202317.0,
+        "original_row": [
+          447.43652743652746,
+          13.484029484029485,
+          203.5,
+          1.0,
+          202317.0,
+          0.049136786188579015,
+          0.0
+        ],
+        "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2507\\source_f12139.png",
+        "source_png_sha256": "8ce99deaedf4ad5fcef062ef3bcdd9b1c07830d531368c3a383c7cfc8968886c",
+        "source_bgr_sha256": "61ceb2de1d10e07c9d0067bf62720579356461a4197cc984743d42aefd530b35",
+        "local_roi": [
+          600,
+          0,
+          680,
+          180
+        ],
+        "actual_hsv_contours": [
+          {
+            "point": [
+              631.3846153846154,
+              98.3205128205128
+            ],
+            "area": 26.0,
+            "box": [
+              628,
+              92,
+              10,
+              14
+            ],
+            "contour": [
+              [
+                634,
+                92
+              ],
+              [
+                634,
+                93
+              ],
+              [
+                633,
+                94
+              ],
+              [
+                632,
+                94
+              ],
+              [
+                632,
+                95
+              ],
+              [
+                631,
+                96
+              ],
+              [
+                630,
+                96
+              ],
+              [
+                630,
+                99
+              ],
+              [
+                629,
+                100
+              ],
+              [
+                628,
+                100
+              ],
+              [
+                628,
+                103
+              ],
+              [
+                629,
+                103
+              ],
+              [
+                630,
+                104
+              ],
+              [
+                630,
+                105
+              ],
+              [
+                631,
+                105
+              ],
+              [
+                631,
+                98
+              ],
+              [
+                632,
+                97
+              ],
+              [
+                632,
+                96
+              ],
+              [
+                633,
+                95
+              ],
+              [
+                634,
+                95
+              ],
+              [
+                636,
+                93
+              ],
+              [
+                637,
+                93
+              ],
+              [
+                637,
+                92
+              ]
+            ],
+            "hand_fraction": 0.010956175298804782
+          }
+        ]
+      }
+    },
+    {
+      "frame": 12144,
+      "method": "source_verified_wrong_object_exclusion",
+      "original_row": [
+        447.4420600858369,
+        15.59728183118741,
+        233.0,
+        1.0,
+        202400.0,
+        0.04735883424408015,
+        0.0
+      ],
+      "reviewed_row": [
+        null,
+        null,
+        0.0,
+        0.0,
+        202400.0,
+        0.0,
+        0.0
+      ],
+      "new_observation": false,
+      "reason": "Actual source frames show selected upper-left point on red clothing while the real free ball is on the upper central cloth. No replacement position is inferred.",
+      "source_evidence": {
+        "frame": 12144,
+        "source_pts_ms": 202400.0,
+        "original_row": [
+          447.4420600858369,
+          15.59728183118741,
+          233.0,
+          1.0,
+          202400.0,
+          0.04735883424408015,
+          0.0
+        ],
+        "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2507\\source_f12144.png",
+        "source_png_sha256": "9bf0891dd52d5a4cb7c9b2fd0f227c67c88156199ee832a6ece43ae92b18a714",
+        "source_bgr_sha256": "58faa0324301f240ca6e39eac555af0b3a9e604a99a16522820c2ed2c3f54f19",
+        "local_roi": [
+          600,
+          0,
+          680,
+          180
+        ],
+        "actual_hsv_contours": [
+          {
+            "point": [
+              631.6354166666666,
+              42.125
+            ],
+            "area": 16.0,
+            "box": [
+              629,
+              34,
+              9,
+              14
+            ],
+            "contour": [
+              [
+                632,
+                34
+              ],
+              [
+                632,
+                35
+              ],
+              [
+                631,
+                36
+              ],
+              [
+                630,
+                36
+              ],
+              [
+                630,
+                37
+              ],
+              [
+                629,
+                38
+              ],
+              [
+                629,
+                39
+              ],
+              [
+                630,
+                40
+              ],
+              [
+                630,
+                45
+              ],
+              [
+                631,
+                45
+              ],
+              [
+                632,
+                46
+              ],
+              [
+                632,
+                47
+              ],
+              [
+                637,
+                47
+              ],
+              [
+                637,
+                46
+              ],
+              [
+                632,
+                46
+              ],
+              [
+                631,
+                45
+              ],
+              [
+                631,
+                36
+              ],
+              [
+                632,
+                35
+              ]
+            ],
+            "hand_fraction": 0.00249003984063745
+          }
+        ]
+      }
+    }
+  ],
+  "source_time_column_bitwise_unchanged": true,
+  "all_other_raw_rows_bitwise_unchanged": true,
+  "non_data_arrays_bitwise_unchanged": true,
+  "raw_schema": [
+    "u",
+    "v",
+    "ball_mask_area",
+    "candidate_count",
+    "source_pts_ms",
+    "hand_fraction",
+    "detector_reacquired_gap_frames"
+  ],
+  "metadata_policy": "Only changed rows get source-reviewed observation metadata. Existing detector gap metadata on all other rows remains original; scorer uses finite/missing coordinates.",
+  "visually_reviewed_source_frames": [
+    5821,
+    5822,
+    5823,
+    5824,
+    5825,
+    5826,
+    5827,
+    5828,
+    5829,
+    5830,
+    9155,
+    9156,
+    9157,
+    9158,
+    9159,
+    9160,
+    9161,
+    9162,
+    9163,
+    9164,
+    9165,
+    9166,
+    12133,
+    12134,
+    12135,
+    12136,
+    12137,
+    12138,
+    12139,
+    12140,
+    12141,
+    12142,
+    12143,
+    12144,
+    12145,
+    12146,
+    12147
+  ],
+  "actual_visual_scope": "Original source upper-rail ball ROI sequence opened at readable resolution, plus full source frames12137/12138/12139/12144 for the clothing distinction in25_07. Native labels and candidate totals are not the source of visual decisions.",
+  "before": {
+    "attempts": 31,
+    "valid": 29,
+    "complete": 29
+  },
+  "after": {
+    "attempts": 31,
+    "valid": 31,
+    "complete": 31
+  },
+  "repaired_attempts": [
+    {
+      "attempt": 10,
+      "before": {
+        "attempt": 10,
+        "shot": "",
+        "mode": "angle",
+        "scoring_version": 3,
+        "start_frame": 5766,
+        "end_frame": 6391,
+        "start_s": 96.10000000000001,
+        "end_s": 106.517,
+        "origin_rest_start_frame": 5314,
+        "next_origin_rest_start_frame": 6019,
+        "angle_search_end_frame": 6018,
+        "bank_frame": null,
+        "bank_s": "",
+        "target_bank_valid": 0,
+        "missing_frames": 25,
+        "interpolated_frames": 25,
+        "time_source": "decoder_timestamp_ms",
+        "angle_value": "",
+        "angle_uncapped": "",
+        "angle_maximum": 90.0,
+        "angle_status": "invalid",
+        "angle_valid": 0,
+        "angle_stop_reason": "invalid_reverse",
+        "angle_end_plane_x": 0.5275655870812628,
+        "angle_end_plane_y": 1.6762964944955363,
+        "angle_end_frame": 6018,
+        "angle_position_frame": 5971,
+        "angle_needs_review": 1,
+        "angle_assumed_stop": 0,
+        "angle_method": "observed_endpoint",
+        "angle_endpoint_kind": "disappeared",
+        "angle_raw_degrees": 169.23349834105068,
+        "angle_direction_status": "reverse",
+        "angle_reverse": 1,
+        "angle_contact_kind": "",
+        "angle_evidence": "{}",
+        "angle_min_displacement_cm": 8.0,
+        "angle_max_displacement_cm": 125.57685410421648,
+        "angle_displacement_valid": 1,
+        "angle_displacement_end_frame": 5971,
+        "angle_displacement_frame": 5822,
+        "angle_displacement_sample_count": 181,
+        "strength_value": "",
+        "strength_uncapped": "",
+        "strength_maximum": "",
+        "strength_status": "not_requested",
+        "strength_valid": 0,
+        "strength_stop_reason": "",
+        "strength_end_plane_x": "",
+        "strength_end_plane_y": "",
+        "strength_end_frame": "",
+        "strength_position_frame": "",
+        "strength_needs_review": 0,
+        "strength_assumed_stop": 0,
+        "strength_method": "",
+        "collision_evidence": "[]",
+        "valid": 0,
+        "score_complete": 0,
+        "needs_review": 1,
+        "assumed_stop": 0,
+        "stop_reason": "invalid_reverse",
+        "value": "",
+        "uncapped_value": "",
+        "maximum": 90.0,
+        "end_plane_x": 0.5275655870812628,
+        "end_plane_y": 1.6762964944955363,
+        "position_frame": 5971
+      },
+      "after": {
+        "attempt": 10,
+        "shot": 10,
+        "mode": "angle",
+        "scoring_version": 3,
+        "start_frame": 5766,
+        "end_frame": 6391,
+        "start_s": 96.10000000000001,
+        "end_s": 106.517,
+        "origin_rest_start_frame": 5314,
+        "next_origin_rest_start_frame": 6019,
+        "angle_search_end_frame": 6018,
+        "bank_frame": 5822,
+        "bank_s": 97.034,
+        "target_bank_valid": 1,
+        "missing_frames": 24,
+        "interpolated_frames": 24,
+        "time_source": "decoder_timestamp_ms",
+        "angle_value": 0.4571954955644533,
+        "angle_uncapped": 0.4571954955644533,
+        "angle_maximum": 90.0,
+        "angle_status": "scored",
+        "angle_valid": 1,
+        "angle_stop_reason": "first_cushion",
+        "angle_end_plane_x": 0.5174239627224618,
+        "angle_end_plane_y": 0.00245066622089923,
+        "angle_end_frame": 5834,
+        "angle_position_frame": 5822,
+        "angle_needs_review": 0,
+        "angle_assumed_stop": 0,
+        "angle_method": "observed_endpoint",
+        "angle_endpoint_kind": "first_cushion",
+        "angle_raw_degrees": 0.4571954955644533,
+        "angle_direction_status": "forward",
+        "angle_reverse": 0,
+        "angle_contact_kind": "target",
+        "angle_evidence": "{\"frame\":5822,\"before_frame\":5810,\"after_frame\":5834,\"time_s\":97.034,\"kind\":\"target\",\"plane_point\":[0.5174239627224618,0.00245066622089923],\"approach_vector\":[0.0032587228705106552,-0.3083421047179178],\"return_vector\":[-0.0006013493162853045,0.19988390753616345]}",
+        "angle_min_displacement_cm": 8.0,
+        "angle_max_displacement_cm": 125.57685410421648,
+        "angle_displacement_valid": 1,
+        "angle_displacement_end_frame": 5822,
+        "angle_displacement_frame": 5822,
+        "angle_displacement_sample_count": 50,
+        "strength_value": "",
+        "strength_uncapped": "",
+        "strength_maximum": "",
+        "strength_status": "not_requested",
+        "strength_valid": 0,
+        "strength_stop_reason": "",
+        "strength_end_plane_x": "",
+        "strength_end_plane_y": "",
+        "strength_end_frame": "",
+        "strength_position_frame": "",
+        "strength_needs_review": 0,
+        "strength_assumed_stop": 0,
+        "strength_method": "",
+        "collision_evidence": "[{\"frame\":5822,\"before_frame\":5810,\"after_frame\":5834,\"time_s\":97.034,\"kind\":\"target\",\"plane_point\":[0.5174239627224618,0.00245066622089923],\"approach_vector\":[0.0032587228705106552,-0.3083421047179178],\"return_vector\":[-0.0006013493162853045,0.19988390753616345]}]",
+        "valid": 1,
+        "score_complete": 1,
+        "needs_review": 0,
+        "assumed_stop": 0,
+        "stop_reason": "first_cushion",
+        "value": 0.4571954955644533,
+        "uncapped_value": 0.4571954955644533,
+        "maximum": 90.0,
+        "end_plane_x": 0.5174239627224618,
+        "end_plane_y": 0.00245066622089923,
+        "position_frame": 5822
+      },
+      "changed_fields": [
+        "angle_contact_kind",
+        "angle_direction_status",
+        "angle_displacement_end_frame",
+        "angle_displacement_sample_count",
+        "angle_end_frame",
+        "angle_end_plane_x",
+        "angle_end_plane_y",
+        "angle_endpoint_kind",
+        "angle_evidence",
+        "angle_needs_review",
+        "angle_position_frame",
+        "angle_raw_degrees",
+        "angle_reverse",
+        "angle_status",
+        "angle_stop_reason",
+        "angle_uncapped",
+        "angle_valid",
+        "angle_value",
+        "bank_frame",
+        "bank_s",
+        "collision_evidence",
+        "end_plane_x",
+        "end_plane_y",
+        "interpolated_frames",
+        "missing_frames",
+        "needs_review",
+        "position_frame",
+        "score_complete",
+        "stop_reason",
+        "target_bank_valid",
+        "uncapped_value",
+        "valid",
+        "value"
+      ]
+    },
+    {
+      "attempt": 16,
+      "before": {
+        "attempt": 16,
+        "shot": "",
+        "mode": "angle",
+        "scoring_version": 3,
+        "start_frame": 9117,
+        "end_frame": 9842,
+        "start_s": 151.95000000000002,
+        "end_s": 164.034,
+        "origin_rest_start_frame": 8752,
+        "next_origin_rest_start_frame": 9342,
+        "angle_search_end_frame": 9341,
+        "bank_frame": null,
+        "bank_s": "",
+        "target_bank_valid": 0,
+        "missing_frames": 25,
+        "interpolated_frames": 25,
+        "time_source": "decoder_timestamp_ms",
+        "angle_value": "",
+        "angle_uncapped": "",
+        "angle_maximum": 90.0,
+        "angle_status": "invalid",
+        "angle_valid": 0,
+        "angle_stop_reason": "invalid_reverse",
+        "angle_end_plane_x": 0.47686688339739963,
+        "angle_end_plane_y": 1.9786172118300145,
+        "angle_end_frame": 9271,
+        "angle_position_frame": 9259,
+        "angle_needs_review": 1,
+        "angle_assumed_stop": 0,
+        "angle_method": "observed_endpoint",
+        "angle_endpoint_kind": "first_cushion",
+        "angle_raw_degrees": 178.27035748926596,
+        "angle_direction_status": "reverse",
+        "angle_reverse": 1,
+        "angle_contact_kind": "opposite",
+        "angle_evidence": "{\"frame\":9259,\"before_frame\":9247,\"after_frame\":9271,\"time_s\":154.317,\"kind\":\"opposite\",\"plane_point\":[0.47686688339739963,1.9786172118300145],\"approach_vector\":[-0.0017922762195446973,0.19202768593924002],\"return_vector\":[-0.0001724293499286711,-0.1101894233691274]}",
+        "angle_min_displacement_cm": 8.0,
+        "angle_max_displacement_cm": 124.1186627027605,
+        "angle_displacement_valid": 1,
+        "angle_displacement_end_frame": 9259,
+        "angle_displacement_frame": 9156,
+        "angle_displacement_sample_count": 118,
+        "strength_value": "",
+        "strength_uncapped": "",
+        "strength_maximum": "",
+        "strength_status": "not_requested",
+        "strength_valid": 0,
+        "strength_stop_reason": "",
+        "strength_end_plane_x": "",
+        "strength_end_plane_y": "",
+        "strength_end_frame": "",
+        "strength_position_frame": "",
+        "strength_needs_review": 0,
+        "strength_assumed_stop": 0,
+        "strength_method": "",
+        "collision_evidence": "[{\"frame\":9259,\"before_frame\":9247,\"after_frame\":9271,\"time_s\":154.317,\"kind\":\"opposite\",\"plane_point\":[0.47686688339739963,1.9786172118300145],\"approach_vector\":[-0.0017922762195446973,0.19202768593924002],\"return_vector\":[-0.0001724293499286711,-0.1101894233691274]}]",
+        "valid": 0,
+        "score_complete": 0,
+        "needs_review": 1,
+        "assumed_stop": 0,
+        "stop_reason": "invalid_reverse",
+        "value": "",
+        "uncapped_value": "",
+        "maximum": 90.0,
+        "end_plane_x": 0.47686688339739963,
+        "end_plane_y": 1.9786172118300145,
+        "position_frame": 9259
+      },
+      "after": {
+        "attempt": 16,
+        "shot": 16,
+        "mode": "angle",
+        "scoring_version": 3,
+        "start_frame": 9117,
+        "end_frame": 9842,
+        "start_s": 151.95000000000002,
+        "end_s": 164.034,
+        "origin_rest_start_frame": 8752,
+        "next_origin_rest_start_frame": 9342,
+        "angle_search_end_frame": 9341,
+        "bank_frame": 9156,
+        "bank_s": 152.6,
+        "target_bank_valid": 1,
+        "missing_frames": 24,
+        "interpolated_frames": 24,
+        "time_source": "decoder_timestamp_ms",
+        "angle_value": 0.8890064838725742,
+        "angle_uncapped": 0.8890064838725742,
+        "angle_maximum": 90.0,
+        "angle_status": "scored",
+        "angle_valid": 1,
+        "angle_stop_reason": "first_cushion",
+        "angle_end_plane_x": 0.48244544023295305,
+        "angle_end_plane_y": 0.019691443977443282,
+        "angle_end_frame": 9168,
+        "angle_position_frame": 9156,
+        "angle_needs_review": 0,
+        "angle_assumed_stop": 0,
+        "angle_method": "observed_endpoint",
+        "angle_endpoint_kind": "first_cushion",
+        "angle_raw_degrees": 0.8890064838725742,
+        "angle_direction_status": "forward",
+        "angle_reverse": 0,
+        "angle_contact_kind": "target",
+        "angle_evidence": "{\"frame\":9156,\"before_frame\":9144,\"after_frame\":9168,\"time_s\":152.6,\"kind\":\"target\",\"plane_point\":[0.48244544023295305,0.019691443977443282],\"approach_vector\":[-0.00624117147896136,-0.4288633135751684],\"return_vector\":[0.00591079114887233,0.3184850291954222]}",
+        "angle_min_displacement_cm": 8.0,
+        "angle_max_displacement_cm": 124.1186627027605,
+        "angle_displacement_valid": 1,
+        "angle_displacement_end_frame": 9156,
+        "angle_displacement_frame": 9156,
+        "angle_displacement_sample_count": 30,
+        "strength_value": "",
+        "strength_uncapped": "",
+        "strength_maximum": "",
+        "strength_status": "not_requested",
+        "strength_valid": 0,
+        "strength_stop_reason": "",
+        "strength_end_plane_x": "",
+        "strength_end_plane_y": "",
+        "strength_end_frame": "",
+        "strength_position_frame": "",
+        "strength_needs_review": 0,
+        "strength_assumed_stop": 0,
+        "strength_method": "",
+        "collision_evidence": "[{\"frame\":9156,\"before_frame\":9144,\"after_frame\":9168,\"time_s\":152.6,\"kind\":\"target\",\"plane_point\":[0.48244544023295305,0.019691443977443282],\"approach_vector\":[-0.00624117147896136,-0.4288633135751684],\"return_vector\":[0.00591079114887233,0.3184850291954222]}]",
+        "valid": 1,
+        "score_complete": 1,
+        "needs_review": 0,
+        "assumed_stop": 0,
+        "stop_reason": "first_cushion",
+        "value": 0.8890064838725742,
+        "uncapped_value": 0.8890064838725742,
+        "maximum": 90.0,
+        "end_plane_x": 0.48244544023295305,
+        "end_plane_y": 0.019691443977443282,
+        "position_frame": 9156
+      },
+      "changed_fields": [
+        "angle_contact_kind",
+        "angle_direction_status",
+        "angle_displacement_end_frame",
+        "angle_displacement_sample_count",
+        "angle_end_frame",
+        "angle_end_plane_x",
+        "angle_end_plane_y",
+        "angle_evidence",
+        "angle_needs_review",
+        "angle_position_frame",
+        "angle_raw_degrees",
+        "angle_reverse",
+        "angle_status",
+        "angle_stop_reason",
+        "angle_uncapped",
+        "angle_valid",
+        "angle_value",
+        "bank_frame",
+        "bank_s",
+        "collision_evidence",
+        "end_plane_x",
+        "end_plane_y",
+        "interpolated_frames",
+        "missing_frames",
+        "needs_review",
+        "position_frame",
+        "score_complete",
+        "stop_reason",
+        "target_bank_valid",
+        "uncapped_value",
+        "valid",
+        "value"
+      ]
+    },
+    {
+      "attempt": 21,
+      "before": {
+        "attempt": 21,
+        "shot": 19,
+        "mode": "angle",
+        "scoring_version": 3,
+        "start_frame": 12105,
+        "end_frame": 12857,
+        "start_s": 201.75,
+        "end_s": 214.284,
+        "origin_rest_start_frame": 11760,
+        "next_origin_rest_start_frame": 12328,
+        "angle_search_end_frame": 12327,
+        "bank_frame": 12137,
+        "bank_s": 202.284,
+        "target_bank_valid": 1,
+        "missing_frames": 15,
+        "interpolated_frames": 15,
+        "time_source": "decoder_timestamp_ms",
+        "angle_value": 19.325583710300066,
+        "angle_uncapped": 19.325583710300066,
+        "angle_maximum": 90.0,
+        "angle_status": "scored",
+        "angle_valid": 1,
+        "angle_stop_reason": "first_cushion",
+        "angle_end_plane_x": -0.014173297236240468,
+        "angle_end_plane_y": 0.011990650493581506,
+        "angle_end_frame": 12149,
+        "angle_position_frame": 12137,
+        "angle_needs_review": 0,
+        "angle_assumed_stop": 0,
+        "angle_method": "observed_endpoint",
+        "angle_endpoint_kind": "first_cushion",
+        "angle_raw_degrees": 19.325583710300066,
+        "angle_direction_status": "forward",
+        "angle_reverse": 0,
+        "angle_contact_kind": "target+left",
+        "angle_evidence": "{\"frame\":12137,\"before_frame\":12125,\"after_frame\":12149,\"time_s\":202.284,\"kind\":\"target+left\",\"plane_point\":[-0.014173297236240468,0.011990650493581506],\"approach_vector\":[-0.5015536249681081,-0.6685066353483956],\"return_vector\":[0.5119447501973714,0.07238750464519146]}",
+        "angle_min_displacement_cm": 8.0,
+        "angle_max_displacement_cm": 131.88445082434123,
+        "angle_displacement_valid": 1,
+        "angle_displacement_end_frame": 12137,
+        "angle_displacement_frame": 12137,
+        "angle_displacement_sample_count": 28,
+        "strength_value": "",
+        "strength_uncapped": "",
+        "strength_maximum": "",
+        "strength_status": "not_requested",
+        "strength_valid": 0,
+        "strength_stop_reason": "",
+        "strength_end_plane_x": "",
+        "strength_end_plane_y": "",
+        "strength_end_frame": "",
+        "strength_position_frame": "",
+        "strength_needs_review": 0,
+        "strength_assumed_stop": 0,
+        "strength_method": "",
+        "collision_evidence": "[{\"frame\":12137,\"before_frame\":12125,\"after_frame\":12149,\"time_s\":202.284,\"kind\":\"target+left\",\"plane_point\":[-0.014173297236240468,0.011990650493581506],\"approach_vector\":[-0.5015536249681081,-0.6685066353483956],\"return_vector\":[0.5119447501973714,0.07238750464519146]}]",
+        "valid": 1,
+        "score_complete": 1,
+        "needs_review": 0,
+        "assumed_stop": 0,
+        "stop_reason": "first_cushion",
+        "value": 19.325583710300066,
+        "uncapped_value": 19.325583710300066,
+        "maximum": 90.0,
+        "end_plane_x": -0.014173297236240468,
+        "end_plane_y": 0.011990650493581506,
+        "position_frame": 12137
+      },
+      "after": {
+        "attempt": 21,
+        "shot": 21,
+        "mode": "angle",
+        "scoring_version": 3,
+        "start_frame": 12105,
+        "end_frame": 12857,
+        "start_s": 201.75,
+        "end_s": 214.284,
+        "origin_rest_start_frame": 11760,
+        "next_origin_rest_start_frame": 12328,
+        "angle_search_end_frame": 12327,
+        "bank_frame": 12146,
+        "bank_s": 202.434,
+        "target_bank_valid": 1,
+        "missing_frames": 19,
+        "interpolated_frames": 19,
+        "time_source": "decoder_timestamp_ms",
+        "angle_value": 0.43865110794723133,
+        "angle_uncapped": 0.43865110794723133,
+        "angle_maximum": 90.0,
+        "angle_status": "scored",
+        "angle_valid": 1,
+        "angle_stop_reason": "first_cushion",
+        "angle_end_plane_x": 0.4940581385053683,
+        "angle_end_plane_y": 0.01700484043538155,
+        "angle_end_frame": 12158,
+        "angle_position_frame": 12146,
+        "angle_needs_review": 0,
+        "angle_assumed_stop": 0,
+        "angle_method": "observed_endpoint",
+        "angle_endpoint_kind": "first_cushion",
+        "angle_raw_degrees": 0.43865110794723133,
+        "angle_direction_status": "forward",
+        "angle_reverse": 0,
+        "angle_contact_kind": "target",
+        "angle_evidence": "{\"frame\":12146,\"before_frame\":12134,\"after_frame\":12158,\"time_s\":202.434,\"kind\":\"target\",\"plane_point\":[0.4940581385053683,0.01700484043538155],\"approach_vector\":[0.010484892886383212,-0.3535161084807157],\"return_vector\":[0.028799565245544168,0.31257744762558815]}",
+        "angle_min_displacement_cm": 8.0,
+        "angle_max_displacement_cm": 124.33998894218409,
+        "angle_displacement_valid": 1,
+        "angle_displacement_end_frame": 12146,
+        "angle_displacement_frame": 12146,
+        "angle_displacement_sample_count": 33,
+        "strength_value": "",
+        "strength_uncapped": "",
+        "strength_maximum": "",
+        "strength_status": "not_requested",
+        "strength_valid": 0,
+        "strength_stop_reason": "",
+        "strength_end_plane_x": "",
+        "strength_end_plane_y": "",
+        "strength_end_frame": "",
+        "strength_position_frame": "",
+        "strength_needs_review": 0,
+        "strength_assumed_stop": 0,
+        "strength_method": "",
+        "collision_evidence": "[{\"frame\":12146,\"before_frame\":12134,\"after_frame\":12158,\"time_s\":202.434,\"kind\":\"target\",\"plane_point\":[0.4940581385053683,0.01700484043538155],\"approach_vector\":[0.010484892886383212,-0.3535161084807157],\"return_vector\":[0.028799565245544168,0.31257744762558815]}]",
+        "valid": 1,
+        "score_complete": 1,
+        "needs_review": 0,
+        "assumed_stop": 0,
+        "stop_reason": "first_cushion",
+        "value": 0.43865110794723133,
+        "uncapped_value": 0.43865110794723133,
+        "maximum": 90.0,
+        "end_plane_x": 0.4940581385053683,
+        "end_plane_y": 0.01700484043538155,
+        "position_frame": 12146
+      },
+      "changed_fields": [
+        "angle_contact_kind",
+        "angle_displacement_end_frame",
+        "angle_displacement_frame",
+        "angle_displacement_sample_count",
+        "angle_end_frame",
+        "angle_end_plane_x",
+        "angle_end_plane_y",
+        "angle_evidence",
+        "angle_max_displacement_cm",
+        "angle_position_frame",
+        "angle_raw_degrees",
+        "angle_uncapped",
+        "angle_value",
+        "bank_frame",
+        "bank_s",
+        "collision_evidence",
+        "end_plane_x",
+        "end_plane_y",
+        "interpolated_frames",
+        "missing_frames",
+        "position_frame",
+        "uncapped_value",
+        "value"
+      ]
+    }
+  ],
+  "unchanged_attempts_except_shot_renumbering": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    20,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "source_evidence": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2507\\source_evidence.json",
+  "source_evidence_sha256": "3bcd6d7017fe6f8736ed7b757fc5a1c806c157ba7bfe7d2f53e47449ef268b79",
+  "before_after_records": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2507\\before_after_records.json",
+  "before_after_records_sha256": "7886b7b3a94702f4d913ed113d543cd2458e032cd6362868ec37e8d4b77bfa85",
+  "limitation": "Local actual source-pixel corrections only, not full manual ground truth. No interpolated/predicted coordinates, changed timestamps, HSV threshold, score/core edit or native installation."
+}

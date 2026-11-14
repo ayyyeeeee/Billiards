@@ -1,0 +1,1374 @@
+{
+  "created_utc": "2026-10-20T20:12:54.452709+00:00",
+  "scope": "Read-only inspection. Source/cache/result/core unchanged. Cyan positions are original observations, not recovered coordinates.",
+  "script_sha256": "94edd8c60b5f764d316c881408e17a21a285a854d42cef5de6ce1c21acec6575",
+  "core_sha256": {
+    "rules_v2.py": "4a4ac9099551a62cae7e171a9b93e76c42bb20f99541ecdafef6acf02367a0e2",
+    "rules_v3.py": "298f32fa19f8bc96f876f6e9623bf07fd5923b278c57ed43cbfb80b9699670a9",
+    "config.json": "580fbaebdec501cf5d79b3ebab10a0b7ee029de25059df85e9c173a46dd0e366"
+  },
+  "entries": [
+    {
+      "stem": "01_02_baseline_strength_010shots",
+      "shot": 2,
+      "original_row": {
+        "shot": "2",
+        "mode": "strength",
+        "strength_value": "0.257214",
+        "angle_value": "",
+        "strength_status": "scored",
+        "angle_status": "not_requested",
+        "value": "0.257214",
+        "unit": "origin_to_strip",
+        "stop_reason": "assumed_stationary_hand",
+        "start_s": "37.050000000000004",
+        "bank_s": "38.366",
+        "end_s": "42.050000000000004",
+        "start_frame": "2223",
+        "bank_frame": "2302",
+        "end_frame": "2523",
+        "uncapped_value": "0.25721449265932256",
+        "maximum": "1.0090133562092733",
+        "needs_review": "1",
+        "missing_frames": "20",
+        "interpolated_frames": "20",
+        "assumed_stop": "1",
+        "position_frame": "2523",
+        "attempt": "2",
+        "valid": "1",
+        "scoring_version": "3",
+        "time_source": "decoder_timestamp_ms",
+        "strength_uncapped": "0.257214",
+        "strength_maximum": "1.0090133562092733",
+        "strength_stop_reason": "assumed_stationary_hand",
+        "strength_end_plane_x": "0.5555195340606309",
+        "strength_end_plane_y": "1.114746497905407",
+        "strength_needs_review": "1",
+        "strength_assumed_stop": "1",
+        "strength_position_frame": "2523",
+        "strength_method": "observed_stop",
+        "strength_end_frame": "2523",
+        "strength_crossing_s": "",
+        "strength_crossing_plane_x": "",
+        "strength_crossing_plane_y": "",
+        "strength_crossing_speed_cm_s": "",
+        "strength_crossing_velocity_x_cm_s": "",
+        "strength_crossing_velocity_y_cm_s": "",
+        "strength_prediction_distance_cm": "",
+        "strength_model_id": "",
+        "strength_velocity_fit_rmse_cm": "",
+        "strength_velocity_sample_count": "",
+        "strength_prediction_uncertainty_cm": "",
+        "strength_prediction_out_of_range": "",
+        "collision_evidence": "[]",
+        "end_plane_x": "0.5555195340606309",
+        "end_plane_y": "1.114746497905407",
+        "score_complete": "1",
+        "strength_valid": "1",
+        "angle_valid": "0",
+        "target_bank_valid": "1"
+      },
+      "source_path": "D:\\experiment\\01\\01_02_baseline_strength_010shots.mkv",
+      "source_sha256_from_frozen_batch": "10c84ab341bb322a763eedf7794e7940161053c9ffcb2d96ddb1da5bdec6e769",
+      "source_size_bytes": 59251126,
+      "cache_sha256": "6710a5305429f6e58171ceeca89fcdbb9c90dec85af53eb5e1145a385bae0050",
+      "score_csv_sha256": "7957943c0c8e8ee31a1f9058caae6a8979b7f1b5b5031bdd1465770c6b5cf909",
+      "calibration_sha256": "5e330da085dde9557693e329d51629ae622a7139beec1856e57ce2ad91c01a25",
+      "position_frame": 2523,
+      "actual_frame_offsets": [
+        -60,
+        -36,
+        -18,
+        -6,
+        0,
+        12
+      ],
+      "frames_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\01_02_baseline_strength_010shots_shot02_frames.jpg",
+      "frames_sha256": "0689ae1199d3c90cf0d80cafe10902ff3e3dd01d805b129894cf51f224572574",
+      "track_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\01_02_baseline_strength_010shots_shot02_track.csv",
+      "track_sha256": "3c621dfe16846e207d339f5508acbbf66b9667039b7619ac0577e31dbbff2018",
+      "metrics": [
+        {
+          "window_s": 0.3,
+          "filter": "observed",
+          "samples": 19,
+          "first_frame": 2505,
+          "last_frame": 2523,
+          "span_s": 0.30000000000000726,
+          "net_displacement_cm": 1.1035618353750447,
+          "raw_first": [
+            657.4005486968449,
+            409.0727023319616
+          ],
+          "raw_last": [
+            658.4556574923547,
+            413.53363914373085
+          ]
+        },
+        {
+          "window_s": 0.3,
+          "filter": "free_observed",
+          "samples": 15,
+          "first_frame": 2505,
+          "last_frame": 2519,
+          "span_s": 0.23300000000000728,
+          "net_displacement_cm": 1.0142720671358294,
+          "raw_first": [
+            657.4005486968449,
+            409.0727023319616
+          ],
+          "raw_last": [
+            658.1796116504854,
+            413.2135922330097
+          ]
+        },
+        {
+          "window_s": 0.6,
+          "filter": "observed",
+          "samples": 37,
+          "first_frame": 2487,
+          "last_frame": 2523,
+          "span_s": 0.6000000000000073,
+          "net_displacement_cm": 3.7612418403109644,
+          "raw_first": [
+            657.7049180327868,
+            397.91256830601094
+          ],
+          "raw_last": [
+            658.4556574923547,
+            413.53363914373085
+          ]
+        },
+        {
+          "window_s": 0.6,
+          "filter": "free_observed",
+          "samples": 33,
+          "first_frame": 2487,
+          "last_frame": 2519,
+          "span_s": 0.5330000000000072,
+          "net_displacement_cm": 3.6814399185300166,
+          "raw_first": [
+            657.7049180327868,
+            397.91256830601094
+          ],
+          "raw_last": [
+            658.1796116504854,
+            413.2135922330097
+          ]
+        },
+        {
+          "window_s": 1.0,
+          "filter": "observed",
+          "samples": 60,
+          "first_frame": 2463,
+          "last_frame": 2523,
+          "span_s": 1.0,
+          "net_displacement_cm": 7.930748415454845,
+          "raw_first": [
+            657.6791979949875,
+            380.53007518796994
+          ],
+          "raw_last": [
+            658.4556574923547,
+            413.53363914373085
+          ]
+        },
+        {
+          "window_s": 1.0,
+          "filter": "free_observed",
+          "samples": 56,
+          "first_frame": 2463,
+          "last_frame": 2519,
+          "span_s": 0.933,
+          "net_displacement_cm": 7.8522278049687895,
+          "raw_first": [
+            657.6791979949875,
+            380.53007518796994
+          ],
+          "raw_last": [
+            658.1796116504854,
+            413.2135922330097
+          ]
+        }
+      ]
+    },
+    {
+      "stem": "01_02_baseline_strength_010shots",
+      "shot": 4,
+      "original_row": {
+        "shot": "4",
+        "mode": "strength",
+        "strength_value": "0.108072",
+        "angle_value": "",
+        "strength_status": "scored",
+        "angle_status": "not_requested",
+        "value": "0.108072",
+        "unit": "origin_to_strip",
+        "stop_reason": "assumed_stationary_hand",
+        "start_s": "55.266",
+        "bank_s": "56.633",
+        "end_s": "60.166000000000004",
+        "start_frame": "3316",
+        "bank_frame": "3398",
+        "end_frame": "3610",
+        "uncapped_value": "0.10807236172836383",
+        "maximum": "1.0090133562092733",
+        "needs_review": "1",
+        "missing_frames": "11",
+        "interpolated_frames": "11",
+        "assumed_stop": "1",
+        "position_frame": "3610",
+        "attempt": "4",
+        "valid": "1",
+        "scoring_version": "3",
+        "time_source": "decoder_timestamp_ms",
+        "strength_uncapped": "0.108072",
+        "strength_maximum": "1.0090133562092733",
+        "strength_stop_reason": "assumed_stationary_hand",
+        "strength_end_plane_x": "0.5577772184086952",
+        "strength_end_plane_y": "1.3359992203385884",
+        "strength_needs_review": "1",
+        "strength_assumed_stop": "1",
+        "strength_position_frame": "3610",
+        "strength_method": "observed_stop",
+        "strength_end_frame": "3610",
+        "strength_crossing_s": "",
+        "strength_crossing_plane_x": "",
+        "strength_crossing_plane_y": "",
+        "strength_crossing_speed_cm_s": "",
+        "strength_crossing_velocity_x_cm_s": "",
+        "strength_crossing_velocity_y_cm_s": "",
+        "strength_prediction_distance_cm": "",
+        "strength_model_id": "",
+        "strength_velocity_fit_rmse_cm": "",
+        "strength_velocity_sample_count": "",
+        "strength_prediction_uncertainty_cm": "",
+        "strength_prediction_out_of_range": "",
+        "collision_evidence": "[]",
+        "end_plane_x": "0.5577772184086952",
+        "end_plane_y": "1.3359992203385884",
+        "score_complete": "1",
+        "strength_valid": "1",
+        "angle_valid": "0",
+        "target_bank_valid": "1"
+      },
+      "source_path": "D:\\experiment\\01\\01_02_baseline_strength_010shots.mkv",
+      "source_sha256_from_frozen_batch": "10c84ab341bb322a763eedf7794e7940161053c9ffcb2d96ddb1da5bdec6e769",
+      "source_size_bytes": 59251126,
+      "cache_sha256": "6710a5305429f6e58171ceeca89fcdbb9c90dec85af53eb5e1145a385bae0050",
+      "score_csv_sha256": "7957943c0c8e8ee31a1f9058caae6a8979b7f1b5b5031bdd1465770c6b5cf909",
+      "calibration_sha256": "5e330da085dde9557693e329d51629ae622a7139beec1856e57ce2ad91c01a25",
+      "position_frame": 3610,
+      "actual_frame_offsets": [
+        -60,
+        -36,
+        -18,
+        -6,
+        0,
+        12
+      ],
+      "frames_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\01_02_baseline_strength_010shots_shot04_frames.jpg",
+      "frames_sha256": "3338e0df37a5ad48da408c2d6f7eeacbfaf2cd309e72958930070e1aad4c481d",
+      "track_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\01_02_baseline_strength_010shots_shot04_track.csv",
+      "track_sha256": "f0903356e28e13a5d3e1d0f6fedbb5e094c8cb5288668a1115e21fba79189dca",
+      "metrics": [
+        {
+          "window_s": 0.3,
+          "filter": "observed",
+          "samples": 8,
+          "first_frame": 3592,
+          "last_frame": 3610,
+          "span_s": 0.30000000000000726,
+          "net_displacement_cm": 33.87434872305309,
+          "raw_first": [
+            679.9746031746032,
+            351.73333333333335
+          ],
+          "raw_last": [
+            657.6415094339623,
+            490.39622641509436
+          ]
+        },
+        {
+          "window_s": 0.6,
+          "filter": "observed",
+          "samples": 26,
+          "first_frame": 3574,
+          "last_frame": 3610,
+          "span_s": 0.6000000000000073,
+          "net_displacement_cm": 34.66940185084278,
+          "raw_first": [
+            679.2598225602028,
+            348.2598225602028
+          ],
+          "raw_last": [
+            657.6415094339623,
+            490.39622641509436
+          ]
+        },
+        {
+          "window_s": 0.6,
+          "filter": "free_observed",
+          "samples": 14,
+          "first_frame": 3574,
+          "last_frame": 3587,
+          "span_s": 0.217,
+          "net_displacement_cm": 0.6186463779980724,
+          "raw_first": [
+            679.2598225602028,
+            348.2598225602028
+          ],
+          "raw_last": [
+            678.9478458049887,
+            350.8185941043084
+          ]
+        },
+        {
+          "window_s": 1.0,
+          "filter": "observed",
+          "samples": 50,
+          "first_frame": 3550,
+          "last_frame": 3610,
+          "span_s": 1.0,
+          "net_displacement_cm": 38.083899981315376,
+          "raw_first": [
+            677.1766268260292,
+            333.5590969455511
+          ],
+          "raw_last": [
+            657.6415094339623,
+            490.39622641509436
+          ]
+        },
+        {
+          "window_s": 1.0,
+          "filter": "free_observed",
+          "samples": 38,
+          "first_frame": 3550,
+          "last_frame": 3587,
+          "span_s": 0.6169999999999928,
+          "net_displacement_cm": 4.152322547550963,
+          "raw_first": [
+            677.1766268260292,
+            333.5590969455511
+          ],
+          "raw_last": [
+            678.9478458049887,
+            350.8185941043084
+          ]
+        }
+      ]
+    },
+    {
+      "stem": "03_01_baseline_both_010shots",
+      "shot": 4,
+      "original_row": {
+        "shot": "4",
+        "mode": "both",
+        "strength_value": "0.182452",
+        "angle_value": "0.71",
+        "strength_status": "scored",
+        "angle_status": "scored",
+        "value": "",
+        "unit": "strength:origin_to_strip;angle:degree",
+        "stop_reason": "first_cushion",
+        "start_s": "34.7",
+        "bank_s": "36.1",
+        "end_s": "44.85",
+        "start_frame": "2082",
+        "bank_frame": "2166",
+        "end_frame": "2691",
+        "uncapped_value": "",
+        "maximum": "",
+        "needs_review": "1",
+        "missing_frames": "13",
+        "interpolated_frames": "0",
+        "assumed_stop": "1",
+        "position_frame": "2392",
+        "attempt": "4",
+        "scoring_version": "3",
+        "origin_rest_start_frame": "1915",
+        "next_origin_rest_start_frame": "2488",
+        "angle_search_end_frame": "2487",
+        "target_bank_valid": "1",
+        "time_source": "decoder_timestamp_ms",
+        "angle_uncapped": "0.71",
+        "angle_maximum": "90.0",
+        "angle_valid": "1",
+        "angle_stop_reason": "first_cushion",
+        "angle_end_plane_x": "0.523808744390917",
+        "angle_end_plane_y": "0.012274717620828775",
+        "angle_end_frame": "2180",
+        "angle_position_frame": "2168",
+        "angle_needs_review": "0",
+        "angle_assumed_stop": "0",
+        "angle_method": "observed_endpoint",
+        "angle_endpoint_kind": "first_cushion",
+        "angle_raw_degrees": "0.7091954041101167",
+        "angle_direction_status": "forward",
+        "angle_reverse": "0",
+        "angle_contact_kind": "target",
+        "angle_evidence": "{\"frame\":2168,\"before_frame\":2156,\"after_frame\":2180,\"time_s\":36.133,\"kind\":\"target\",\"plane_point\":[0.523808744390917,0.012274717620828775],\"approach_vector\":[0.0010931925055936986,-0.1757305951878397],\"return_vector\":[0.010251485370296631,0.13239772470115024]}",
+        "angle_min_displacement_cm": "8.0",
+        "angle_max_displacement_cm": "124.76103829909111",
+        "angle_displacement_valid": "1",
+        "angle_displacement_end_frame": "2168",
+        "angle_displacement_frame": "2168",
+        "angle_displacement_sample_count": "87",
+        "strength_uncapped": "0.182452",
+        "strength_maximum": "1.0090133562092736",
+        "strength_valid": "1",
+        "strength_stop_reason": "assumed_stationary_hand",
+        "strength_end_plane_x": "0.5539282938520758",
+        "strength_end_plane_y": "1.2256959293433276",
+        "strength_end_frame": "2392",
+        "strength_position_frame": "2392",
+        "strength_needs_review": "1",
+        "strength_assumed_stop": "1",
+        "strength_method": "observed_stop",
+        "collision_evidence": "[{\"frame\":2168,\"before_frame\":2156,\"after_frame\":2180,\"time_s\":36.133,\"kind\":\"target\",\"plane_point\":[0.523808744390917,0.012274717620828775],\"approach_vector\":[0.0010931925055936986,-0.1757305951878397],\"return_vector\":[0.010251485370296631,0.13239772470115024]}]",
+        "valid": "1",
+        "score_complete": "1",
+        "end_plane_x": "",
+        "end_plane_y": "",
+        "strength_crossing_s": "",
+        "strength_crossing_plane_x": "",
+        "strength_crossing_plane_y": "",
+        "strength_crossing_speed_cm_s": "",
+        "strength_crossing_velocity_x_cm_s": "",
+        "strength_crossing_velocity_y_cm_s": "",
+        "strength_prediction_distance_cm": "",
+        "strength_model_id": "",
+        "strength_velocity_fit_rmse_cm": "",
+        "strength_velocity_sample_count": "",
+        "strength_prediction_uncertainty_cm": "",
+        "strength_prediction_out_of_range": ""
+      },
+      "source_path": "D:\\experiment\\03\\03_01_baseline_both_010shots.mkv",
+      "source_sha256_from_frozen_batch": "a93850004681d4f461dda5aa2ae02a2ba1c352da93b5a883e795592e8cf9d319",
+      "source_size_bytes": 105354414,
+      "cache_sha256": "a9b50287ea6470e99badf5805531b81332a9e98b7d30009920b8c9a1f765e445",
+      "score_csv_sha256": "58456f46111d0ed0725bb1be708f6dc8fbc1e53b23020d055872e1ee5fd8ea05",
+      "calibration_sha256": "4575eb101ee6b5bbb3eb872fc96ad6f68641a94fa26b5e48ad1da1285a8e1c6f",
+      "position_frame": 2392,
+      "actual_frame_offsets": [
+        -60,
+        -36,
+        -18,
+        -6,
+        0,
+        12
+      ],
+      "frames_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\03_01_baseline_both_010shots_shot04_frames.jpg",
+      "frames_sha256": "3bb51d00ad180bc668fae292c3997de1c8a6644be121e7d8ced09a8fd1880ded",
+      "track_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\03_01_baseline_both_010shots_shot04_track.csv",
+      "track_sha256": "3a171bc087a2ad29366067e4e76cc11fdab67cf3a1e56df4c40dfb8a0d25a576",
+      "metrics": [
+        {
+          "window_s": 0.3,
+          "filter": "observed",
+          "samples": 6,
+          "first_frame": 2374,
+          "last_frame": 2392,
+          "span_s": 0.3,
+          "net_displacement_cm": 14.74902983513613,
+          "raw_first": [
+            670.3590909090909,
+            400.2924242424242
+          ],
+          "raw_last": [
+            656.2640264026402,
+            460.026402640264
+          ]
+        },
+        {
+          "window_s": 0.3,
+          "filter": "free_observed",
+          "samples": 4,
+          "first_frame": 2374,
+          "last_frame": 2377,
+          "span_s": 0.05,
+          "net_displacement_cm": 0.45941978068699635,
+          "raw_first": [
+            670.3590909090909,
+            400.2924242424242
+          ],
+          "raw_last": [
+            670.6944444444443,
+            402.1752136752136
+          ]
+        },
+        {
+          "window_s": 0.6,
+          "filter": "observed",
+          "samples": 24,
+          "first_frame": 2356,
+          "last_frame": 2392,
+          "span_s": 0.6,
+          "net_displacement_cm": 16.592124656186165,
+          "raw_first": [
+            668.0900900900901,
+            391.97297297297297
+          ],
+          "raw_last": [
+            656.2640264026402,
+            460.026402640264
+          ]
+        },
+        {
+          "window_s": 0.6,
+          "filter": "free_observed",
+          "samples": 22,
+          "first_frame": 2356,
+          "last_frame": 2377,
+          "span_s": 0.35,
+          "net_displacement_cm": 2.528543891271407,
+          "raw_first": [
+            668.0900900900901,
+            391.97297297297297
+          ],
+          "raw_last": [
+            670.6944444444443,
+            402.1752136752136
+          ]
+        },
+        {
+          "window_s": 1.0,
+          "filter": "observed",
+          "samples": 48,
+          "first_frame": 2332,
+          "last_frame": 2392,
+          "span_s": 1.0,
+          "net_displacement_cm": 20.11334712724252,
+          "raw_first": [
+            665.9662921348315,
+            376.8114856429463
+          ],
+          "raw_last": [
+            656.2640264026402,
+            460.026402640264
+          ]
+        },
+        {
+          "window_s": 1.0,
+          "filter": "free_observed",
+          "samples": 46,
+          "first_frame": 2332,
+          "last_frame": 2377,
+          "span_s": 0.75,
+          "net_displacement_cm": 6.188922597158326,
+          "raw_first": [
+            665.9662921348315,
+            376.8114856429463
+          ],
+          "raw_last": [
+            670.6944444444443,
+            402.1752136752136
+          ]
+        }
+      ]
+    },
+    {
+      "stem": "03_01_baseline_both_010shots",
+      "shot": 5,
+      "original_row": {
+        "shot": "5",
+        "mode": "both",
+        "strength_value": "0.439384",
+        "angle_value": "1.73",
+        "strength_status": "scored",
+        "angle_status": "scored",
+        "value": "",
+        "unit": "strength:origin_to_strip;angle:degree",
+        "stop_reason": "first_cushion",
+        "start_s": "44.867000000000004",
+        "bank_s": "46.567",
+        "end_s": "57.017",
+        "start_frame": "2692",
+        "bank_frame": "2794",
+        "end_frame": "3421",
+        "uncapped_value": "",
+        "maximum": "",
+        "needs_review": "1",
+        "missing_frames": "17",
+        "interpolated_frames": "1",
+        "assumed_stop": "1",
+        "position_frame": "2948",
+        "attempt": "5",
+        "scoring_version": "3",
+        "origin_rest_start_frame": "2488",
+        "next_origin_rest_start_frame": "3021",
+        "angle_search_end_frame": "3020",
+        "target_bank_valid": "1",
+        "time_source": "decoder_timestamp_ms",
+        "angle_uncapped": "1.73",
+        "angle_maximum": "90.0",
+        "angle_valid": "1",
+        "angle_stop_reason": "first_cushion",
+        "angle_end_plane_x": "0.5501790787865568",
+        "angle_end_plane_y": "0.011946071278352658",
+        "angle_end_frame": "2808",
+        "angle_position_frame": "2796",
+        "angle_needs_review": "0",
+        "angle_assumed_stop": "0",
+        "angle_method": "observed_endpoint",
+        "angle_endpoint_kind": "first_cushion",
+        "angle_raw_degrees": "1.725346737219456",
+        "angle_direction_status": "forward",
+        "angle_reverse": "0",
+        "angle_contact_kind": "target",
+        "angle_evidence": "{\"frame\":2796,\"before_frame\":2784,\"after_frame\":2808,\"time_s\":46.6,\"kind\":\"target\",\"plane_point\":[0.5501790787865568,0.011946071278352658],\"approach_vector\":[0.00764280438761511,-0.1538209137474936],\"return_vector\":[0.004922846732572594,0.09068178127384477]}",
+        "angle_min_displacement_cm": "8.0",
+        "angle_max_displacement_cm": "124.85148027877744",
+        "angle_displacement_valid": "1",
+        "angle_displacement_end_frame": "2796",
+        "angle_displacement_frame": "2796",
+        "angle_displacement_sample_count": "105",
+        "strength_uncapped": "0.439384",
+        "strength_maximum": "1.0090133562092736",
+        "strength_valid": "1",
+        "strength_stop_reason": "assumed_stationary_hand",
+        "strength_end_plane_x": "0.48691891383066593",
+        "strength_end_plane_y": "0.8454328390380151",
+        "strength_end_frame": "2948",
+        "strength_position_frame": "2948",
+        "strength_needs_review": "1",
+        "strength_assumed_stop": "1",
+        "strength_method": "observed_stop",
+        "collision_evidence": "[{\"frame\":2796,\"before_frame\":2784,\"after_frame\":2808,\"time_s\":46.6,\"kind\":\"target\",\"plane_point\":[0.5501790787865568,0.011946071278352658],\"approach_vector\":[0.00764280438761511,-0.1538209137474936],\"return_vector\":[0.004922846732572594,0.09068178127384477]}]",
+        "valid": "1",
+        "score_complete": "1",
+        "end_plane_x": "",
+        "end_plane_y": "",
+        "strength_crossing_s": "",
+        "strength_crossing_plane_x": "",
+        "strength_crossing_plane_y": "",
+        "strength_crossing_speed_cm_s": "",
+        "strength_crossing_velocity_x_cm_s": "",
+        "strength_crossing_velocity_y_cm_s": "",
+        "strength_prediction_distance_cm": "",
+        "strength_model_id": "",
+        "strength_velocity_fit_rmse_cm": "",
+        "strength_velocity_sample_count": "",
+        "strength_prediction_uncertainty_cm": "",
+        "strength_prediction_out_of_range": ""
+      },
+      "source_path": "D:\\experiment\\03\\03_01_baseline_both_010shots.mkv",
+      "source_sha256_from_frozen_batch": "a93850004681d4f461dda5aa2ae02a2ba1c352da93b5a883e795592e8cf9d319",
+      "source_size_bytes": 105354414,
+      "cache_sha256": "a9b50287ea6470e99badf5805531b81332a9e98b7d30009920b8c9a1f765e445",
+      "score_csv_sha256": "58456f46111d0ed0725bb1be708f6dc8fbc1e53b23020d055872e1ee5fd8ea05",
+      "calibration_sha256": "4575eb101ee6b5bbb3eb872fc96ad6f68641a94fa26b5e48ad1da1285a8e1c6f",
+      "position_frame": 2948,
+      "actual_frame_offsets": [
+        -60,
+        -36,
+        -18,
+        -6,
+        0,
+        12
+      ],
+      "frames_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\03_01_baseline_both_010shots_shot05_frames.jpg",
+      "frames_sha256": "c52b3b9fb9a2e5e7b27edea07bdf09bcf09b90c204ba55e0dbe228d8a7f62e9b",
+      "track_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\03_01_baseline_both_010shots_shot05_track.csv",
+      "track_sha256": "ccb61f1f00cda5cf3d901fd8242484e0f455a59a189efec108cd20354fecb93f",
+      "metrics": [
+        {
+          "window_s": 0.3,
+          "filter": "observed",
+          "samples": 2,
+          "first_frame": 2946,
+          "last_frame": 2948,
+          "span_s": 0.033,
+          "net_displacement_cm": 8.644058348284714,
+          "raw_first": [
+            656.1814814814815,
+            297.29629629629625
+          ],
+          "raw_last": [
+            634.6666666666666,
+            326.01063829787233
+          ]
+        },
+        {
+          "window_s": 0.6,
+          "filter": "observed",
+          "samples": 20,
+          "first_frame": 2912,
+          "last_frame": 2948,
+          "span_s": 0.6,
+          "net_displacement_cm": 24.762607263893788,
+          "raw_first": [
+            677.2064102564102,
+            232.24871794871794
+          ],
+          "raw_last": [
+            634.6666666666666,
+            326.01063829787233
+          ]
+        },
+        {
+          "window_s": 0.6,
+          "filter": "free_observed",
+          "samples": 16,
+          "first_frame": 2912,
+          "last_frame": 2927,
+          "span_s": 0.25,
+          "net_displacement_cm": 2.4304129314238576,
+          "raw_first": [
+            677.2064102564102,
+            232.24871794871794
+          ],
+          "raw_last": [
+            677.6970899470899,
+            242.46031746031747
+          ]
+        },
+        {
+          "window_s": 1.0,
+          "filter": "observed",
+          "samples": 44,
+          "first_frame": 2888,
+          "last_frame": 2948,
+          "span_s": 1.0,
+          "net_displacement_cm": 29.521056934150963,
+          "raw_first": [
+            673.8167388167388,
+            209.26839826839827
+          ],
+          "raw_last": [
+            634.6666666666666,
+            326.01063829787233
+          ]
+        },
+        {
+          "window_s": 1.0,
+          "filter": "free_observed",
+          "samples": 40,
+          "first_frame": 2888,
+          "last_frame": 2927,
+          "span_s": 0.65,
+          "net_displacement_cm": 7.91998958450177,
+          "raw_first": [
+            673.8167388167388,
+            209.26839826839827
+          ],
+          "raw_last": [
+            677.6970899470899,
+            242.46031746031747
+          ]
+        }
+      ]
+    },
+    {
+      "stem": "03_01_baseline_both_010shots",
+      "shot": 6,
+      "original_row": {
+        "shot": "6",
+        "mode": "both",
+        "strength_value": "0.430125",
+        "angle_value": "1.27",
+        "strength_status": "scored",
+        "angle_status": "scored",
+        "value": "",
+        "unit": "strength:origin_to_strip;angle:degree",
+        "stop_reason": "first_cushion",
+        "start_s": "57.033",
+        "bank_s": "58.533",
+        "end_s": "66.1",
+        "start_frame": "3422",
+        "bank_frame": "3512",
+        "end_frame": "3966",
+        "uncapped_value": "",
+        "maximum": "",
+        "needs_review": "1",
+        "missing_frames": "30",
+        "interpolated_frames": "19",
+        "assumed_stop": "1",
+        "position_frame": "3700",
+        "attempt": "6",
+        "scoring_version": "3",
+        "origin_rest_start_frame": "3021",
+        "next_origin_rest_start_frame": "3792",
+        "angle_search_end_frame": "3791",
+        "target_bank_valid": "1",
+        "time_source": "decoder_timestamp_ms",
+        "angle_uncapped": "1.27",
+        "angle_maximum": "90.0",
+        "angle_valid": "1",
+        "angle_stop_reason": "first_cushion",
+        "angle_end_plane_x": "0.5381135045345121",
+        "angle_end_plane_y": "0.020836886797438316",
+        "angle_end_frame": "3527",
+        "angle_position_frame": "3515",
+        "angle_needs_review": "0",
+        "angle_assumed_stop": "0",
+        "angle_method": "observed_endpoint",
+        "angle_endpoint_kind": "first_cushion",
+        "angle_raw_degrees": "1.270472445908759",
+        "angle_direction_status": "forward",
+        "angle_reverse": "0",
+        "angle_contact_kind": "target",
+        "angle_evidence": "{\"frame\":3515,\"before_frame\":3503,\"after_frame\":3527,\"time_s\":58.583,\"kind\":\"target\",\"plane_point\":[0.5381135045345121,0.020836886797438316],\"approach_vector\":[0.00442528142026255,-0.15926277479942746],\"return_vector\":[-0.0045404371844345315,0.11149608095489288]}",
+        "angle_min_displacement_cm": "8.0",
+        "angle_max_displacement_cm": "124.07134359098927",
+        "angle_displacement_valid": "1",
+        "angle_displacement_end_frame": "3515",
+        "angle_displacement_frame": "3515",
+        "angle_displacement_sample_count": "91",
+        "strength_uncapped": "0.430125",
+        "strength_maximum": "1.0090133562092736",
+        "strength_valid": "1",
+        "strength_stop_reason": "assumed_stationary_hand",
+        "strength_end_plane_x": "0.4915346270978724",
+        "strength_end_plane_y": "0.8591061420007339",
+        "strength_end_frame": "3700",
+        "strength_position_frame": "3700",
+        "strength_needs_review": "1",
+        "strength_assumed_stop": "1",
+        "strength_method": "observed_stop",
+        "collision_evidence": "[{\"frame\":3515,\"before_frame\":3503,\"after_frame\":3527,\"time_s\":58.583,\"kind\":\"target\",\"plane_point\":[0.5381135045345121,0.020836886797438316],\"approach_vector\":[0.00442528142026255,-0.15926277479942746],\"return_vector\":[-0.0045404371844345315,0.11149608095489288]}]",
+        "valid": "1",
+        "score_complete": "1",
+        "end_plane_x": "",
+        "end_plane_y": "",
+        "strength_crossing_s": "",
+        "strength_crossing_plane_x": "",
+        "strength_crossing_plane_y": "",
+        "strength_crossing_speed_cm_s": "",
+        "strength_crossing_velocity_x_cm_s": "",
+        "strength_crossing_velocity_y_cm_s": "",
+        "strength_prediction_distance_cm": "",
+        "strength_model_id": "",
+        "strength_velocity_fit_rmse_cm": "",
+        "strength_velocity_sample_count": "",
+        "strength_prediction_uncertainty_cm": "",
+        "strength_prediction_out_of_range": ""
+      },
+      "source_path": "D:\\experiment\\03\\03_01_baseline_both_010shots.mkv",
+      "source_sha256_from_frozen_batch": "a93850004681d4f461dda5aa2ae02a2ba1c352da93b5a883e795592e8cf9d319",
+      "source_size_bytes": 105354414,
+      "cache_sha256": "a9b50287ea6470e99badf5805531b81332a9e98b7d30009920b8c9a1f765e445",
+      "score_csv_sha256": "58456f46111d0ed0725bb1be708f6dc8fbc1e53b23020d055872e1ee5fd8ea05",
+      "calibration_sha256": "4575eb101ee6b5bbb3eb872fc96ad6f68641a94fa26b5e48ad1da1285a8e1c6f",
+      "position_frame": 3700,
+      "actual_frame_offsets": [
+        -60,
+        -36,
+        -18,
+        -6,
+        0,
+        12
+      ],
+      "frames_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\03_01_baseline_both_010shots_shot06_frames.jpg",
+      "frames_sha256": "27f2455b585c11e6893f709b3f85e6ac9bdcbdd250e9b87cfb9027c0c11ae2cb",
+      "track_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\03_01_baseline_both_010shots_shot06_track.csv",
+      "track_sha256": "0c106e219fd7938753f26f2d1e29b639a01ffec1c1d75a2975fb9fd0e8cb0fd5",
+      "metrics": [
+        {
+          "window_s": 0.3,
+          "filter": "observed",
+          "samples": 19,
+          "first_frame": 3682,
+          "last_frame": 3700,
+          "span_s": 0.2999999999999927,
+          "net_displacement_cm": 1.830838123362478,
+          "raw_first": [
+            638.8594917787743,
+            323.70403587443946
+          ],
+          "raw_last": [
+            636.2216312056737,
+            330.88829787234044
+          ]
+        },
+        {
+          "window_s": 0.3,
+          "filter": "free_observed",
+          "samples": 12,
+          "first_frame": 3682,
+          "last_frame": 3693,
+          "span_s": 0.183,
+          "net_displacement_cm": 1.261811914994347,
+          "raw_first": [
+            638.8594917787743,
+            323.70403587443946
+          ],
+          "raw_last": [
+            638.0292397660819,
+            328.9312865497076
+          ]
+        },
+        {
+          "window_s": 0.6,
+          "filter": "observed",
+          "samples": 37,
+          "first_frame": 3664,
+          "last_frame": 3700,
+          "span_s": 0.6,
+          "net_displacement_cm": 4.534905507211619,
+          "raw_first": [
+            641.9061302681991,
+            312.79118773946357
+          ],
+          "raw_last": [
+            636.2216312056737,
+            330.88829787234044
+          ]
+        },
+        {
+          "window_s": 0.6,
+          "filter": "free_observed",
+          "samples": 30,
+          "first_frame": 3664,
+          "last_frame": 3693,
+          "span_s": 0.48300000000000726,
+          "net_displacement_cm": 3.9636449254917085,
+          "raw_first": [
+            641.9061302681991,
+            312.79118773946357
+          ],
+          "raw_last": [
+            638.0292397660819,
+            328.9312865497076
+          ]
+        },
+        {
+          "window_s": 1.0,
+          "filter": "observed",
+          "samples": 56,
+          "first_frame": 3640,
+          "last_frame": 3700,
+          "span_s": 1.0,
+          "net_displacement_cm": 9.424997849942928,
+          "raw_first": [
+            642.3929078014185,
+            291.8241134751773
+          ],
+          "raw_last": [
+            636.2216312056737,
+            330.88829787234044
+          ]
+        },
+        {
+          "window_s": 1.0,
+          "filter": "free_observed",
+          "samples": 49,
+          "first_frame": 3640,
+          "last_frame": 3693,
+          "span_s": 0.8830000000000072,
+          "net_displacement_cm": 8.897845936233818,
+          "raw_first": [
+            642.3929078014185,
+            291.8241134751773
+          ],
+          "raw_last": [
+            638.0292397660819,
+            328.9312865497076
+          ]
+        }
+      ]
+    },
+    {
+      "stem": "03_01_baseline_both_010shots",
+      "shot": 8,
+      "original_row": {
+        "shot": "8",
+        "mode": "both",
+        "strength_value": "0.054571",
+        "angle_value": "3.36",
+        "strength_status": "scored",
+        "angle_status": "scored",
+        "value": "",
+        "unit": "strength:origin_to_strip;angle:degree",
+        "stop_reason": "first_cushion",
+        "start_s": "80.967",
+        "bank_s": "82.2",
+        "end_s": "93.15",
+        "start_frame": "4858",
+        "bank_frame": "4932",
+        "end_frame": "5589",
+        "uncapped_value": "",
+        "maximum": "",
+        "needs_review": "1",
+        "missing_frames": "13",
+        "interpolated_frames": "0",
+        "assumed_stop": "1",
+        "position_frame": "5213",
+        "attempt": "8",
+        "scoring_version": "3",
+        "origin_rest_start_frame": "4424",
+        "next_origin_rest_start_frame": "5281",
+        "angle_search_end_frame": "5280",
+        "target_bank_valid": "1",
+        "time_source": "decoder_timestamp_ms",
+        "angle_uncapped": "3.36",
+        "angle_maximum": "90.0",
+        "angle_valid": "1",
+        "angle_stop_reason": "first_cushion",
+        "angle_end_plane_x": "0.5925980501951349",
+        "angle_end_plane_y": "0.01411039028622736",
+        "angle_end_frame": "4946",
+        "angle_position_frame": "4934",
+        "angle_needs_review": "0",
+        "angle_assumed_stop": "0",
+        "angle_method": "observed_endpoint",
+        "angle_endpoint_kind": "first_cushion",
+        "angle_raw_degrees": "3.3627068400531135",
+        "angle_direction_status": "forward",
+        "angle_reverse": "0",
+        "angle_contact_kind": "target",
+        "angle_evidence": "{\"frame\":4934,\"before_frame\":4922,\"after_frame\":4946,\"time_s\":82.233,\"kind\":\"target\",\"plane_point\":[0.5925980501951349,0.01411039028622736],\"approach_vector\":[0.013413079560921637,-0.22107330097512745],\"return_vector\":[0.005802471154774169,0.14107450433681842]}",
+        "angle_min_displacement_cm": "8.0",
+        "angle_max_displacement_cm": "124.85345035559781",
+        "angle_displacement_valid": "1",
+        "angle_displacement_end_frame": "4934",
+        "angle_displacement_frame": "4934",
+        "angle_displacement_sample_count": "77",
+        "strength_uncapped": "0.054571",
+        "strength_maximum": "1.0090133562092736",
+        "strength_valid": "1",
+        "strength_stop_reason": "assumed_stationary_hand",
+        "strength_end_plane_x": "0.6541701742755672",
+        "strength_end_plane_y": "1.4140103859184159",
+        "strength_end_frame": "5213",
+        "strength_position_frame": "5213",
+        "strength_needs_review": "1",
+        "strength_assumed_stop": "1",
+        "strength_method": "observed_stop",
+        "collision_evidence": "[{\"frame\":4934,\"before_frame\":4922,\"after_frame\":4946,\"time_s\":82.233,\"kind\":\"target\",\"plane_point\":[0.5925980501951349,0.01411039028622736],\"approach_vector\":[0.013413079560921637,-0.22107330097512745],\"return_vector\":[0.005802471154774169,0.14107450433681842]}]",
+        "valid": "1",
+        "score_complete": "1",
+        "end_plane_x": "",
+        "end_plane_y": "",
+        "strength_crossing_s": "",
+        "strength_crossing_plane_x": "",
+        "strength_crossing_plane_y": "",
+        "strength_crossing_speed_cm_s": "",
+        "strength_crossing_velocity_x_cm_s": "",
+        "strength_crossing_velocity_y_cm_s": "",
+        "strength_prediction_distance_cm": "",
+        "strength_model_id": "",
+        "strength_velocity_fit_rmse_cm": "",
+        "strength_velocity_sample_count": "",
+        "strength_prediction_uncertainty_cm": "",
+        "strength_prediction_out_of_range": ""
+      },
+      "source_path": "D:\\experiment\\03\\03_01_baseline_both_010shots.mkv",
+      "source_sha256_from_frozen_batch": "a93850004681d4f461dda5aa2ae02a2ba1c352da93b5a883e795592e8cf9d319",
+      "source_size_bytes": 105354414,
+      "cache_sha256": "a9b50287ea6470e99badf5805531b81332a9e98b7d30009920b8c9a1f765e445",
+      "score_csv_sha256": "58456f46111d0ed0725bb1be708f6dc8fbc1e53b23020d055872e1ee5fd8ea05",
+      "calibration_sha256": "4575eb101ee6b5bbb3eb872fc96ad6f68641a94fa26b5e48ad1da1285a8e1c6f",
+      "position_frame": 5213,
+      "actual_frame_offsets": [
+        -60,
+        -36,
+        -18,
+        -6,
+        0,
+        12
+      ],
+      "frames_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\03_01_baseline_both_010shots_shot08_frames.jpg",
+      "frames_sha256": "0de72fe1c13d63472976b9a0f076809add72f5d24b0e343e3995bcf4f4b64132",
+      "track_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\03_01_baseline_both_010shots_shot08_track.csv",
+      "track_sha256": "a5e50aba25f6f0034295850c523180203586e3d6410ca747a8c0aea1610dcf2c",
+      "metrics": [
+        {
+          "window_s": 0.3,
+          "filter": "observed",
+          "samples": 6,
+          "first_frame": 5195,
+          "last_frame": 5213,
+          "span_s": 0.3,
+          "net_displacement_cm": 14.254676897816703,
+          "raw_first": [
+            734.6902106567534,
+            488.03965303593554
+          ],
+          "raw_last": [
+            689.8226299694189,
+            525.4740061162079
+          ]
+        },
+        {
+          "window_s": 0.3,
+          "filter": "free_observed",
+          "samples": 4,
+          "first_frame": 5195,
+          "last_frame": 5198,
+          "span_s": 0.05,
+          "net_displacement_cm": 0.31409031538970683,
+          "raw_first": [
+            734.6902106567534,
+            488.03965303593554
+          ],
+          "raw_last": [
+            734.3835845896147,
+            489.29145728643215
+          ]
+        },
+        {
+          "window_s": 0.6,
+          "filter": "observed",
+          "samples": 24,
+          "first_frame": 5177,
+          "last_frame": 5213,
+          "span_s": 0.6,
+          "net_displacement_cm": 14.209196152931206,
+          "raw_first": [
+            731.2737003058104,
+            484.3868501529052
+          ],
+          "raw_last": [
+            689.8226299694189,
+            525.4740061162079
+          ]
+        },
+        {
+          "window_s": 0.6,
+          "filter": "free_observed",
+          "samples": 22,
+          "first_frame": 5177,
+          "last_frame": 5198,
+          "span_s": 0.35,
+          "net_displacement_cm": 1.4368391136803524,
+          "raw_first": [
+            731.2737003058104,
+            484.3868501529052
+          ],
+          "raw_last": [
+            734.3835845896147,
+            489.29145728643215
+          ]
+        },
+        {
+          "window_s": 1.0,
+          "filter": "observed",
+          "samples": 48,
+          "first_frame": 5153,
+          "last_frame": 5213,
+          "span_s": 1.0,
+          "net_displacement_cm": 14.717947164557218,
+          "raw_first": [
+            724.7270833333333,
+            475.88541666666663
+          ],
+          "raw_last": [
+            689.8226299694189,
+            525.4740061162079
+          ]
+        },
+        {
+          "window_s": 1.0,
+          "filter": "free_observed",
+          "samples": 46,
+          "first_frame": 5153,
+          "last_frame": 5198,
+          "span_s": 0.75,
+          "net_displacement_cm": 4.0880783872507545,
+          "raw_first": [
+            724.7270833333333,
+            475.88541666666663
+          ],
+          "raw_last": [
+            734.3835845896147,
+            489.29145728643215
+          ]
+        }
+      ]
+    },
+    {
+      "stem": "03_01_baseline_both_010shots",
+      "shot": 10,
+      "original_row": {
+        "shot": "10",
+        "mode": "both",
+        "strength_value": "0.310973",
+        "angle_value": "2.36",
+        "strength_status": "scored",
+        "angle_status": "scored",
+        "value": "",
+        "unit": "strength:origin_to_strip;angle:degree",
+        "stop_reason": "first_cushion",
+        "start_s": "107.167",
+        "bank_s": "108.567",
+        "end_s": "119.067",
+        "start_frame": "6430",
+        "bank_frame": "6514",
+        "end_frame": "7144",
+        "uncapped_value": "",
+        "maximum": "",
+        "needs_review": "1",
+        "missing_frames": "2",
+        "interpolated_frames": "2",
+        "assumed_stop": "1",
+        "position_frame": "6737",
+        "attempt": "10",
+        "scoring_version": "3",
+        "origin_rest_start_frame": "6042",
+        "next_origin_rest_start_frame": "6851",
+        "angle_search_end_frame": "6850",
+        "target_bank_valid": "1",
+        "time_source": "decoder_timestamp_ms",
+        "angle_uncapped": "2.36",
+        "angle_maximum": "90.0",
+        "angle_valid": "1",
+        "angle_stop_reason": "first_cushion",
+        "angle_end_plane_x": "0.56642862080245",
+        "angle_end_plane_y": "0.016297175802899428",
+        "angle_end_frame": "6527",
+        "angle_position_frame": "6515",
+        "angle_needs_review": "0",
+        "angle_assumed_stop": "0",
+        "angle_method": "observed_endpoint",
+        "angle_endpoint_kind": "first_cushion",
+        "angle_raw_degrees": "2.3591242741323595",
+        "angle_direction_status": "forward",
+        "angle_reverse": "0",
+        "angle_contact_kind": "target",
+        "angle_evidence": "{\"frame\":6515,\"before_frame\":6503,\"after_frame\":6527,\"time_s\":108.583,\"kind\":\"target\",\"plane_point\":[0.56642862080245,0.016297175802899428],\"approach_vector\":[0.0026176362943201026,-0.18464209360594985],\"return_vector\":[0.01934709218139974,0.12318962015178596]}",
+        "angle_min_displacement_cm": "8.0",
+        "angle_max_displacement_cm": "124.5446820155189",
+        "angle_displacement_valid": "1",
+        "angle_displacement_end_frame": "6515",
+        "angle_displacement_frame": "6515",
+        "angle_displacement_sample_count": "84",
+        "strength_uncapped": "0.310973",
+        "strength_maximum": "1.0090133562092736",
+        "strength_valid": "1",
+        "strength_stop_reason": "assumed_stationary_hand",
+        "strength_end_plane_x": "0.715728440415634",
+        "strength_end_plane_y": "1.0327075038678468",
+        "strength_end_frame": "6737",
+        "strength_position_frame": "6737",
+        "strength_needs_review": "1",
+        "strength_assumed_stop": "1",
+        "strength_method": "observed_stop",
+        "collision_evidence": "[{\"frame\":6515,\"before_frame\":6503,\"after_frame\":6527,\"time_s\":108.583,\"kind\":\"target\",\"plane_point\":[0.56642862080245,0.016297175802899428],\"approach_vector\":[0.0026176362943201026,-0.18464209360594985],\"return_vector\":[0.01934709218139974,0.12318962015178596]}]",
+        "valid": "1",
+        "score_complete": "1",
+        "end_plane_x": "",
+        "end_plane_y": "",
+        "strength_crossing_s": "",
+        "strength_crossing_plane_x": "",
+        "strength_crossing_plane_y": "",
+        "strength_crossing_speed_cm_s": "",
+        "strength_crossing_velocity_x_cm_s": "",
+        "strength_crossing_velocity_y_cm_s": "",
+        "strength_prediction_distance_cm": "",
+        "strength_model_id": "",
+        "strength_velocity_fit_rmse_cm": "",
+        "strength_velocity_sample_count": "",
+        "strength_prediction_uncertainty_cm": "",
+        "strength_prediction_out_of_range": ""
+      },
+      "source_path": "D:\\experiment\\03\\03_01_baseline_both_010shots.mkv",
+      "source_sha256_from_frozen_batch": "a93850004681d4f461dda5aa2ae02a2ba1c352da93b5a883e795592e8cf9d319",
+      "source_size_bytes": 105354414,
+      "cache_sha256": "a9b50287ea6470e99badf5805531b81332a9e98b7d30009920b8c9a1f765e445",
+      "score_csv_sha256": "58456f46111d0ed0725bb1be708f6dc8fbc1e53b23020d055872e1ee5fd8ea05",
+      "calibration_sha256": "4575eb101ee6b5bbb3eb872fc96ad6f68641a94fa26b5e48ad1da1285a8e1c6f",
+      "position_frame": 6737,
+      "actual_frame_offsets": [
+        -60,
+        -36,
+        -18,
+        -6,
+        0,
+        12
+      ],
+      "frames_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\03_01_baseline_both_010shots_shot10_frames.jpg",
+      "frames_sha256": "1d71d3f4da729cd4f6a6996dafed5cd7c72d1b488b855497741a4fd12da1e3cf",
+      "track_path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\03_01_baseline_both_010shots_shot10_track.csv",
+      "track_sha256": "927639aa8e115c21ad6a286c2e576988956785fbf367b747c411e1782e173735",
+      "metrics": [
+        {
+          "window_s": 0.3,
+          "filter": "observed",
+          "samples": 19,
+          "first_frame": 6719,
+          "last_frame": 6737,
+          "span_s": 0.3,
+          "net_displacement_cm": 1.0156816000011373,
+          "raw_first": [
+            709.9148936170213,
+            390.3872340425532
+          ],
+          "raw_last": [
+            712.7330623306233,
+            393.45392953929536
+          ]
+        },
+        {
+          "window_s": 0.6,
+          "filter": "observed",
+          "samples": 37,
+          "first_frame": 6701,
+          "last_frame": 6737,
+          "span_s": 0.6,
+          "net_displacement_cm": 2.752190992860448,
+          "raw_first": [
+            705.9513381995134,
+            384.39172749391724
+          ],
+          "raw_last": [
+            712.7330623306233,
+            393.45392953929536
+          ]
+        },
+        {
+          "window_s": 0.6,
+          "filter": "free_observed",
+          "samples": 13,
+          "first_frame": 6701,
+          "last_frame": 6713,
+          "span_s": 0.2,
+          "net_displacement_cm": 1.0709776966413826,
+          "raw_first": [
+            705.9513381995134,
+            384.39172749391724
+          ],
+          "raw_last": [
+            708.4884792626729,
+            388.0
+          ]
+        },
+        {
+          "window_s": 1.0,
+          "filter": "observed",
+          "samples": 61,
+          "first_frame": 6677,
+          "last_frame": 6737,
+          "span_s": 1.0,
+          "net_displacement_cm": 6.9724028602978025,
+          "raw_first": [
+            702.5973597359737,
+            366.4504950495049
+          ],
+          "raw_last": [
+            712.7330623306233,
+            393.45392953929536
+          ]
+        },
+        {
+          "window_s": 1.0,
+          "filter": "free_observed",
+          "samples": 37,
+          "first_frame": 6677,
+          "last_frame": 6713,
+          "span_s": 0.6,
+          "net_displacement_cm": 5.3923744509278375,
+          "raw_first": [
+            702.5973597359737,
+            366.4504950495049
+          ],
+          "raw_last": [
+            708.4884792626729,
+            388.0
+          ]
+        }
+      ]
+    }
+  ]
+}

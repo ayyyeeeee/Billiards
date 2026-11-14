@@ -1,0 +1,945 @@
+{
+  "video": "05_05_test_both_030shots.mkv",
+  "frames": 21303,
+  "fps": 60.0,
+  "mode": "both",
+  "valid_shots": 39,
+  "attempts": 41,
+  "output_stem": "05_05_test_both_030shots",
+  "source_path": "D:\\experiment\\05\\05_05_test_both_030shots.mkv",
+  "source_sha256": "ab597f2b53111f9190f8229b6fb09fd65854b8948bfb1dbfd2bf1a89d3989e42",
+  "scoring_version": 3,
+  "filename_expected_shots": 30,
+  "count_matches_filename": false,
+  "count_reference_basis": "target_bank_valid",
+  "user_verified_shots": null,
+  "count_matches_verified": null,
+  "review_shots": 20,
+  "calibration": {
+    "corners": [
+      [
+        452.9545942431209,
+        1.0858385166512736
+      ],
+      [
+        818.1999125234951,
+        26.24901638261088
+      ],
+      [
+        799.4623129004411,
+        707.3112151197006
+      ],
+      [
+        457.27901482587885,
+        721.4278752294189
+      ]
+    ],
+    "origin_raw": [
+      633.0528271779391,
+      546.801549264198
+    ],
+    "y_marker_raw": [
+      753.8276879609181,
+      543.3257840541611
+    ],
+    "strip_raw": [
+      642.7390834622789,
+      19.290540141579065
+    ],
+    "plane_H": [
+      [
+        0.0025860818180567778,
+        -1.5524993506883593e-05,
+        -1.1713607829414996
+      ],
+      [
+        -0.00017873527275507196,
+        0.0025943552095488154,
+        0.07814191213530418
+      ],
+      [
+        -0.00014662440644685237,
+        -9.07080754884197e-05,
+        1.0665126928504092
+      ]
+    ],
+    "axes_H": [
+      [
+        -5.297575396808494e-05,
+        -0.00184078581944867,
+        1.0400809887594782
+      ],
+      [
+        0.00179261510114872,
+        3.2916335372383e-05,
+        -1.1528187610017833
+      ],
+      [
+        -0.00014662440644685237,
+        -9.07080754884197e-05,
+        1.0665126928504092
+      ]
+    ],
+    "axes_corners": [
+      [
+        1.014086581472478,
+        -0.3408097734020994
+      ],
+      [
+        1.004505358731744,
+        0.33337736509287696
+      ],
+      [
+        -0.34376701295298684,
+        0.3429896861976355
+      ],
+      [
+        -0.3341857902122529,
+        -0.33119745229734093
+      ]
+    ],
+    "origin_plane": [
+      0.49483854849574405,
+      1.49724261108668
+    ],
+    "strip_plane": [
+      0.5054143715594063,
+      0.013712502008252393
+    ],
+    "y_marker_plane": [
+      0.8488639165793843,
+      1.4922109928784968
+    ],
+    "scale": 1.4835678051830747,
+    "distance_cap_observed": 0.33888399785763673,
+    "opposite_rail_distance_observed": 0.33888399785763673,
+    "strength_cap_observed": 1.0090133562092736,
+    "strength_maximum": 1.0090133562092736,
+    "upper_rail_reference_plane": [
+      0.5055121255544968,
+      0.0
+    ],
+    "angle_cap_observed": 13.486097454032032,
+    "axis_nonorthogonality_degrees": 1.2227112615577198,
+    "aspect_ratio": 2.0,
+    "source": "automatic_fixed_template_needs_preview_review",
+    "landmarks_raw": {
+      "TL": [
+        452.9545942431209,
+        1.0858385166512736
+      ],
+      "TR": [
+        818.1999125234951,
+        26.24901638261088
+      ],
+      "BR": [
+        799.4623129004411,
+        707.3112151197006
+      ],
+      "BL": [
+        457.27901482587885,
+        721.4278752294189
+      ],
+      "O": [
+        633.0528271779391,
+        546.801549264198
+      ],
+      "Y": [
+        753.8276879609181,
+        543.3257840541611
+      ],
+      "B": [
+        642.7390834622789,
+        19.290540141579065
+      ]
+    },
+    "calibration_quality": {
+      "observed_points": {
+        "O": [
+          633.1723560724496,
+          546.8031637355539
+        ],
+        "Y": [
+          754.419531759007,
+          543.3390529977299
+        ],
+        "B": [
+          642.3605963973542,
+          19.28561661199255
+        ]
+      },
+      "reconstructed_names": [
+        "TL",
+        "TR",
+        "BR",
+        "BL"
+      ],
+      "reprojection_residual_px": {
+        "O": 0.11953979730892955,
+        "Y": 0.591992522080936,
+        "B": 0.3785190873111835
+      },
+      "rail_fit_residual_px": [
+        -0.5575089187650866,
+        0.39072548966720183,
+        -0.2655890341729205,
+        2.3154828977057105
+      ],
+      "accuracy_check": "three_marks_and_two_observed_side_lines",
+      "template_version": "seven_landmarks_multiview_v2",
+      "marker_detection": {
+        "O": {
+          "contrast": 43.69462585449219,
+          "size_px": [
+            5,
+            5
+          ],
+          "candidate_count": 3,
+          "expected_raw": [
+            627.4655325886127,
+            536.7534786200277
+          ],
+          "runner_up_score_ratio": 0.06610873839052353
+        },
+        "Y": {
+          "contrast": 31.51214599609375,
+          "size_px": [
+            4,
+            4
+          ],
+          "candidate_count": 1,
+          "expected_raw": [
+            750.1651636772906,
+            535.0808682963798
+          ],
+          "runner_up_score_ratio": 0.0
+        },
+        "B": {
+          "contrast": 17.83588409423828,
+          "size_px": [
+            3,
+            7
+          ],
+          "candidate_count": 1,
+          "expected_raw": [
+            638.147204425263,
+            17.065409883002058
+          ],
+          "runner_up_score_ratio": 0.0
+        }
+      },
+      "visible_short_rails": {
+        "top": {
+          "line_y_from_x": [
+            0.0706573542117155,
+            -30.90868542143692
+          ],
+          "inliers": 91,
+          "coverage": 0.9927272727272727,
+          "median_gradient": 19.25,
+          "residual_px": 0.25371414711054996
+        }
+      },
+      "side_rail_source": "Robust visible cloth-boundary fits with configured cushion margin",
+      "reference_points_inside_image": {
+        "TL": true,
+        "TR": true,
+        "BR": true,
+        "BL": false,
+        "O": true,
+        "Y": true,
+        "B": true
+      }
+    },
+    "table_width_cm": 84.0,
+    "table_length_cm": 168.0,
+    "observation_vs_inference": "Observed landmarks are listed in calibration_quality; reconstructed points are estimates.",
+    "obstructions": {
+      "version": "reference_black_protrusions_v1",
+      "contours": [
+        {
+          "id": "left_1",
+          "side": "left",
+          "image_contour": [
+            [
+              465.60723818131686,
+              368.6373312158642
+            ],
+            [
+              465.62525535129316,
+              372.23126600832967
+            ],
+            [
+              464.1390978388785,
+              372.93177911895793
+            ],
+            [
+              464.20568897758807,
+              385.85090335234503
+            ],
+            [
+              470.15330267493624,
+              385.9109197076817
+            ],
+            [
+              473.11070959031804,
+              383.07664866584037
+            ],
+            [
+              476.82010696158613,
+              383.11570873236593
+            ],
+            [
+              479.03836011775877,
+              381.7077322717964
+            ],
+            [
+              497.5121518577772,
+              381.9063203532507
+            ],
+            [
+              498.21732883994065,
+              365.47426143825277
+            ],
+            [
+              496.73835607667144,
+              364.02234324341026
+            ],
+            [
+              478.22882669041763,
+              363.77244884394224
+            ],
+            [
+              470.0445803183399,
+              362.22340445288637
+            ],
+            [
+              470.054484370616,
+              364.3812163024531
+            ],
+            [
+              473.030342444631,
+              364.4210649085291
+            ],
+            [
+              473.7830175773907,
+              366.58671177585046
+            ],
+            [
+              468.5859456435502,
+              368.6752489613748
+            ]
+          ],
+          "plane_contour": [
+            [
+              0.028,
+              0.986
+            ],
+            [
+              0.028,
+              0.996
+            ],
+            [
+              0.024,
+              0.998
+            ],
+            [
+              0.024,
+              1.034
+            ],
+            [
+              0.04,
+              1.034
+            ],
+            [
+              0.048,
+              1.026
+            ],
+            [
+              0.058,
+              1.026
+            ],
+            [
+              0.064,
+              1.022
+            ],
+            [
+              0.114,
+              1.022
+            ],
+            [
+              0.116,
+              0.976
+            ],
+            [
+              0.112,
+              0.972
+            ],
+            [
+              0.062,
+              0.972
+            ],
+            [
+              0.04,
+              0.968
+            ],
+            [
+              0.04,
+              0.974
+            ],
+            [
+              0.048,
+              0.974
+            ],
+            [
+              0.05,
+              0.98
+            ],
+            [
+              0.036,
+              0.986
+            ]
+          ],
+          "plane_bounds": [
+            0.024,
+            0.968,
+            0.116,
+            1.034
+          ],
+          "area_tablewidth_squared": 0.00466,
+          "reach_tablewidth": 0.116,
+          "ball_radius_tablewidth_estimate": 0.01855668891680463,
+          "ball_radius_source": "sqrt(reference_ball_area_px/pi), locally transformed to table plane",
+          "needs_preview_review": true
+        },
+        {
+          "id": "right_2",
+          "side": "right",
+          "image_contour": [
+            [
+              771.7885817844774,
+              367.04979285975287
+            ],
+            [
+              771.3941404938784,
+              383.482998412414
+            ],
+            [
+              786.9063805524803,
+              383.65315943831644
+            ],
+            [
+              788.2167097011871,
+              385.0313128412361
+            ],
+            [
+              791.5944957235251,
+              384.3861503472206
+            ],
+            [
+              793.537824162735,
+              387.13173921824335
+            ],
+            [
+              798.9019855885126,
+              387.1876348950238
+            ],
+            [
+              799.2827661903635,
+              372.88488620895725
+            ],
+            [
+              793.2573836683973,
+              372.1252364910088
+            ],
+            [
+              793.3107516690965,
+              370.0765381463391
+            ],
+            [
+              795.3448677238413,
+              369.42023942803337
+            ],
+            [
+              795.380712006911,
+              368.05426921157164
+            ],
+            [
+              792.7271790408444,
+              366.65104323557733
+            ]
+          ],
+          "plane_contour": [
+            [
+              0.89,
+              0.97
+            ],
+            [
+              0.89,
+              1.018
+            ],
+            [
+              0.936,
+              1.018
+            ],
+            [
+              0.94,
+              1.022
+            ],
+            [
+              0.95,
+              1.02
+            ],
+            [
+              0.956,
+              1.028
+            ],
+            [
+              0.972,
+              1.028
+            ],
+            [
+              0.972,
+              0.986
+            ],
+            [
+              0.954,
+              0.984
+            ],
+            [
+              0.954,
+              0.978
+            ],
+            [
+              0.96,
+              0.976
+            ],
+            [
+              0.96,
+              0.972
+            ],
+            [
+              0.952,
+              0.968
+            ]
+          ],
+          "plane_bounds": [
+            0.888,
+            0.968,
+            0.972,
+            1.028
+          ],
+          "area_tablewidth_squared": 0.004014,
+          "reach_tablewidth": 0.11199999999999999,
+          "ball_radius_tablewidth_estimate": 0.01979747695663558,
+          "ball_radius_source": "sqrt(reference_ball_area_px/pi), locally transformed to table plane",
+          "needs_preview_review": true
+        }
+      ],
+      "coordinate_unit": "table_width",
+      "source": "temporal_reference_image",
+      "detection_parameters": {
+        "warp_width": 500,
+        "dark_value_threshold": 85.0,
+        "cloth_value_median": 142.0,
+        "rail_exclusion_width": 0.025,
+        "search_width": 0.23,
+        "minimum_reach": 0.055
+      },
+      "limitation": "Visible dark footprint is a collision candidate; image alone cannot establish hardware height."
+    }
+  },
+  "constants": {
+    "distance_max": 0.31257961678133805,
+    "angle_max_degrees": 13.052608558247528,
+    "method": "Median of independently rectified marker observations; frozen for subsequent batches",
+    "source_videos": [
+      "01_01_baseline_both_010shots.mkv",
+      "01_02_baseline_strength_010shots.mkv",
+      "01_03_baseline_angle_010shots.mkv",
+      "05_01_baseline_both_010shots.mkv",
+      "05_02_baseline_strength_010shots.mkv",
+      "05_03_baseline_angle_010shots.mkv"
+    ],
+    "distance_unit": "origin_to_strip",
+    "table_dimensions_cm": [
+      168.0,
+      84.0
+    ],
+    "measurements": [
+      {
+        "video": "01_01_baseline_both_010shots.mkv",
+        "distance": 0.3263874302070551,
+        "angle": 13.222993547812942
+      },
+      {
+        "video": "01_02_baseline_strength_010shots.mkv",
+        "distance": 0.3061056105610562,
+        "angle": 12.890480629751352
+      },
+      {
+        "video": "01_03_baseline_angle_010shots.mkv",
+        "distance": 0.30305522285218855,
+        "angle": 12.933424228971196
+      },
+      {
+        "video": "05_01_baseline_both_010shots.mkv",
+        "distance": 0.31355759376156933,
+        "angle": 13.015382344139164
+      },
+      {
+        "video": "05_02_baseline_strength_010shots.mkv",
+        "distance": 0.31477413569971435,
+        "angle": 13.124300607285026
+      },
+      {
+        "video": "05_03_baseline_angle_010shots.mkv",
+        "distance": 0.3116016398011067,
+        "angle": 13.089834772355891
+      }
+    ]
+  },
+  "config": {
+    "scoring_version": 3,
+    "angle_min_displacement_cm": 8.0,
+    "crossing_max_gap_s": 0.15,
+    "table_aspect_ratio": 2.0,
+    "table_length_cm": 168.0,
+    "table_width_cm": 84.0,
+    "table_inner_margin_px": [
+      8,
+      12,
+      18
+    ],
+    "origin_to_strip_length": 1.0,
+    "distance_unit": "origin_to_strip",
+    "table_hsv": [
+      [
+        32,
+        35,
+        35
+      ],
+      [
+        95,
+        255,
+        255
+      ]
+    ],
+    "ball_hsv_ranges": [
+      [
+        [
+          0,
+          105,
+          45
+        ],
+        [
+          7,
+          255,
+          255
+        ]
+      ],
+      [
+        [
+          155,
+          90,
+          40
+        ],
+        [
+          179,
+          255,
+          255
+        ]
+      ]
+    ],
+    "min_ball_area": 45,
+    "max_ball_area": 700,
+    "origin_tolerance": 0.045,
+    "rest_duration_s": 0.35,
+    "rest_radius": 0.013,
+    "departure_distance": 0.055,
+    "stop_duration_s": 0.3,
+    "stop_radius": 0.0035,
+    "lost_duration_s": 0.25,
+    "rail_tolerance": 0.035,
+    "max_interpolation_s": 0.15,
+    "free_ball_hand_fraction": 0.18,
+    "hand_contact_fraction": 0.35
+  },
+  "preview": {
+    "segments_seconds": [
+      [
+        0,
+        10
+      ],
+      [
+        172.525,
+        182.525
+      ],
+      [
+        325.05,
+        335.05
+      ]
+    ],
+    "output_frames": 1800,
+    "width": 1280,
+    "height": 720
+  },
+  "complete_scores": 38,
+  "motion_model": {
+    "type": "constant_deceleration",
+    "deceleration_cm_s2": 12.232703539546483,
+    "linear_drag_s_inverse": 0.0,
+    "status": "validated",
+    "distance_unit": "cm",
+    "speed_unit": "cm/s",
+    "table_dimensions_cm": [
+      168.0,
+      84.0
+    ],
+    "equation": "D(v)=v^2/(2*a)",
+    "motion_equation": "dv/dt=-(a+b*v)",
+    "validated_speed_range_cm_s": [
+      4.170173158336961,
+      42.65293939852213
+    ],
+    "fitted_remaining_distance_range_cm": [
+      2.1320913837781363,
+      74.4038544446284
+    ],
+    "validation": {
+      "query_count": 85,
+      "complete_segment_count": 20,
+      "mean_absolute_error_cm": 2.7225925960761432,
+      "rmse_cm": 3.408112825656058,
+      "bias_cm": -0.20388019231300505,
+      "p90_absolute_error_cm": 5.817480049199292,
+      "maximum_absolute_error_cm": 8.35591732068491,
+      "segment_mean_absolute_error_cm": 2.753124629364998,
+      "folds": [
+        {
+          "video": "01_01_baseline_both_010shots.mkv",
+          "query_count": 16,
+          "complete_segment_count": 4,
+          "mean_absolute_error_cm": 2.4517359539603856,
+          "rmse_cm": 3.1421408994912854,
+          "bias_cm": 1.4671551576485622,
+          "p90_absolute_error_cm": 5.681613641476271,
+          "maximum_absolute_error_cm": 6.5386704902172585,
+          "segment_mean_absolute_error_cm": 2.470399719419031
+        },
+        {
+          "video": "02_01_baseline_both_010shots.mkv",
+          "query_count": 13,
+          "complete_segment_count": 3,
+          "mean_absolute_error_cm": 3.7909822192945315,
+          "rmse_cm": 4.581986202401926,
+          "bias_cm": -1.394103820825958,
+          "p90_absolute_error_cm": 7.621231835783292,
+          "maximum_absolute_error_cm": 8.35591732068491,
+          "segment_mean_absolute_error_cm": 3.7700526568163766
+        },
+        {
+          "video": "03_01_baseline_both_010shots.mkv",
+          "query_count": 5,
+          "complete_segment_count": 1,
+          "mean_absolute_error_cm": 2.6455378271410295,
+          "rmse_cm": 3.54780827224323,
+          "bias_cm": 0.15146426461107154,
+          "p90_absolute_error_cm": 5.461474289930484,
+          "maximum_absolute_error_cm": 6.992505229380252,
+          "segment_mean_absolute_error_cm": 2.6455378271410295
+        },
+        {
+          "video": "03_07_test_angle_030shots.mkv",
+          "query_count": 27,
+          "complete_segment_count": 6,
+          "mean_absolute_error_cm": 1.8299135745978061,
+          "rmse_cm": 2.3589120693868884,
+          "bias_cm": -0.072060405106778,
+          "p90_absolute_error_cm": 4.02376670968488,
+          "maximum_absolute_error_cm": 5.593774009983857,
+          "segment_mean_absolute_error_cm": 1.7913640804225548
+        },
+        {
+          "video": "05_01_baseline_both_010shots.mkv",
+          "query_count": 7,
+          "complete_segment_count": 2,
+          "mean_absolute_error_cm": 3.820249413966984,
+          "rmse_cm": 4.277432065039577,
+          "bias_cm": 1.7199814774971305,
+          "p90_absolute_error_cm": 6.099991927922537,
+          "maximum_absolute_error_cm": 6.853027908146219,
+          "segment_mean_absolute_error_cm": 3.810776521972554
+        },
+        {
+          "video": "06_01_baseline_both_010shots.mkv",
+          "query_count": 17,
+          "complete_segment_count": 4,
+          "mean_absolute_error_cm": 3.1489838238036647,
+          "rmse_cm": 3.5574773721832664,
+          "bias_cm": -1.9725005838763081,
+          "p90_absolute_error_cm": 5.1850158603309895,
+          "maximum_absolute_error_cm": 6.215458126636344,
+          "segment_mean_absolute_error_cm": 3.2138650963883104
+        }
+      ]
+    },
+    "model_comparison": {
+      "constant_deceleration": {
+        "query_count": 85,
+        "complete_segment_count": 20,
+        "mean_absolute_error_cm": 2.7225925960761432,
+        "rmse_cm": 3.408112825656058,
+        "bias_cm": -0.20388019231300505,
+        "p90_absolute_error_cm": 5.817480049199292,
+        "maximum_absolute_error_cm": 8.35591732068491,
+        "segment_mean_absolute_error_cm": 2.753124629364998
+      },
+      "linear_drag": {
+        "query_count": 85,
+        "complete_segment_count": 20,
+        "mean_absolute_error_cm": 2.7225925960761432,
+        "rmse_cm": 3.408112825656058,
+        "bias_cm": -0.20388019231300505,
+        "p90_absolute_error_cm": 5.817480049199292,
+        "maximum_absolute_error_cm": 8.35591732068491,
+        "segment_mean_absolute_error_cm": 2.753124629364998
+      }
+    },
+    "validation_split": "leave-one-entire-video-out; all queries of each complete free-roll stop remain together",
+    "velocity_measurement": "Past-only robust quadratic fit in 0.60 s; no future position enters the speed estimate",
+    "parameter_uncertainty": {
+      "method": "whole-free-stop-segment bootstrap, deterministic seed 1729",
+      "replicates": 200,
+      "deceleration_95_percent_interval_cm_s2": [
+        11.410665622748246,
+        13.448218214938787
+      ]
+    },
+    "selection": "linear drag retained only if complete-video held-out segment MAE improves by >=10%",
+    "training_weight": "Each complete free-stop segment has equal total weight; Huber residual loss, delta=4cm",
+    "applicability": "After a cushion rebound, clean straight free rolling on this cloth; no further collision or hand contact; infinite plane prediction is an estimate",
+    "limitations": [
+      "Spin/sliding cannot be measured from ball centers; empirical rolling law has shot-to-shot error",
+      "Predictions outside measured speed range require review; held-out error is not a calibrated extrapolation interval",
+      "Table-plane points are ball image centroids; elevation/parallax was not independently measured"
+    ],
+    "sources": [
+      {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\01_01_baseline_both_010shots.mkv",
+        "name": "01_01_baseline_both_010shots.mkv",
+        "size": 58928710,
+        "sha256": "39f34a364f2bd54a344fc3abf6577c1b5e2914ed49b67bb033861b2766860f9a",
+        "fps": 60.0,
+        "frames": 6950,
+        "sample_count": 25,
+        "evidence_path": "MOLT4\\upgrade_v2\\results\\cache\\01_01_baseline_both_010shots_evidence.npz",
+        "evidence_sha256": "800c842eedaf0718b9283f70590e6a2495cd286c98e9eaadba69a096ad19d5c8",
+        "calibration_path": "MOLT4\\upgrade_v2\\results\\calibration\\01_01_baseline_both_010shots.json",
+        "calibration_sha256": "664240cdab7a892f418dac63f2f2307d9295025de97cf2a6de899f1fda92ab96",
+        "time_source": "decoder_timestamp_ms",
+        "verified_free_stop_segments": 4
+      },
+      {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\02_01_baseline_both_010shots.mkv",
+        "name": "02_01_baseline_both_010shots.mkv",
+        "size": 94580636,
+        "sha256": "d7e5ae82b9559aef29d176e4ce2ec8d5d9d56087b76a1f45bb8a0ee70c1730d5",
+        "fps": 60.0,
+        "frames": 11225,
+        "sample_count": 25,
+        "evidence_path": "MOLT4\\upgrade_v2\\results\\cache\\02_01_baseline_both_010shots_evidence.npz",
+        "evidence_sha256": "9d0de9baae85d4739148230b00feae06c0c6d0e9d347912e1636f43b6b9e8dd2",
+        "calibration_path": "MOLT4\\upgrade_v2\\results\\calibration\\02_01_baseline_both_010shots.json",
+        "calibration_sha256": "10ec2644dddc26687636c75026d202a133f1bcca3f6dcef205348110cbf75c60",
+        "time_source": "decoder_timestamp_ms",
+        "verified_free_stop_segments": 3
+      },
+      {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\03_01_baseline_both_010shots.mkv",
+        "name": "03_01_baseline_both_010shots.mkv",
+        "size": 105354414,
+        "sha256": "a93850004681d4f461dda5aa2ae02a2ba1c352da93b5a883e795592e8cf9d319",
+        "fps": 60.0,
+        "frames": 12525,
+        "sample_count": 25,
+        "evidence_path": "MOLT4\\upgrade_v2\\results\\cache\\03_01_baseline_both_010shots_evidence.npz",
+        "evidence_sha256": "a9b50287ea6470e99badf5805531b81332a9e98b7d30009920b8c9a1f765e445",
+        "calibration_path": "MOLT4\\upgrade_v2\\results\\calibration\\03_01_baseline_both_010shots.json",
+        "calibration_sha256": "4575eb101ee6b5bbb3eb872fc96ad6f68641a94fa26b5e48ad1da1285a8e1c6f",
+        "time_source": "decoder_timestamp_ms",
+        "verified_free_stop_segments": 1
+      },
+      {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\04_01_baseline_both_010shots.mkv",
+        "name": "04_01_baseline_both_010shots.mkv",
+        "size": 75365179,
+        "sha256": "3916d817ee839050773fbf56a4f57b298009142c3f3c8a9a144a9253fdf9093f",
+        "fps": 60.0,
+        "frames": 8935,
+        "sample_count": 25,
+        "evidence_path": "MOLT4\\upgrade_v2\\results\\cache\\04_01_baseline_both_010shots_evidence.npz",
+        "evidence_sha256": "3b4e2cc4e8f6622024b36e5d58e33ef976eed6f4ce816db9eadc7c8059777ba2",
+        "calibration_path": "MOLT4\\upgrade_v2\\results\\calibration\\04_01_baseline_both_010shots.json",
+        "calibration_sha256": "f356ef3cbce342bfbd7a34abeaaed0a088814e6bddd84d14fbec71651243ab4f",
+        "time_source": "decoder_timestamp_ms",
+        "verified_free_stop_segments": 0
+      },
+      {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\05_01_baseline_both_010shots.mkv",
+        "name": "05_01_baseline_both_010shots.mkv",
+        "size": 57387312,
+        "sha256": "e4e179d221bcc2359f4655a54d4f5028bb0aaf0be5d7fd9ea546d4560233313f",
+        "fps": 60.0,
+        "frames": 6851,
+        "sample_count": 25,
+        "evidence_path": "MOLT4\\upgrade_v2\\results\\cache\\05_01_baseline_both_010shots_evidence.npz",
+        "evidence_sha256": "2d271de37d58c3a1dabeda7b78f43ef82771d22993009f5ed635849d526755ff",
+        "calibration_path": "MOLT4\\upgrade_v2\\results\\calibration\\05_01_baseline_both_010shots.json",
+        "calibration_sha256": "df0212e9738c11bea90298e40c934bac85317a5e0f3ae8ed2c90f99ea6835378",
+        "time_source": "decoder_timestamp_ms",
+        "verified_free_stop_segments": 2
+      },
+      {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\06_01_baseline_both_010shots.mkv",
+        "name": "06_01_baseline_both_010shots.mkv",
+        "size": 77931071,
+        "sha256": "82d81d6afc3dab49b7a050c31f3149f7e49de3e0a4a3ebfff147f3bdd42eabe7",
+        "fps": 60.0,
+        "frames": 9255,
+        "sample_count": 25,
+        "evidence_path": "MOLT4\\upgrade_v2\\results\\cache\\06_01_baseline_both_010shots_evidence.npz",
+        "evidence_sha256": "a3ea29fa4c11d50550cc20bfe9c8c94e03890ca9f6c7dd35694bc43378e07436",
+        "calibration_path": "MOLT4\\upgrade_v2\\results\\calibration\\06_01_baseline_both_010shots.json",
+        "calibration_sha256": "801821aab7e0b634f81bc03fac72d1f22861ce49fd81da450ff22f5c2664d6c8",
+        "time_source": "decoder_timestamp_ms",
+        "verified_free_stop_segments": 4
+      },
+      {
+        "path": "D:\\experiment\\03\\03_07_test_angle_030shots.mkv",
+        "name": "03_07_test_angle_030shots.mkv",
+        "size": 138029420,
+        "sha256": "e16b08f279966a22e1efc41752db512423be4b53362c5f6e145d121095aec613",
+        "fps": 60.0,
+        "frames": 16423,
+        "sample_count": 25,
+        "evidence_path": "MOLT4\\upgrade_v2\\results\\cache\\03_07_test_angle_030shots_evidence.npz",
+        "evidence_sha256": "231e8d070e228e452c1825161723655f4ede32fee96985b57be4343039ab7b78",
+        "calibration_path": "MOLT4\\upgrade_v2\\results\\calibration\\03_07_test_angle_030shots.json",
+        "calibration_sha256": "2a01ecf7decdb7e9648d3b71f05d6e2ed14f978c24c932712ec8f5fc13b2bd06",
+        "time_source": "decoder_timestamp_ms",
+        "verified_free_stop_segments": 6
+      }
+    ],
+    "skipped_sources": [],
+    "independent_stop_count": 20,
+    "query_count": 85,
+    "velocity_estimator_sha256": "31e807f4c265ca1fddafd857c738372cbe787fd6268fd9ed2e619054c10617f9",
+    "training_script_sha256": "03b86248e40cfcd4347d8cb0675bbce07da3cf700701009a13c674d9a833d822",
+    "model_id": "1020e3ee650693a9"
+  },
+  "target_bank_shots": 39,
+  "strength_scored_shots": 38,
+  "angle_scored_shots": 41,
+  "validation": "Automatic event classification; inspect event sheets and flagged attempts before scientific use"
+}

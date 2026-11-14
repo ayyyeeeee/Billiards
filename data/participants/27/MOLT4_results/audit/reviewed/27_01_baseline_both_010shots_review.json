@@ -1,0 +1,799 @@
+{
+  "status": "SOURCE_REVIEWED_MINIMAL_CANDIDATE_READY_FOR_ROOT_DECISION",
+  "method": "source_measured_low_red_area_contour_recovery",
+  "created": "2026-10-29T21:03:12.395722+00:00",
+  "source_video": "D:\\experiment\\27\\27_01_baseline_both_010shots.mkv",
+  "source_sha256": "b28e9a1d3c8ae5f6cbece06e1d7ea4ccdce3459379aa6e4148346cf6f833e987",
+  "original_pack": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\analysis\\27\\cache\\27_01_baseline_both_010shots_evidence.npz",
+  "original_pack_sha256": "f627a4c5b5b32e8ef71f998946a57e6443ca2db4993a0ecd42b6ab7cdd947f70",
+  "reviewed_pack": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2701\\27_01_baseline_both_010shots_reviewed_evidence.npz",
+  "reviewed_pack_sha256": "351e77d3619a6ea496ee689752cff6189d4b83a60887ae18d795669463be585c",
+  "inputs_sha256": {
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\analysis\\27\\cache\\27_01_baseline_both_010shots_evidence.npz": "f627a4c5b5b32e8ef71f998946a57e6443ca2db4993a0ecd42b6ab7cdd947f70",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\analysis\\27\\audit\\27_01_baseline_both_010shots_report.json": "9faa00053b8a263cf699bbe316515dc33bf76c833d94383868b5bcc7342798d2",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\analysis\\27\\calibration\\27_01_baseline_both_010shots.json": "f23a94eb74c98c07f12571398383122b9fb6914884597b5d8f533add4173d29c",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\inventory.json": "1a8a26e6acedda8f97f61e9ae4aba79932ed12a371d09bd19a1af1203ade599d",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\geometry_manifest.json": "1a432cbaba95b6402fff484be5ded88d13fc9fcf6c85a6032ad86499ae7b1408",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\native_before_reviewed_rescore_manifest.json": "942d9439c86fad8a47758a684040095fad1294fee6340643d7bdcdba2fc86e92",
+    "D:\\experiment\\27\\27_01_baseline_both_010shots.mkv": "b28e9a1d3c8ae5f6cbece06e1d7ea4ccdce3459379aa6e4148346cf6f833e987"
+  },
+  "core_sha256": {
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\audit_hand_stops.py": "64e4227ba2606f3e1513b7172a659a6be7145efe17c76ad6888bcfd44fbc018a",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\calibration.py": "ed56069eec6b00d672922c86b015e0f9f4786aed732b19b6bb5d9595f46b1dc1",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\config.json": "580fbaebdec501cf5d79b3ebab10a0b7ee029de25059df85e9c173a46dd0e366",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\enrich_review.py": "3816261558ae552b1d25f10377ac0d6be77cc90a88125386de09ff968a858e94",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\geometry.py": "ce9d4c2931483476717395216dc34d844e981ae9bc2ef1ea1b135831a65afa1d",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\learn_table_template.py": "36b86208b7b0c463e5b7601253c355e9314bf4e220b074adabb0151758ead579",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\manual_calibration.py": "02841b10def5b6bf6582262afd77a74b801f2916c154926fcf448c5db07de0e9",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\modes.py": "c542d93842f6f6c6d9dff3159c10a08d6ce1ef241c35277b25d2ee7b459d8263",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\motion.py": "31e807f4c265ca1fddafd857c738372cbe787fd6268fd9ed2e619054c10617f9",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\motion_model.json": "a2e78e092adaa9d0748e4b62aff813d2f73827b89744b9f8130242b6a55d238b",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\obstructions.py": "aff8e36cac60cba099f93dd55256ef767ab140f8c20c47643ed1c5a46a747fbc",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\pipeline.py": "33c7c49c8117c1e568f7282a01d61e193cd9ff6a86fe5094d373cf0ef974e3ed",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\reference_constants.json": "09e03a65c0c62ac68fe84a49744295b1af18d3a33331093d1b1cb6e6d31849ad",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\review.py": "7880c5ec23d518da5034591bbc9aa88478fe128f3726d3d038ad07814c9cd9e4",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\rules.py": "6d553b1a3028544a078b837e7c5ddf27662d88f24a61cecd105982acb9b2d4ec",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\rules_v2.py": "4a4ac9099551a62cae7e171a9b93e76c42bb20f99541ecdafef6acf02367a0e2",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\rules_v3.py": "298f32fa19f8bc96f876f6e9623bf07fd5923b278c57ed43cbfb80b9699670a9",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\table_template.json": "801f3314f0a5dce7906002e8e69d1f5e4dcb3c1de0faf946c3d8d73ecef7aa8f",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_count_assessment.py": "046d8357fad7fe4d1c1546422471b36df5e228fc752aab9f7c089b2d472c83b6",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_geometry.py": "7e4dafa86235f29e67e50ab0eca765bd0d4bb2d6a3c4e8eefc81c4b13508d8a6",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_modes.py": "7a7c5e70cae6dcc22998e5372a2f0770e4500ba494c766cf4dd4e1376de5ec77",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_motion.py": "a5b07bde7701bb6b278915d845783e7a26ca5f4a70b7b2af5b8655ac7f828039",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_obstructions.py": "e24b9e765fe844d63cc00c200183792ca5739ec8f5aaff2d9a9dd0c70ce9dd8f",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_output_paths.py": "3f55cba6845782b6d1ef2705a6df159f5aae07892216bf3759f6ed582f770e84",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_rules.py": "4ba9041d46f0a268b1277c342a83f6ec85a1e2f0999fe183abffa0e80453c73c",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_scoring_v2.py": "e7e1259781a649d775b7a7fc4735989bceeef47f00c1938da80e1314f998a4b6",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_scoring_v3.py": "90fee5a6c8882d3638c8b2cf931e55f017049357dde3422e850343295738642a",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_validation_v2.py": "836301b43965536c494460b3597ba2b22b1b4ef38e880ae5cd0f53351da3e30e",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\test_validation_v3.py": "00dff54db79a347a9cf76dba12ae4e947e4ce2e4226488372972ed064fa2f7b5",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\validate_outputs.py": "310646df62ce5f4240d4b36b5a58c9444d14514bf547217aef219710b3478b11",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\verified_counts.json": "0447edcc0343871805b7e5b51b69458c4a9a2892452c95325e30f61a728f9d03",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\vision.py": "aa5165ef18d09c84bdb47870deeb284ebb57491aa2111b7ef9eca4da67d61817",
+    "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\experiment_system\\__init__.py": "4e85c890d96efa98270b342c445de5b9d56f03c79c7a69d2cd3eab6bb8860ea7"
+  },
+  "changed_frames": [
+    7199,
+    7206
+  ],
+  "changes": [
+    {
+      "frame": 7199,
+      "original_row": [
+        null,
+        null,
+        0.0,
+        0.0,
+        119983.0,
+        0.0,
+        0.0
+      ],
+      "reviewed_row": [
+        590.7511111111111,
+        19.604444444444443,
+        37.5,
+        1.0,
+        119983.0,
+        0.015426997245179064,
+        0.0
+      ],
+      "method": "source_measured_low_red_area_contour",
+      "new_observation": true,
+      "reason": "Actual source-visible red ball contour, rejected only by the original 45px2 minimum red-area gate. Local source review recovers its exact configured-HSV contour moment; no global threshold is changed.",
+      "source_contour": {
+        "point": [
+          590.7511111111111,
+          19.604444444444443
+        ],
+        "area": 37.5,
+        "bounds": [
+          586,
+          16,
+          14,
+          10
+        ],
+        "contour": [
+          [
+            590,
+            16
+          ],
+          [
+            590,
+            17
+          ],
+          [
+            589,
+            18
+          ],
+          [
+            588,
+            18
+          ],
+          [
+            588,
+            19
+          ],
+          [
+            587,
+            20
+          ],
+          [
+            586,
+            20
+          ],
+          [
+            586,
+            23
+          ],
+          [
+            587,
+            23
+          ],
+          [
+            588,
+            24
+          ],
+          [
+            588,
+            25
+          ],
+          [
+            588,
+            24
+          ],
+          [
+            589,
+            23
+          ],
+          [
+            589,
+            22
+          ],
+          [
+            590,
+            21
+          ],
+          [
+            591,
+            21
+          ],
+          [
+            592,
+            20
+          ],
+          [
+            596,
+            20
+          ],
+          [
+            597,
+            21
+          ],
+          [
+            599,
+            21
+          ],
+          [
+            599,
+            20
+          ],
+          [
+            596,
+            20
+          ],
+          [
+            595,
+            19
+          ],
+          [
+            595,
+            18
+          ],
+          [
+            594,
+            18
+          ],
+          [
+            593,
+            17
+          ],
+          [
+            593,
+            16
+          ]
+        ],
+        "hand_fraction": 0.015426997245179064,
+        "min_ball_area_gate": 45
+      },
+      "original_table_mask_procedure_reproduced": true,
+      "full_frame_contour_moments_byte_values_match_investigation": true,
+      "pixel_evidence": {
+        "frame": 7199,
+        "source_pts_ms": 119983.0,
+        "original_row": [
+          null,
+          null,
+          0.0,
+          0.0,
+          119983.0,
+          0.0,
+          0.0
+        ],
+        "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2701\\source_f7199.png",
+        "source_png_sha256": "0e05055758b58e15ed6cd9c1d55f996b6e5c98af9a5146522020af45748a69d9",
+        "source_bgr_sha256": "44eb1689b49cefc35fb5cf90e95dccae2e16ba8b9347461228c5d018d2b3f544",
+        "crop": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2701\\contact_crop_f7199.png",
+        "crop_sha256": "80ab0618bb9f8a7cccfc913c67f1f4df34270cf7ab3a4c8454c8803cbc96e3f6",
+        "crop_bounds": [
+          540,
+          0,
+          650,
+          150
+        ],
+        "red_mask_crop": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2701\\red_mask_crop_f7199.png",
+        "red_mask_crop_sha256": "baf35a9a73fa7a1b8a5486256e1bd7d6579aee503d0be9089588be8b97f00b45",
+        "annotated": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2701\\annotated_f7199.png",
+        "annotated_sha256": "7a355a953a0423fc818b125911188d51d180339b8a7a23c3ebaaeeff54629f02",
+        "contours": [
+          {
+            "point": [
+              600.5,
+              24.5
+            ],
+            "area": 1.0,
+            "bounds": [
+              600,
+              24,
+              2,
+              2
+            ],
+            "contour": [
+              [
+                600,
+                24
+              ],
+              [
+                600,
+                25
+              ],
+              [
+                601,
+                25
+              ],
+              [
+                601,
+                24
+              ]
+            ],
+            "hand_fraction": 0.02362609142270159,
+            "min_ball_area_gate": 45
+          },
+          {
+            "point": [
+              590.7511111111111,
+              19.604444444444443
+            ],
+            "area": 37.5,
+            "bounds": [
+              586,
+              16,
+              14,
+              10
+            ],
+            "contour": [
+              [
+                590,
+                16
+              ],
+              [
+                590,
+                17
+              ],
+              [
+                589,
+                18
+              ],
+              [
+                588,
+                18
+              ],
+              [
+                588,
+                19
+              ],
+              [
+                587,
+                20
+              ],
+              [
+                586,
+                20
+              ],
+              [
+                586,
+                23
+              ],
+              [
+                587,
+                23
+              ],
+              [
+                588,
+                24
+              ],
+              [
+                588,
+                25
+              ],
+              [
+                588,
+                24
+              ],
+              [
+                589,
+                23
+              ],
+              [
+                589,
+                22
+              ],
+              [
+                590,
+                21
+              ],
+              [
+                591,
+                21
+              ],
+              [
+                592,
+                20
+              ],
+              [
+                596,
+                20
+              ],
+              [
+                597,
+                21
+              ],
+              [
+                599,
+                21
+              ],
+              [
+                599,
+                20
+              ],
+              [
+                596,
+                20
+              ],
+              [
+                595,
+                19
+              ],
+              [
+                595,
+                18
+              ],
+              [
+                594,
+                18
+              ],
+              [
+                593,
+                17
+              ],
+              [
+                593,
+                16
+              ]
+            ],
+            "hand_fraction": 0.015426997245179064,
+            "min_ball_area_gate": 45
+          }
+        ]
+      }
+    },
+    {
+      "frame": 7206,
+      "original_row": [
+        null,
+        null,
+        0.0,
+        0.0,
+        120100.00000000001,
+        0.0,
+        0.0
+      ],
+      "reviewed_row": [
+        595.671111111111,
+        75.40888888888888,
+        37.5,
+        1.0,
+        120100.00000000001,
+        0.018924302788844622,
+        0.0
+      ],
+      "method": "source_measured_low_red_area_contour",
+      "new_observation": true,
+      "reason": "Actual source-visible red ball contour, rejected only by the original 45px2 minimum red-area gate. Local source review recovers its exact configured-HSV contour moment; no global threshold is changed.",
+      "source_contour": {
+        "point": [
+          595.671111111111,
+          75.40888888888888
+        ],
+        "area": 37.5,
+        "bounds": [
+          590,
+          72,
+          12,
+          12
+        ],
+        "contour": [
+          [
+            592,
+            72
+          ],
+          [
+            592,
+            75
+          ],
+          [
+            591,
+            76
+          ],
+          [
+            590,
+            76
+          ],
+          [
+            590,
+            83
+          ],
+          [
+            590,
+            78
+          ],
+          [
+            591,
+            77
+          ],
+          [
+            599,
+            77
+          ],
+          [
+            600,
+            78
+          ],
+          [
+            600,
+            79
+          ],
+          [
+            601,
+            80
+          ],
+          [
+            601,
+            76
+          ],
+          [
+            599,
+            74
+          ],
+          [
+            596,
+            74
+          ],
+          [
+            595,
+            73
+          ],
+          [
+            595,
+            72
+          ]
+        ],
+        "hand_fraction": 0.018924302788844622,
+        "min_ball_area_gate": 45
+      },
+      "original_table_mask_procedure_reproduced": true,
+      "full_frame_contour_moments_byte_values_match_investigation": true,
+      "pixel_evidence": {
+        "frame": 7206,
+        "source_pts_ms": 120100.00000000001,
+        "original_row": [
+          null,
+          null,
+          0.0,
+          0.0,
+          120100.00000000001,
+          0.0,
+          0.0
+        ],
+        "source_png": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2701\\source_f7206.png",
+        "source_png_sha256": "ac00958139fd576e98e62fdb4d28eae8dde495e0333cd8c2521591fd35aa1657",
+        "source_bgr_sha256": "22d0787a1847dd84cc537cb34af1f758f9c5b48b4606aa4462738c5ae43601ce",
+        "crop": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2701\\contact_crop_f7206.png",
+        "crop_sha256": "3e7718dcef29648676191fc94932c3d848ce8abffe4c795b55d7abf864a35527",
+        "crop_bounds": [
+          540,
+          0,
+          650,
+          150
+        ],
+        "red_mask_crop": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2701\\red_mask_crop_f7206.png",
+        "red_mask_crop_sha256": "d1dd34f31b5ab6999bd0e0b74f6c20dc832d6dd3f5b1cfd5c7735da1895ac207",
+        "annotated": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2701\\annotated_f7206.png",
+        "annotated_sha256": "691de1761c85ef92c74597bc1aae82e9116986ecb547a594e9c6e53b418f2edc",
+        "contours": [
+          {
+            "point": [
+              595.671111111111,
+              75.40888888888888
+            ],
+            "area": 37.5,
+            "bounds": [
+              590,
+              72,
+              12,
+              12
+            ],
+            "contour": [
+              [
+                592,
+                72
+              ],
+              [
+                592,
+                75
+              ],
+              [
+                591,
+                76
+              ],
+              [
+                590,
+                76
+              ],
+              [
+                590,
+                83
+              ],
+              [
+                590,
+                78
+              ],
+              [
+                591,
+                77
+              ],
+              [
+                599,
+                77
+              ],
+              [
+                600,
+                78
+              ],
+              [
+                600,
+                79
+              ],
+              [
+                601,
+                80
+              ],
+              [
+                601,
+                76
+              ],
+              [
+                599,
+                74
+              ],
+              [
+                596,
+                74
+              ],
+              [
+                595,
+                73
+              ],
+              [
+                595,
+                72
+              ]
+            ],
+            "hand_fraction": 0.018924302788844622,
+            "min_ball_area_gate": 45
+          }
+        ]
+      }
+    }
+  ],
+  "raw_schema": [
+    "u",
+    "v",
+    "ball_mask_area",
+    "candidate_count",
+    "source_pts_ms",
+    "hand_fraction",
+    "detector_reacquired_gap_frames"
+  ],
+  "visual_review": {
+    "actual_source_frames_viewed": [
+      7195,
+      7197,
+      7198,
+      7199,
+      7200,
+      7201,
+      7202,
+      7203,
+      7204,
+      7205,
+      7206,
+      7207
+    ],
+    "pages": [
+      {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2701\\contact_review_page_1.png",
+        "sha256": "370785ed6b902da7bc6a86b168514b3b354c49dcd428875e6d75d249daf936c7"
+      },
+      {
+        "path": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2701\\contact_review_page_2.png",
+        "sha256": "5fa5d99164f82f66e10aee1bbb1facf69224cb156b09dd0afe51cebca97341da"
+      }
+    ],
+    "conclusion": "Source-visible ball approaches the upper cushion at7198, contacts/turns at7199 and freely returns from7200 onward. Frames7199 and7206 each have a definite 37.5px2 red contour. The missing middle frames are retained missing."
+  },
+  "before": {
+    "attempts": 12,
+    "valid_shots": 11
+  },
+  "after": {
+    "attempts": 12,
+    "valid_shots": 11
+  },
+  "differences": [
+    {
+      "start_frame": 7145,
+      "shot": 6,
+      "changes": {
+        "angle_max_displacement_cm": {
+          "before": 124.43408853907518,
+          "after": 126.65327923361576
+        },
+        "angle_end_plane_x": {
+          "before": 0.4806201029966625,
+          "after": 0.36923704190009815
+        },
+        "collision_evidence": {
+          "before": "[{\"frame\":7371,\"before_frame\":7359,\"after_frame\":7383,\"time_s\":122.85000000000001,\"kind\":\"opposite\",\"plane_point\":[0.4806201029966625,1.9687087696876338],\"approach_vector\":[0.009895948437684488,0.07427616743257714],\"return_vector\":[0.007921764630798633,-0.016943027581472814]}]",
+          "after": "[{\"frame\":7199,\"before_frame\":7187,\"after_frame\":7211,\"time_s\":119.983,\"kind\":\"target\",\"plane_point\":[0.36923704190009815,-0.005293938540789902],\"approach_vector\":[-0.024971372887704124,-0.3030633373031666],\"return_vector\":[0.024360712977738674,0.2479387580365283]}]"
+        },
+        "angle_needs_review": {
+          "before": 1,
+          "after": 0
+        },
+        "angle_end_plane_y": {
+          "before": 1.9687087696876338,
+          "after": -0.005293938540789902
+        },
+        "angle_position_frame": {
+          "before": 7371,
+          "after": 7199
+        },
+        "angle_status": {
+          "before": "invalid",
+          "after": "scored"
+        },
+        "angle_uncapped": {
+          "before": "",
+          "after": 5.1868613511663355
+        },
+        "angle_displacement_frame": {
+          "before": 7198,
+          "after": 7199
+        },
+        "angle_displacement_end_frame": {
+          "before": 7371,
+          "after": 7199
+        },
+        "score_complete": {
+          "before": 0,
+          "after": 1
+        },
+        "interpolated_frames": {
+          "before": 32,
+          "after": 30
+        },
+        "missing_frames": {
+          "before": 112,
+          "after": 110
+        },
+        "angle_direction_status": {
+          "before": "reverse",
+          "after": "forward"
+        },
+        "angle_evidence": {
+          "before": "{\"frame\":7371,\"before_frame\":7359,\"after_frame\":7383,\"time_s\":122.85000000000001,\"kind\":\"opposite\",\"plane_point\":[0.4806201029966625,1.9687087696876338],\"approach_vector\":[0.009895948437684488,0.07427616743257714],\"return_vector\":[0.007921764630798633,-0.016943027581472814]}",
+          "after": "{\"frame\":7199,\"before_frame\":7187,\"after_frame\":7211,\"time_s\":119.983,\"kind\":\"target\",\"plane_point\":[0.36923704190009815,-0.005293938540789902],\"approach_vector\":[-0.024971372887704124,-0.3030633373031666],\"return_vector\":[0.024360712977738674,0.2479387580365283]}"
+        },
+        "angle_contact_kind": {
+          "before": "opposite",
+          "after": "target"
+        },
+        "angle_displacement_sample_count": {
+          "before": 201,
+          "after": 50
+        },
+        "angle_end_frame": {
+          "before": 7383,
+          "after": 7211
+        },
+        "angle_raw_degrees": {
+          "before": 178.68104446269666,
+          "after": 5.1868613511663355
+        },
+        "stop_reason": {
+          "before": "invalid_reverse",
+          "after": "first_cushion"
+        },
+        "angle_valid": {
+          "before": 0,
+          "after": 1
+        },
+        "angle_value": {
+          "before": "",
+          "after": 5.1868613511663355
+        },
+        "angle_stop_reason": {
+          "before": "invalid_reverse",
+          "after": "first_cushion"
+        },
+        "angle_reverse": {
+          "before": 1,
+          "after": 0
+        }
+      }
+    }
+  ],
+  "all_strength_fields_and_endpoints_unchanged": true,
+  "all_other_records_unchanged": true,
+  "all_unselected_raw_rows_byte_identical": true,
+  "source_timestamps_byte_identical": true,
+  "non_data_arrays_byte_identical": {
+    "fps": true,
+    "quad": true,
+    "median": true
+  },
+  "ablation_minimality": [
+    {
+      "only_recovered_frame": 7199,
+      "angle_status": "invalid",
+      "angle_position_frame": 7371,
+      "conclusion": "One of the two alone leaves an appreciable measured gap across the contact; both source measurements are needed."
+    },
+    {
+      "only_recovered_frame": 7206,
+      "angle_status": "invalid",
+      "angle_position_frame": 7371,
+      "conclusion": "One of the two alone leaves an appreciable measured gap across the contact; both source measurements are needed."
+    }
+  ],
+  "before_after_records": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2701\\before_after_records.json",
+  "before_after_records_sha256": "b3da741027d3d572c72c3a16e34668ce8bc08df58f3edc209b1b7679463dd7de",
+  "source_evidence": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_2127_20261029\\observation_review_2701\\source_evidence.json",
+  "source_evidence_sha256": "844f491e8ba9031c3a6e55974c61907a4e90d1df2890306a5bb42cb0a2f9650e",
+  "metadata_policy": "Recovered rows record one reviewed ball candidate and zero detector reacquisition-gap metadata. Original detector metadata in every other row remains unchanged.",
+  "limitations": [
+    "Two exact source-contour measurements only; no interpolation, fitted position or hand-drawn coordinate.",
+    "No global detector, geometry, scoring or native file is changed. Root alone approves, registers and rescores.",
+    "Sparse red contour location carries source-pixel/colour-centroid uncertainty and is not a manually fitted physical ball centre."
+  ]
+}

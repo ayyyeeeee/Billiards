@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "task": "30_v3_capped_20261101",
+  "source_count": 7,
+  "source_frame_count": 186514,
+  "totals": {
+    "source_frames": 186514,
+    "online_confirmed": 260,
+    "online_attempts": 262,
+    "online_invalid": 2,
+    "native_valid": 260,
+    "native_attempts": 261,
+    "strict_matched": 260,
+    "supplemental_same_trial": 0,
+    "real_offline_extra": 0,
+    "online_false_confirmation": 0,
+    "protocol_first_n": 260,
+    "retained_first_n": 260,
+    "shortfall": 0,
+    "excluded_excess": 0,
+    "online_dropped_analysis_frames": 2
+  },
+  "original_witness_pngs_verified": 165,
+  "unique_original_source_frames_redecoded": 165,
+  "manual_review_sets": 16,
+  "frozen_input_snapshots_verified": 31,
+  "count_report_sha256": "a0827b62d1900fb1eb9e7593be96b2377418e5d24165d4ed3106dc96ca749422",
+  "inventory_sha256": "be016c119218922ad9ca66f04e64dfc1679c1a3a4db282987aa7d770ff5c1be8",
+  "matcher_sha256": "bc2d65841b475adfca843c74bc4572ec2703eb1b01f91f9f33e562d787a3fe46",
+  "core_files_unchanged": 33,
+  "protected_files_unchanged": 15,
+  "current_matches_independently_checked": true,
+  "chronological_first_n_checked": true,
+  "source_video_sha_and_actual_pixels_checked": true,
+  "sources": [
+    {
+      "stem": "30_01_baseline_both_010shots",
+      "native_valid": 10,
+      "first_n": 10,
+      "original_frames_redecoded": 15,
+      "matching_sha256": "dd582fe50a2f5ecef56ba05db19ebe7087eb7752a90fd843c1e20514589b05e0"
+    },
+    {
+      "stem": "30_02_baseline_strength_010shots",
+      "native_valid": 10,
+      "first_n": 10,
+      "original_frames_redecoded": 20,
+      "matching_sha256": "aa2ccc4d3adb898db61f6254095ec06dcde880dbd4f11307961d67710352cf8d"
+    },
+    {
+      "stem": "30_03_baseline_angle_010shots",
+      "native_valid": 10,
+      "first_n": 10,
+      "original_frames_redecoded": 15,
+      "matching_sha256": "ef7beb0e164258b2fc338a7b0562755e65438a584de10f775f72f2991a2f6c0b"
+    },
+    {
+      "stem": "30_04_training_strength_140shots",
+      "native_valid": 140,
+      "first_n": 140,
+      "original_frames_redecoded": 55,
+      "matching_sha256": "adb7f8e62dacde079250247ab45991d536a0e31464b70158914ee8950d91247e"
+    },
+    {
+      "stem": "30_05_test_both_030shots",
+      "native_valid": 30,
+      "first_n": 30,
+      "original_frames_redecoded": 15,
+      "matching_sha256": "96f1c1f6a0b3c314c506155d7b43b964c5d04c227a4bbe7078897d313efcb718"
+    },
+    {
+      "stem": "30_06_test_strength_030shots",
+      "native_valid": 30,
+      "first_n": 30,
+      "original_frames_redecoded": 30,
+      "matching_sha256": "730d3487bb50a4a81a29790885fc544885d4a2a1410aebebad0075fb2f558eb9"
+    },
+    {
+      "stem": "30_07_test_angle_030shots",
+      "native_valid": 30,
+      "first_n": 30,
+      "original_frames_redecoded": 15,
+      "matching_sha256": "f826ba5bf49cf244f470e76b439a3d174656ed396962fe02d0a32eae440d29c3"
+    }
+  ],
+  "verifier_sha256": "a2562236c060f8b44dc4e31f518ba4661b9c03ae9053dbc83fa3b56113cacbd2",
+  "source_pixel_verification_sha256": "b04ee3bd9c33031ea4524959538f6fab3997bca5a9b7282c300c758bd69bc78a",
+  "source_pixel_verifier_sha256": "feb94de21c720f0849745690316409df7b687731e1b7034b9b894179d2afd7aa",
+  "limitation": "Selected source-pixel/PTS checks, actual source-view ledger, event identity and firstN readback; not full-video object/contact/score ground truth."
+}

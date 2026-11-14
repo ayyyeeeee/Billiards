@@ -1,0 +1,772 @@
+{
+  "created_utc": "2026-10-20T20:15:11.780663+00:00",
+  "status": "REVIEW_COMPLETE_NO_INPUT_OR_RESULT_MUTATION",
+  "key_conclusion": "assumed_stop=1 alone is not proof of violation: a genuinely stationary ball may be missed by the detector, and a historical intervention/EOF fallback was explicitly retained. However the inspected seven source events are not demonstrated natural stops, and four scored points are already hand-carried.",
+  "inherited_semantics": {
+    "rules_v2_assumed_end": "Uses last finite observation through the trigger frame, without requiring free-ball status or stationary evidence. Before Y it assigns scored; after Y with an unobserved crossing it assigns unresolved. method remains observed_stop even for the assumed branch.",
+    "strength_v3": "strength mode calls analyze_v2 directly; both delegates each physical attempt span to analyze_v2. No new natural-stop validation is added.",
+    "historical_document_evidence": [
+      "MOLT4/HANDOFF.md:63",
+      "MOLT4/EXPERIMENT_GUIDE.md:37-43",
+      "MOLT4/experiment_system/test_scoring_v2.py:159"
+    ],
+    "authority_limit": "These are historical/local artifacts, not a new human instruction. They prove implemented protocol intent, but do not override a later explicit requirement for a natural stop.",
+    "mechanism_of_carried_endpoint": "During pickup, the true ball may disappear before the hand-overlap threshold. assumed_end waits for the later observed hand-carried ball to exceed .35, then selects that later point."
+  },
+  "minimum_compliant_options": {
+    "strict_natural_stop_main_value": "If the current delivery promises natural stopping positions, unresolved numeric strength is required where no real pre-intervention stop or reliable free Y crossing exists. Preserve validity/chronological N selection, angle and original audit value; do not remove the shot or backfill from a later shot.",
+    "explicit_estimate_only": "A hand/EOF last-observation distance can be retained as an explicitly named intervention-end distance estimate with assumed/review flags. It must not be represented as measured natural-stop strength or silently included in that main score.",
+    "already_scored_before_intervention": "A real natural-stop or reliable free-crossing/model score frozen before later hand/EOF remains usable. Never clear it merely because later hand contact occurs.",
+    "no_new_pre_axis_extrapolation": "The requested model extrapolation is tied to the measured free Y crossing; do not invent an earlier rolling-to-stop model to fill these blanks.",
+    "unchanged_legacy_protocol": "If the explicitly retained historical assumption remains the intended scoring protocol, keep it only with clear estimated method/assumed/review disclosure; do not describe it as natural or observed stop.",
+    "two_preexisting_missing_baselines": "The separately reviewed unresolved baselines in recovery_baselines remain blank; no recovery or modification was attempted here."
+  },
+  "scope_of_assumed_values": {
+    "all_main_csv_assumed_scored": 89,
+    "first_N_main_csv_assumed_scored": 74,
+    "sources_with_assumed_values": 17,
+    "limit": "Only seven actual events were visually examined; the remaining assumed cases are not automatically declared moving or invalid. Counts indicate review/policy exposure, not physical truth.",
+    "sources": [
+      {
+        "stem": "01_01_baseline_both_010shots",
+        "csv_sha256": "a5d7c0dbaba496e247590ce0d02846158dd9afc6ff2549ff82ef43f5e3aa2dda",
+        "all_assumed_scored": 1,
+        "retained_first_N_assumed_scored": 0,
+        "first_N": 10,
+        "retained_shots": []
+      },
+      {
+        "stem": "01_02_baseline_strength_010shots",
+        "csv_sha256": "7957943c0c8e8ee31a1f9058caae6a8979b7f1b5b5031bdd1465770c6b5cf909",
+        "all_assumed_scored": 2,
+        "retained_first_N_assumed_scored": 2,
+        "first_N": 10,
+        "retained_shots": [
+          {
+            "shot": "2",
+            "start_s": "37.050000000000004",
+            "reason": "assumed_stationary_hand",
+            "value": "0.257214"
+          },
+          {
+            "shot": "4",
+            "start_s": "55.266",
+            "reason": "assumed_stationary_hand",
+            "value": "0.108072"
+          }
+        ]
+      },
+      {
+        "stem": "01_04_training_both_140shots",
+        "csv_sha256": "6404bcf1f16673d4b5b5fb6c5ee130acc06b8a7714a1966af92e2f65ac5ace6c",
+        "all_assumed_scored": 2,
+        "retained_first_N_assumed_scored": 1,
+        "first_N": 140,
+        "retained_shots": [
+          {
+            "shot": "73",
+            "start_s": "900.7",
+            "reason": "assumed_stationary_hand",
+            "value": "0.056386"
+          }
+        ]
+      },
+      {
+        "stem": "02_04_training_both_140shots",
+        "csv_sha256": "7e80deffd0e0ff0512e7718df41a8106ff494afe734119b4b72fabb7b8f0131f",
+        "all_assumed_scored": 8,
+        "retained_first_N_assumed_scored": 8,
+        "first_N": 140,
+        "retained_shots": [
+          {
+            "shot": "16",
+            "start_s": "172.1",
+            "reason": "assumed_stationary_hand",
+            "value": "0.466240"
+          },
+          {
+            "shot": "19",
+            "start_s": "241.434",
+            "reason": "assumed_stationary_hand",
+            "value": "0.297671"
+          },
+          {
+            "shot": "22",
+            "start_s": "380.35",
+            "reason": "assumed_stationary_hand",
+            "value": "0.108186"
+          },
+          {
+            "shot": "47",
+            "start_s": "634.0500000000001",
+            "reason": "assumed_stationary_hand",
+            "value": "0.130992"
+          },
+          {
+            "shot": "56",
+            "start_s": "724.3000000000001",
+            "reason": "assumed_stationary_hand",
+            "value": "0.367718"
+          },
+          {
+            "shot": "61",
+            "start_s": "780.617",
+            "reason": "assumed_stationary_hand",
+            "value": "0.020170"
+          },
+          {
+            "shot": "108",
+            "start_s": "1265.15",
+            "reason": "assumed_stationary_hand",
+            "value": "0.296947"
+          },
+          {
+            "shot": "134",
+            "start_s": "1545.05",
+            "reason": "assumed_stationary_hand",
+            "value": "0.195804"
+          }
+        ]
+      },
+      {
+        "stem": "02_06_test_strength_030shots",
+        "csv_sha256": "5fa213550e1eb25a1e051465c84069c1557f650ad7365aa61fe887c4161111c7",
+        "all_assumed_scored": 3,
+        "retained_first_N_assumed_scored": 2,
+        "first_N": 30,
+        "retained_shots": [
+          {
+            "shot": "21",
+            "start_s": "199.983",
+            "reason": "assumed_stationary_hand",
+            "value": "0.065034"
+          },
+          {
+            "shot": "25",
+            "start_s": "235.95000000000002",
+            "reason": "assumed_stationary_hand",
+            "value": "0.139995"
+          }
+        ]
+      },
+      {
+        "stem": "03_01_baseline_both_010shots",
+        "csv_sha256": "58456f46111d0ed0725bb1be708f6dc8fbc1e53b23020d055872e1ee5fd8ea05",
+        "all_assumed_scored": 8,
+        "retained_first_N_assumed_scored": 5,
+        "first_N": 10,
+        "retained_shots": [
+          {
+            "shot": "4",
+            "start_s": "34.7",
+            "reason": "assumed_stationary_hand",
+            "value": "0.182452"
+          },
+          {
+            "shot": "5",
+            "start_s": "44.867000000000004",
+            "reason": "assumed_stationary_hand",
+            "value": "0.439384"
+          },
+          {
+            "shot": "6",
+            "start_s": "57.033",
+            "reason": "assumed_stationary_hand",
+            "value": "0.430125"
+          },
+          {
+            "shot": "8",
+            "start_s": "80.967",
+            "reason": "assumed_stationary_hand",
+            "value": "0.054571"
+          },
+          {
+            "shot": "10",
+            "start_s": "107.167",
+            "reason": "assumed_stationary_hand",
+            "value": "0.310973"
+          }
+        ]
+      },
+      {
+        "stem": "03_04_training_both_140shots",
+        "csv_sha256": "17588bfcf46a8ca47daeb8803be16f1a82e7942d7ce99967244490cea3aa731c",
+        "all_assumed_scored": 24,
+        "retained_first_N_assumed_scored": 18,
+        "first_N": 140,
+        "retained_shots": [
+          {
+            "shot": "8",
+            "start_s": "93.017",
+            "reason": "assumed_stationary_video_end",
+            "value": "0.050937"
+          },
+          {
+            "shot": "28",
+            "start_s": "315.683",
+            "reason": "assumed_stationary_hand",
+            "value": "0.081799"
+          },
+          {
+            "shot": "55",
+            "start_s": "633.75",
+            "reason": "assumed_stationary_hand",
+            "value": "0.524001"
+          },
+          {
+            "shot": "63",
+            "start_s": "714.95",
+            "reason": "assumed_stationary_hand",
+            "value": "0.053936"
+          },
+          {
+            "shot": "70",
+            "start_s": "781.283",
+            "reason": "assumed_stationary_hand",
+            "value": "0.382425"
+          },
+          {
+            "shot": "73",
+            "start_s": "805.117",
+            "reason": "assumed_stationary_hand",
+            "value": "0.399355"
+          },
+          {
+            "shot": "76",
+            "start_s": "830.0",
+            "reason": "assumed_stationary_hand",
+            "value": "0.416568"
+          },
+          {
+            "shot": "77",
+            "start_s": "837.117",
+            "reason": "assumed_stationary_hand",
+            "value": "0.349285"
+          },
+          {
+            "shot": "78",
+            "start_s": "845.1",
+            "reason": "assumed_stationary_hand",
+            "value": "0.022252"
+          },
+          {
+            "shot": "90",
+            "start_s": "956.517",
+            "reason": "assumed_stationary_hand",
+            "value": "0.026671"
+          },
+          {
+            "shot": "91",
+            "start_s": "965.133",
+            "reason": "assumed_stationary_hand",
+            "value": "0.104259"
+          },
+          {
+            "shot": "104",
+            "start_s": "1087.8",
+            "reason": "assumed_stationary_hand",
+            "value": "0.095526"
+          },
+          {
+            "shot": "105",
+            "start_s": "1096.8500000000001",
+            "reason": "assumed_stationary_hand",
+            "value": "0.302819"
+          },
+          {
+            "shot": "107",
+            "start_s": "1112.867",
+            "reason": "assumed_stationary_hand",
+            "value": "0.010018"
+          },
+          {
+            "shot": "112",
+            "start_s": "1174.933",
+            "reason": "assumed_stationary_hand",
+            "value": "0.292364"
+          },
+          {
+            "shot": "122",
+            "start_s": "1275.617",
+            "reason": "assumed_stationary_hand",
+            "value": "0.049735"
+          },
+          {
+            "shot": "124",
+            "start_s": "1290.9",
+            "reason": "assumed_stationary_hand",
+            "value": "0.011717"
+          },
+          {
+            "shot": "134",
+            "start_s": "1377.3500000000001",
+            "reason": "assumed_stationary_hand",
+            "value": "0.562255"
+          }
+        ]
+      },
+      {
+        "stem": "03_05_test_both_030shots",
+        "csv_sha256": "c9f129378d30d289376c8de415439f6f50fbeec1cd45c38f2ee9b8ab3be2e527",
+        "all_assumed_scored": 1,
+        "retained_first_N_assumed_scored": 1,
+        "first_N": 30,
+        "retained_shots": [
+          {
+            "shot": "22",
+            "start_s": "261.484",
+            "reason": "assumed_stationary_hand",
+            "value": "0.023452"
+          }
+        ]
+      },
+      {
+        "stem": "03_06_test_strength_030shots",
+        "csv_sha256": "07ac7c93436e8a99377f6bad247ed0cfd9a0021a9f4c1af458ec0e6696723796",
+        "all_assumed_scored": 3,
+        "retained_first_N_assumed_scored": 3,
+        "first_N": 30,
+        "retained_shots": [
+          {
+            "shot": "12",
+            "start_s": "107.183",
+            "reason": "assumed_stationary_hand",
+            "value": "0.020730"
+          },
+          {
+            "shot": "19",
+            "start_s": "174.517",
+            "reason": "assumed_stationary_hand",
+            "value": "0.220414"
+          },
+          {
+            "shot": "26",
+            "start_s": "235.65",
+            "reason": "assumed_stationary_hand",
+            "value": "0.174651"
+          }
+        ]
+      },
+      {
+        "stem": "04_01_baseline_both_010shots",
+        "csv_sha256": "671ae89acf790ce89f9980a3a0aafdfacf2d2261143dad86014a2884cefa8918",
+        "all_assumed_scored": 1,
+        "retained_first_N_assumed_scored": 1,
+        "first_N": 10,
+        "retained_shots": [
+          {
+            "shot": "7",
+            "start_s": "82.383",
+            "reason": "assumed_stationary_hand",
+            "value": "0.188836"
+          }
+        ]
+      },
+      {
+        "stem": "04_05_test_both_030shots",
+        "csv_sha256": "3ce99773683eed27f36a2f6736bfc93bd1e958b34fc9f2a9da97944625e79ec0",
+        "all_assumed_scored": 2,
+        "retained_first_N_assumed_scored": 1,
+        "first_N": 30,
+        "retained_shots": [
+          {
+            "shot": "18",
+            "start_s": "168.083",
+            "reason": "assumed_stationary_hand",
+            "value": "0.888738"
+          }
+        ]
+      },
+      {
+        "stem": "04_06_test_strength_030shots",
+        "csv_sha256": "7ad5a0edd218c2fc1c7d93ffc8427ad1582968cae8e0ea12db0dce49ec063d1a",
+        "all_assumed_scored": 3,
+        "retained_first_N_assumed_scored": 3,
+        "first_N": 30,
+        "retained_shots": [
+          {
+            "shot": "2",
+            "start_s": "25.334",
+            "reason": "assumed_stationary_hand",
+            "value": "0.006976"
+          },
+          {
+            "shot": "8",
+            "start_s": "85.25",
+            "reason": "assumed_stationary_hand",
+            "value": "0.022825"
+          },
+          {
+            "shot": "14",
+            "start_s": "139.684",
+            "reason": "assumed_stationary_hand",
+            "value": "0.196900"
+          }
+        ]
+      },
+      {
+        "stem": "05_01_baseline_both_010shots",
+        "csv_sha256": "620028b4272ecf8f664f4be619960ed4df11d01ad29631322e12662d84c4edf1",
+        "all_assumed_scored": 1,
+        "retained_first_N_assumed_scored": 1,
+        "first_N": 10,
+        "retained_shots": [
+          {
+            "shot": "10",
+            "start_s": "86.85000000000001",
+            "reason": "assumed_stationary_hand",
+            "value": "0.237649"
+          }
+        ]
+      },
+      {
+        "stem": "05_02_baseline_strength_010shots",
+        "csv_sha256": "ec37e196436012cbb4f78b6add170bcd653fcdb2e63251160c400e0fa1614869",
+        "all_assumed_scored": 3,
+        "retained_first_N_assumed_scored": 3,
+        "first_N": 10,
+        "retained_shots": [
+          {
+            "shot": "5",
+            "start_s": "49.767",
+            "reason": "assumed_stationary_hand",
+            "value": "0.587107"
+          },
+          {
+            "shot": "6",
+            "start_s": "55.733000000000004",
+            "reason": "assumed_stationary_hand",
+            "value": "0.208059"
+          },
+          {
+            "shot": "7",
+            "start_s": "62.783",
+            "reason": "assumed_stationary_hand",
+            "value": "0.534316"
+          }
+        ]
+      },
+      {
+        "stem": "05_04_training_strength_140shots",
+        "csv_sha256": "e7a714b465d509584197127a1c99f36d3600ebc672626c9e5f2d76dc43ef0ee1",
+        "all_assumed_scored": 21,
+        "retained_first_N_assumed_scored": 20,
+        "first_N": 140,
+        "retained_shots": [
+          {
+            "shot": "10",
+            "start_s": "79.833",
+            "reason": "assumed_stationary_hand",
+            "value": "0.636241"
+          },
+          {
+            "shot": "17",
+            "start_s": "172.083",
+            "reason": "assumed_stationary_hand",
+            "value": "0.530055"
+          },
+          {
+            "shot": "20",
+            "start_s": "205.067",
+            "reason": "assumed_stationary_hand",
+            "value": "0.433072"
+          },
+          {
+            "shot": "25",
+            "start_s": "250.28300000000002",
+            "reason": "assumed_stationary_hand",
+            "value": "0.356179"
+          },
+          {
+            "shot": "27",
+            "start_s": "265.1",
+            "reason": "assumed_stationary_hand",
+            "value": "0.481283"
+          },
+          {
+            "shot": "33",
+            "start_s": "312.133",
+            "reason": "assumed_stationary_hand",
+            "value": "0.028993"
+          },
+          {
+            "shot": "39",
+            "start_s": "374.35",
+            "reason": "assumed_stationary_hand",
+            "value": "0.437478"
+          },
+          {
+            "shot": "47",
+            "start_s": "435.467",
+            "reason": "assumed_stationary_hand",
+            "value": "0.302513"
+          },
+          {
+            "shot": "60",
+            "start_s": "567.217",
+            "reason": "assumed_stationary_hand",
+            "value": "0.542925"
+          },
+          {
+            "shot": "68",
+            "start_s": "639.1",
+            "reason": "assumed_stationary_hand",
+            "value": "0.116895"
+          },
+          {
+            "shot": "71",
+            "start_s": "661.95",
+            "reason": "assumed_stationary_hand",
+            "value": "0.918132"
+          },
+          {
+            "shot": "77",
+            "start_s": "721.917",
+            "reason": "assumed_stationary_hand",
+            "value": "0.430158"
+          },
+          {
+            "shot": "78",
+            "start_s": "728.833",
+            "reason": "assumed_stationary_hand",
+            "value": "0.775711"
+          },
+          {
+            "shot": "89",
+            "start_s": "840.117",
+            "reason": "assumed_stationary_hand",
+            "value": "0.722242"
+          },
+          {
+            "shot": "91",
+            "start_s": "853.2330000000001",
+            "reason": "assumed_stationary_hand",
+            "value": "0.505793"
+          },
+          {
+            "shot": "108",
+            "start_s": "1010.967",
+            "reason": "assumed_stationary_hand",
+            "value": "0.002919"
+          },
+          {
+            "shot": "120",
+            "start_s": "1108.7830000000001",
+            "reason": "assumed_stationary_hand",
+            "value": "0.484778"
+          },
+          {
+            "shot": "128",
+            "start_s": "1180.883",
+            "reason": "assumed_stationary_hand",
+            "value": "0.428293"
+          },
+          {
+            "shot": "129",
+            "start_s": "1187.683",
+            "reason": "assumed_stationary_hand",
+            "value": "0.231578"
+          },
+          {
+            "shot": "137",
+            "start_s": "1254.233",
+            "reason": "assumed_stationary_hand",
+            "value": "0.349133"
+          }
+        ]
+      },
+      {
+        "stem": "05_05_test_both_030shots",
+        "csv_sha256": "c3132a0929db8496dd2ea28d8f51dc0077d0842e3a3a6c7e21fc70154c9c81a5",
+        "all_assumed_scored": 5,
+        "retained_first_N_assumed_scored": 4,
+        "first_N": 30,
+        "retained_shots": [
+          {
+            "shot": "5",
+            "start_s": "39.066",
+            "reason": "assumed_stationary_hand",
+            "value": "0.561384"
+          },
+          {
+            "shot": "10",
+            "start_s": "81.2",
+            "reason": "assumed_stationary_hand",
+            "value": "0.086615"
+          },
+          {
+            "shot": "19",
+            "start_s": "177.416",
+            "reason": "assumed_stationary_hand",
+            "value": "0.159518"
+          },
+          {
+            "shot": "25",
+            "start_s": "229.25",
+            "reason": "assumed_stationary_hand",
+            "value": "0.666692"
+          }
+        ]
+      },
+      {
+        "stem": "05_06_test_strength_030shots",
+        "csv_sha256": "d1247798e48b4aaf3cf314ee62dabdc96f33c76119a181f4a5ea627a4dae8b55",
+        "all_assumed_scored": 1,
+        "retained_first_N_assumed_scored": 1,
+        "first_N": 30,
+        "retained_shots": [
+          {
+            "shot": "5",
+            "start_s": "43.300000000000004",
+            "reason": "assumed_stationary_hand",
+            "value": "0.474347"
+          }
+        ]
+      }
+    ]
+  },
+  "sampled_events": [
+    {
+      "stem": "01_02_baseline_strength_010shots",
+      "shot": 2,
+      "original_strength_value": "0.257214",
+      "original_position_frame": 2523,
+      "finding": "Ball is still rolling slowly as the hand approaches and touches. The scored point is near first contact, not a demonstrated natural stop.",
+      "natural_stop_established": false,
+      "score_position_already_carried": false,
+      "prior_free_motion": {
+        "first_frame": 2501,
+        "last_frame": 2519,
+        "span_s": 0.30000000000000426,
+        "samples": 19,
+        "net_displacement_cm": 1.6499020607899784,
+        "filter": "original finite actual observation with hand_fraction<=.18; last approximately .30s before the final free sample"
+      },
+      "evidence_frames": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\01_02_baseline_strength_010shots_shot02_frames.jpg",
+      "evidence_track": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\01_02_baseline_strength_010shots_shot02_track.csv",
+      "recommendation_under_natural_stop_requirement": "Keep target-bank-valid shot/angle; leave numeric strength unresolved, preserve original numeric value only as an explicit intervention-end estimate in audit."
+    },
+    {
+      "stem": "01_02_baseline_strength_010shots",
+      "shot": 4,
+      "original_strength_value": "0.108072",
+      "original_position_frame": 3610,
+      "finding": "By source frame3592 (59.866s) the hand is grasping the ball. Scoring frame3610 (60.166s) is a later carried position, after a missing gap.",
+      "natural_stop_established": false,
+      "score_position_already_carried": true,
+      "prior_free_motion": {
+        "first_frame": 3569,
+        "last_frame": 3587,
+        "span_s": 0.29999999999999716,
+        "samples": 19,
+        "net_displacement_cm": 1.1558725356632187,
+        "filter": "original finite actual observation with hand_fraction<=.18; last approximately .30s before the final free sample"
+      },
+      "evidence_frames": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\01_02_baseline_strength_010shots_shot04_frames.jpg",
+      "evidence_track": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\01_02_baseline_strength_010shots_shot04_track.csv",
+      "recommendation_under_natural_stop_requirement": "Keep target-bank-valid shot/angle; leave numeric strength unresolved, preserve original numeric value only as an explicit intervention-end estimate in audit."
+    },
+    {
+      "stem": "03_01_baseline_both_010shots",
+      "shot": 4,
+      "original_strength_value": "0.182452",
+      "original_position_frame": 2392,
+      "finding": "Free ball still moves toward the player; it disappears during pickup, then reappears lower on the table in the hand. Scoring frame2392 is the carried reacquisition.",
+      "natural_stop_established": false,
+      "score_position_already_carried": true,
+      "prior_free_motion": {
+        "first_frame": 2359,
+        "last_frame": 2377,
+        "span_s": 0.29999999999999716,
+        "samples": 19,
+        "net_displacement_cm": 2.299150047106163,
+        "filter": "original finite actual observation with hand_fraction<=.18; last approximately .30s before the final free sample"
+      },
+      "evidence_frames": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\03_01_baseline_both_010shots_shot04_frames.jpg",
+      "evidence_track": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\03_01_baseline_both_010shots_shot04_track.csv",
+      "recommendation_under_natural_stop_requirement": "Keep target-bank-valid shot/angle; leave numeric strength unresolved, preserve original numeric value only as an explicit intervention-end estimate in audit."
+    },
+    {
+      "stem": "03_01_baseline_both_010shots",
+      "shot": 5,
+      "original_strength_value": "0.439384",
+      "original_position_frame": 2948,
+      "finding": "Free ball still moves before occlusion by the hand. Scoring frame2948 is already hand-carried, after the actual free ball disappeared.",
+      "natural_stop_established": false,
+      "score_position_already_carried": true,
+      "prior_free_motion": {
+        "first_frame": 2909,
+        "last_frame": 2927,
+        "span_s": 0.29999999999999716,
+        "samples": 19,
+        "net_displacement_cm": 2.8903764492982615,
+        "filter": "original finite actual observation with hand_fraction<=.18; last approximately .30s before the final free sample"
+      },
+      "evidence_frames": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\03_01_baseline_both_010shots_shot05_frames.jpg",
+      "evidence_track": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\03_01_baseline_both_010shots_shot05_track.csv",
+      "recommendation_under_natural_stop_requirement": "Keep target-bank-valid shot/angle; leave numeric strength unresolved, preserve original numeric value only as an explicit intervention-end estimate in audit."
+    },
+    {
+      "stem": "03_01_baseline_both_010shots",
+      "shot": 6,
+      "original_strength_value": "0.430125",
+      "original_position_frame": 3700,
+      "finding": "Ball keeps rolling before the hand reaches it. The scored frame is at pickup and no pre-contact natural stationary interval is demonstrated.",
+      "natural_stop_established": false,
+      "score_position_already_carried": false,
+      "prior_free_motion": {
+        "first_frame": 3675,
+        "last_frame": 3693,
+        "span_s": 0.30000000000000426,
+        "samples": 19,
+        "net_displacement_cm": 2.0427357737198237,
+        "filter": "original finite actual observation with hand_fraction<=.18; last approximately .30s before the final free sample"
+      },
+      "evidence_frames": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\03_01_baseline_both_010shots_shot06_frames.jpg",
+      "evidence_track": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\03_01_baseline_both_010shots_shot06_track.csv",
+      "recommendation_under_natural_stop_requirement": "Keep target-bank-valid shot/angle; leave numeric strength unresolved, preserve original numeric value only as an explicit intervention-end estimate in audit."
+    },
+    {
+      "stem": "03_01_baseline_both_010shots",
+      "shot": 8,
+      "original_strength_value": "0.054571",
+      "original_position_frame": 5213,
+      "finding": "Ball slowly rolls near the approaching hand; the missing interval is followed by a substantially displaced hand-carried reacquisition at scoring frame5213.",
+      "natural_stop_established": false,
+      "score_position_already_carried": true,
+      "prior_free_motion": {
+        "first_frame": 5180,
+        "last_frame": 5198,
+        "span_s": 0.29999999999999716,
+        "samples": 19,
+        "net_displacement_cm": 1.2918138828246448,
+        "filter": "original finite actual observation with hand_fraction<=.18; last approximately .30s before the final free sample"
+      },
+      "evidence_frames": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\03_01_baseline_both_010shots_shot08_frames.jpg",
+      "evidence_track": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\03_01_baseline_both_010shots_shot08_track.csv",
+      "recommendation_under_natural_stop_requirement": "Keep target-bank-valid shot/angle; leave numeric strength unresolved, preserve original numeric value only as an explicit intervention-end estimate in audit."
+    },
+    {
+      "stem": "03_01_baseline_both_010shots",
+      "shot": 10,
+      "original_strength_value": "0.310973",
+      "original_position_frame": 6737,
+      "finding": "Ball is rolling toward the player as the hand closes around it. Scoring frame6737 is not supported as a natural stopping point.",
+      "natural_stop_established": false,
+      "score_position_already_carried": false,
+      "prior_free_motion": {
+        "first_frame": 6695,
+        "last_frame": 6713,
+        "span_s": 0.29999999999999716,
+        "samples": 19,
+        "net_displacement_cm": 1.9046092280597973,
+        "filter": "original finite actual observation with hand_fraction<=.18; last approximately .30s before the final free sample"
+      },
+      "evidence_frames": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\03_01_baseline_both_010shots_shot10_frames.jpg",
+      "evidence_track": "C:\\Users\\LHW\\Desktop\\MOLT2\\MOLT4\\upgrade_v2\\batch_0107_20261020\\assumed_stop_review\\03_01_baseline_both_010shots_shot10_track.csv",
+      "recommendation_under_natural_stop_requirement": "Keep target-bank-valid shot/angle; leave numeric strength unresolved, preserve original numeric value only as an explicit intervention-end estimate in audit."
+    }
+  ],
+  "evidence_manifest_sha256": "08240f03f198f23cfdedfa0ac730d4a028d967b50c79b79eb19309be5abd950d",
+  "script_sha256": "a9f873fb5bafd0e8b299374c2ca7bd301330dde15b5b9f2ea254ee6387d45392"
+}
